@@ -1,0 +1,15 @@
+T1	Participants 129 151	standard-risk patients
+T2	Participants 222 240	high-risk patients
+T3	Participants 387 414	standard-risk (SR) patients
+T4	Participants 499 566	PATIENTS AND METHODS SR patients (localized tumors, volume <100 mL)
+T5	Participants 846 891	HR patients (volume >or=100 mL or metastases)
+T6	Participants 1161 1173	647 patients
+T7	Participants 1198 1212	79 SR patients
+T8	Participants 1236 1250	76 SR patients
+T9	Participants 1274 1280	240 HR
+T10	Participants 1308 1323	252 HR patients
+T11	Participants 1391 1399	SR group
+T12	Participants 1837 1864	patients without metastases
+T13	Participants 1907 1928	those with metastases
+T14	Participants 2052 2063	SR patients
+T15	Participants 2111 2122	HR patients

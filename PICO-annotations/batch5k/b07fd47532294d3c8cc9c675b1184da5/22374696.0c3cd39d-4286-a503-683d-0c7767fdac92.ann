@@ -1,0 +1,6 @@
+T1	Participants 201 243	patients with acute myeloid leukemia (AML)
+T2	Participants 305 343	648 normal karyotype (NK) AML patients
+T3	Participants 530 575	329 patients with a mutated NPM1 gene (NPM1+)
+T4	Participants 588 633	319 patients without a NPM1 mutation (wtNPM1)
+T5	Participants 820 834	NPM1+ subgroup
+T6	Participants 1060 1076	NPM1-mutated AML

@@ -1,0 +1,13 @@
+T1	Participants 0 20	A placebo controlled
+T2	Participants 82 117	in childhood and adolescent autism.
+T3	Participants 257 298	serotonin-receptive inhibitor fluvoxamine
+#1	AnnotatorNotes T3	effective
+T4	Participants 505 654	serotonin reuptake inhibitor liquid fluoxetine in the treatment of repetitive behaviors in childhood and adolescent autism spectrum disorders (ASDs).
+#2	AnnotatorNotes T4	selection 
+T5	Participants 665 673	45 child
+T6	Participants 848 936	two randomized 8-week fluoxetine and placebo phases separated by a 4-week washout phase.
+#3	AnnotatorNotes T6	study time
+T7	Participants 1020 1177	Low-dose liquid fluoxetine (mean final dose: 9.9+/-4.35 mg/day) was superior to placebo in the treatment of repetitive behaviors by CY-BOCS compulsion scale.
+#4	AnnotatorNotes T7	result
+T8	Participants 1501 1595	Liquid fluoxetine did not significantly differ from placebo on treatment emergent side effects
+#5	AnnotatorNotes T8	result

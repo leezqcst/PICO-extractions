@@ -1,0 +1,12 @@
+T1	Participants 34 74	cervical intraepithelial neoplasia grade
+T2	Participants 183 293	women diagnosed with rigorously reviewed cervical intraepithelial neoplasia grade 3 (CIN3), cervical precancer
+T3	Participants 509 573	women with equivocal (ASCUS) or mildly abnormal (LSIL) Pap tests
+T4	Participants 619 668	608 women had a histopathologic diagnosis of CIN3
+T5	Participants 892 921	608 women diagnosed with CIN3
+T6	Participants 1140 1212	Younger age, consensus histologic confirmation, smoking, and multiparity
+T7	Participants 1527 1561	younger women (versus older women)
+T8	Participants 1568 1632	consensus diagnosis (versus some disagreement between reviewers)
+T9	Participants 1641 1668	smokers (versus nonsmokers)
+T10	Participants 1705 1722	multiparous women
+T11	Participants 1921 1931	older ages
+T12	Participants 1794 1842	populations vaccinated against HPV16 (and HPV18)

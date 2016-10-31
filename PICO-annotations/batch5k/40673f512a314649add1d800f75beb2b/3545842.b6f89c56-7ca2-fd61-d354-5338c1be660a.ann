@@ -1,0 +1,6 @@
+T1	Participants 209 259	patients with acute severe pulmonary embolism (PE)
+T2	Participants 529 556	PE was less than 5 days old
+#1	AnnotatorNotes T2	patients chosen had PE that was less than 5 days old
+T3	Participants 951 963	133 patients
+T4	Participants 993 1087	two patients died before treatment and two were excluded retrospectively, leaving 129 patients
+#2	AnnotatorNotes T4	129 patients made it to the experimental phase

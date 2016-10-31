@@ -1,0 +1,7 @@
+T1	Participants 235 243	patients
+T2	Participants 45 104	FIGO stage I endometrial carcinoma with myometrial invasion
+T3	Participants 154 213	FIGO stage I endometrial carcinoma with myometrial invasion
+T4	Participants 1322 1381	FIGO stage I endometrial carcinoma with myometrial invasion
+#1	AnnotatorNotes T4	Participants were those with this condition.
+#2	AnnotatorNotes T3	Participants were those with this condition.
+#3	AnnotatorNotes T2	Participants were those with this condition.

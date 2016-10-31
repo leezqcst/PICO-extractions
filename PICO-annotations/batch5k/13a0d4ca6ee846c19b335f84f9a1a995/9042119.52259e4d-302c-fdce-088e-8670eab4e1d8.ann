@@ -1,0 +1,6 @@
+T1	Participants 175 227	children admitted to the hospital with bronchiolitis
+T2	Participants 388 435	participants, children aged 6 weeks to 15 month
+T3	Participants 478 531	eligible if their oxygen saturation was less than 95%
+T4	Participants 571 645	Respiratory Distress Assessment Instrument (RDAI) score was greater than 6
+T5	Participants 647 875	Patients were excluded if they had any one of the following: an underlying disease that might affect cardiopulmonary status, asthma, recent treatment with steroids (within 2 weeks), or any history of adverse reaction to steroids
+T6	Participants 2029 2069	children hospitalized with bronchiolitis

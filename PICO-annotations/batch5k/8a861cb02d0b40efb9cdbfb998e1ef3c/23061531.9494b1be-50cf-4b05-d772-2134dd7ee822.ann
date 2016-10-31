@@ -1,0 +1,4 @@
+T1	Participants 735 800	101 patients with acute anterior STEMI who were candidate for TLT
+T2	Participants 226 268	ST-elevation myocardial infarction (STEMI)
+#1	AnnotatorNotes T2	Participants had this condition.
+T3	Participants 602 675	patients with acute anterior STEMI receiving thrombolytic treatment (TLT)

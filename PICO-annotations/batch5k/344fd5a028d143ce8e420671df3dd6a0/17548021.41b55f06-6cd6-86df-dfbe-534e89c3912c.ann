@@ -1,0 +1,4 @@
+T1	Participants 625 778	patients older than 18 years, expected to be in ICU for more than 72 hours, with a glucose value of more than 10 mmol/L within 48 hours of ICU admission.
+T2	Participants 2199 2254	ICU patients with high illness severity, glucose values
+T3	Participants 1456 1489	14 were insulin-dependent pre-ICU
+T4	Participants 1348 1454	20 patients with a mean (SD) Acute Physiology and Chronic Health Evaluation (APACHE) II score of 32 (10.2)

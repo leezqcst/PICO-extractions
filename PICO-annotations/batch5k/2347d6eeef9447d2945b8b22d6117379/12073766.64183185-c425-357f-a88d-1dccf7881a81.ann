@@ -1,0 +1,10 @@
+T1	Participants 36 61	intermittent claudication
+#1	AnnotatorNotes T1	a condition in which cramping pain in the leg is induced by exercise, typically caused by obstruction of the arteries
+T2	Participants 141 173	Peripheral arterial disease (PAD
+#2	AnnotatorNotes T2	Peripheral artery disease (also called peripheral arterial disease) is a common circulatory problem in which narrowed arteries reduce blood flow to your limbs. When you develop peripheral artery disease (PAD), your extremities — usually your legs — don't receive enough blood flow to keep up with demand
+T3	Participants 461 479	placebo-controlled
+#3	AnnotatorNotes T3	Placebo-controlled studies are a way of testing a medical therapy in which, in addition to a group of subjects that receives the treatment to be evaluated, a separate control group receives a sham "placebo" treatment which is specifically designed to have no real effect.
+T4	Participants 811 847	[initial claudication distance (ICD)
+#4	AnnotatorNotes T4	The second measurement is the distance at which claudication pain becomes so severe that the patient is forced to stop, also known as the absolute claudication distance (ACD), or maximal walking distance
+T5	Participants 905 936	absolute walking distance (ACD)
+#5	AnnotatorNotes T5	The amount of distance a person with peripheral arterial disease is able to walk before the claudication pain becomes so severe that the patient is forced to stop
