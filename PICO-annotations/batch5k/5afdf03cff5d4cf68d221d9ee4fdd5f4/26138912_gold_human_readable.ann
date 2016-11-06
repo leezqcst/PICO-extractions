@@ -1,0 +1,4 @@
+Participants 321 445 4
+patients with early-stage non-small cell lung cancer (ES-NSCLC) treated with stereotactic ablative radiation therapy (SABR).
+Participants 468 740 4
+A primary dataset of 703 ES-NSCLC SABR patients was randomly divided into a training (67%) and an internal validation (33%) dataset. In the former group, 21 unique parameters consisting of patient, treatment, and tumor factors were entered into an RPA model to predict OS.
