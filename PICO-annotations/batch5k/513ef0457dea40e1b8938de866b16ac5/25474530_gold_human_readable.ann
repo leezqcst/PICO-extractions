@@ -1,6 +1,8 @@
-Participants 0 135 7
-Mediation analysis demonstrates that trans-eQTLs are often explained by cis-mediation: a genome-wide analysis among 1,800 South Asians.
-Participants 593 651 5
-a population-based cohort of 1,799 Bangladeshi individuals
-Participants 861 1150 6
-We observed 434 independent trans-eQTL associations at a false-discovery rate of 0.05, and 189 of these trans-eQTLs were also cis-eQTLs (enrichment P<0.0001). Among these 189 trans-eQTL associations, 39 were significantly attenuated after adjusting for a cis-mediator based on Sobel P<10-5
+Participants 116 134 7
+1,800 South Asians
+Participants 622 651 5
+1,799 Bangladeshi individuals
+Participants 873 912 6
+434 independent trans-eQTL associations
+Participants 1032 1093 6
+189 trans-eQTL associations, 39 were significantly attenuated
