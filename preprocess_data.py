@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[3]:
+# In[2]:
 
 import tensorflow as tf
 import numpy as np
@@ -213,36 +213,40 @@ def get_all_data(data_directory='PICO-annotations/batch5k'):
 [word_array, tag_array] = get_all_data();
 
 
-# In[4]:
+# In[3]:
 
-# from random import shuffle
+from random import shuffle
 
-# directory = 'PICO-annotations/batch5k'
-# abstract_list_file = 'PICO-annotations/abstract_files.txt'
-# a_f = open(abstract_list_file, 'w')
-# abstract_files = []
+directory = 'PICO-annotations/batch5k'
+abstract_list_file = 'PICO-annotations/abstract_files.txt'
+a_f = open(abstract_list_file, 'w')
+abstract_files = []
 
-# for subdir in os.listdir(directory):
-#     subdir_path = directory + '/' + subdir
+for subdir in os.listdir(directory):
+    subdir_path = directory + '/' + subdir
 
-#     # Not a directory
-#     if not os.path.isdir(subdir_path):
-#         continue
+    # Not a directory
+    if not os.path.isdir(subdir_path):
+        continue
 
-#     # For each abstract in subdirectory
-#     for abstract in os.listdir(subdir_path):
-#         if (abstract.endswith('input.txt')):
-#             abstract_path = subdir_path + '/' + abstract; 
-#             abstract_files.append(abstract_path);
+    # For each abstract in subdirectory
+    for abstract in os.listdir(subdir_path):
+        if (abstract.endswith('.txt')) and not (abstract.:
+            abstract_path = subdir_path + '/' + abstract; 
+            abstract_files.append(abstract_path);
             
             
 #              abstract_files = abstract_files + abstract_path + '\n';
 
-# shuffle(abstract_files)
+shuffle(abstract_files)
 
-# a_f.write(abstract_files)
-# a_f.close()
+
             
+
+
+# In[4]:
+
+print len(abstract_files)
 
 
 # In[ ]:
