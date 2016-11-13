@@ -1,8 +1,0 @@
-Heat-exercise performance of pyridostigmine-treated subjects wearing chemical protective clothing.
-Pyridostigmine bromide is currently the pretreatment of choice for operation in a chemical warfare (CW) environment.
-Under CW conditions, subjects are exposed to thermal stress caused by CW protective clothing.
-This investigation was conducted to determine if pyridostigmine affects various physiological and biophysical parameters of human temperature regulation in subjects wearing CW protective clothing.
-Pyridostigmine was administered orally in a randomized double-blind cross-over study in four doses of 30 mg every 8 h.
-An average of 33% whole blood cholinesterase inhibition was induced in the pyridostigmine treated group 4 h after ingestion of last tablet.
-The subjects were exposed to 170 min exercise-heat stress (Tdb = 33 degrees C; rh = 60%) consisting of 60 min in a sitting position and two 50-min walks (1.39 m.s-1, 5% grade) separated by 10 min of rest.
-Non-evaporative heat exchange was significantly higher, -14.0 and -10.6 W.m-2 (p less than 0.03), for the pyridostigmine-treated subjects.
