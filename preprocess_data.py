@@ -1,14 +1,14 @@
 
 # coding: utf-8
 
-# In[59]:
+# In[2]:
 
 import tensorflow as tf
 import numpy as np
 import os
 
 
-# In[60]:
+# In[3]:
 
 Null_TAG = 'None'
 P_TAG_b = 'Pb'  # beginning of participant phrase
@@ -18,7 +18,7 @@ ABSTRACT_TOKENS_PATH_END = '_tokens.txt'
 ABSTRACT_TAGS_PATH_END = '_tokens_tags.ann'
 
 
-# In[61]:
+# In[4]:
 
 '''
 Takes in the abstract and the gold annotation path and assigns a tag,
@@ -100,7 +100,7 @@ def annotate_abstract(abstract_path, gold_annotation_path):
     
 
 
-# In[62]:
+# In[5]:
 
 '''
 Iterates through data directories and produces tag files.
@@ -126,7 +126,7 @@ def produce_tag_files():
                 annotate_abstract(abstract_path, ann_path)
 
 
-# In[63]:
+# In[6]:
 
 '''
 Takes a file with the abstract as tokens seperated by a space and the
@@ -164,7 +164,7 @@ def read_file(abstract_path, tag_path=None):
 
 
 
-# In[64]:
+# In[7]:
 
 '''
 Input: path to a list of abstract file paths.
@@ -205,7 +205,7 @@ def get_all_data_in_abstracts(abstract_list):
     return [word_array, tag_array]
 
 
-# In[65]:
+# In[8]:
 
 '''
 Get all the training data.
@@ -215,7 +215,7 @@ def get_all_data_train(train_abstract_list='PICO-annotations/train_abstracts.txt
     return get_all_data_in_abstracts(train_abstract_list)
 
 
-# In[66]:
+# In[9]:
 
 '''
 Get all the dev data.
@@ -225,7 +225,7 @@ def get_all_data_dev(dev_abstract_list='PICO-annotations/dev_abstracts.txt'):
     return get_all_data_in_abstracts(dev_abstract_list)
 
 
-# In[67]:
+# In[10]:
 
 '''
 Get all the test data.
@@ -235,7 +235,7 @@ def get_all_data_test(test_abstract_list='PICO-annotations/test_abstracts.txt'):
     return get_all_data_in_abstracts(test_abstract_list)
 
 
-# In[68]:
+# In[11]:
 
 # [word_array, tag_array] = get_all_data_train();
 # [dev_word_array, dev_tag_array] = get_all_data_dev();
