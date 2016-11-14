@@ -209,6 +209,7 @@ def get_all_data_in_abstracts(abstract_list):
 
 '''
 Get all the training data.
+Returns [word_array, tag_array]
 '''
 def get_all_data_train(train_abstract_list='PICO-annotations/train_abstracts.txt'):
     return get_all_data_in_abstracts(train_abstract_list)
@@ -218,6 +219,7 @@ def get_all_data_train(train_abstract_list='PICO-annotations/train_abstracts.txt
 
 '''
 Get all the dev data.
+Returns [word_array, tag_array]
 '''
 def get_all_data_dev(dev_abstract_list='PICO-annotations/dev_abstracts.txt'):
     return get_all_data_in_abstracts(dev_abstract_list)
@@ -227,6 +229,7 @@ def get_all_data_dev(dev_abstract_list='PICO-annotations/dev_abstracts.txt'):
 
 '''
 Get all the test data.
+Returns [word_array, tag_array]
 '''
 def get_all_data_test(test_abstract_list='PICO-annotations/test_abstracts.txt'):
     return get_all_data_in_abstracts(test_abstract_list)
