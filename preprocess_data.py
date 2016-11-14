@@ -1,25 +1,38 @@
 
 # coding: utf-8
 
-# In[3]:
+# In[59]:
 
 import tensorflow as tf
 import numpy as np
 import os
 
 
-# In[4]:
+# In[60]:
 
 Null_TAG = 'None'
 P_TAG_b = 'Pb'  # beginning of participant phrase
 P_TAG_m = 'Pm'  # middle/end of participant phrase
 
+ABSTRACT_TOKENS_PATH_END = '_tokens.txt'
+ABSTRACT_TAGS_PATH_END = '_tokens_tags.ann'
 
-# In[18]:
 
-# output 1 file .ann. 
-# .ann has tags 
-# takes token.txt file and gold_2.ann file
+# In[61]:
+
+'''
+Takes in the abstract and the gold annotation path and assigns a tag,
+either None, Pb, or Pb to each token.
+The abstract_path should be a _token.txt file which has the abstract with
+token delimited with a space. 
+The gold_annotation_path should be a _gold_2.ann file which has the correct
+gold annotations which give the beginning and end of Participant phrases
+in indices of non-whitespace characters (as opposed to gold.ann files 
+which has indicies including whitespace characters).
+
+Output: a '_tokens_tags.ann' file that is parallel to the _tokens.txt file.
+Instead of each token, the file contains each tag deliminated with a space.
+'''
 def annotate_abstract(abstract_path, gold_annotation_path):
     # read files 
     abs_file = open(abstract_path, 'r');
@@ -71,12 +84,9 @@ def annotate_abstract(abstract_path, gold_annotation_path):
                     ann_start = part_list[ann_index][0]
                     ann_end = part_list[ann_index][1]
                 in_phrase = False
-
-    # word_list == tag_list 
     
     # writing .ann and .txt files 
     out_ann_path = abstract_path[0:-4] + '_tags.ann'
-    
     
     tag_sentence = ' '.join(tag_list)
 #     print tag_sentence
@@ -90,40 +100,47 @@ def annotate_abstract(abstract_path, gold_annotation_path):
     
 
 
-# In[19]:
+# In[62]:
 
-abs_path = 'PICO-annotations/batch5k/0074f5e102cf4409ac07f6209dd30144/20957980_tokens.txt'
-ann_path = 'PICO-annotations/batch5k/0074f5e102cf4409ac07f6209dd30144/20957980_gold_2.ann'
-annotate_abstract(abs_path, ann_path)
+'''
+Iterates through data directories and produces tag files.
+'''
+def produce_tag_files():
+    directory = 'PICO-annotations/batch5k'
 
+    # For each subdirectory
+    for subdir in os.listdir(directory):
+        subdir_path = directory + '/' + subdir
+        # print subdir_path
 
-# In[20]:
+        # Not a directory
+        if not os.path.isdir(subdir_path):
+            continue
 
-directory = 'PICO-annotations/batch5k'
-
-# For each subdirectory
-for subdir in os.listdir(directory):
-    subdir_path = directory + '/' + subdir
-    # print subdir_path
-    
-    # Not a directory
-    if not os.path.isdir(subdir_path):
-        continue
-    
-    # For each abstract in subdirectory
-    for abstract in os.listdir(subdir_path):
-        if (abstract.endswith('tokens.txt')):
-            abstract_path = subdir_path + '/' + abstract; 
-            # print abstract_path
-            ann_path = abstract_path[0:-10] + 'gold_2.ann'
-            annotate_abstract(abstract_path, ann_path)
+        # For each abstract in subdirectory
+        for abstract in os.listdir(subdir_path):
+            if (abstract.endswith('tokens.txt')):
+                abstract_path = subdir_path + '/' + abstract; 
+                # print abstract_path
+                ann_path = abstract_path[0:-10] + 'gold_2.ann'
+                annotate_abstract(abstract_path, ann_path)
 
 
-# In[35]:
+# In[63]:
 
-# reads a single input.txt file (and optional) input_tags.ann
-# param: separate_sentances. True [[s1w1 s1w2 s1w3] [s2w1 s2w2]] False [s1w1 s1w2 s1w3 s2w1 s2w2]
-# output [text_array, tag_array]
+'''
+Takes a file with the abstract as tokens seperated by a space and the
+fixed gold annotation files and then produces lists of tokens and their
+tags.
+
+Input: _tokens.txt file path as abstract_path
+       _tokens_tags.ann file path as tag_path
+       
+Output: [text_array, tag_array]
+    text_array: list of tokens in the given abstract
+    tag_array: list of tags of the tokens
+
+'''
 def read_file(abstract_path, tag_path=None):    
     abstract_file = open(abstract_path, 'r');
     file_text = abstract_file.read();    
@@ -142,67 +159,32 @@ def read_file(abstract_path, tag_path=None):
     
 
 
-# In[64]:
-
-abs_path = 'PICO-annotations/batch5k/ff5877cef90c40c6b3a587d71f7613d5/11229858_input.txt'
-ann_path = 'PICO-annotations/batch5k/f f5877cef90c40c6b3a587d71f7613d5/11229858_input_tags.ann'
-[abs_array, tag_array] = read_file(abs_path, ann_path)
-
-
-# In[65]:
-
-# takes .ann and .txt files
-def get_all_data_OLD(data_directory='PICO-annotations/batch5k'):
-    abstract_array = []
-    tag_array = []
-    
-    # For each subdirectory
-    for subdir in os.listdir(data_directory):
-        subdir_path = directory + '/' + subdir
-
-        # Not a directory
-        if not os.path.isdir(subdir_path):
-            continue
-
-        # For each abstract in subdirectory
-        for abstract in os.listdir(subdir_path):
-            if (abstract.endswith('input.txt')):
-                abstract_path = subdir_path + '/' + abstract; 
-                annotation_path = abstract_path[0:-4] + '_tags.ann'
-                [curr_abs_array, curr_tag_array] = read_file(abstract_path, annotation_path)
-                len_abs = len(curr_abs_array)
-                len_tags =  len(curr_tag_array)
-                if not (len_abs == len_tags):
-                    raise ValueError('For this file, len of abstract words and tags did not match.', abstract, len_abs, len_tags) 
-                abstract_array.append(curr_abs_array)
-                tag_array.append(curr_tag_array)
-    
-    abstract_array = np.array(abstract_array)
-    tag_array = np.array(tag_array)
-    return [abstract_array, tag_array]
-
-
 # In[ ]:
 
 
 
 
-# In[66]:
+# In[64]:
 
-# [word_array, tag_array] = get_all_data();
+'''
+Input: path to a list of abstract file paths.
 
-
-# In[36]:
-
-ABSTRACT_TOKENS_PATH_END = '_tokens.txt'
-ABSTRACT_TAGS_PATH_END = '_tokens_tags.ann'
-
-
-# In[33]:
-
-def get_all_data_train(train_abstract_list='PICO-annotations/train_abstracts.txt'):
-    train_abs_list = open(train_abstract_list, 'r')
-    abstract_list = train_abs_list.readlines()
+Output: [word_array, tag_array]
+    word_array: list of lists where each inner list contains the tokens in
+    an abstract. 
+    e.g [ ['hello', 'there'], ['i', 'am', 'hungry'], ['yes', 'i', 'am'] ]
+    where hello is the first token of the first abstract, and 'hungry' is 
+    the third token of the second abstract.
+    
+    tag_array: list of lists where each innter list containts the tag in
+    an abstract.
+    e.g [ [t1, t2, t3], [t4, t5, t6], [t7, t8, t9] ]
+    where t1 is the tag for token 'hello' and t6 is the tag for token
+    'hungry'.
+    '''
+def get_all_data_in_abstracts(abstract_list):
+    abs_list = open(abstract_list, 'r')
+    abstract_list = abs_list.readlines()
     abstract_list = [x.strip() for x in abstract_list]
     
     word_array = []
@@ -211,20 +193,50 @@ def get_all_data_train(train_abstract_list='PICO-annotations/train_abstracts.txt
     for abstract_path in abstract_list:
         abstract_token_path = abstract_path[:-4] + ABSTRACT_TOKENS_PATH_END
         tag_path = abstract_path[:-4] + ABSTRACT_TAGS_PATH_END
+#         print abstract_token_path
+#         print tag_path
         [curr_word_array, curr_tag_array] = read_file(abstract_token_path, tag_path)
         if not(len(curr_word_array) == len(curr_tag_array)):
             raise ValueError('For this file, len of abstract words and tags did not match.', abstract_path)
-        word_array.extend(curr_word_array)
-        tag_array.extend(curr_tag_array)
+        word_array.append(curr_word_array)
+        tag_array.append(curr_tag_array)
     if not(len(word_array) == len(tag_array)):
         raise ValueError('Overall, len of abstract words and tags did not match.', abstract_path)
+    return [word_array, tag_array]
 
 
+# In[65]:
+
+'''
+Get all the training data.
+'''
+def get_all_data_train(train_abstract_list='PICO-annotations/train_abstracts.txt'):
+    return get_all_data_in_abstracts(train_abstract_list)
 
 
-# In[34]:
+# In[66]:
 
-get_all_data_train();
+'''
+Get all the dev data.
+'''
+def get_all_data_dev(dev_abstract_list='PICO-annotations/dev_abstracts.txt'):
+    return get_all_data_in_abstracts(dev_abstract_list)
+
+
+# In[67]:
+
+'''
+Get all the test data.
+'''
+def get_all_data_test(test_abstract_list='PICO-annotations/test_abstracts.txt'):
+    return get_all_data_in_abstracts(test_abstract_list)
+
+
+# In[68]:
+
+# [word_array, tag_array] = get_all_data_train();
+# [dev_word_array, dev_tag_array] = get_all_data_dev();
+# [test_word_array, test_tag_array] = get_all_data_test();
 
 
 # In[ ]:
