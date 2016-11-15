@@ -12,3 +12,7 @@ Thumbs.db
 .ipynb_checkpoints
 *checkpoints.ipynb
 *.pyc
+
+# Huge word2vec files #
+PubMed-w2v.bin
+wikipedia-pubmed-and-PMC-w2v.bin
