@@ -1,17 +1,17 @@
 
 # coding: utf-8
 
-# In[26]:
+# In[127]:
 
 import numpy as np
 
 
-# In[1]:
+# In[128]:
 
 from preprocess_data import get_all_data_train
 
 
-# In[77]:
+# In[129]:
 
 Null_TAG = 'None'
 P_TAG_b = 'Pb'  # beginning of participant phrase
@@ -19,7 +19,7 @@ P_TAG_m = 'Pm'  # middle/end of participant phrase
 P_TAG = 'P'
 
 
-# In[ ]:
+# In[130]:
 
 '''
 Eval abstract to get 
@@ -52,7 +52,7 @@ def evaluate_abstract_token_counts(gold_tags, pred_tags):
     return (p_tokens_extracted, p_tokens_correct, p_true_tokens)
 
 
-# In[126]:
+# In[131]:
 
 '''
 Eval single abstract at a time
@@ -77,12 +77,12 @@ def evaluate_abstract_PRF1(gold_tags, pred_tags):
     return (p_precision, p_recall, p_f1)
 
 
-# In[125]:
+# In[132]:
 
 # evaluate_abstract(test, test2)
 
 
-# In[ ]:
+# In[133]:
 
 def eval_abstracts_avg(all_gold_tags, all_pred_tags):
     if not(len(all_gold_tags) == len(all_pred_tags)):
@@ -106,7 +106,7 @@ def eval_abstracts_avg(all_gold_tags, all_pred_tags):
     return (p_precision_avg, p_recall_avg, p_f1_avg)
 
 
-# In[ ]:
+# In[134]:
 
 def eval_abstracts(all_gold_tags, all_pred_tags):
     if not(len(all_gold_tags) == len(all_pred_tags)):
