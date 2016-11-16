@@ -18,7 +18,7 @@ ABSTRACT_TOKENS_PATH_END = '_tokens.txt'
 ABSTRACT_TAGS_PATH_END = '_tokens_tags.ann'
 
 
-# In[4]:
+# In[31]:
 
 '''
 Takes in the abstract and the gold annotation path and assigns a tag,
@@ -47,7 +47,7 @@ def annotate_abstract(abstract_path, gold_annotation_path):
     for i in range(1, len(ann_list), 2):
         part_list.append((int(ann_list[i]), int(ann_list[i+1])))
 
-
+#     print part_list
     word_list = file_text.split(); # [word1, word2, word] no spaces
     tag_list = []
     index = 0;
@@ -61,29 +61,44 @@ def annotate_abstract(abstract_path, gold_annotation_path):
     in_phrase = False
 
     for word_ind in range(len(word_list)):
+#         print "ann_start: ", ann_start, " - ann_end: ", ann_end
+#         print "word_ind: ", word_ind
         word = word_list[word_ind]
-        index += len(word) + 1;
+#         print "word: ", word
+        index += len(word);
+#         print "index: ", index
         if not in_phrase:
             # looking for start of participant phrase
             if (ann_start < index):
                 # we found first word in this participant segment
+#                 print "FOUND START"
+#                 print "tag: ", P_TAG_b
                 tag_list.append(P_TAG_b)
                 in_phrase = True
             else:
-                tag_list.append(Null_TAG)          
+                tag_list.append(Null_TAG) 
+#                 print "Not in phrase"
+#                 print "tag: ", Null_TAG
         else:
             tag_list.append(P_TAG_m)
+#             print "Still in phrase"
+#             print "tag: ", P_TAG_m
             # in the participant phrase, looking for its end
             if (ann_end <= index):
                 # we found the last word in the participant segment
+#                 print "Last word in segment"
                 ann_index += 1
                 if (ann_index == len(part_list)):
+#                     print "No more annotations"
                     ann_start = np.inf
                     ann_end = np.inf
                 else:
+#                     print "New annotation"
                     ann_start = part_list[ann_index][0]
                     ann_end = part_list[ann_index][1]
+#                     print "start: ", ann_start, " - end: ", ann_end
                 in_phrase = False
+#         print " "
     
     # writing .ann and .txt files 
     out_ann_path = abstract_path[0:-4] + '_tags.ann'
@@ -240,6 +255,30 @@ def get_all_data_test(test_abstract_list='PICO-annotations/test_abstracts.txt'):
 # [word_array, tag_array] = get_all_data_train();
 # [dev_word_array, dev_tag_array] = get_all_data_dev();
 # [test_word_array, test_tag_array] = get_all_data_test();
+
+
+# In[ ]:
+
+
+
+
+# ### For testing purposes:
+
+# In[45]:
+
+# abs_path = 'PICO-annotations/batch5k/2f188f0a4f4d4b5ab4b7f45c83e6db83/25283504_tokens.txt'
+# ann_path = 'PICO-annotations/batch5k/2f188f0a4f4d4b5ab4b7f45c83e6db83/25283504_tokens_tags.ann'
+
+# words, tags = read_file(abs_path, ann_path)
+
+
+# In[47]:
+
+# for i in range(len(words)):
+#     if not tags[i] == 'None':
+#         if tags[i] == 'Pb':
+#             print ' '
+#         print words[i]
 
 
 # In[ ]:
