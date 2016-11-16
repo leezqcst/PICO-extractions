@@ -63,13 +63,13 @@ pubmed_wiki_w2v_name = 'wikipedia-pubmed-and-PMC-w2v.bin'
 # In[ ]:
 
 # Load pubmed word2vec model (1-2 min)
-pubmed_w2v = Word2Vec.load_word2vec_format(pubmed_w2v_name, binary=True)
+# pubmed_w2v = Word2Vec.load_word2vec_format(pubmed_w2v_name, binary=True)
 
 
 # In[ ]:
 
 # Load pubmed_wiki word2vec model (2-3 min)
-pubmed_wiki_w2v = Word2Vec.load_word2vec_format(pubmed_wiki_w2v_name, binary=True)
+# pubmed_wiki_w2v = Word2Vec.load_word2vec_format(pubmed_wiki_w2v_name, binary=True)
 
 
 # In[ ]:
@@ -582,71 +582,75 @@ if DEBUG:
 
 # In[ ]:
 
-DISPLAY = True
+# DISPLAY = True
 
-all_tokens = []
-all_genia_tags = []
+# all_tokens = []
+# all_genia_tags = []
 
-count = 0
+# count = 0
 
-# For each subdirectory
-for subdir in os.listdir(directory):
-    subdir_path = directory + '/' + subdir
+# # For each subdirectory
+# for subdir in os.listdir(directory):
+#     subdir_path = directory + '/' + subdir
     
-    # Not a directory
-    if not os.path.isdir(subdir_path):
-        continue
+#     # Not a directory
+#     if not os.path.isdir(subdir_path):
+#         continue
     
-    # For each abstract in subdirectory
-    for abstract in os.listdir(subdir_path):
-        if abstract[-4:] == '.txt' and tokens_suffix not in abstract:
-            abstract_index = abstract[:-4]
+#     # For each abstract in subdirectory
+#     for abstract in os.listdir(subdir_path):
+#         if abstract[-4:] == '.txt' and tokens_suffix not in abstract:
+#             abstract_index = abstract[:-4]
             
-            # First get the tokens
-            f = open(subdir_path + '/' + abstract_index + tokens_suffix)
-            tokens = f.read().split()
-            f.close()
+#             # First get the tokens
+#             f = open(subdir_path + '/' + abstract_index + tokens_suffix)
+#             tokens = f.read().split()
+#             f.close()
             
-            all_tokens.append(tokens)
+#             all_tokens.append(tokens)
             
-            # Now get genia tags
-            f = open(subdir_path + '/' + abstract_index + genia_tags_suffix)
-            genia_tags = pickle.load(f)
-            f.close()
+#             # Now get genia tags
+#             f = open(subdir_path + '/' + abstract_index + genia_tags_suffix)
+#             genia_tags = pickle.load(f)
+#             f.close()
             
-            all_genia_tags.append(genia_tags)
+#             all_genia_tags.append(genia_tags)
             
-            count += 1
+#             count += 1
             
-            if DISPLAY and count % 10 == 0:
-                # Print progress
-                print '\r{0}: {1}'.format(count, tokens[:3]),
+#             if DISPLAY and count % 10 == 0:
+#                 # Print progress
+#                 print '\r{0}: {1}'.format(count, tokens[:3]),
 
 
 # In[ ]:
 
-train_tokens, tag_array = get_all_data_train()
-train_genia_tags = get_genia_tags('train')
+# train_tokens, tag_array = get_all_data_train()
+# train_genia_tags = get_genia_tags('train')
 
 
 # In[ ]:
 
-dev_tokens, tag_array = get_all_data_dev()
-dev_genia_tags = get_genia_tags('dev')
+# dev_tokens, tag_array = get_all_data_dev()
+# dev_genia_tags = get_genia_tags('dev')
 
 
 # In[ ]:
 
-test_tokens, tag_array = get_all_data_test()
-test_genia_tags = get_genia_tags('test')
+# test_tokens, tag_array = get_all_data_test()
+# test_genia_tags = get_genia_tags('test')
 
 
 # In[ ]:
 
-options_string = 'left_neighbors=4 right_neighbors=4 inside_paren pos chunk iob named_entity inside_paren_neighbors pos_neighbors chunk_neighbors iob_neighbors named_entity_neighbors chunk_end chunk_end_neighbors same_chunk_neighbors one_hot one_hot_neighbors w2v_model=pubmed w2v w2v_neighbors w2v_size=100 cosine_simil cosine_simil_neighbors isupper isupper_neighbors istitle istitle_neighbors'
+# options_string = 'left_neighbors=4 right_neighbors=4 inside_paren pos chunk iob named_entity \
+# inside_paren_neighbors pos_neighbors chunk_neighbors iob_neighbors named_entity_neighbors \
+# chunk_end chunk_end_neighbors same_chunk_neighbors \
+# one_hot one_hot_neighbors w2v_model=pubmed w2v w2v_neighbors w2v_size=100 cosine_simil cosine_simil_neighbors \
+# isupper isupper_neighbors istitle istitle_neighbors'
 
-X = abstracts2features(train_tokens, train_genia_tags, pubmed_w2v, options_string)
-#X = abstracts2features(test_tokens, test_genia_tags, pubmed_w2v, options_string)
+# X = abstracts2features(train_tokens, train_genia_tags, pubmed_w2v, options_string)
+# #X = abstracts2features(test_tokens, test_genia_tags, pubmed_w2v, options_string)
 
 
 # In[ ]:
@@ -677,5 +681,5 @@ def sanity_check(features):
     print 'Max features per token: ', max_features
     print 'Min features per token: ', min_features
 
-sanity_check(X)
+# sanity_check(X)
 
