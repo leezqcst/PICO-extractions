@@ -157,7 +157,7 @@ if DEBUG:
     print evaluate_scores(pred_mentions, actual_mentions)
 
 
-# In[29]:
+# In[22]:
 
 def crf(l2,l1,iters,grid_search,modelname,train_tokens,train_tag_array, train_genia_tags,default_options_string):
     
@@ -304,7 +304,7 @@ def crf(l2,l1,iters,grid_search,modelname,train_tokens,train_tag_array, train_ge
     print "F1 Average: {}".format(f1_scores)
 
 
-# In[30]:
+# In[23]:
 
 import time
 start_time = time.time()
