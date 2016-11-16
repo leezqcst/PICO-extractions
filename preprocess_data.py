@@ -17,7 +17,7 @@ ABSTRACT_TOKENS_PATH_END = '_tokens.txt'
 ABSTRACT_TAGS_PATH_END = '_tokens_tags.ann'
 
 
-# In[31]:
+# In[49]:
 
 '''
 Takes in the abstract and the gold annotation path and assigns a tag,
@@ -114,7 +114,7 @@ def annotate_abstract(abstract_path, gold_annotation_path):
     
 
 
-# In[5]:
+# In[50]:
 
 '''
 Iterates through data directories and produces tag files.
@@ -138,6 +138,11 @@ def produce_tag_files():
                 # print abstract_path
                 ann_path = abstract_path[0:-10] + 'gold_2.ann'
                 annotate_abstract(abstract_path, ann_path)
+
+
+# In[51]:
+
+produce_tag_files()
 
 
 # In[6]:
@@ -249,16 +254,11 @@ def get_all_data_test(test_abstract_list='PICO-annotations/test_abstracts.txt'):
     return get_all_data_in_abstracts(test_abstract_list)
 
 
-# In[11]:
+# In[52]:
 
-# [word_array, tag_array] = get_all_data_train();
+#  [word_array, tag_array] = get_all_data_train();
 # [dev_word_array, dev_tag_array] = get_all_data_dev();
 # [test_word_array, test_tag_array] = get_all_data_test();
-
-
-# In[ ]:
-
-
 
 
 # ### For testing purposes:
