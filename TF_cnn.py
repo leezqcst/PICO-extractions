@@ -18,7 +18,7 @@ session = tf.InteractiveSession()
 
 # ## Parameters
 
-# In[ ]:
+# In[9]:
 
 # Data loading params
 tf.flags.DEFINE_float("dev_sample_percentage", .1, "Percentage of the training data to use for validation")
@@ -58,6 +58,21 @@ X, Y = get_1_hot_abstract_encodings(word_array, tag_array)
 
 
 # ## Training
+
+# In[ ]:
+
+
+
+
+# In[ ]:
+
+
+
+
+# In[ ]:
+
+
+
 
 # In[ ]:
 

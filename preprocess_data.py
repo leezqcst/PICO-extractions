@@ -8,11 +8,10 @@ import numpy as np
 import os
 
 
-# In[3]:
+# In[48]:
 
 Null_TAG = 'None'
-P_TAG_b = 'Pb'  # beginning of participant phrase
-P_TAG_m = 'Pm'  # middle/end of participant phrase
+P_TAG = 'P'  # participant phrase
 
 ABSTRACT_TOKENS_PATH_END = '_tokens.txt'
 ABSTRACT_TAGS_PATH_END = '_tokens_tags.ann'
@@ -73,14 +72,14 @@ def annotate_abstract(abstract_path, gold_annotation_path):
                 # we found first word in this participant segment
 #                 print "FOUND START"
 #                 print "tag: ", P_TAG_b
-                tag_list.append(P_TAG_b)
+                tag_list.append(P_TAG)
                 in_phrase = True
             else:
                 tag_list.append(Null_TAG) 
 #                 print "Not in phrase"
 #                 print "tag: ", Null_TAG
         else:
-            tag_list.append(P_TAG_m)
+            tag_list.append(P_TAG)
 #             print "Still in phrase"
 #             print "tag: ", P_TAG_m
             # in the participant phrase, looking for its end
