@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[1]:
+# In[3]:
 
 import numpy as np
 import tensorflow as tf
@@ -11,15 +11,14 @@ session = tf.InteractiveSession()
 #https://github.com/nicholaslocascio/tensorflow-nlp-tutorial/blob/master/sentiment-analysis/Sentiment-RNN.ipynb
 
 
-# In[10]:
+# In[6]:
 
-from genia_features_2 import abstracts2features
 from preprocess_data import get_all_data_train
-from TF_preprocess_data import x_dict_to_vect
+from preprocess_data import x_dict_to_vect
 
 word_array, tag_array = get_all_data_train()
-X,Y = abstracts2features(word_array[1:10],tag_array[1:10],(1,1),False, w2v_size=100)
-X_vect = x_dict_to_vect(X)
+# X,Y = abstracts2features(word_array[1:10],tag_array[1:10],(1,1),False, w2v_size=100)
+# X_vect = x_dict_to_vect(X)
 
 
 # In[5]:
