@@ -1,3 +1,0 @@
-Fold recall: 0.417293958695
-Fold precision: 0.679660484124
-Fold F1 Score: 0.517101171968
