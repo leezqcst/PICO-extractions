@@ -18,4 +18,4 @@ PubMed-w2v.bin
 wikipedia-pubmed-and-PMC-w2v.bin
 
 # Model files #
-.model
+*.model
