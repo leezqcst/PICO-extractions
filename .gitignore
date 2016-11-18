@@ -19,3 +19,6 @@ wikipedia-pubmed-and-PMC-w2v.bin
 
 # Model files #
 *.model
+
+runs/*
+runs/1479428661/summaries/train/*

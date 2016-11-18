@@ -20,9 +20,17 @@ from tensorflow.contrib import learn
 # https://github.com/nicholaslocascio/tensorflow-nlp-tutorial/blob/master/sentiment-analysis/Sentiment-RNN.ipynb
 
 
+# In[2]:
+
+tf.InteractiveSession 
+with tf.Session() as sess:
+    matrix1 = tf.constant(2.0)
+    print(sess.run(matrix1))
+
+
 # ## Parameters
 
-# In[2]:
+# In[3]:
 
 # Data loading params
 tf.flags.DEFINE_float("dev_sample_percentage", .1, "Percentage of the training data to use for validation")
@@ -53,19 +61,14 @@ print("")
 
 # ## Data Preperation
 
-# In[15]:
+# In[4]:
 
 word_array, tag_array = get_all_data_train()
 X, Y = get_1_hot_abstract_encodings(word_array, tag_array)
 
 
 
-# In[14]:
-
-print Y[0]
-
-
-# In[17]:
+# In[5]:
 
 # max_document_length = len(X[0])
 # vocab_processor = learn.preprocessing.VocabularyProcessor(max_document_length)
@@ -85,7 +88,7 @@ print Y[0]
 # print("Train/Dev split: {:d}/{:d}".format(len(y_train), len(y_dev)))
 
 
-# In[8]:
+# In[6]:
 
 def batch_iter(data, batch_size, num_epochs, shuffle=True):
     """
@@ -114,7 +117,7 @@ max([max(sub_X) for sub_X in X]) + 1
 
 # ## Training
 
-# In[12]:
+# In[8]:
 
 with tf.Graph().as_default():
     session_conf = tf.ConfigProto(
@@ -134,7 +137,7 @@ with tf.Graph().as_default():
         # Define Training procedure
         global_step = tf.Variable(0, name="global_step", trainable=False)
         optimizer = tf.train.AdamOptimizer(1e-3)
-        grads_and_vars = optimizer.compute_gradients(cnn.loss)
+        grads_and_vars = optimizer.compute_gradients(cnn.loss) # TODO check cnn.loss
         train_op = optimizer.apply_gradients(grads_and_vars, global_step=global_step)
 
         # Keep track of gradient values and sparsity (optional)
@@ -188,11 +191,29 @@ with tf.Graph().as_default():
               cnn.input_y: y_batch,
               cnn.dropout_keep_prob: FLAGS.dropout_keep_prob
             }
-            _, step, summaries, loss, accuracy = sess.run(
-                [train_op, global_step, train_summary_op, cnn.loss, cnn.accuracy],feed_dict)
+            _, step, summaries, loss, accuracy, scores, predictions, temp, extracted, truth, correct, gold, precision, recall, f1 = sess.run(
+                [train_op, global_step, train_summary_op, cnn.loss, cnn.accuracy, cnn.scores, cnn.predictions, cnn.temp, cnn.extracted, cnn.truth, cnn.correct, cnn.gold, cnn.precision, cnn.recall, cnn.f1],feed_dict)
             time_str = datetime.datetime.now().isoformat()
-            print("{}: step {}, loss {:g}, acc {:g}".format(time_str, step, loss, accuracy))
+            print("{}: step {}, loss {:g}, pre {:g}, rec {:g}, f1 {:g}".format(time_str, step, loss, precision, recall, f1))
             train_summary_writer.add_summary(summaries, step)
+#             print "type of scores: ", type(scores)
+#             print type(scores[0])
+#             print "scores: \n", scores[0]
+#             print " "
+#             print "type of predictions: ", type(predictions)
+#             print "predictions: \n", predictions
+#             print type(temp)
+#             print "temp: \n", temp[0]
+#             print "gold: \n", gold[0]
+#             print "extracted: ", extracted
+#             print "extracted python: ", sum([sum(score) for score in scores])
+#             print "truth: ", truth
+#             print "truth python: ", sum([sum(x) for x in gold])
+#             print "correct: ", correct
+#             print "correct python: ", sum([sum(x) for x in temp])
+#             print "precision: ", precision
+#             print "recall: ", recall
+#             print "f1: ", f1
 
         def dev_step(x_batch, y_batch, writer=None):
             """
@@ -203,8 +224,8 @@ with tf.Graph().as_default():
               cnn.input_y: y_batch,
               cnn.dropout_keep_prob: 1.0
             }
-            step, summaries, loss, accuracy = sess.run(
-                [global_step, dev_summary_op, cnn.loss, cnn.accuracy],
+            step, summaries, loss, accuracy, scores, predictions = sess.run(
+                [global_step, dev_summary_op, cnn.loss, cnn.accuracy, cnn.scores, cnn.predictions],
                 feed_dict)
             time_str = datetime.datetime.now().isoformat()
             print("{}: step {}, loss {:g}, acc {:g}".format(time_str, step, loss, accuracy))
@@ -228,7 +249,7 @@ with tf.Graph().as_default():
                 print("Saved model checkpoint to {}\n".format(path))
 
 
-# In[3]:
+# In[ ]:
 
 
 
