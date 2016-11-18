@@ -495,6 +495,10 @@ DISPLAY = True
 default_options_string = 'left_neighbors=4 right_neighbors=4 inside_paren pos chunk iob named_entity inside_paren_neighbors pos_neighbors chunk_neighbors iob_neighbors named_entity_neighbors chunk_end chunk_end_neighbors same_chunk_neighbors one_hot one_hot_neighbors w2v_model=pubmed w2v w2v_neighbors w2v_size=100 cosine_simil cosine_simil_neighbors isupper isupper_neighbors istitle istitle_neighbors'
 
 def abstracts2features(tokens_list, genia_tags_list, w2v=None, options_string=default_options_string):
+    if len(tokens_list) != len(genia_tags_list):
+        raise ValueError('tokens_list has length {}, while genia_tags_list has length {}'
+                         .format(len(tokens_list), len(genia_tags_list)))
+    
     # Transform options string into options dictionary
     options_dict = get_options_dict(options_string)
     
