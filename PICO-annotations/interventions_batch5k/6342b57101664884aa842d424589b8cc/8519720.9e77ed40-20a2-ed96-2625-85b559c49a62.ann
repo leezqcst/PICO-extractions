@@ -1,0 +1,15 @@
+T1	Intervention 38 62	intercostal nerve blocks
+T2	Intervention 1777 1780	INB
+T3	Intervention 1844 1846	SM
+T4	Intervention 686 735	SM preoperatively and INB with bupivacaine (INB+)
+T5	Intervention 769 800	SM with INB using saline (INB-)
+T6	Intervention 1133 1137	INB+
+T7	Intervention 1347 1351	INB+
+T8	Intervention 1388 1392	INB-
+T9	Intervention 1519 1523	INB+
+T10	Intervention 1501 1505	INB-
+T11	Intervention 1578 1581	INB
+T12	Intervention 1677 1679	SM
+T13	Intervention 247 277	Intercostal nerve blocks (INB)
+T14	Intervention 282 308	subarachnoid morphine (SM)
+T15	Intervention 81 115	subarachnoid administered morphine

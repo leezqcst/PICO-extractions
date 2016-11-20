@@ -1,0 +1,16 @@
+T1	Intervention 0 65	Femoral nerve block using 0.25% or 0.5% bupivacaine for analgesia
+T2	Intervention 140 208	Femoral nerve block (FNB) with varying concentrations of bupivacaine
+T3	Intervention 337 372	FNB using 0.25% or 0.5% bupivacaine
+T4	Intervention 534 537	FNB
+T5	Intervention 552 577	0.25% or 0.5% bupivacaine
+T6	Intervention 624 627	FNB
+T8	Intervention 864 881	0.25% bupivacaine
+T7	Intervention 825 841	0.5% bupivacaine
+T9	Intervention 937 953	0.5% bupivacaine
+T10	Intervention 974 991	0.25% bupivacaine
+T11	Intervention 1086 1094	morphine
+T12	Intervention 1107 1123	0.5% bupivacaine
+T13	Intervention 1141 1158	0.25% bupivacaine
+T14	Intervention 1241 1244	FNB
+T15	Intervention 1338 1363	FNB with 0.5% bupivacaine
+T16	Intervention 1500 1517	0.25% bupivacaine

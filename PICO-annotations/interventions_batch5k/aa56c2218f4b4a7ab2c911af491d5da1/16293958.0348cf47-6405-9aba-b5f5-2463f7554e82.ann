@@ -1,0 +1,14 @@
+T1	Intervention 22 33	flunisolide
+T2	Intervention 48 58	salbutamol
+T3	Intervention 63 82	ipratropium bromide
+T4	Intervention 203 218	corticosteroids
+T5	Intervention 391 402	flunisolide
+T6	Intervention 412 442	salbutamol/ipratropium bromide
+T7	Intervention 488 529	placebo + salbutamol/ipratropium bromide.
+T8	Intervention 990 1001	flunisolide
+T9	Intervention 1024 1031	placebo
+T10	Intervention 1264 1275	flunisolide
+T11	Intervention 1296 1303	placebo
+T12	Intervention 1342 1353	flunisolide
+T13	Intervention 1649 1672	flunisolide vs. placebo
+T14	Intervention 1926 1937	flunisolide

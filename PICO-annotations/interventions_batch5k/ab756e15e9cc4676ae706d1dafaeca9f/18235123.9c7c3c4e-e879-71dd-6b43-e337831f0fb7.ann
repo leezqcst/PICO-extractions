@@ -1,0 +1,21 @@
+T1	Intervention 0 12	Osteosarcoma
+T2	Intervention 30 48	muramyl tripeptide
+T3	Intervention 121 129	Oncology
+T4	Intervention 186 195	cisplatin
+T5	Intervention 197 208	doxorubicin
+T6	Intervention 214 226	methotrexate
+T7	Intervention 260 269	cisplatin
+T8	Intervention 302 312	ifosfamide
+T9	Intervention 284 296	methotrexate
+T10	Intervention 271 282	doxorubicin
+T11	Intervention 515 527	osteosarcoma
+T12	Intervention 385 403	muramyl tripeptide
+T13	Intervention 586 598	osteosarcoma
+T14	Intervention 830 842	methotrexate
+T15	Intervention 813 824	doxorubicin
+T16	Intervention 802 811	cisplatin
+T17	Intervention 966 976	ifosfamide
+T18	Intervention 1590 1599	cisplatin
+T19	Intervention 1618 1630	methotrexate
+T20	Intervention 1601 1612	doxorubicin
+T21	Intervention 1689 1701	osteosarcoma

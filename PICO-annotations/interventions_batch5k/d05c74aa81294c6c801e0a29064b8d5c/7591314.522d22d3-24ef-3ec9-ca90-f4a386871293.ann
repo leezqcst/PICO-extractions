@@ -1,0 +1,6 @@
+T1	Intervention 602 643	pre-hospital early thrombolytic treatment
+T2	Intervention 711 759	same treatment given later in a hospital setting
+T3	Intervention 866 906	pre-hospital treatment with anistreplase
+T4	Intervention 937 956	followed by placebo
+T5	Intervention 1019 1054	or placebo followed by anistreplase
+T6	Intervention 1616 1650	pre-hospital thrombolytic strategy

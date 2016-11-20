@@ -1,0 +1,4 @@
+T1	Intervention 22 38	ablation surgery
+T2	Intervention 166 199	concomitant ablation surgery (AS)
+T3	Intervention 212 235	regular cardiac surgery
+T4	Intervention 512 546	cardiac surgery with or without AS

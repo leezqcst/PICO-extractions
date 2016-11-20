@@ -1,0 +1,10 @@
+T1	Intervention 0 14	Cyproheptadine
+T2	Intervention 639 673	cyproheptadine, a 5-HT2 antagonist
+T3	Intervention 742 749	placebo
+T4	Intervention 795 826	cyproheptadine plus haloperidol
+T5	Intervention 1233 1261	cyproheptadine + haloperidol
+T6	Intervention 1275 1296	haloperidol + placebo
+T7	Intervention 1374 1404	haloperidol and cyproheptadine
+T8	Intervention 2127 2141	cyproheptadine
+T9	Intervention 2814 2862	cyproheptadine with a conventional antipsychotic
+T10	Intervention 2895 2914	antipsychotic alone

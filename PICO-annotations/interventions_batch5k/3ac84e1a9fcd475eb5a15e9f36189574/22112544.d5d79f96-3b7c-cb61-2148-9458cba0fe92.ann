@@ -1,0 +1,12 @@
+T1	Intervention 35 90	colorectal cancer screening with flexible sigmoidoscopy
+T2	Intervention 552 575	baseline questionnaires
+T3	Intervention 580 605	underwent FSG at baseline
+T4	Intervention 650 666	repeat screening
+T5	Intervention 239 331	inadequate flexible sigmoidoscopy (FSG) screening at baseline screening and repeat screening
+T6	Intervention 747 851	nadequate FSG (defined as a study in which the depth of insertion of FSG was <50 cm or visual inspection
+T7	Intervention 978 1005	inadequate FSG at baseline,
+T8	Intervention 1481 1504	nadequate FSG screening
+T9	Intervention 1537 1601	inadequate FSG at repeat screening (OR = 6.24; 95% CI: 5.78-6.75
+T10	Intervention 1372 1386	inadequate FSG
+T11	Intervention 1664 1731	inadequate FSG or an alternative colorectal cancer screening method
+T12	Intervention 1616 1624	Sedation

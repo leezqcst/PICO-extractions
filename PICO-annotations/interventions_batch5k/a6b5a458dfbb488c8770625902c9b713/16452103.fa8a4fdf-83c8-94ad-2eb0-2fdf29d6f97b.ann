@@ -1,0 +1,4 @@
+T1	Intervention 57 79	two placebo treatments
+T2	Intervention 0 24	Sham device v inert pill
+T3	Intervention 388 456	acupuncture and amitriptyline with their respective placebo controls
+T4	Intervention 781 880	Acupuncture with sham device twice a week for six weeks or placebo pill once a day for eight weeks.

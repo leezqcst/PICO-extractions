@@ -1,0 +1,17 @@
+T1	Intervention 18 107	sedation techniques in patients undergoing surgical procedures under regional anaesthesia
+T2	Intervention 201 221	regional anaesthesia
+T3	Intervention 254 287	supplemental intravenous sedation
+T4	Intervention 334 353	sedation techniques
+T5	Intervention 394 414	regional anaesthesia
+T6	Intervention 422 457	midazolam and pethidine combination
+T7	Intervention 472 506	midazolam and tramadol combination
+T8	Intervention 645 665	regional anaesthesia
+T9	Intervention 777 849	standardized premedication, intraoperative monitoring and oxygen therapy
+T10	Intervention 877 919	midazolam 0.03 mg/kg followed by pethidine
+T11	Intervention 971 1012	midazolam 0.03 mg/kg followed by tramadol
+T12	Intervention 1058 1079	regional anaesthesia.
+T13	Intervention 1441 1450	pethidine
+T14	Intervention 1455 1463	tramadol
+T15	Intervention 1713 1743	Midazolam-tramadol combination
+T16	Intervention 1777 1808	midazolam-pethidine combination
+T17	Intervention 1865 1885	regional anaesthesia

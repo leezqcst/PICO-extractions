@@ -1,0 +1,5 @@
+T1	Intervention 98 113	parent training
+T2	Intervention 118 128	medication
+T3	Intervention 245 275	antipsychotic medication alone
+T4	Intervention 287 332	antipsychotic medication plus parent training
+T5	Intervention 1381 1392	risperidone

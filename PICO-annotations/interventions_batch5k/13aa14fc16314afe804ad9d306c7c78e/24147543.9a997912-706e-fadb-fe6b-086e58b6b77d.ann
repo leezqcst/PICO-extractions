@@ -1,0 +1,8 @@
+T1	Intervention 36 115	photodynamic therapy, imiquimod immunotherapy and combination of both therapies
+T2	Intervention 244 293	5-aminolevulinic acid photodynamic therapy (PDT),
+T3	Intervention 297 306	imiquimod
+T4	Intervention 528 547	Combination therapy
+T5	Intervention 614 631	imiquimod therapy
+T6	Intervention 793 817	PDT or imiquimod therapy
+T7	Intervention 999 1028	PDT or imiquimod monotherapy.
+T8	Intervention 1083 1103	combination therapy,

@@ -1,0 +1,9 @@
+T1	Intervention 0 29	Concomitant radiochemotherapy
+T2	Intervention 33 51	radiotherapy alone
+T3	Intervention 274 313	standard fractionated radiotherapy (RT)
+T4	Intervention 323 394	with the same RT concomitantly with cisplatin (DDP) or carboplatin (Cb)
+T5	Intervention 568 582	RT monotherapy
+T6	Intervention 612 637	RT concomitantly with DDP
+T7	Intervention 674 679	or Cb
+T8	Intervention 1308 1337	concomitant chemoradiotherapy
+T9	Intervention 1515 1566	concomitant chemoradiotherapy with platinum analogs

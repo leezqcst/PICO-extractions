@@ -1,0 +1,19 @@
+T1	Intervention 0 29	Concomitant radiochemotherapy
+T2	Intervention 33 45	radiotherapy
+T3	Intervention 83 89	cancer
+T4	Intervention 274 312	standard fractionated radiotherapy (RT
+T5	Intervention 337 353	RT concomitantly
+T6	Intervention 359 368	cisplatin
+T7	Intervention 378 389	carboplatin
+T8	Intervention 449 463	histologically
+T9	Intervention 488 527	non-nasopharyngeal head and neck cancer
+T10	Intervention 568 582	RT monotherapy
+T11	Intervention 634 637	DDP
+T12	Intervention 829 846	chemoradiotherapy
+T13	Intervention 967 997	concomitant chemoradiotherapy.
+T14	Intervention 1308 1337	concomitant chemoradiotherapy
+T15	Intervention 1373 1396	hematological toxicity.
+T16	Intervention 1410 1425	nausea/vomiting
+T17	Intervention 1515 1544	concomitant chemoradiotherapy
+T18	Intervention 1652 1655	HNC
+T19	Intervention 1681 1683	RT

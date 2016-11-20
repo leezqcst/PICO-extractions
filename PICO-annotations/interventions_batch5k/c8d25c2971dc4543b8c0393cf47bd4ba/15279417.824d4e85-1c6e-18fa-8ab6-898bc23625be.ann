@@ -1,0 +1,10 @@
+T1	Intervention 70 97	topical glaucoma medication
+T2	Intervention 113 131	topical medication
+T3	Intervention 308 335	topical glaucoma medication
+T4	Intervention 749 756	control
+T5	Intervention 568 684	treatment (non-selective beta blockers or selective, prostaglandin analogues, topical carbonic anhydrase inhibitors)
+T6	Intervention 1489 1507	type of medication
+T7	Intervention 1966 1993	topical glaucoma medication
+T8	Intervention 2064 2079	sort of therapy
+T9	Intervention 2088 2105	topical treatment
+T10	Intervention 2139 2213	benzalkonium chloride (the most common preservative of antiglaucoma drugs)

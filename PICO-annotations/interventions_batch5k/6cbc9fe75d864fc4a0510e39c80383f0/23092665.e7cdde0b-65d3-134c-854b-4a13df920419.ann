@@ -1,0 +1,9 @@
+T1	Intervention 48 69	proton pump inhibitor
+T2	Intervention 199 246	antiplatelet or anticoagulant therapy (or both)
+T3	Intervention 312 347	proton pump inhibitor (PPI) therapy
+T4	Intervention 501 518	oral formulations
+T5	Intervention 585 588	PPI
+T6	Intervention 642 683	prophylaxis than oral-only administration
+T7	Intervention 750 809	coronary artery bypass grafting with cardiopulmonary bypass
+T8	Intervention 1320 1324	PPIs
+T9	Intervention 1414 1418	PPIs

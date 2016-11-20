@@ -1,0 +1,11 @@
+T1	Intervention 66 79	HPV self-test
+T2	Intervention 334 367	cervical cancer screening program
+T3	Intervention 501 516	(HPV) self-test
+T4	Intervention 584 622	standard routine plus a telephone call
+T5	Intervention 543 580	standard screening invitation routine
+T6	Intervention 828 851	high-risk HPV self-test
+T7	Intervention 880 894	telephone call
+T8	Intervention 941 948	control
+T9	Intervention 956 993	standard screening invitation routine
+T10	Intervention 1581 1598	self-test for HPV
+T11	Intervention 1620 1630	Pap smears

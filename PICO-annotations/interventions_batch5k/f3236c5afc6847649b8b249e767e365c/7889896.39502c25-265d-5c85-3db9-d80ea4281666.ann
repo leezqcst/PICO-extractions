@@ -1,0 +1,12 @@
+T1	Intervention 0 9	Long-stay
+T2	Intervention 17 46	short-stay hospital treatment
+T3	Intervention 133 148	early discharge
+T4	Intervention 156 209	attempted full nutritional rehabilitation in hospital
+T5	Intervention 357 362	short
+T6	Intervention 371 380	long-stay
+T7	Intervention 808 810	SS
+T8	Intervention 826 828	LS
+T9	Intervention 837 839	LS
+T10	Intervention 1451 1482	full nutritional rehabilitation
+T11	Intervention 1107 1109	LS
+T12	Intervention 912 914	SS

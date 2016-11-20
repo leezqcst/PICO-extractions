@@ -1,0 +1,26 @@
+T1	Intervention 41 51	monitoring
+T2	Intervention 114 127	thyroidectomy
+T3	Intervention 149 159	anesthesia
+T4	Intervention 164 175	IV sedation
+T5	Intervention 243 258	neuromonitoring
+T6	Intervention 349 376	mini-incision thyroidectomy
+T7	Intervention 398 408	anesthesia
+T8	Intervention 413 433	intravenous sedation
+T9	Intervention 463 490	mini-incision thyroidectomy
+T10	Intervention 503 513	anesthesia
+T11	Intervention 561 571	monitoring
+T12	Intervention 607 617	monitoring
+T13	Intervention 688 711	Voice Handicap Index-10
+T14	Intervention 729 764	Reflux Symptom Index questionnaires
+T15	Intervention 820 827	surgery
+T16	Intervention 778 785	surgery
+T17	Intervention 1032 1038	VHI-10
+T18	Intervention 1085 1092	surgery
+T19	Intervention 1230 1233	RSI
+T20	Intervention 1247 1254	surgery
+T21	Intervention 1288 1295	surgery
+T22	Intervention 1308 1324	Nerve monitoring
+T23	Intervention 1371 1398	mini-incision thyroidectomy
+T24	Intervention 1420 1430	anesthesia
+T25	Intervention 1499 1506	surgery
+T26	Intervention 837 848	Recruitment

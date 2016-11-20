@@ -1,0 +1,7 @@
+T1	Intervention 57 82	airway resistance changes
+T2	Intervention 445 487	specific airway resistance changes (ΔsRAW)
+T3	Intervention 765 770	ΔsRAW
+T4	Intervention 223 233	1s (ΔFEV1)
+T5	Intervention 238 266	forced vital capacity (ΔFVC)
+T6	Intervention 1302 1313	ΔsRAW-based
+T7	Intervention 1341 1349	FEV1-FVC

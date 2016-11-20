@@ -1,0 +1,17 @@
+T1	Intervention 0 25	Rifampicin plus isoniazid
+T2	Intervention 194 230	latent tuberculosis infection (LTBI)
+T3	Intervention 244 257	isoniazid (6H
+T4	Intervention 275 306	isoniazid plus rifampicin (3RH)
+T5	Intervention 335 339	LTBI
+T6	Intervention 666 669	3RH
+T7	Intervention 536 545	adherence
+T8	Intervention 637 646	adherence
+T9	Intervention 682 684	6H
+T10	Intervention 781 795	hepatotoxicity
+T11	Intervention 881 918	(OR 1.88, 95%CI 1.26-2.82, P = 0.001)
+T12	Intervention 947 983	(OR 1.48, 95%CI 1.01-2.15, P = 0.03)
+T13	Intervention 998 1036	(OR 1.91, 95%CI 1.28-2.85, P = 0.0008)
+T14	Intervention 1049 1085	(OR 1.73, 95%CI 1.04-2.88, P = 0.02)
+T15	Intervention 1110 1145	(OR 3.7, 95%CI 2.54-5.4, P = 0.001)
+T16	Intervention 1312 1323	3RH regimen
+T17	Intervention 1349 1363	LTBI treatment

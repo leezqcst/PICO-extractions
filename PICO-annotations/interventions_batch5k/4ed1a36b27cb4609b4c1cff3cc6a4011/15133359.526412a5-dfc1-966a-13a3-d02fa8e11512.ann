@@ -1,0 +1,23 @@
+T1	Intervention 61 87	coronary sinus cannulation
+T2	Intervention 148 188	Biventricular pacing system implantation
+T3	Intervention 255 291	biventricular pacemaker implantation
+T4	Intervention 295 326	coronary sinus (CS) cannulation
+T5	Intervention 328 342	CS cannulation
+T6	Intervention 640 653	EPA technique
+T7	Intervention 400 449	(guiding catheter alone positioning strategy, GCA
+T8	Intervention 473 499	electrophysiology catheter
+T9	Intervention 538 596	electrophysiology catheter aided positioning strategy, EPA
+T10	Intervention 520 536	guiding catheter
+T11	Intervention 711 737	conventional GCA technique
+T12	Intervention 810 813	GCA
+T13	Intervention 831 834	EPA
+T14	Intervention 849 871	CS cannulation strateg
+T15	Intervention 901 922	catheterization of CS
+T16	Intervention 950 953	EPA
+T17	Intervention 991 994	GCA
+T18	Intervention 1056 1059	EPA
+T19	Intervention 1196 1199	EPA
+T20	Intervention 1096 1099	GCA
+T21	Intervention 1236 1239	GCA
+T22	Intervention 1269 1286	Cannulation of CS
+T23	Intervention 1310 1336	electrophysiology catheter

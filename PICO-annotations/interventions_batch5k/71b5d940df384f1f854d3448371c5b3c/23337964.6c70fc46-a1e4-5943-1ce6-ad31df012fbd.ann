@@ -1,0 +1,23 @@
+T1	Intervention 100 107	placebo
+T2	Intervention 31 51	seven plant extracts
+T3	Intervention 264 292	seven medical plant extracts
+T4	Intervention 369 376	placebo
+T5	Intervention 531 540	Aloe vera
+T6	Intervention 542 561	Chamomilla recutita
+T7	Intervention 563 583	Hamamelis virginiana
+T8	Intervention 585 604	Melissa officinalis
+T9	Intervention 606 621	Mentha arvensis
+T10	Intervention 623 645	Melaleuca alternifolia
+T11	Intervention 647 665	Coriandrum sativum
+T12	Intervention 677 702	1% hydrocortisone acetate
+T13	Intervention 707 734	0.1% betamethasone valerate
+T14	Intervention 760 777	unguentum leniens
+T15	Intervention 1043 1052	Aloe vera
+T16	Intervention 1054 1073	Chamomilla recutita
+T17	Intervention 1075 1094	Melissa officinalis
+T18	Intervention 1096 1118	Melaleuca alternifolia
+T19	Intervention 1123 1141	Coriandrum sativum
+T20	Intervention 1188 1198	UV-control
+T21	Intervention 1203 1220	unguentum leniens
+T22	Intervention 1283 1292	Aloe vera
+T23	Intervention 1352 1361	Aloe vera

@@ -1,0 +1,12 @@
+T1	Intervention 0 43	Carbenicillin-trimethoprim/sulfamethoxazole
+T2	Intervention 51 75	carbenicillin-gentamicin
+T3	Intervention 214 270	carbenicillin plus trimethoprim-sulfamethoxazole (C-T/S)
+T4	Intervention 308 343	carbenicillin plus gentamicin (C-G)
+T5	Intervention 926 931	C-T/S
+T6	Intervention 969 979	C-G trials
+T7	Intervention 1064 1069	C-T/S
+T8	Intervention 1107 1110	C-G
+T9	Intervention 1216 1228	C-T/S trials
+T10	Intervention 1261 1264	C-G
+T11	Intervention 1913 1918	C-T/S
+T12	Intervention 1961 1964	C-G

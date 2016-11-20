@@ -1,0 +1,15 @@
+T1	Intervention 53 109	growth hormone and gonadotropin releasing hormone analog
+T2	Intervention 136 152	dose-response GH
+T3	Intervention 169 181	GH treatment
+T4	Intervention 271 273	GH
+T5	Intervention 392 404	GH treatment
+T6	Intervention 501 532	GH 2 mg/m(2) · d during puberty
+T7	Intervention 574 588	1 mg/m(2) · d;
+T8	Intervention 657 676	GnRH analog (GnRHa)
+T9	Intervention 1084 1138	combined GH/GnRHa and subsequent GH treatment until AH
+T10	Intervention 1421 1454	Treatment with GH 2 vs. 1 mg/m(2)
+T11	Intervention 1727 1735	GH/GnRHa
+T12	Intervention 1813 1820	GH only
+T13	Intervention 1954 1970	GH 2 mg/m(2) · d
+T14	Intervention 1874 1886	GH treatment
+T15	Intervention 2062 2090	combined GH/GnRHa treatment.

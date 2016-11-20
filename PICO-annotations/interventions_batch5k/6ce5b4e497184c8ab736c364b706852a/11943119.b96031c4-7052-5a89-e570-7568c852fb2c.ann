@@ -1,0 +1,17 @@
+T1	Intervention 11 80	error training in surgical technical skill instruction and evaluation
+T2	Intervention 318 357	instruction and evaluation of the skill
+T3	Intervention 399 437	two types of rater training videotapes
+T5	Intervention 543 584	skill being performed correctly (correct)
+T4	Intervention 471 511	use of examples of common errors (error)
+T6	Intervention 588 605	testing videotape
+T7	Intervention 757 774	error instruction
+T8	Intervention 898 964	training groups: none, error only, correct only, and error+correct
+T9	Intervention 1187 1201	error training
+T10	Intervention 1469 1513	testing videotape and interrater reliability
+T11	Intervention 1643 1673	error training or no training.
+T12	Intervention 1687 1773	viewed the testing videotape, rating the performances and giving "feedback" commentary
+T13	Intervention 1964 1988	"error+correct" training
+T14	Intervention 2046 2086	"correct only" and "error only" training
+T15	Intervention 2333 2426	Instruction about common errors, when combined with instruction about the correct performance
+T16	Intervention 2505 2558	use of errors in surgical technical skill instruction
+T17	Intervention 2605 2650	error training in improving skill evaluation.

@@ -1,0 +1,7 @@
+T1	Intervention 35 46	risedronate
+T2	Intervention 149 168	Risedronate Therapy
+T3	Intervention 237 244	placebo
+T4	Intervention 306 317	risedronate
+T5	Intervention 571 609	risedronate 2.5 or 5 mg/day or placebo
+T6	Intervention 611 699	all subjects also received elemental calcium 1000 mg/day, and up to 500 IU/day vitamin D
+#1	AnnotatorNotes T6	this is not the intervention under query, however its worth mentioning.

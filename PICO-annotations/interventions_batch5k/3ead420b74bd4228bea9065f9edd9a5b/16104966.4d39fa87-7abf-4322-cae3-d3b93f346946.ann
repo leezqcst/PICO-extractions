@@ -1,0 +1,15 @@
+T1	Intervention 179 197	periodontal repair
+T2	Intervention 240 261	chronic periodontitis
+T3	Intervention 534 537	CIC
+T4	Intervention 539 566	scaled with Gracey curettes
+T5	Intervention 568 603	CIUS, scaled with ultrasonic device
+T6	Intervention 605 686	CDC, calculus deattachment with Gracey curettes and brushing with saline solution
+T7	Intervention 692 776	CDUS, calculus deattachment with ultrasonic device and brushing with saline solution
+T8	Intervention 880 893	Probing depth
+T9	Intervention 900 930	relative gingival margin level
+T10	Intervention 942 967	relative attachment level
+T11	Intervention 1020 1028	baseline
+T12	Intervention 1033 1035	30
+T13	Intervention 1037 1039	60
+T14	Intervention 1041 1043	90
+T15	Intervention 1048 1051	120

@@ -1,0 +1,9 @@
+T1	Intervention 478 514	different target volumes irradiation
+T2	Intervention 39 58	radiotherapy volume
+T3	Intervention 186 200	target volumes
+T4	Intervention 211 238	thoracic radiotherapy (TRT)
+T5	Intervention 589 617	etoposide and cisplatin (EP)
+T6	Intervention 679 735	TRT to either the post- or pre-chemotherapy tumor extent
+T7	Intervention 761 779	control arm, CTV-N
+T8	Intervention 899 902	TRT
+T9	Intervention 1040 1078	Prophylactic cranial irradiation (PCI)

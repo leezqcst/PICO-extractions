@@ -1,0 +1,5 @@
+T1	Intervention 4 12	sedation
+T2	Intervention 182 221	Upper gastrointestinal endoscopy (UGIE)
+T3	Intervention 494 726	UGIE with sedation (0.1 mg/kg of midazolam) and without it (two endoscopies per volunteer in random order) were monitored throughout the procedure by means of electrocardiogram, blood pressure and peripheral oxygen saturation (SpO2)
+T4	Intervention 880 994	Serum norepinephrine, epinephrine, dopamine and ACTH concentrations were measured before and after the examination
+T5	Intervention 728 804	Cardiac output was measured at six points before, during and after endoscopy

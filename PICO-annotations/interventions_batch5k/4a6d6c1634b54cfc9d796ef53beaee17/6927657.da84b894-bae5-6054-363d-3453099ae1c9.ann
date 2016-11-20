@@ -1,0 +1,15 @@
+T1	Intervention 0 59	Extra prompts versus no extra prompts in self-care training
+T2	Intervention 113 137	"extra prompt" procedure
+T3	Intervention 156 183	"no extra prompt" procedure
+T4	Intervention 410 435	no extra prompt condition
+T5	Intervention 358 369	color-coded
+T6	Intervention 650 679	non-color-coded, naturalistic
+T7	Intervention 709 731	extra prompt condition
+T8	Intervention 826 861	color-coded, extra prompt condition
+T9	Intervention 947 986	naturalistic, non-color-coded condition
+T10	Intervention 1027 1052	without the extra prompts
+T11	Intervention 1095 1116	color-coded condition
+T12	Intervention 1185 1197	color prompt
+T13	Intervention 1206 1218	position cue
+T14	Intervention 1274 1283	color cue
+T15	Intervention 1380 1425	highly salient, non-criterion-related prompts

@@ -1,0 +1,19 @@
+T1	Intervention 14 92	cefuroxime axetil, cefaclor, and amoxicillin-clavulanate potassium suspensions
+T2	Intervention 327 351	cefuroxime axetil (CAE),
+T3	Intervention 366 380	cefaclor (CEC)
+T4	Intervention 399 441	amoxicillin-clavulanate potassium (AMX-CL)
+T5	Intervention 744 747	CAE
+T6	Intervention 772 775	CEC
+T7	Intervention 795 801	AMX-CL
+T8	Intervention 962 965	CAE
+T9	Intervention 970 973	CEC
+T10	Intervention 1018 1024	AMX-CL
+T11	Intervention 1029 1032	CEC
+T12	Intervention 1070 1073	CEC
+T13	Intervention 1109 1112	CAE
+T14	Intervention 1149 1155	AMX-CL
+T15	Intervention 1174 1177	CAE
+T16	Intervention 1181 1184	CEC
+T17	Intervention 1273 1287	CAE suspension
+T18	Intervention 1323 1326	CEC
+T19	Intervention 1355 1361	AMX-CL

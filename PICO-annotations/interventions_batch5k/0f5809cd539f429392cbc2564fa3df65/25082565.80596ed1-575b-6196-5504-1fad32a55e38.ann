@@ -1,0 +1,14 @@
+T1	Intervention 68 125	sequential erlotinib and docetaxel versus docetaxel alone
+T2	Intervention 242 308	Concomitant administration of erlotinib with standard chemotherapy
+T3	Intervention 438 463	sequential administration
+T4	Intervention 549 601	sequential administration of erlotinib and docetaxel
+T5	Intervention 802 822	sequential erlotinib
+T6	Intervention 842 852	+docetaxel
+T7	Intervention 881 890	docetaxel
+T8	Intervention 1173 1184	ED strategy
+T9	Intervention 1391 1402	ED strategy
+T10	Intervention 1468 1470	ED
+T11	Intervention 1533 1535	ED
+T12	Intervention 1540 1541	D
+T13	Intervention 1640 1674	Sequential erlotinib and docetaxel
+T14	Intervention 1703 1718	docetaxel alone

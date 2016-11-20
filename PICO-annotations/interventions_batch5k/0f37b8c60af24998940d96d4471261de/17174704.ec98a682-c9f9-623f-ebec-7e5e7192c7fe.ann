@@ -1,0 +1,14 @@
+T1	Intervention 86 155	non-nucleoside reverse transcriptase inhibitors, protease inhibitors,
+T2	Intervention 391 479	protease inhibitor (PI), non-nucleoside reverse transcriptase inhibitor (NNRTI), or both
+T3	Intervention 674 699	antiretroviral-treatment-
+T4	Intervention 836 854	protease inhibitor
+T5	Intervention 869 920	(PI plus nucleoside reverse transcriptase inhibitor
+T6	Intervention 939 985	non-nucleoside reverse transcriptase inhibitor
+T7	Intervention 1034 1079	three-class strategy (PI plus NNRTI plus NRTI
+T8	Intervention 1081 1086	n=464
+T9	Intervention 1318 1366	three-class versus combined two-class comparison
+T10	Intervention 2883 2924	NNRTI-based regimen or a PI-based regimen
+T11	Intervention 2982 2996	antiretroviral
+T12	Intervention 1639 1644	NNRTI
+T13	Intervention 1652 1674	PI hazard ratios (HRs)
+T14	Intervention 2061 2110	three-class and the combined two-class strategies

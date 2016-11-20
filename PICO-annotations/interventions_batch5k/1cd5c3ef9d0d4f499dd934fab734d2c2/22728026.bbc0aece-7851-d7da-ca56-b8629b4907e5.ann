@@ -1,0 +1,16 @@
+T1	Intervention 47 83	docetaxel as first-line chemotherapy
+T2	Intervention 0 32	Phase II trial of nab-paclitaxel
+T3	Intervention 266 287	weekly nab-paclitaxel
+T4	Intervention 302 311	docetaxel
+T5	Intervention 480 626	to receive nab-paclitaxel 300 mg/m(2) q3w, nab-paclitaxel 100 mg/m(2) or 150 mg/m(2) the first 3 of 4 weeks (qw 3/4), or docetaxel 100 mg/m(2) q3w
+T6	Intervention 705 753	Treatment with nab-paclitaxel 150 mg/m(2) qw 3/4
+T7	Intervention 858 891	nab-paclitaxel 100 mg/m(2) qw 3/4
+T8	Intervention 893 923	nab-paclitaxel 300 mg/m(2) q3w
+T9	Intervention 929 938	docetaxel
+T10	Intervention 992 1017	150 mg/m(2)nab-paclitaxel
+T11	Intervention 1069 1094	100 mg/m(2)nab-paclitaxel
+T12	Intervention 1176 1201	150 mg/m(2)nab-paclitaxel
+T13	Intervention 1213 1222	docetaxel
+T14	Intervention 1471 1489	150 mg/m(2) qw 3/4
+T15	Intervention 1536 1565	nab-paclitaxel dosing regimen
+T16	Intervention 1726 1742	150 mg/m(2) dose

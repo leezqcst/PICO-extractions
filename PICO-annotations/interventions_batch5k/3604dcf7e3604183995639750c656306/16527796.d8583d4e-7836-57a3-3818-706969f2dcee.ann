@@ -1,0 +1,6 @@
+T1	Intervention 100 129	Nasotracheal intubation (NTI)
+T2	Intervention 312 387	curve-tipped suction catheter (CTSC) to guide nasotracheal tube advancement
+T3	Intervention 718 731	tracheal tube
+T4	Intervention 792 817	NTI without CTSC guidance
+T5	Intervention 0 68	Nasotracheal intubation under curve-tipped suction catheter guidance
+T6	Intervention 1529 1572	Nasotracheal intubation under CTSC guidance

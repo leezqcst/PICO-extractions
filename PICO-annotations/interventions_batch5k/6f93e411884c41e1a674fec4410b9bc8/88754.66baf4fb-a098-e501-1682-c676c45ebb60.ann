@@ -1,0 +1,11 @@
+T1	Intervention 282 294	chemotherapy
+T2	Intervention 308 327	methotrexate 400 mg
+T3	Intervention 340 357	citrovorum factor
+T4	Intervention 367 376	bleomycin
+T5	Intervention 452 465	immunotherapy
+T6	Intervention 478 498	C. parvum injections
+T7	Intervention 545 570	not receive any treatment
+T8	Intervention 722 740	adjuvant treatment
+T9	Intervention 821 833	radiotherapy
+T10	Intervention 855 871	adjuvant therapy
+T11	Intervention 0 17	Adjvant treatment

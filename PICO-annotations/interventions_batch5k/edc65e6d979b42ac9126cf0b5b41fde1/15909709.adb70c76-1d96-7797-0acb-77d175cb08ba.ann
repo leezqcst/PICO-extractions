@@ -1,0 +1,7 @@
+T1	Intervention 0 24	Uterine incision closure
+T2	Intervention 81 148	intraperitoneal closure and closure after temporary exteriorisation
+T3	Intervention 180 216	technique of uterine exteriorization
+T4	Intervention 369 406	uterine repair on caesarean morbidity
+T5	Intervention 543 614	Data on operation time, estimated blood loss, postoperative morbidities
+T6	Intervention 1037 1059	shorter operative time
+T7	Intervention 1107 1157	exteriorization of uterus during caesarean section

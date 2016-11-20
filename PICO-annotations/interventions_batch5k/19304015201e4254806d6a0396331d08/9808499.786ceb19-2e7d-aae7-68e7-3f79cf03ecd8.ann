@@ -1,0 +1,7 @@
+T1	Intervention 0 23	Oral ganciclovir dosing
+T2	Intervention 108 148	An oral formulation of ganciclovir (GCV)
+T3	Intervention 315 318	GCV
+T4	Intervention 930 971	GCV was taken within 30 min after a meal.
+T5	Intervention 994 1035	oral GCV for between 12 days and 14 weeks
+T6	Intervention 562 928	Drug dosing was established by the following algorithm based on calculated creatinine clearance (CrCl): CrCl = [(140-age) x body weight]/(72 x Cr) x 0.85 for women that is, CrCl >50 ml/min, 1000 mg every 8 hr; CrCl of 25-50 ml/min, 1000 mg every 24 hr; CrCl of 10-24 ml/ min, 500 mg every day; CrCl < 10 ml/min (or on dialysis), 500 mg every other day after dialysis
+T7	Intervention 2587 2595	oral GCV

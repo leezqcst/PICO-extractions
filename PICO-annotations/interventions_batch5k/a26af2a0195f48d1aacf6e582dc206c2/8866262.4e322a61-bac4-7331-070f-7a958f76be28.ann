@@ -1,0 +1,19 @@
+T1	Intervention 1010 1027	artificial caries
+T2	Intervention 482 507	copal varnish and amalgam
+T3	Intervention 527 552	glass-ionomer and amalgam
+T4	Intervention 560 597	light-cured glass-ionomer and amalgam
+T5	Intervention 604 649	bonding agent and light-cured composite resin
+T6	Intervention 668 728	glass-ionomer, bonding agent and light-cured composite resin
+T7	Intervention 735 760	light-cured glass-ionomer
+T8	Intervention 823 850	light-cured composite resin
+T9	Intervention 862 887	light-cured glass-ionomer
+T10	Intervention 949 976	light-cured composite resin
+T11	Intervention 1119 1125	caries
+T12	Intervention 1173 1219	glass-ionomer liner under amalgam restorations
+T13	Intervention 1397 1403	caries
+T14	Intervention 1271 1284	glass-ionomer
+T15	Intervention 135 141	caries
+T16	Intervention 167 188	glass-ionomer liner's
+T17	Intervention 260 279	glass ionomer liner
+T18	Intervention 297 304	amalgam
+T19	Intervention 309 324	composite resin

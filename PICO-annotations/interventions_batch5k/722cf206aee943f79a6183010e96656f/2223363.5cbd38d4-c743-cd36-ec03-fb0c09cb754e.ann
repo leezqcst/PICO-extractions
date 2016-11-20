@@ -1,0 +1,7 @@
+T3	Intervention 222 230	Propofol
+T1	Intervention 20 49	rates of infusion of propofol
+T2	Intervention 128 156	rate of infusion of propofol
+T4	Intervention 457 478	slower infusion rates
+T5	Intervention 865 886	slower infusion group
+T6	Intervention 713 729	300-ml h-1 group
+#1	AnnotatorNotes T6	slower infusion group

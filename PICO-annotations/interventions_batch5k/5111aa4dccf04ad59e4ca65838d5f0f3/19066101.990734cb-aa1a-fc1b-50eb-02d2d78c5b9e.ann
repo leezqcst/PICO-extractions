@@ -1,0 +1,6 @@
+T1	Intervention 28 64	minimally-invasive surgery plus rtPA
+T2	Intervention 582 662	minimally-invasive surgery plus recombinant tissue plasminogen activator (rtPA),
+T3	Intervention 773 845	surgical intervention plus rtPA and standard medical management for ICH.
+T4	Intervention 971 1022	stereotactic catheter placement and clot aspiration
+T5	Intervention 1038 1042	rtPA
+T6	Intervention 1196 1210	sterile saline

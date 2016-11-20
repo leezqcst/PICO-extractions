@@ -1,0 +1,18 @@
+T1	Intervention 36 71	primrose oil (gamma linolenic acid)
+T2	Intervention 76 124	fish oil (eicosapentaenoic + docahexaenoic acid)
+T3	Intervention 132 141	magnesium
+T4	Intervention 154 161	placebo
+T5	Intervention 197 204	placebo
+T6	Intervention 276 296	evening primrose oil
+T7	Intervention 301 309	fish oil
+T8	Intervention 326 341	Magnesium Oxide
+T9	Intervention 352 359	Placebo
+T10	Intervention 420 443	nutritional supplements
+T11	Intervention 729 736	Placebo
+T12	Intervention 785 805	evening primrose oil
+T13	Intervention 810 818	fish oil
+T14	Intervention 830 856	Gamma-linolenic acid (GLA)
+T15	Intervention 858 885	Eicosapentaenoic acid (EPA)
+T16	Intervention 891 917	Docosahexaenoic acid (DHA)
+T17	Intervention 1001 1016	Magnesium Oxide
+T18	Intervention 1147 1154	Placebo

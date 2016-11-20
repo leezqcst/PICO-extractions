@@ -1,0 +1,13 @@
+T1	Intervention 0 25	Rapid-sequence intubation
+T2	Intervention 85 128	pancuronium versus minidose succinylcholine
+T3	Intervention 310 378	nondepolarizing blocking agent before succinylcholine administration
+T4	Intervention 537 552	succinylcholine
+T5	Intervention 853 883	succinylcholine or pancuronium
+T6	Intervention 1116 1140	minidose succinylcholine
+T7	Intervention 1156 1167	pancuronium
+T8	Intervention 1231 1246	succinylcholine
+T9	Intervention 1370 1381	pancuronium
+T10	Intervention 1415 1430	succinylcholine
+T11	Intervention 1783 1798	succinylcholine
+T12	Intervention 1850 1861	pancuronium
+T13	Intervention 1938 1953	succinylcholine

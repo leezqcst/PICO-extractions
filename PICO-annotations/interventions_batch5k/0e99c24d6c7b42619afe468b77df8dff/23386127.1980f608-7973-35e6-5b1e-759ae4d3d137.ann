@@ -1,0 +1,12 @@
+T1	Intervention 0 29	Plasma Epstein-Barr virus DNA
+T2	Intervention 152 176	Epstein-Barr virus (EBV)
+T3	Intervention 541 603	lasma EBV-DNA quantification with EBV tumor status by EBER-ISH
+T4	Intervention 677 685	EBER-ISH
+T5	Intervention 745 761	EBV(-) or EBV(+)
+T6	Intervention 805 827	EBV(+) plasma (n = 54)
+T7	Intervention 894 930	pretreatment EBV(-) plasma (n = 274)
+T8	Intervention 1031 1039	EBER-ISH
+T9	Intervention 1054 1075	plasma EBV positivity
+T10	Intervention 1164 1177	plasma EBV(+)
+T11	Intervention 1226 1239	plasma EBV(-)
+T12	Intervention 1313 1361	EBV-DNA is highly concordant with EBER-ISH in HL

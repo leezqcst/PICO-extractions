@@ -1,0 +1,7 @@
+T1	Intervention 433 444	doxorubicin
+T2	Intervention 30 41	doxorubicin
+T3	Intervention 45 55	epirubicin
+T4	Intervention 454 464	epirubicin
+T5	Intervention 470 485	no instillation
+T6	Intervention 750 792	doxorubicin or epirubicin instillation arm
+T7	Intervention 815 834	no instillation arm

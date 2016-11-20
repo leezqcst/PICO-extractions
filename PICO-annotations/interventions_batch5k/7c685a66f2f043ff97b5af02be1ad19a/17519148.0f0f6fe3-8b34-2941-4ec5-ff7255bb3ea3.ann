@@ -1,0 +1,17 @@
+T1	Intervention 63 95	combined hormonal contraceptives
+T2	Intervention 193 234	hormonal contraceptive vaginal ring (CVR)
+T3	Intervention 250 289	nonandrogenic progestin Nestorone (NES)
+T4	Intervention 294 316	ethinyl estradiol (EE)
+T5	Intervention 597 620	oral contraceptive (OC)
+T6	Intervention 636 677	androgenic progestin levonorgestrel (LNG)
+T7	Intervention 682 684	EE
+T8	Intervention 739 753	delivery route
+T9	Intervention 934 946	combined OCs
+T10	Intervention 1015 1021	NES/EE
+T11	Intervention 1047 1079	combined OC providing LNG and EE
+T12	Intervention 3111 3127	Vaginal delivery
+T13	Intervention 3269 3280	combined OC
+T14	Intervention 3328 3338	NES/EE CVR
+T15	Intervention 3347 3356	LNG/EE OC
+T16	Intervention 3656 3659	NES
+T17	Intervention 3664 3667	LNG

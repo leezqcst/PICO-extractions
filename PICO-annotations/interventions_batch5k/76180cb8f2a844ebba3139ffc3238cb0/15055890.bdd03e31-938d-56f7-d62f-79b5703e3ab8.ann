@@ -1,0 +1,6 @@
+T1	Intervention 485 541	intrathecal bupivacaine 0.25% 1 mL + sufentanil 5 microg
+T2	Intervention 599 673	bupivacaine 0.125% + epinephrine 2.5 microg mL(-1) + sufentanil 7.5 microg
+T3	Intervention 741 836	patient-controlled epidural analgesia with bupivacaine 0.125% (+ sufentanil 0.25 microg mL(-1))
+T4	Intervention 0 103	Perispinal analgesia for labour followed by patient-controlled infusion with bupivacaine and sufentanil
+T5	Intervention 1528 1562	combined spinal-epidural technique
+T6	Intervention 1616 1640	epidural analgesia alone

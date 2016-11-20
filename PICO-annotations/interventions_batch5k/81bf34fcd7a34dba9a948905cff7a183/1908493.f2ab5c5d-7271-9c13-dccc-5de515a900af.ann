@@ -1,0 +1,8 @@
+T1	Intervention 38 85	growth hormone releasing hormone administration
+T2	Intervention 185 204	growth hormone GHRH
+T3	Intervention 228 231	TRH
+T4	Intervention 304 316	hemodialysis
+T5	Intervention 318 322	GHRH
+T6	Intervention 747 762	TRH-induced PRL
+T7	Intervention 1319 1338	GHRH- and the TRH-i
+T8	Intervention 1460 1504	GHRH-stimulated GH and TRH-stimulated PRL/GH

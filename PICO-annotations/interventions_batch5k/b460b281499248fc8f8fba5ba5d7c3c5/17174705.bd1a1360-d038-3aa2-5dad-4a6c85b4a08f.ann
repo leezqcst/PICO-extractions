@@ -1,0 +1,6 @@
+T1	Intervention 11 22	pralidoxime
+T2	Intervention 312 341	constant pralidoxime infusion
+T3	Intervention 356 376	repeated bolus doses
+T4	Intervention 1463 1471	atropine
+T5	Intervention 1146 1156	intubation
+T6	Intervention 1180 1191	ventilation

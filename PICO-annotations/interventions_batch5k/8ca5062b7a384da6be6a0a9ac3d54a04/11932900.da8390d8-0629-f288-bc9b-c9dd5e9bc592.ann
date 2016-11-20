@@ -1,0 +1,17 @@
+T1	Intervention 69 194	radiotherapy with technetium-99m methoxyisobutylisonitrile single photon emission computed tomography and computed tomography
+T2	Intervention 212 265	18-fluoro-2-deoxyglucose positron emission tomography
+T3	Intervention 306 407	technetium-99m methoxyisobutylisonitrile (Tc-MIBI) single photon emission computed tomography (SPECT)
+T4	Intervention 412 436	computed tomography (CT)
+T5	Intervention 558 570	radiotherapy
+T6	Intervention 589 660	positron emission tomography (PET) with 18-fluoro-2-deoxyglucose (FDG).
+T7	Intervention 1052 1054	CT
+T8	Intervention 717 747	CT, Tc-MIBI SPECT, and FDG-PET
+T9	Intervention 766 778	radiotherapy
+T10	Intervention 1205 1218	Tc-MIBI SPECT
+T11	Intervention 1303 1310	FDG-PET
+T12	Intervention 1362 1382	CT and Tc-MIBI SPECT
+T13	Intervention 1521 1528	FDG-PET
+T14	Intervention 1647 1676	CT and Tc-MIBI SPECT, FDG-PET
+T15	Intervention 1809 1816	FDG-PET
+T16	Intervention 1860 1880	CT and Tc-MIBI SPECT
+T17	Intervention 1916 1923	FDG-PET

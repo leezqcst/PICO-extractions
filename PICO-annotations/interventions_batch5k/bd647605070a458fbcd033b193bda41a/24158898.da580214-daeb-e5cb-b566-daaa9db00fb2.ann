@@ -1,0 +1,22 @@
+T1	Intervention 0 54	Sequential therapy versus standard triple-drug therapy
+T2	Intervention 512 555	sequential vs. standard triple-drug therapy
+T3	Intervention 705 723	sequential regimen
+T4	Intervention 734 746	pantoprazole
+T5	Intervention 755 766	amoxicillin
+T6	Intervention 841 853	pantoprazole
+T7	Intervention 865 879	clarithromycin
+T8	Intervention 895 905	tinidazole
+T9	Intervention 969 992	standard 14-day therapy
+T10	Intervention 1003 1015	pantoprazole
+T11	Intervention 1027 1041	clarithromycin
+T12	Intervention 1054 1065	amoxicillin
+T13	Intervention 1146 1164	sequential regimen
+T14	Intervention 1219 1233	triple therapy
+T15	Intervention 1268 1286	sequential therapy
+T16	Intervention 1363 1384	standard drug therapy
+T17	Intervention 1742 1773	standard and sequential therapy
+T18	Intervention 1796 1814	Sequential therapy
+T19	Intervention 1851 1861	tinidazole
+T20	Intervention 1888 1904	standard therapy
+T21	Intervention 1918 1936	Sequential therapy
+T22	Intervention 1967 1983	standard therapy

@@ -1,0 +1,15 @@
+T1	Intervention 18 32	cyproheptadine
+T2	Intervention 52 90	high-performance liquid chromatography
+T3	Intervention 219 233	cyproheptadine
+T4	Intervention 256 269	amitriptyline
+T5	Intervention 367 429	liquid-liquid extraction using a diethyl-ether/dichloromethane
+T6	Intervention 515 602	reconstituted with a fixed volume of acetonitrile/water (50/50 v/v)+0.1% of acetic acid
+T7	Intervention 622 732	analyzed by high performance liquid chromatography coupled to electrospray tandem mass spectrometry (LC-MS/MS)
+T8	Intervention 734 748	Chromatography
+T9	Intervention 786 852	Alltech Prevail C18 5 µm analytical column, (150 mm x 4.6 mm I.D.)
+T10	Intervention 1028 1048	HPLC/MS/MS procedure
+T11	Intervention 1434 1468	administered to healthy volunteers
+T12	Intervention 1602 1622	Cmax and AUCs ratios
+T13	Intervention 1747 1778	cyproheptadine test formulation
+T14	Intervention 1815 1837	Cobavital® formulation
+T15	Intervention 1888 1902	cyproheptadine

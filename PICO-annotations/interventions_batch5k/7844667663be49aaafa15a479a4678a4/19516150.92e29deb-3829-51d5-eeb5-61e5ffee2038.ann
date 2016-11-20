@@ -1,0 +1,25 @@
+T1	Intervention 0 29	Aerobic and strength training
+T2	Intervention 165 216	combination of aerobic and strength training (CAST)
+T3	Intervention 151 160	nutrition
+T4	Intervention 335 344	nutrition
+T5	Intervention 350 354	CAST
+T6	Intervention 478 492	nutrition only
+T7	Intervention 504 513	nutrition
+T8	Intervention 519 536	strength training
+T9	Intervention 662 663	C
+T10	Intervention 673 674	N
+T11	Intervention 685 691	N + ST
+T12	Intervention 704 712	N + CAST
+T13	Intervention 756 795	modified carbohydrate nutrition classes
+T14	Intervention 823 829	N + ST
+T15	Intervention 844 861	strength training
+T16	Intervention 885 893	N + CAST
+T17	Intervention 903 949	a combination of strength and aerobic training
+T18	Intervention 1636 1644	N + CAST
+T19	Intervention 1686 1692	N + ST
+T20	Intervention 1783 1784	N
+T21	Intervention 1816 1824	N + CAST
+T22	Intervention 1880 1884	CAST
+T23	Intervention 1909 1918	nutrition
+T24	Intervention 1928 1937	nutrition
+T25	Intervention 1943 1960	strength training

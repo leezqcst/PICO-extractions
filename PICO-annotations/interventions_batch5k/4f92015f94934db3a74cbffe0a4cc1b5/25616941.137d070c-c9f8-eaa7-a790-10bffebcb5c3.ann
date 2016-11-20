@@ -1,0 +1,9 @@
+T1	Intervention 674 677	IPC
+T2	Intervention 775 778	APC
+T3	Intervention 853 856	INT
+T4	Intervention 188 218	Ischemic preconditioning (IPC)
+T5	Intervention 1884 1887	IPC
+T6	Intervention 1892 1895	APC
+T7	Intervention 1965 1968	INT
+T8	Intervention 223 255	anesthetic preconditioning (APC)
+T9	Intervention 506 533	intermittent clamping (INT)

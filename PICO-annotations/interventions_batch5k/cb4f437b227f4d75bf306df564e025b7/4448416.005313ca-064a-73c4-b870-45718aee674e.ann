@@ -1,0 +1,11 @@
+T1	Intervention 0 30	Coagulation factor concentrate
+T2	Intervention 132 169	clotting factor concentrate infusions
+T3	Intervention 305 322	concentrate alone
+T4	Intervention 326 350	concentrate plus heparin
+T5	Intervention 380 397	concentrate alone
+T6	Intervention 497 512	heparin as well
+T7	Intervention 664 681	concentrate alone
+T8	Intervention 750 759	infusions
+T9	Intervention 849 856	heparin
+T10	Intervention 1056 1073	concentrate alone
+T11	Intervention 1348 1372	concentrate of factor IX

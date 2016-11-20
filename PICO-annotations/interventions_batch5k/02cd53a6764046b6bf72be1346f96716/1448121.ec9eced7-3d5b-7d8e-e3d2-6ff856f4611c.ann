@@ -1,0 +1,18 @@
+T1	Intervention 22 78	trimethoprim-sulfamethoxazole or aerosolized pentamidine
+T2	Intervention 249 285	Pneumocystis carinii pneumonia (PCP)
+T3	Intervention 677 721	trimethoprim-sulfamethoxazole or pentamidine
+T4	Intervention 758 768	zidovudine
+T5	Intervention 824 840	sulfamethoxazole
+T6	Intervention 855 867	trimethoprim
+T7	Intervention 892 915	aerosolized pentamidine
+T8	Intervention 1039 1068	trimethoprim-sulfamethoxazole
+T9	Intervention 1198 1221	aerosolized-pentamidine
+T10	Intervention 1306 1335	trimethoprim-sulfamethoxazole
+T11	Intervention 1358 1369	pentamidine
+T12	Intervention 1475 1486	pentamidine
+T13	Intervention 1676 1705	trimethoprim-sulfamethoxazole
+T14	Intervention 1709 1732	aerosolized pentamidine
+T15	Intervention 1909 1938	trimethoprim-sulfamethoxazole
+T16	Intervention 1959 1970	pentamidine
+T17	Intervention 2066 2095	trimethoprim-sulfamethoxazole
+T18	Intervention 2161 2249	zidovudine, trimethoprim-sulfamethoxazole is more effective than aerosolized pentamidine

@@ -1,0 +1,8 @@
+T1	Intervention 80 90	castration
+T2	Intervention 96 104	anandron
+T3	Intervention 108 115	placebo
+T4	Intervention 208 239	maximal androgen blockade (MAB)
+T5	Intervention 245 282	chemical or surgical castration alone
+T6	Intervention 1019 1027	Anandron
+T7	Intervention 1192 1211	surgical castration
+T8	Intervention 1212 1230	MAB using Anandron

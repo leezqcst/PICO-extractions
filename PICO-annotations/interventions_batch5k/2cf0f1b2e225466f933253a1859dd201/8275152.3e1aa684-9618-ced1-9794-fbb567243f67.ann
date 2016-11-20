@@ -1,0 +1,6 @@
+T1	Intervention 40 88	one-handed and two-handed ventilation techniques
+T2	Intervention 140 201	one- vs two-handed compressions of a manual resuscitation bag
+T3	Intervention 401 483	one- followed by two-handed compression or two- followed by one-handed compression
+T4	Intervention 760 783	two-handed compressions
+T5	Intervention 720 730	one-handed
+T6	Intervention 1076 1107	one- vs two-handed compressions

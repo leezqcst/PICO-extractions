@@ -1,0 +1,7 @@
+T1	Intervention 22 34	radiotherapy
+T2	Intervention 49 77	cisplatin chemo-radiotherapy
+T3	Intervention 439 560	50 Gy/25 fx/5 weeks of teletherapy followed 1-2 weeks later with 12 Gy/2 fx of high-dose-rate intra-lumenal brachytherapy
+T4	Intervention 268 303	adding chemotherapy to radiotherapy
+T5	Intervention 660 673	brachytherapy
+T6	Intervention 762 846	identical radiotherapy with concurrent weekly cisplatin at 35 mg/m(2) for 6-7 cycles
+T7	Intervention 1747 1783	concurrent cisplatin to radiotherapy

@@ -1,0 +1,8 @@
+T1	Intervention 189 221	early withdrawal of cyclosporine
+T2	Intervention 258 286	everolimus (Evr) monotherapy
+T3	Intervention 0 69	Early withdrawal of calcineurin inhibitors and everolimus monotherapy
+T4	Intervention 457 460	CsA
+T5	Intervention 514 541	Evr in combination with CsA
+T6	Intervention 581 596	Evr monotherapy
+T7	Intervention 626 664	CsA with/without mycophenolate mofetil
+T8	Intervention 1306 1357	early withdrawal of CsA followed by Evr monotherapy

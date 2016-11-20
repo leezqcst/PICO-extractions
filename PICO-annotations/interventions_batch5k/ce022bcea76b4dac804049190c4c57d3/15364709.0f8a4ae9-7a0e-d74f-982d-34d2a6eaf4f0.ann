@@ -1,0 +1,20 @@
+T1	Intervention 22 42	docosahexaenoic acid
+T2	Intervention 163 183	docosahexaenoic acid
+T3	Intervention 298 307	vitamin A
+T4	Intervention 426 519	docosahexaenoic acid plus 15 000 IU/d of vitamin A given as retinyl palmitate (DHA + A group)
+T5	Intervention 523 591	control fatty acid plus 15 000 IU/d of vitamin A (control + A group)
+T6	Intervention 680 718	vitamin A, 15 000 IU/d, prior to entry
+T7	Intervention 775 782	DHA + A
+T8	Intervention 786 797	control + A
+T9	Intervention 1235 1270	not taking vitamin A prior to entry
+T10	Intervention 1285 1292	DHA + A
+T11	Intervention 1391 1402	control + A
+T12	Intervention 1558 1582	vitamin A prior to entry
+T13	Intervention 1845 1876	not on vitamin A prior to entry
+T14	Intervention 1918 1929	control + A
+T15	Intervention 1937 1963	dietary omega-3 fatty acid
+T16	Intervention 2100 2125	vitamin A supplementation
+T17	Intervention 2285 2302	vitamin A therapy
+T18	Intervention 2316 2336	docosahexaenoic acid
+T19	Intervention 2409 2418	vitamin A
+T20	Intervention 2456 2475	omega-3 fatty acids

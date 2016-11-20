@@ -1,0 +1,6 @@
+T1	Intervention 0 25	Exercise echocardiography
+T2	Intervention 151 177	tetralogy of Fallot repair
+T3	Intervention 289 321	tetralogy of Fallot (TOF) repair
+T4	Intervention 501 513	repaired TOF
+T5	Intervention 521 536	healthy control
+T6	Intervention 792 800	exercise

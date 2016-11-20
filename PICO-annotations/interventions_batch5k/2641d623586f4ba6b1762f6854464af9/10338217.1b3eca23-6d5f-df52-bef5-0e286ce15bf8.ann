@@ -1,0 +1,21 @@
+T1	Intervention 20 29	glutamine
+T2	Intervention 159 168	glutamine
+T3	Intervention 309 318	glutamine
+T4	Intervention 531 546	glycine-control
+T5	Intervention 515 518	GLN
+T6	Intervention 703 706	GLY
+T7	Intervention 819 831	chemotherapy
+T8	Intervention 1007 1011	AUTO
+T9	Intervention 1128 1132	ALLO
+T10	Intervention 1137 1141	AUTO
+T11	Intervention 1161 1164	GLN
+T12	Intervention 1169 1172	GLY
+T13	Intervention 1196 1200	AUTO
+T14	Intervention 1593 1596	TPN
+T15	Intervention 1666 1669	GLN
+T16	Intervention 1539 1550	GLY placebo
+T17	Intervention 1502 1505	GLN
+T18	Intervention 1703 1706	GLN
+T19	Intervention 1759 1763	AUTO
+T20	Intervention 1767 1775	ALLO BMT
+T21	Intervention 1853 1863	GLN in BMT

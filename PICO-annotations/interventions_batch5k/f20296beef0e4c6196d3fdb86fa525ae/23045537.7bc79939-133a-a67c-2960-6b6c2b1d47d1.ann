@@ -1,0 +1,16 @@
+T1	Intervention 0 20	Patient navigation i
+T2	Intervention 61 99	individually randomized clinical trial
+T3	Intervention 184 206	cancer screening tests
+T4	Intervention 311 326	andomized trial
+T5	Intervention 463 478	screening tests
+T6	Intervention 414 433	f follow-up testing
+T7	Intervention 727 742	screening tests
+T8	Intervention 757 800	navigation and no-navigation (control) arms
+T9	Intervention 823 846	abnormal breast screens
+T10	Intervention 1071 1086	navigated group
+T11	Intervention 1126 1144	Patient navigation
+T12	Intervention 1287 1315	abnormal breast examinations
+T13	Intervention 1356 1424	colorectal (P = 0.0017) and prostate screening resolution (P = 0.06)
+T14	Intervention 1557 1575	Patient navigation
+T15	Intervention 1617 1686	abnormal screening tests for breast, colorectal, and prostate cancers
+T16	Intervention 1806 1846	diagnostic resolution patient navigation

@@ -1,0 +1,7 @@
+T1	Intervention 0 12	Drug therapy
+T2	Intervention 144 230	noninvasive (suppression of ventricular arrhythmias detected by ambulatory monitoring)
+T3	Intervention 235 306	invasive (suppression of arrhythmias induced by programmed stimulation)
+T4	Intervention 1182 1202	noninvasive approach
+T5	Intervention 1110 1127	invasive approach
+T6	Intervention 1895 1930	invasive approach to drug selection
+T7	Intervention 600 666	drug therapy selected by either noninvasive or invasive approaches

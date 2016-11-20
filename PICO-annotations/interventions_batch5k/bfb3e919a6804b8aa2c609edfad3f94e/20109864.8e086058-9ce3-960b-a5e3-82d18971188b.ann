@@ -1,0 +1,5 @@
+T1	Intervention 0 51	Catheter ablation of stable ventricular tachycardia
+T2	Intervention 549 566	catheter ablation
+T3	Intervention 1048 1076	catheter ablation and an ICD
+T4	Intervention 1103 1112	ICD alone
+T5	Intervention 2552 2576	Prophylactic VT ablation

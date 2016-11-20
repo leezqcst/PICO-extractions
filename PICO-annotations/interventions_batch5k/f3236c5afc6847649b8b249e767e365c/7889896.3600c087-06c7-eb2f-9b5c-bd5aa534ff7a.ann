@@ -1,0 +1,10 @@
+T1	Intervention 133 197	early discharge versus attempted full nutritional rehabilitation
+T2	Intervention 0 46	Long-stay versus short-stay hospital treatment
+T3	Intervention 357 380	short- versus long-stay
+T4	Intervention 796 835	short-stay (SS) or long-stay (LS) group
+T5	Intervention 837 896	LS retained in hospital for full nutritional rehabilitation
+T6	Intervention 912 937	SS discharged immediately
+T7	Intervention 953 993	for standard Health Service care at home
+T8	Intervention 1007 1034	plus high-energy supplement
+T9	Intervention 1107 1118	LS received
+T10	Intervention 1128 1166	home care, but without supplementation

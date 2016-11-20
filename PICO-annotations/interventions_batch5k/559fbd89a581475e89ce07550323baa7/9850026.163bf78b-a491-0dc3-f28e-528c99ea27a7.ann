@@ -1,0 +1,17 @@
+T1	Intervention 15 54	dose-escalated and accelerated regimen,
+T2	Intervention 83 92	COPP/ABVD
+T3	Intervention 315 340	standard polychemotherapy
+T4	Intervention 416 563	novel bleomycin, etoposide, doxorubicin, cyclophosphamide, vincristine, procarbazine, and prednisone (BEACOPP) scheme (standard and escalated dose)
+T5	Intervention 582 709	cyclophosphamide, vincristine, procarbazine, and prednisone (COPP)/doxorubicin, bleomycin, vinblastine, and dacarbazine (ABVD).
+T6	Intervention 901 910	COPP/ABVD
+T7	Intervention 1027 1122	cyclophosphamide, doxorubicin, and etoposide with granulocyte colony-stimulating factor (G-CSF)
+T8	Intervention 1144 1156	chemotherapy
+T9	Intervention 1465 1474	COPP/ABVD
+T10	Intervention 1586 1593	BEACOPP
+T11	Intervention 1661 1668	BEACOPP
+T12	Intervention 1749 1756	BEACOPP
+T13	Intervention 1865 1872	BEACOPP
+T14	Intervention 1891 1901	COPP/ABVD;
+T15	Intervention 1912 1919	BEACOPP
+T16	Intervention 2095 2105	COPP/ABVD,
+T17	Intervention 2018 2025	BEACOPP

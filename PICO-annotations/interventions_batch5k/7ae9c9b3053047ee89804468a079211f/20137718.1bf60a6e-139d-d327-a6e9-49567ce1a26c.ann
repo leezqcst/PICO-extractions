@@ -1,0 +1,12 @@
+T1	Intervention 20 89	64 multi-slice spiral computer tomography and serum amyloid A protein
+T2	Intervention 206 288	64 multi-slice spiral computer tomography (MSCT) and serum amyloid A protein (SAA)
+T3	Intervention 482 486	MSCT
+T4	Intervention 491 494	SAA
+T5	Intervention 516 528	MSCT and SAA
+T6	Intervention 596 600	MSCT
+T7	Intervention 608 617	only MSCT
+T8	Intervention 919 940	MSCT and SAA combined
+T9	Intervention 964 968	MSCT
+T10	Intervention 1048 1069	MSCT and SAA combined
+T11	Intervention 1191 1195	MSCT
+T12	Intervention 1609 1621	MSCT and SAA

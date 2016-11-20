@@ -1,0 +1,5 @@
+T1	Intervention 0 22	Routine antibiotic use
+T2	Intervention 249 277	routine antibiotic treatment
+T3	Intervention 454 473	routine antibiotics
+T4	Intervention 482 540	control group (no antibiotics unless clinically indicated)
+T5	Intervention 923 930	control

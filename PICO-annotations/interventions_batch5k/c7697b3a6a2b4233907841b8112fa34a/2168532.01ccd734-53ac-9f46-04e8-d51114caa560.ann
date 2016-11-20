@@ -1,0 +1,6 @@
+T1	Intervention 0 24	Alternating chemotherapy
+T2	Intervention 100 137	rapid cyclic alternating chemotherapy
+T3	Intervention 399 432	initial common continuous therapy
+T4	Intervention 645 852	continuous standard therapy based on the CAV- or CMC-protocol with an alternating schedule often consisting of the CAV- or CMC-derived combinations and a second regimen including cisplatinum and/or etoposide
+T5	Intervention 1616 1635	continuous protocol
+T6	Intervention 1675 1694	alternating therapy

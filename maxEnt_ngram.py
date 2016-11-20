@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[14]:
+# In[2]:
 
 import sys
 import numpy as np
@@ -19,7 +19,7 @@ from evaluation import evaluate_abstract_PRF1
 # 1-Hot features: Function to return x and Y from words and tags.
 # X contains W_t-n...W_t and Z_t-n...Z_t-1.
 
-# In[23]:
+# In[3]:
 
 def clf2_1hot_get_X_Y_dictlist(words, tags, n, dict_vectorizer=None):
     dict_list = []
@@ -65,7 +65,7 @@ def clf2_1hot_get_X_Y_dictlist(words, tags, n, dict_vectorizer=None):
 
 
 
-# In[16]:
+# In[4]:
 
 def get_clf2_X_train(dict_list, dict_vectorizer=None):
     if dict_vectorizer == None:
@@ -78,7 +78,7 @@ def get_clf2_X_train(dict_list, dict_vectorizer=None):
 
 # Train classifier clf2.
 
-# In[17]:
+# In[5]:
 
 def train_clf2(X_train, Y_train, c=1.0):
     clf2 = LogisticRegression(random_state=123, C=c, penalty='l1')
@@ -88,7 +88,7 @@ def train_clf2(X_train, Y_train, c=1.0):
 
 # Function to predict tags using clf2
 
-# In[ ]:
+# In[6]:
 
 def predict_tags_clf2(clf2, dev_words, n, dict_vectorizer):
     Y_pred= []
@@ -192,7 +192,7 @@ Y_pred_dev = predict_tags_clf2(clf2, words_dev, n, dict_vectorizer)
 evaluate_abstract_PRF1(Y_dev, Y_pred_dev)
 
 
-# In[ ]:
+# In[42]:
 
 words_tr, tags_tr = get_all_data_train()
 words_dev, tags_dev = get_all_data_dev()
@@ -215,7 +215,7 @@ print max_f1
 print best_reg
 
 
-# In[ ]:
+# In[43]:
 
 words_tr, tags_tr = get_all_data_train()
 n = 5
@@ -228,6 +228,34 @@ dict_list_other, Y_dev = clf2_1hot_get_X_Y_dictlist(words_dev, tags_dev, n)
 Y_pred_dev = predict_tags_clf2(clf2, words_dev, n, dict_vectorizer)
 
 evaluate_abstract_PRF1(Y_dev, Y_pred_dev)
+
+
+# In[7]:
+
+words_tr, tags_tr = get_all_data_train()
+words_dev, tags_dev = get_all_data_dev()
+words_test, tags_test = get_all_data_test()
+
+n = 3
+dict_list, Y_train = clf2_1hot_get_X_Y_dictlist(words_tr, tags_tr, n)
+X_train, dict_vectorizer = get_clf2_X_train(dict_list, dict_vectorizer=None)
+clf2 = train_clf2(X_train, Y_train, 5.0)
+Y_pred_tr = predict_tags_clf2(clf2, words_tr, n, dict_vectorizer)
+print "train: "
+P, R, F1 = evaluate_abstract_PRF1(Y_train, Y_pred_tr)
+print "Pre {:f},  rec {:f},  f1 {:f}".format(P, R, F1)
+
+dict_list_other, Y_dev = clf2_1hot_get_X_Y_dictlist(words_dev, tags_dev, n)
+Y_pred_dev = predict_tags_clf2(clf2, words_dev, n, dict_vectorizer)
+print "dev: "
+P, R, F1 = evaluate_abstract_PRF1(Y_dev, Y_pred_dev)
+print "Pre {:f},  rec {:f},  f1 {:f}".format(P, R, F1)
+
+dict_list_other, Y_test = clf2_1hot_get_X_Y_dictlist(words_test, tags_test, n)
+Y_pred_test = predict_tags_clf2(clf2, words_test, n, dict_vectorizer)
+print "test: "
+P, R, F1 = evaluate_abstract_PRF1(Y_test, Y_pred_test)
+print "Pre {:f},  rec {:f},  f1 {:f}".format(P, R, F1)
 
 
 # In[ ]:

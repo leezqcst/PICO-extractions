@@ -1,0 +1,12 @@
+T1	Intervention 0 32	Plasmakinetic prostate resection
+T2	Intervention 192 234	plasmakinetic resection of prostate (PKRP)
+T3	Intervention 298 360	transurethral resection of prostate (TURP) and PKRP techniques
+T4	Intervention 567 571	TURP
+T5	Intervention 611 615	PKRP
+T6	Intervention 1306 1310	TURP
+T7	Intervention 1461 1465	TURP
+T8	Intervention 1500 1504	PKRP
+T9	Intervention 1622 1626	PKRP
+T10	Intervention 1646 1650	TURP
+T11	Intervention 1699 1703	PKRP
+T12	Intervention 1862 1865	TUR

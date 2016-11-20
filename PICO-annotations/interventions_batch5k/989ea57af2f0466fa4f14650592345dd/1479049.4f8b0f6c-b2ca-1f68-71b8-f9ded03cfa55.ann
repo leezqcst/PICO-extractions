@@ -1,0 +1,4 @@
+T1	Intervention 0 19	Clonidine treatment
+T2	Intervention 518 525	placebo
+#1	AnnotatorNotes T2	has a placebo group
+T3	Intervention 1326 1345	clonidine treatment

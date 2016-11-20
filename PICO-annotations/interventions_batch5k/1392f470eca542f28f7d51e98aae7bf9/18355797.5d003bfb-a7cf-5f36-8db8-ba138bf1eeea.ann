@@ -1,0 +1,17 @@
+T1	Intervention 79 110	vacuum-assisted closure therapy
+T2	Intervention 258 340	negative-pressure wound therapy (NPWT), using the Vacuum-Assisted Closure (V.A.C.)
+T3	Intervention 361 395	standard moist wound therapy (MWT)
+T4	Intervention 570 575	V.A.C
+T5	Intervention 685 688	MWT
+T6	Intervention 996 999	MWT
+T7	Intervention 1017 1021	NPWT
+T8	Intervention 1123 1126	MWT
+T9	Intervention 1149 1153	NPWT
+T10	Intervention 1171 1174	MWT
+T11	Intervention 1276 1280	NPWT
+T12	Intervention 1428 1432	NPWT
+T13	Intervention 1437 1440	MWT
+T14	Intervention 1543 1547	NPWT
+T15	Intervention 1587 1590	MWT
+T16	Intervention 1683 1687	NPWT
+T17	Intervention 1837 1840	MWT

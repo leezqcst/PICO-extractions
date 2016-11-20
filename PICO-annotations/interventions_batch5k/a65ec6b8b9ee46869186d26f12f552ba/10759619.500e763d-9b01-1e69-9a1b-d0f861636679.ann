@@ -1,0 +1,12 @@
+T1	Intervention 36 76	proton pump inhibitors and roxithromycin
+T2	Intervention 391 413	proton pump inhibitors
+T3	Intervention 417 430	roxithromycin
+T4	Intervention 545 555	omeprazole
+T5	Intervention 568 580	lansoprazole
+T6	Intervention 593 606	roxithromycin
+T7	Intervention 624 695	the combination of roxithromycin with either omeprazole or lansoprazole
+T9	Intervention 938 978	proton pump inhibitors and roxithromycin
+T10	Intervention 1059 1072	roxithromycin
+T11	Intervention 1116 1137	proton pump inhibitor
+T8	Intervention 1359 1399	Proton pump inhibitors and roxithromycin
+T12	Intervention 1466 1488	proton pump inhibitors

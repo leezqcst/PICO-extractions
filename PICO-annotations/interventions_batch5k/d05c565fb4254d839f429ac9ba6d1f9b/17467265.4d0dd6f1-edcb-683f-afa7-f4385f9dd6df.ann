@@ -1,0 +1,6 @@
+T1	Intervention 25 34	cisplatin
+T2	Intervention 42 53	carboplatin
+T3	Intervention 235 269	chemoradiotherapy with carboplatin
+T4	Intervention 277 329	standard concurrent chemoradiotherapy with cisplatin
+T5	Intervention 1544 1568	arboplatin based regimen
+T6	Intervention 1596 1613	cisplatin regimen

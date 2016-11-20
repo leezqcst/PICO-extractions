@@ -1,0 +1,41 @@
+T1	Intervention 0 22	Tacrolimus monotherapy
+T2	Intervention 20 39	py without steroids
+T3	Intervention 94 126	double-blinded placebo-controlle
+T4	Intervention 122 134	olled trial.
+T5	Intervention 136 160	Early steroid withdrawal
+T6	Intervention 167 193	liver transplantation (LT)
+T7	Intervention 226 246	steroid side effects
+T8	Intervention 356 394	double-blind, placebo-controlled trial
+T9	Intervention 306 308	LT
+T10	Intervention 431 433	LT
+T11	Intervention 396 409	Randomization
+T12	Intervention 452 462	tacrolimus
+T13	Intervention 480 497	induction therapy
+T14	Intervention 521 538	methylprednisolon
+T15	Intervention 565 590	double-blinded medication
+T16	Intervention 609 616	placebo
+T17	Intervention 629 646	methylprednisolon
+T18	Intervention 755 782	acute and chronic rejection
+T19	Intervention 801 821	steroid side effects
+T20	Intervention 850 853	LT.
+T21	Intervention 727 754	patient and graft survival,
+T22	Intervention 890 899	(placebo)
+T23	Intervention 910 919	(steroid)
+T24	Intervention 863 879	patient survival
+T25	Intervention 990 1005	acute rejection
+T26	Intervention 1007 1014	placebo
+T27	Intervention 1022 1030	steroid,
+T28	Intervention 1077 1084	placebo
+T29	Intervention 1107 1114	steroid
+T30	Intervention 1133 1150	chronic rejection
+T31	Intervention 1196 1203	placebo
+T32	Intervention 1211 1219	steroid,
+T33	Intervention 1235 1248	CMV infection
+T34	Intervention 1277 1301	post-transplant diabetes
+T35	Intervention 1330 1342	hypertension
+T36	Intervention 1371 1391	hypercholesterolemia
+T37	Intervention 1423 1443	hypertriglyceridemia
+T38	Intervention 1493 1511	steroid withdrawal
+T39	Intervention 1518 1520	LT
+T40	Intervention 1539 1561	tacrolimus monotherapy
+T41	Intervention 1580 1589	rejection

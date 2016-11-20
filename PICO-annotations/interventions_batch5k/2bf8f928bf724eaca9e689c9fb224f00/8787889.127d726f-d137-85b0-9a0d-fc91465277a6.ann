@@ -1,0 +1,9 @@
+T1	Intervention 46 75	pharmacokinetics of meropenem
+T2	Intervention 80 99	imipenem-cilastatin
+T3	Intervention 167 189	imipenem and meropenem
+T4	Intervention 318 376	1 g of imipenem plus 1 g of cilastatin or 1 g of meropenem
+T5	Intervention 617 625	infusion
+T6	Intervention 654 694	imipenem and meropenem measured in serum
+T7	Intervention 1002 1010	Imipenem
+T8	Intervention 1062 1071	meropenem
+T9	Intervention 1141 1163	imipenem and meropenem

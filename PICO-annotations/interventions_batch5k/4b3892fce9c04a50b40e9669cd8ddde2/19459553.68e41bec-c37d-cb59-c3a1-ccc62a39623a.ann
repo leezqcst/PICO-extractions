@@ -1,0 +1,12 @@
+T1	Intervention 0 17	Local anaesthetic
+T2	Intervention 111 130	orthopaedic surgery
+T3	Intervention 581 598	plain bupivacaine
+T4	Intervention 612 632	bupivacaine (500 mg)
+T5	Intervention 1009 1022	control group
+T6	Intervention 1107 1119	PCA morphine
+T7	Intervention 1201 1234	plain bupivacaine and ropivacaine
+T8	Intervention 1279 1306	ropivacaine and bupivacaine
+T9	Intervention 1432 1461	bupivacaine from microspheres
+T10	Intervention 1503 1530	largest dose of bupivacaine
+T11	Intervention 1605 1622	local anaesthetic
+T12	Intervention 2056 2093	local anaesthetic-loaded microspheres

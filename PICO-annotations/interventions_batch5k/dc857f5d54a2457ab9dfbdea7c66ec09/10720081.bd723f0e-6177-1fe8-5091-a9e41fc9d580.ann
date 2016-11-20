@@ -1,0 +1,12 @@
+T1	Intervention 33 59	GH-releasing hormone alone
+T3	Intervention 784 804	GHRH injection alone
+T4	Intervention 808 885	combined with an infusion of the functional somatostatin antagonist, arginine
+T2	Intervention 63 85	combined with arginine
+T5	Intervention 1007 1011	GHRH
+T6	Intervention 956 964	arginine
+T7	Intervention 2252 2266	GHRH treatment
+T8	Intervention 2414 2432	GHRH plus arginine
+T9	Intervention 2584 2602	GHRH plus arginine
+T10	Intervention 2613 2629	GHRH plus saline
+T11	Intervention 2967 2971	GHRH
+T12	Intervention 3152 3156	GHRH

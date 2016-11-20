@@ -1,0 +1,11 @@
+T1	Intervention 16 53	continuous femoral nerve block (CFNB)
+T2	Intervention 58 92	continuous epidural infusion (CEI)
+T3	Intervention 579 613	continuous epidural infusion (CEI)
+T4	Intervention 619 656	continuous femoral nerve block (CFNB)
+T5	Intervention 1074 1189	Group I (CEI) were maintained by continuous infusion of 0.125% levobupivacaine with morphine 0.0125 mg/ml (4 ml/hr)
+T6	Intervention 1191 1258	Group II (CFNB) were maintained by 0.125% levobupivacaine (8 ml/hr)
+T7	Intervention 1284 1294	CFNB group
+T8	Intervention 1388 1397	CEI group
+T9	Intervention 1470 1473	CEI
+T10	Intervention 1604 1608	CFNB
+T11	Intervention 1710 1714	CFNB

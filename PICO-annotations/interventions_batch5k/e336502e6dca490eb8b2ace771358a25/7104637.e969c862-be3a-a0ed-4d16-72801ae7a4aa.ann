@@ -1,0 +1,11 @@
+T1	Intervention 0 25	Intraoperative microscopy
+T2	Intervention 50 79	Direct microscopy of the bile
+T3	Intervention 101 116	cholecystectomy
+T4	Intervention 263 278	cholecystectomy
+T5	Intervention 413 448	antibiotic group or a control group
+T6	Intervention 487 503	antibiotic group
+T7	Intervention 519 533	control group.
+T8	Intervention 666 681	cholecystectomy
+T9	Intervention 736 770	microscopy and culture of the bile
+T10	Intervention 851 861	microscopy
+T11	Intervention 925 958	intraoperative microscopy of bile

@@ -1,0 +1,9 @@
+T1	Intervention 0 14	Cyproheptadine
+T2	Intervention 69 76	placebo
+T3	Intervention 795 826	cyproheptadine plus haloperidol
+T4	Intervention 1233 1261	cyproheptadine + haloperidol
+T5	Intervention 1275 1296	haloperidol + placebo
+T6	Intervention 1374 1404	haloperidol and cyproheptadine
+T7	Intervention 2814 2862	cyproheptadine with a conventional antipsychotic
+T8	Intervention 2882 2914	conventional antipsychotic alone
+T9	Intervention 2127 2141	cyproheptadine

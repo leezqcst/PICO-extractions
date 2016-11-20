@@ -1,0 +1,5 @@
+T1	Intervention 97 171	patient-controlled propofol sedation and that given by a nurse anesthetist
+T2	Intervention 387 572	patient-controlled sedation (PCS) with propofol, nurse anesthetist-controlled sedation (ACS), or the department's standard of care, midazolam given by the procedure team (control group)
+T3	Intervention 701 709	propofol
+T4	Intervention 791 799	propofol
+T5	Intervention 956 965	midazolam

@@ -1,0 +1,22 @@
+T1	Intervention 47 96	scheduled dosing of acetaminophen and hydrocodone
+T2	Intervention 240 296	analgesic administration, with or without nurse coaching
+T3	Intervention 312 325	standard care
+T4	Intervention 341 353	(PRN) dosing
+T5	Intervention 468 497	acetaminophen and hydrocodone
+T6	Intervention 574 577	PRN
+T7	Intervention 650 653	ATC
+T8	Intervention 697 719	without nurse coaching
+T9	Intervention 754 757	ATC
+T10	Intervention 801 814	with coaching
+T11	Intervention 1105 1108	ATC
+T12	Intervention 1171 1174	PRN
+T13	Intervention 1198 1201	ATC
+T14	Intervention 1222 1231	analgesic
+T15	Intervention 1250 1253	PRN
+T16	Intervention 1288 1291	PRN
+T17	Intervention 1359 1362	ATC
+T19	Intervention 1699 1728	acetaminophen and hydrocodone
+T20	Intervention 1752 1755	PRN
+T21	Intervention 1823 1837	Nurse coaching
+T22	Intervention 1876 1879	ATC
+T18	Intervention 1573 1582	analgesic

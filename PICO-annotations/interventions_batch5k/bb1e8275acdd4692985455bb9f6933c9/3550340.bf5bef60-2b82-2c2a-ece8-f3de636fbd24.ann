@@ -1,0 +1,7 @@
+T1	Intervention 163 185	induction chemotherapy
+T2	Intervention 732 783	bleomycin, Cytoxan, methotrexate and 5-fluorouracil
+T3	Intervention 882 914	combined irradiation and surgery
+T4	Intervention 938 963	primary irradiation alone
+T5	Intervention 991 1019	cisplatin and 5-fluorouracil
+T6	Intervention 1648 1660	chemotherapy
+T7	Intervention 2042 2060	standard treatment

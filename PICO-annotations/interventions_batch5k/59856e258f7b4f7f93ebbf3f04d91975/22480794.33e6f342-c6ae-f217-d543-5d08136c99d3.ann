@@ -1,0 +1,18 @@
+T1	Intervention 0 10	Tinzaparin
+T2	Intervention 18 28	dalteparin
+T3	Intervention 163 170	heparin
+T4	Intervention 353 363	tinzaparin
+T5	Intervention 368 378	dalteparin
+T6	Intervention 579 595	warfarin therapy
+T7	Intervention 660 699	3 daily doses of tinzaparin (175 IU/kg)
+T8	Intervention 703 725	dalteparin (200 IU/kg)
+T9	Intervention 732 791	2 intervening HD treatments between the first dose of study
+T10	Intervention 1092 1102	tinzaparin
+T11	Intervention 1128 1138	dalteparin
+T12	Intervention 1213 1250	0.37 ± 0.23 (SD) IU/mL for tinzaparin
+T13	Intervention 1255 1297	0.62 ± 0.41 IU/mL for dalteparin (P = 0.1)
+T14	Intervention 1544 1554	tinzaparin
+T15	Intervention 1667 1677	dalteparin
+T16	Intervention 1730 1740	Dalteparin
+T17	Intervention 1745 1755	tinzaparin
+T18	Intervention 1922 1938	warfarin therapy

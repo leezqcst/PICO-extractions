@@ -1,0 +1,5 @@
+T1	Intervention 0 33	Ultracision versus electrocautery
+T2	Intervention 671 701	ultracision to electrocautery,
+T3	Intervention 892 919	modified radical mastectomy
+T4	Intervention 1118 1168	modified radical mastectomy using ultracision (UC)
+T5	Intervention 1199 1231	conventional electrocautery (EC)

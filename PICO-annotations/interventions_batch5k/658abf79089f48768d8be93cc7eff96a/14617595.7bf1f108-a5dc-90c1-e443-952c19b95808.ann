@@ -1,0 +1,4 @@
+T1	Intervention 436 648	Anesthesia was induced with thiopental and remifentanil (1.0 micro g x kg(-1) bolus and a 1 micro g x kg(-1) x min(-1) infusion) or fentanyl (1 micro g x kg(-1) bolus and a 1.0 micro g x kg(-1) x min(-1) infusion
+T2	Intervention 651 749	The opioid infusion continued until the level of anesthesia was deemed appropriate for intubation.
+T3	Intervention 750 904	Anesthesia was maintained with N(2)O/O(2), isoflurane 0.5 MAC and remifentanil 0.2 micro g x kg(-1) x min(-1) or fentanyl 0.04 micro g x kg(-1) x min(-1).
+T4	Intervention 905 1021	At bone flap replacement, either morphine 0.08 mg x kg(-1) (remifentanil group) or saline (fentanyl group) was given

@@ -1,0 +1,7 @@
+T1	Intervention 105 150	nocturnal continuous positive airway pressure
+T2	Intervention 600 642	continuous positive airway pressure (CPAP)
+T3	Intervention 1010 1033	nocturnal CPAP treatmen
+T4	Intervention 1038 1055	no CPAP (control)
+T5	Intervention 1073 1080	control
+T6	Intervention 1197 1209	CPAP-treated
+T7	Intervention 1779 1793	nocturnal CPAP

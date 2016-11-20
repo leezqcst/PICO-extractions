@@ -1,0 +1,6 @@
+T1	Intervention 176 202	pre-operative chemotherapy
+T2	Intervention 0 12	Chemotherapy
+T3	Intervention 379 450	chemotherapy using 5-fluorouracil, doxorubicin and methotrexate (FAMTX)
+T4	Intervention 482 494	surgery only
+T5	Intervention 1136 1164	limited lymphadenectomy (D1)
+T6	Intervention 2090 2095	FAMTX

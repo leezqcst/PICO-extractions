@@ -1,0 +1,5 @@
+T1	Intervention 57 114	pre-operative and post-operative anastrozole or tamoxifen
+T2	Intervention 339 448	pre-operative (3 months) and post-operative (5 years) adjuvant treatment with either anastrozole or tamoxifen
+T3	Intervention 551 596	anastrozole (1 mg/day) plus tamoxifen placebo
+T4	Intervention 600 646	tamoxifen (20 mg/day) plus anastrozole placebo
+T5	Intervention 717 776	same study medication as adjuvant therapy for up to 5 years

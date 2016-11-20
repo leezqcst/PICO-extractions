@@ -1,0 +1,8 @@
+T1	Intervention 2 103	prospective randomized trial comparing hypofractionation with conventional fractionation radiotherapy
+T2	Intervention 278 304	radiotherapy fraction size
+T3	Intervention 598 635	conventional fractionation (CONV) arm
+T4	Intervention 715 743	hypofractionation (HYPO) arm
+T5	Intervention 1196 1204	HYPO arm
+T6	Intervention 1265 1269	HYPO
+T7	Intervention 1298 1302	CONV
+T8	Intervention 1340 1364	hypofractionation scheme

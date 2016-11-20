@@ -1,0 +1,14 @@
+T1	Intervention 22 39	radiation therapy
+T2	Intervention 52 82	split course radiation therapy
+T3	Intervention 97 108	mitomycin C
+T4	Intervention 113 127	5 fluorouracil
+T5	Intervention 377 389	radiotherapy
+T6	Intervention 391 423	50 Gy in 20 fractions in 28 days
+T7	Intervention 427 707	split course radiotherapy and concurrent chemotherapy, 25 Gy in 10 fractions in 14 days followed by a 4 week rest and a further 25 Gy in 10 fractions in 14 days starting on day 43; Mitomycin C was given on day 1 and day 43 and 5FU continuous infusions on days 1--4 and days 43--46
+T8	Intervention 1193 1211	surgical resection
+T9	Intervention 1222 1234	radiotherapy
+T10	Intervention 1264 1279	salvage surgery
+T11	Intervention 1586 1608	experimental treatment
+T12	Intervention 1616 1641	split course radiotherapy
+T13	Intervention 1646 1705	concurrent chemotherapy with Mitomycin C and 5 Fluorouracil
+T14	Intervention 1718 1730	radiotherapy

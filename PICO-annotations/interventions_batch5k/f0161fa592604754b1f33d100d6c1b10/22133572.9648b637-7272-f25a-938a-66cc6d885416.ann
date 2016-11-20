@@ -1,0 +1,11 @@
+T1	Intervention 641 675	5-FU/folinic acid (FA, FUFA) alone
+T2	Intervention 682 762	combination with irinotecan 5-fluorouracil/folinic acid and irinotecan (FOLFIRI)
+T3	Intervention 192 211	5-fluorouracil (FU)
+T4	Intervention 1534 1541	FOLFIRI
+T5	Intervention 1546 1550	FUFA
+T6	Intervention 1390 1394	FUFA
+T7	Intervention 1378 1385	FOLFIRI
+T8	Intervention 1273 1277	FUFA
+T9	Intervention 1230 1237	FOLFIRI
+T10	Intervention 1105 1112	FOLFIRI
+T11	Intervention 1096 1100	FUFA

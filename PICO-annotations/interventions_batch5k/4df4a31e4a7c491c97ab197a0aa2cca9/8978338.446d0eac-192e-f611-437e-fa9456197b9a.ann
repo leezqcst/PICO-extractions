@@ -1,0 +1,8 @@
+T1	Intervention 114 125	colonoscopy
+T2	Intervention 218 229	colonoscopy
+T3	Intervention 233 266	same day back-to-back colonoscopy
+T4	Intervention 292 314	same day colonoscopies
+T5	Intervention 391 486	second colonoscopy by the same or a different endoscopist and in the same or different position
+T6	Intervention 1188 1219	current colonoscopic technology
+T7	Intervention 1295 1306	colonoscopy
+T8	Intervention 1402 1425	colonoscopic technology

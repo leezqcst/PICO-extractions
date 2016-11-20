@@ -1,0 +1,20 @@
+T1	Intervention 0 3	TEN
+T2	Intervention 11 14	TPN
+T3	Intervention 110 131	enteral feeding (TEN)
+T4	Intervention 144 170	parenteral nutrition (TPN)
+T5	Intervention 266 269	TEN
+T6	Intervention 274 277	TPN
+T7	Intervention 453 515	TEN (Vivonex TEN) or TPN (Freamine HBC 6.9% and Trophamine 6%)
+T8	Intervention 629 632	TEN
+T9	Intervention 682 701	Nutritional support
+T10	Intervention 868 871	TEN
+T11	Intervention 880 883	TPN
+T12	Intervention 1025 1028	TEN
+T13	Intervention 1111 1114	TEN
+T14	Intervention 1134 1137	TPN
+T15	Intervention 1278 1281	TEN
+T16	Intervention 1328 1331	TEN
+T17	Intervention 1369 1372	TPN
+T18	Intervention 1458 1461	TEN
+T19	Intervention 1530 1533	TPN
+T20	Intervention 1573 1576	TEN

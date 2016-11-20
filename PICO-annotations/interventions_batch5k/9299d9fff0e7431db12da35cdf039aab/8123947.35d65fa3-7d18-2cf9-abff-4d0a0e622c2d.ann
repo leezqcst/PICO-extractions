@@ -1,0 +1,33 @@
+T1	Intervention 0 61	Peripheral intravenous line survival and phlebitis prevention
+T3	Intervention 96 131	antibiotics: heparin/hydrocortisone
+T2	Intervention 189 207	in-line filtration
+T4	Intervention 229 250	heparin/hydrocortison
+T5	Intervention 269 276	nfusate
+T6	Intervention 286 306	phlebitis prevention
+T7	Intervention 311 372	intravenous (i.v.) line survival in peripheral i.v. catheters
+T8	Intervention 404 445	patient group receiving prolonged courses
+T9	Intervention 454 465	antibiotics
+T10	Intervention 467 496	Analysis of the two endpoints
+T11	Intervention 501 534	conventional short i.v. catheters
+T12	Intervention 625 676	Patients with cystic fibrosis receiving intermitten
+T13	Intervention 683 694	antibiotics
+T14	Intervention 736 741	drugs
+T15	Intervention 783 801	drug-free infusate
+T16	Intervention 847 854	heparin
+T17	Intervention 869 883	hydrocortisone
+T18	Intervention 893 907	Infusion sites
+T19	Intervention 942 970	the hep/hc and filter groups
+T20	Intervention 996 1037	phlebitis incidence and i.v. line surviva
+T21	Intervention 1073 1093	short and long lines
+T22	Intervention 1125 1171	prolonged survival times and reduced phlebitis
+T23	Intervention 1186 1197	short lines
+T24	Intervention 1232 1244	i.v. filters
+T25	Intervention 1296 1312	i.v. antibiotics
+T26	Intervention 1350 1359	phlebitis
+T27	Intervention 1406 1412	hep/hc
+T28	Intervention 1425 1454	filters in this patient group
+T29	Intervention 1479 1499	terms of ease of use
+T30	Intervention 1527 1550	hep/hc-related problems
+T31	Intervention 1552 1562	Long lines
+T32	Intervention 1595 1606	short lines
+T33	Intervention 1611 1653	patients requiring longer term i.v. access

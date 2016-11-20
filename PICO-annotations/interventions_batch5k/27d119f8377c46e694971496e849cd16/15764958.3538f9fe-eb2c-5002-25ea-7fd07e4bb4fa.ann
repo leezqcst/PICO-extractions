@@ -1,0 +1,13 @@
+T1	Intervention 493 496	ABC
+T2	Intervention 548 551	ABC
+T4	Intervention 648 663	efavirenz (EFV)
+T3	Intervention 617 633	lamivudine (3TC)
+T5	Intervention 894 897	ABC
+T6	Intervention 1134 1137	ABC
+T7	Intervention 1435 1438	ABC
+T8	Intervention 1594 1597	3TC
+T9	Intervention 1602 1605	EFV
+T10	Intervention 0 8	Abacavir
+T11	Intervention 249 263	abacavir (ABC)
+T12	Intervention 54 64	lamivudine
+T13	Intervention 69 78	efavirenz

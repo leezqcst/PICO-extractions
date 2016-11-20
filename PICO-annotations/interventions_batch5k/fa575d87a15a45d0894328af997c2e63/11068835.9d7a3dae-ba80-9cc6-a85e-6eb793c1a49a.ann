@@ -1,0 +1,10 @@
+T1	Intervention 46 79	prophylactic endoscopic treatment
+T2	Intervention 140 180	Endoscopic injection sclerotherapy (EIS)
+T3	Intervention 185 219	endoscopic variceal ligation (EVL)
+T4	Intervention 718 721	EIS
+T5	Intervention 725 728	EVL
+T6	Intervention 800 803	EIS
+T7	Intervention 1204 1215	EIS-treated
+T8	Intervention 1234 1245	EVL treated
+T9	Intervention 1525 1529	EVL,
+T10	Intervention 1870 1873	EVL

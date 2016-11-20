@@ -1,0 +1,22 @@
+T1	Intervention 0 23	Intravenous aflibercept
+T2	Intervention 57 67	irinotecan
+T3	Intervention 69 83	5-fluorouracil
+T4	Intervention 88 98	leucovorin
+T5	Intervention 405 416	aflibercept
+T6	Intervention 430 440	irinotecan
+T7	Intervention 444 456	fluorouracil
+T8	Intervention 461 471	leucovorin
+T9	Intervention 472 481	(LV5FU2).
+T10	Intervention 570 577	placebo
+T11	Intervention 581 592	aflibercept
+T12	Intervention 617 634	irinotecan-LV5FU2
+T13	Intervention 688 699	aflibercept
+T14	Intervention 705 722	irinotecan-LV5FU2
+T15	Intervention 900 907	placebo
+T16	Intervention 931 942	aflibercept
+T17	Intervention 975 986	aflibercept
+T18	Intervention 1025 1036	aflibercept
+T19	Intervention 1207 1218	aflibercept
+T20	Intervention 1572 1583	Aflibercept
+T21	Intervention 1597 1607	irinotecan
+T22	Intervention 1608 1614	LV5FU2

@@ -1,0 +1,28 @@
+T1	Intervention 14 91	adaptive pacing therapy, cognitive behaviour therapy, graded exercise therapy
+T2	Intervention 210 243	cognitive behaviour therapy (CBT)
+T3	Intervention 248 277	graded exercise therapy (GET)
+T4	Intervention 805 847	adaptive pacing therapy (APT), CBT, or GET
+T5	Intervention 1435 1465	APT with CBT, and APT with GET
+T6	Intervention 1703 1706	APT
+T7	Intervention 1725 1728	CBT
+T8	Intervention 1747 1750	GET
+T9	Intervention 1773 1782	SMC-alone
+T10	Intervention 1893 1896	CBT
+T11	Intervention 1804 1807	SMC
+T12	Intervention 1948 1951	GET
+T13	Intervention 1989 1992	APT
+T14	Intervention 2133 2136	CBT
+T15	Intervention 2190 2193	GET
+T16	Intervention 2231 2234	APT
+T17	Intervention 2291 2307	APT, CBT and GET
+T18	Intervention 2343 2346	CBT
+T19	Intervention 2359 2362	GET
+T20	Intervention 2405 2408	CBT
+T21	Intervention 2419 2422	GET
+T22	Intervention 2714 2717	APT
+T23	Intervention 2750 2753	CBT
+T24	Intervention 2784 2787	GET
+T25	Intervention 2822 2831	SMC-alone
+T26	Intervention 2854 2865	CBT and GET
+T27	Intervention 2889 2892	SMC
+T28	Intervention 2958 2961	APT

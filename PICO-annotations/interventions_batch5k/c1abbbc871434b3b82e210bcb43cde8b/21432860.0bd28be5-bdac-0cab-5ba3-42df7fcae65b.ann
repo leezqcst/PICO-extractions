@@ -1,0 +1,14 @@
+T2	Intervention 196 266	advanced glycation end products (AGE) and their receptor (RAGE) system
+T1	Intervention 0 50	Calcium channel blocker inhibition of AGE and RAGE
+T3	Intervention 502 514	azelnidipine
+T4	Intervention 359 416	calcium channel blocker, azelnidipine, but not amlodipine
+T5	Intervention 582 603	azelnidipine addition
+T6	Intervention 673 734	reducing serum levels of AGE and soluble form of RAGE (sRAGE)
+T7	Intervention 816 848	angiotensin II receptor blockers
+T8	Intervention 910 932	azelnidipine treatment
+T9	Intervention 968 994	blocking the AGE-RAGE axis
+T10	Intervention 1083 1095	azelnidipine
+T11	Intervention 1120 1130	amlodipine
+T12	Intervention 1501 1567	azelnidipine, but not amlodipine, decreased circulating AGE, sRAGE
+T13	Intervention 1753 1765	azelnidipine
+T14	Intervention 1858 1898	inhibitory effects on the AGE-RAGE axis.

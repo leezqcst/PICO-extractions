@@ -1,0 +1,8 @@
+T1	Intervention 27 116	induction chemotherapy versus induction chemotherapy followed by maintenance chemotherapy
+T2	Intervention 320 344	maintenance chemotherapy
+T3	Intervention 549 648	induction chemotherapy with ifosfamide, etoposide, and an anthracycline (doxorubicin or epirubicin)
+T4	Intervention 738 757	maintenance therapy
+T5	Intervention 914 934	maintenance therapy,
+T6	Intervention 1211 1231	maintenance therapy,
+T7	Intervention 1304 1317	anthracycline
+T8	Intervention 1469 1493	maintenance chemotherapy

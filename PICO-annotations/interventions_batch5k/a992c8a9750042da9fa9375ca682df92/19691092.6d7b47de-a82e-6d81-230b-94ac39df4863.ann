@@ -1,0 +1,14 @@
+T1	Intervention 22 68	external beam radiotherapy versus cryoablation
+T2	Intervention 188 226	external beam radiation therapy (EBRT)
+T3	Intervention 306 324	external beam EBRT
+T4	Intervention 586 606	cryoablation or EBRT
+T5	Intervention 933 945	cryoablation
+T6	Intervention 1024 1036	cryoablation
+T7	Intervention 1048 1052	EBRT
+T8	Intervention 1141 1162	EBRT and cryoablation
+T9	Intervention 1315 1319	EBRT
+T10	Intervention 1401 1413	cryoablation
+T11	Intervention 1440 1452	cryoablation
+T12	Intervention 1683 1695	cryoablation
+T13	Intervention 1791 1795	EBRT
+T14	Intervention 1801 1813	cryoablation

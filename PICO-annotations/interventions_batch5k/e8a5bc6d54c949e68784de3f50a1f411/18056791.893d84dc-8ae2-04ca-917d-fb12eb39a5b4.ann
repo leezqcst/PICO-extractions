@@ -1,0 +1,21 @@
+T1	Intervention 0 64	Leucine-enriched essential amino acid and carbohydrate ingestion
+T2	Intervention 207 269	ingestion of essential amino acids with carbohydrate (EAA+CHO)
+T3	Intervention 104 108	mTOR
+T4	Intervention 298 334	mammalian target of rapamycin (mTOR)
+T5	Intervention 398 427	EAA+CHO solution postexercise
+T6	Intervention 599 623	eucine-enriched EAA+CHOs
+T7	Intervention 727 745	control or EAA+CHO
+T8	Intervention 752 765	EAA+CHO group
+T9	Intervention 779 796	nutrient solution
+T10	Intervention 828 842	mTOR signaling
+T11	Intervention 888 901	muscle biopsy
+T12	Intervention 1002 1026	Muscle protein synthesis
+T13	Intervention 1031 1053	4E-BP1 phosphorylation
+T14	Intervention 1213 1220	EAA+CHO
+T15	Intervention 1302 1325	phosphorylation of mTOR
+T16	Intervention 1426 1439	control group
+T17	Intervention 1473 1480	EAA+CHO
+T18	Intervention 1595 1602	EAA+CHO
+T19	Intervention 1562 1569	control
+T20	Intervention 1781 1785	mTOR
+T21	Intervention 1906 1913	EAA+CHO

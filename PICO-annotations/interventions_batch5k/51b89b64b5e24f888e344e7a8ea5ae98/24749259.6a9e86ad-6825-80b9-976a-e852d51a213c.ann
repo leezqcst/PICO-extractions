@@ -1,0 +1,11 @@
+T1	Intervention 1 16	Dexmedetomidine
+T2	Intervention 64 72	sedation
+T3	Intervention 86 93	surgery
+T4	Intervention 146 193	sedation with trimeperidine and dexmedetomidine
+T9	Intervention 521 536	dexmedetomidine
+T10	Intervention 570 583	trimeperidine
+T5	Intervention 302 310	sedation
+T6	Intervention 358 391	hypokinetic type of haemodynamics
+T7	Intervention 602 610	sedation
+T8	Intervention 666 673	surgery
+T11	Intervention 675 690	Dexmedetomidine

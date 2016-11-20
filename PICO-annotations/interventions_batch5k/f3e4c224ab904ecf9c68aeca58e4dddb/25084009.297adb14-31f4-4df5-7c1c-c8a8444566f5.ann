@@ -1,0 +1,23 @@
+T1	Intervention 0 8	Physical
+T2	Intervention 13 31	perceptual cooling
+T3	Intervention 144 163	neutral temperature
+T4	Intervention 165 169	cold
+T5	Intervention 174 193	ice-slush beverages
+T6	Intervention 195 224	with and without 0.5% menthol
+T7	Intervention 605 615	aromatized
+T8	Intervention 661 684	non-aromatized beverage
+T9	Intervention 686 718	neutral temperature: 23°C±0.1°C,
+T10	Intervention 719 734	cold: 3°C±0.1°C
+T11	Intervention 739 760	ice-slush: -1°C±0.7°C
+T12	Intervention 1068 1082	beverage aroma
+T13	Intervention 1096 1116	beverage temperature
+T14	Intervention 1214 1223	ice-slush
+T15	Intervention 1236 1255	neutral temperature
+T16	Intervention 1279 1284	aroma
+T17	Intervention 1305 1312	menthol
+T18	Intervention 1316 1327	non-menthol
+T19	Intervention 1379 1396	ice-slush/menthol
+T20	Intervention 1401 1413	cold/menthol
+T21	Intervention 1429 1444	neutral/menthol
+T22	Intervention 1513 1517	Cold
+T23	Intervention 1527 1549	ice-slush with menthol

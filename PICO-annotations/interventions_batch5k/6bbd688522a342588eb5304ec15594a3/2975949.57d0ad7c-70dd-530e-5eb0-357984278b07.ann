@@ -1,0 +1,18 @@
+T1	Intervention 18 26	warfarin
+T2	Intervention 296 304	warfarin
+T3	Intervention 324 332	warfarin
+T4	Intervention 350 357	control
+T5	Intervention 573 581	Warfarin
+T6	Intervention 796 805	verapamil
+T7	Intervention 810 833	other antianginal drugs
+T8	Intervention 861 889	Low molecular weight dextran
+T9	Intervention 894 901	heparin
+T10	Intervention 938 945	heparin
+T11	Intervention 1169 1177	warfarin
+T12	Intervention 1467 1474	control
+T13	Intervention 1775 1783	warfarin
+T14	Intervention 1871 1880	verapamil
+T15	Intervention 1885 1893	warfarin
+T16	Intervention 1902 1920	absence of aspirin
+T17	Intervention 79 107	balloon coronary angioplasty
+T18	Intervention 193 213	coronary angioplasty

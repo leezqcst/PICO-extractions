@@ -1,0 +1,5 @@
+T1	Intervention 0 43	Transcutaneous electrical nerve stimulation
+T2	Intervention 153 157	TENS
+T3	Intervention 436 445	sham TENS
+T4	Intervention 729 746	Subthreshold TENS
+T5	Intervention 164 228	conservative therapy (ibuprofen, bite plate, self-physiotherapy)

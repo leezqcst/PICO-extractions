@@ -1,0 +1,11 @@
+T1	Intervention 38 99	acetylsalicylic acid 81 mg with or without esomeprazole 20 mg
+T2	Intervention 214 282	esomeprazole (40 mg) and acetylsalicylic acid (aspirin, ASA; 325 mg)
+T3	Intervention 414 443	low-dose ASA and esomeprazole
+T4	Intervention 702 765	ASA 81 mg once daily for 5 days prior to the study (pre-screen)
+T5	Intervention 1009 1075	ASA 81 mg with or without esomeprazole 20 mg once daily for 5 days
+T6	Intervention 2099 2134	combination of ASA and esomeprazole
+T7	Intervention 1907 1950	ASA administered alone or with esomeprazole
+T8	Intervention 1852 1876	(ASA + esomeprazole/ASA)
+T9	Intervention 1754 1763	ASA alone
+T10	Intervention 1798 1816	ASA + esomeprazole
+T11	Intervention 1604 1612	ARU <550

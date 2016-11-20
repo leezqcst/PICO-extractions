@@ -1,0 +1,9 @@
+T1	Intervention 0 32	MRI-detected skull-base invasion
+T2	Intervention 82 124	intensity-modulated radiotherapy treatment
+T3	Intervention 411 472	magnetic resonance imaging (MRI)-detected skull-base invasion
+T4	Intervention 493 532	intensity-modulated radiotherapy (IMRT)
+T5	Intervention 612 615	MRI
+T6	Intervention 684 687	NPC
+T7	Intervention 705 709	IMRT
+T8	Intervention 1449 1481	MRI-detected skull-base invasion
+T9	Intervention 1556 1560	IMRT

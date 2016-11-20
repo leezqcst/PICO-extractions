@@ -1,0 +1,18 @@
+T1	Intervention 0 9	Metformin
+T2	Intervention 146 168	metformin pretreatment
+T3	Intervention 386 395	metformin
+T4	Intervention 412 419	placebo
+T9	Intervention 905 914	metformin
+T10	Intervention 943 950	placebo
+T11	Intervention 989 998	metformin
+T12	Intervention 1050 1057	placebo
+T13	Intervention 1197 1206	metformin
+T5	Intervention 442 484	metformin/placebo together with clomiphene
+T6	Intervention 1325 1334	metformin
+T14	Intervention 1367 1374	placebo
+T15	Intervention 1396 1405	Metformin
+T16	Intervention 1242 1249	placebo
+T17	Intervention 326 333	placebo
+T7	Intervention 826 835	metformin
+T8	Intervention 851 858	placebo
+#1	AnnotatorNotes T17	Should placebo be highlighted here?  In this situation it describes method of CT not actual intervention 

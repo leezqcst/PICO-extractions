@@ -1,0 +1,16 @@
+T1	Intervention 0 3	TEN
+T2	Intervention 11 14	TPN
+T3	Intervention 110 131	enteral feeding (TEN)
+T4	Intervention 266 269	TEN
+T5	Intervention 274 277	TPN
+T6	Intervention 416 434	initial laparotomy
+T7	Intervention 453 470	TEN (Vivonex TEN)
+T8	Intervention 474 515	TPN (Freamine HBC 6.9% and Trophamine 6%)
+T9	Intervention 629 632	TEN
+T10	Intervention 1025 1028	TEN
+T11	Intervention 1278 1287	TEN group
+T12	Intervention 1369 1378	TPN group
+T13	Intervention 1329 1340	EN patients
+T14	Intervention 1458 1461	TEN
+T15	Intervention 1530 1533	TPN
+T16	Intervention 1573 1576	TEN

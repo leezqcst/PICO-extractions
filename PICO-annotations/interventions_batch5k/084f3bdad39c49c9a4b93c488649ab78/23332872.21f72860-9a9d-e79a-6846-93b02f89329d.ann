@@ -1,0 +1,19 @@
+T1	Intervention 4 19	tyrosine kinase
+T2	Intervention 119 144	tyrosine kinase inhibitor
+T3	Intervention 149 159	everolimus
+T4	Intervention 399 409	everolimus
+T5	Intervention 447 473	tyrosine kinase inhibitors
+T6	Intervention 480 502	sunitinib or sorafenib
+T7	Intervention 541 544	TKI
+T8	Intervention 603 626	TKI-everolimus sequence
+T9	Intervention 736 747	Oral RAD001
+T10	Intervention 884 911	TKI-everolimus-TKI sequence
+T11	Intervention 952 955	TKI
+T12	Intervention 962 983	everolimus: sunitinib
+T13	Intervention 1000 1009	sorafenib
+T14	Intervention 1021 1039	dovitinib (TKI258)
+T15	Intervention 1069 1085	TKI re-treatment
+T16	Intervention 1205 1223	TKI-everolimus-TKI
+T17	Intervention 1416 1426	everolimus
+T18	Intervention 1514 1517	TKI
+T19	Intervention 1567 1585	TKI-everolimus-TKI

@@ -1,0 +1,13 @@
+T1	Intervention 12 22	colchicine
+T2	Intervention 30 37	placebo
+T3	Intervention 86 104	open-heart surgery
+T4	Intervention 442 452	colchicine
+T5	Intervention 521 585	randomized, triple-blind, placebo-controlled single-center trial
+T6	Intervention 727 753	1 mg/d colchicine (n = 74)
+T7	Intervention 757 785	1 tablet of placebo (n = 75)
+T8	Intervention 1045 1075	pretreatment and posttreatment
+T9	Intervention 1225 1235	colchicine
+T10	Intervention 1338 1367	retreatment and posttreatment
+T11	Intervention 1681 1707	prescription of colchicine
+T12	Intervention 1269 1276	placebo
+T13	Intervention 1399 1444	isolated coronary artery bypass graft surgery

@@ -1,0 +1,8 @@
+T1	Intervention 30 41	gemcitabine
+T2	Intervention 55 64	cisplatin
+T3	Intervention 179 204	gemcitabine and cisplatin
+T4	Intervention 398 409	gemcitabine
+T5	Intervention 458 467	cisplatin
+T6	Intervention 520 531	gemcitabine
+T7	Intervention 1443 1484	gemcitabine in combination with cisplatin
+T8	Intervention 1508 1527	standard GC regimen

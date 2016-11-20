@@ -1,0 +1,21 @@
+T1	Intervention 0 116	Low-dose angiotensin II receptor antagonists and angiotensin II-converting enzyme inhibitors alone or in combination
+T2	Intervention 342 390	angiotensin-converting enzyme inhibitors (ACEIs)
+T3	Intervention 395 434	angiotensin II receptor blockers (ARBs)
+T4	Intervention 560 565	ACEIs
+T5	Intervention 570 574	ARBs
+T6	Intervention 777 785	losartan
+T7	Intervention 809 818	enalapril
+T8	Intervention 846 891	combination of losartan (25 mg) and enalapril
+T9	Intervention 1302 1310	losartan
+T10	Intervention 1330 1339	enalapril
+T11	Intervention 1362 1378	combined therapy
+T12	Intervention 1470 1478	losartan
+T13	Intervention 1498 1507	enalapril
+T14	Intervention 1531 1547	combined therapy
+T15	Intervention 1610 1618	losartan
+T16	Intervention 1623 1632	enalapril
+T17	Intervention 1754 1770	combined therapy
+T18	Intervention 1790 1798	losartan
+T19	Intervention 2111 2119	losartan
+T20	Intervention 2123 2132	enalapril
+T21	Intervention 2138 2164	combination of these drugs

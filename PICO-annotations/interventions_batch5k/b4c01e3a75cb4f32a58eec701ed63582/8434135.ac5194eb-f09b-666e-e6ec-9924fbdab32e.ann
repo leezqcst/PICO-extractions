@@ -1,0 +1,12 @@
+T1	Intervention 501 510	two diets
+T2	Intervention 559 569	anion diet
+T3	Intervention 586 597	cation diet
+T4	Intervention 602 629	[(Na+ + K+) - (Cl- + SO4=)]
+T5	Intervention 635 658	dietary dry matter (DM)
+T6	Intervention 696 709	grass hay and
+T7	Intervention 715 727	concentrates
+T8	Intervention 807 844	KCl, K2SO4 and (NH4)2SO4 (anion diet)
+T9	Intervention 848 867	K2CO3 (cation diet)
+T10	Intervention 755 782	[(Na+ + K+) - (Cl- + SO4=)]
+T11	Intervention 28 55	[(Na+ + K+) - (Cl- + SO4=)]
+T12	Intervention 201 228	[(Na+ + K+) - (Cl- + SO4=)]

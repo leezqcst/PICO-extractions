@@ -1,0 +1,6 @@
+T1	Intervention 12 28	insulin infusion
+T2	Intervention 355 397	continuous microneedle-based drug infusion
+T3	Intervention 586 633	continuous subcutaneous insulin infusion (CSII)
+T4	Intervention 735 768	insulin aspart (NovoRapid® U-100)
+T5	Intervention 144 180	intradermal (ID) drug administration
+T6	Intervention 1703 1734	Intradermal delivery of insulin

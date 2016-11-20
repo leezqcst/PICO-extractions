@@ -1,0 +1,17 @@
+T2	Intervention 295 308	cardioversion
+T3	Intervention 714 731	low-tilt waveform
+T4	Intervention 737 758	conventional waveform
+T1	Intervention 19 75	low-tilt biphasic waveform for transvenous cardioversion
+T5	Intervention 132 170	conventional capacitor-based waveforms
+T6	Intervention 344 389	high-tilt, capacitor-based biphasic waveforms
+T7	Intervention 419 445	low-tilt biphasic waveform
+T8	Intervention 471 488	low-tilt waveform
+T9	Intervention 509 530	conventional waveform
+T10	Intervention 1022 1039	low-tilt waveform
+T11	Intervention 1154 1175	conventional waveform
+T12	Intervention 1273 1290	low-tilt waveform
+T13	Intervention 1319 1340	conventional waveform
+T14	Intervention 1510 1531	conventional waveform
+T15	Intervention 1407 1415	waveform
+T16	Intervention 1592 1618	low-tilt biphasic waveform
+T17	Intervention 1647 1669	internal cardioversion

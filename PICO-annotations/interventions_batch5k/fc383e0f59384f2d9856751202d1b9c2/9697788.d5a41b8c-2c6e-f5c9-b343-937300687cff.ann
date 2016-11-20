@@ -1,0 +1,8 @@
+T2	Intervention 2173 2194	total prostate volume
+T1	Intervention 2053 2075	transition zone volume
+T7	Intervention 632 646	biopsy results
+T8	Intervention 710 821	Planimetric and prolate ellipsoid volumes of the total prostate as well as of the transition zone were measured
+T9	Intervention 867 912	volumes of 57 radical prostatectomy specimens
+T10	Intervention 1109 1155	PSA and PSA corrected for the volumes measured
+T3	Intervention 14 102	prostate-specific antigen corrected for total prostate volume and transition zone volume
+T4	Intervention 278 442	screening study, of serum prostate-specific antigen levels (PSA) and PSA corrected for both the total prostate volume (PSA-D) and the transition zone volume (PSA-T)

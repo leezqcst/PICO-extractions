@@ -1,0 +1,13 @@
+T1	Intervention 36 65	laparoscopic and open surgery
+T2	Intervention 114 136	laparoscopic treatment
+T3	Intervention 374 414	open (103) or laparoscopic (101) surgery
+T4	Intervention 524 543	neoadjuvant therapy
+T5	Intervention 549 566	oral capecitabine
+T6	Intervention 571 606	50-54 Gy external beam radiotherapy
+T7	Intervention 616 644	Sphincter-preserving surgery
+T8	Intervention 788 800	open surgery
+T9	Intervention 862 882	laparoscopic surgery
+T10	Intervention 949 961	open surgery
+T11	Intervention 1129 1147	laparoscopic group
+T12	Intervention 1278 1298	Laparoscopic surgery
+T13	Intervention 1352 1364	open surgery

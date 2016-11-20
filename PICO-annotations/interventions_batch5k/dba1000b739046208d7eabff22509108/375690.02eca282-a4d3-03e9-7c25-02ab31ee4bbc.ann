@@ -1,0 +1,32 @@
+T2	Intervention 24 43	alcoholic cirrhosis
+T3	Intervention 60 73	clinical tria
+T4	Intervention 79 106	double-blind clinical trial
+T5	Intervention 112 124	zinc sulfate
+T6	Intervention 157 164	placebo
+T7	Intervention 213 238	alcoholic liver cirrhosis
+T8	Intervention 199 205	biopsy
+T9	Intervention 335 340	liver
+T10	Intervention 418 422	zinc
+T11	Intervention 427 447	vitamin A metabolism
+T12	Intervention 351 361	Parameters
+T13	Intervention 365 370	liver
+T14	Intervention 381 386	taste
+T15	Intervention 395 399	dark
+T16	Intervention 484 496	zinc-treated
+T17	Intervention 525 529	zinc
+T18	Intervention 519 524	serum
+T19	Intervention 602 607	serum
+T20	Intervention 608 617	vitamin A
+T21	Intervention 740 758	Plasma prothrombin
+T22	Intervention 763 789	serum alkaline phosphatase
+T23	Intervention 804 808	zinc
+T24	Intervention 829 844	serum bilirubin
+T25	Intervention 849 863	serum carotene
+T26	Intervention 898 908	adaptation
+T27	Intervention 933 938	taste
+T28	Intervention 982 986	zinc
+T29	Intervention 1092 1102	cirrhotics
+T30	Intervention 1024 1044	zinc supplementation
+T31	Intervention 47 59	double-blind
+T1	Intervention 0 4	Zinc
+T32	Intervention 5 20	supplementation

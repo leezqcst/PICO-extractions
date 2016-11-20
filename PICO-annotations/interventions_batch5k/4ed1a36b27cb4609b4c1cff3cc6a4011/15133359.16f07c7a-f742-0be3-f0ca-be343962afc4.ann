@@ -1,0 +1,16 @@
+T1	Intervention 148 188	Biventricular pacing system implantation
+T2	Intervention 372 449	dedicated guiding catheters (guiding catheter alone positioning strategy, GCA
+T3	Intervention 473 598	electrophysiology catheter advanced inside the guiding catheter (electrophysiology catheter aided positioning strategy, EPA).
+T4	Intervention 640 655	EPA technique i
+T5	Intervention 724 737	GCA technique
+T6	Intervention 810 813	GCA
+T7	Intervention 831 834	EPA
+T8	Intervention 849 872	CS cannulation strategy
+T9	Intervention 950 953	EPA
+T10	Intervention 991 994	GCA
+T11	Intervention 1056 1059	EPA
+T12	Intervention 1096 1099	GCA
+T13	Intervention 1168 1170	CS
+T14	Intervention 1196 1199	EPA
+T15	Intervention 1236 1239	GCA
+T16	Intervention 1284 1286	CS

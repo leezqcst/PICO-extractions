@@ -1,0 +1,16 @@
+T1	Intervention 23 86	zidovudine and zalcitabine combined with a combination of herbs
+T2	Intervention 227 246	combined-herbs (SH)
+T3	Intervention 258 296	zidovudine (ZDV) and zalcitabine (ddC)
+T4	Intervention 493 509	anti-retrovirals
+T5	Intervention 666 669	ZDV
+T6	Intervention 698 701	ddC
+T7	Intervention 735 737	SH
+T8	Intervention 767 860	a combination of ZDV 200 mg three times per day, ddC 0.75 mg three times per day, and placebo
+T9	Intervention 1129 1136	placebo
+T10	Intervention 1106 1108	SH
+T11	Intervention 1328 1330	SH
+T12	Intervention 1413 1415	SH
+T13	Intervention 1720 1728	SH herbs
+T14	Intervention 1794 1813	triple drug regimen
+T15	Intervention 1598 1606	SH herbs
+T16	Intervention 1694 1709	antiretrovirals

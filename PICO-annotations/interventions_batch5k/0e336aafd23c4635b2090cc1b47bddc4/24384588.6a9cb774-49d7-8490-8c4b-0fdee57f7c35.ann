@@ -1,0 +1,8 @@
+T1	Intervention 38 63	antiretroviral initiation
+T2	Intervention 159 187	antiretroviral therapy (ART)
+T3	Intervention 534 543	efavirenz
+T4	Intervention 448 467	abacavir-lamivudine
+T5	Intervention 481 507	tenofovir DF-emtricitabine
+T6	Intervention 553 573	atazanavir-ritonavir
+T7	Intervention 1510 1517	TDF/FTC
+T8	Intervention 1035 1049	ATV/r (vs. EFV

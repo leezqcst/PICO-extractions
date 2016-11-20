@@ -1,0 +1,11 @@
+T1	Intervention 28 72	treatment with valsartan/hydrochlorothiazide
+T2	Intervention 233 281	combination valsartan/hydrochlorothiazide (HCTZ)
+T3	Intervention 296 325	initial valsartan monotherapy
+T4	Intervention 497 586	valsartan 80 mg (V-low), valsartan 160 mg (V-high) or valsartan/HCTZ 160/12.5 mg (V/HCTZ)
+T5	Intervention 592 725	electively titrated after weeks 2 and 4 to the next dosage level (maximum dose valsartan/HCTZ 160/25 mg) if BP remained >140/90 mm Hg
+T6	Intervention 772 778	V/HCTZ
+T7	Intervention 835 856	valsartan monotherapy
+T8	Intervention 1066 1093	Initial combination therapy
+T9	Intervention 1442 1448	V/HCTZ
+T10	Intervention 1605 1647	combination of valsartan and low-dose HCTZ
+T11	Intervention 1730 1787	starting treatment with a low or higher dose of valsartan

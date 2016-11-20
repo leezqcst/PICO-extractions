@@ -1,0 +1,25 @@
+T1	Intervention 0 22	Vascular pedicle width
+T2	Intervention 272 300	Vascular pedicle width (VPW)
+T3	Intervention 367 370	VPW
+T4	Intervention 436 439	VPW
+T5	Intervention 728 731	VPW
+T6	Intervention 736 765	central venous pressure (CVP)
+T7	Intervention 769 811	pulmonary artery occlusion pressure (PAOP)
+T8	Intervention 886 966	VPW, positive end-expiratory pressure (PEEP), cumulative fluid balance, and PAOP
+T9	Intervention 1072 1075	VPW
+T10	Intervention 1188 1221	VPW/PAOP and VPW/CVP measurements
+T11	Intervention 1237 1240	VPW
+T12	Intervention 1257 1261	PAOP
+T13	Intervention 1303 1306	CVP
+T14	Intervention 1352 1355	VPW
+T15	Intervention 1372 1376	PAOP
+T16	Intervention 1448 1452	PEEP
+T17	Intervention 1454 1457	VPW
+T18	Intervention 1487 1491	PAOP
+T19	Intervention 1530 1533	VPW
+T20	Intervention 1696 1700	PAOP
+T21	Intervention 1714 1717	VPW
+T22	Intervention 1866 1869	VPW
+T23	Intervention 1886 1890	PAOP
+T24	Intervention 1903 1906	CVP
+T25	Intervention 1998 2001	VPW

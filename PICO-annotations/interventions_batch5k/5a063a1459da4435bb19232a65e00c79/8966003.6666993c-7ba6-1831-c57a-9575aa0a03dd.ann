@@ -1,0 +1,15 @@
+T1	Intervention 1 13	Drug therapy
+T2	Intervention 95 109	5-fluorouracil
+T3	Intervention 114 124	interferon
+T4	Intervention 431 441	interferon
+T5	Intervention 446 460	5-fluorouracil
+T6	Intervention 564 579	laser-CO2 group
+T7	Intervention 591 605	5-fluorouracil
+T8	Intervention 626 636	interferon
+T9	Intervention 736 755	adjuvant interferon
+T10	Intervention 847 861	5-fluorouracil
+T11	Intervention 971 985	5-fluorouracil
+T12	Intervention 894 905	laser alone
+T13	Intervention 990 1000	laser only
+T14	Intervention 1056 1066	interferon
+T15	Intervention 1103 1122	surgical deleulking

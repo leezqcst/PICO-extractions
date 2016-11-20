@@ -1,0 +1,8 @@
+T1	Intervention 343 369	0, 1 and 3 months(group A)
+T2	Intervention 371 397	0, 1 and 6 months(group B)
+T3	Intervention 402 429	0, 1 and 12 months(group C)
+T4	Intervention 796 806	groups A-C
+T5	Intervention 971 983	group A to C
+T6	Intervention 1213 1221	3 groups
+T7	Intervention 1289 1301	all 3 groups
+T8	Intervention 1384 1399	0-1-12 schedule

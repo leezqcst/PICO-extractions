@@ -1,0 +1,12 @@
+T1	Intervention 164 182	Temozolomide (TMZ)
+T2	Intervention 0 26	Temozolomide and cisplatin
+T3	Intervention 34 46	temozolomide
+T4	Intervention 371 387	cisplatin (CDDP)
+T5	Intervention 448 452	CDDP
+T6	Intervention 493 496	TMZ
+T7	Intervention 620 636	single-agent TMZ
+T8	Intervention 601 612	combination
+T9	Intervention 910 913	TMZ
+T12	Intervention 1039 1043	CDDP
+T14	Intervention 1787 1812	combination of TMZ + CDDP
+T10	Intervention 980 990	TMZ + CDDP

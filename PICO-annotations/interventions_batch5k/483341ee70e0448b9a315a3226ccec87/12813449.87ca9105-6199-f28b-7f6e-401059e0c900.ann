@@ -1,0 +1,21 @@
+T1	Intervention 96 122	autologous transplantation
+T2	Intervention 0 54	Recombinant human thrombopoietin augments mobilization
+T4	Intervention 330 352	high-dose chemotherapy
+T5	Intervention 357 388	autologous PBPC transplantation
+T6	Intervention 638 645	placebo
+T7	Intervention 647 655	placebo,
+T8	Intervention 656 661	rhTPO
+T9	Intervention 863 885	high-dose chemotherapy
+T10	Intervention 890 910	PBPC transplantation
+T11	Intervention 940 945	rhTPO
+T12	Intervention 1130 1137	placebo
+T13	Intervention 1182 1187	rhTPO
+T14	Intervention 1260 1265	rhTPO
+T15	Intervention 1475 1480	rhTPO
+T16	Intervention 1484 1491	placebo
+T17	Intervention 1793 1798	rhTPO
+T18	Intervention 1919 1924	rhTPO
+T19	Intervention 1960 1964	PBPC
+T20	Intervention 2077 2099	high-dose chemotherapy
+T21	Intervention 2105 2125	PBPC transplantation
+T3	Intervention 181 221	recombinant human thrombopoietin (rhTPO)

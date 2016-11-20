@@ -1,0 +1,5 @@
+T1	Intervention 0 23	Nasotracheal intubation
+T2	Intervention 100 129	Nasotracheal intubation (NTI)
+T3	Intervention 450 453	NTI
+T4	Intervention 506 529	NTI under CTSC guidance
+T5	Intervention 1529 1572	Nasotracheal intubation under CTSC guidance

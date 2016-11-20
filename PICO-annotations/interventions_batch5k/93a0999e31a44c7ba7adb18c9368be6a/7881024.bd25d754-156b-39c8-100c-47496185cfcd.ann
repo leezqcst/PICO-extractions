@@ -1,0 +1,10 @@
+T1	Intervention 41 70	human epidermal growth factor
+T2	Intervention 224 228	hEGF
+T3	Intervention 233 256	cetraxate hydrochloride
+T4	Intervention 258 260	CH
+T5	Intervention 266 280	antiulcer drug
+T6	Intervention 826 842	mouse EGF (mEGF)
+T7	Intervention 850 879	hydroxypropyl cellulose (HPC)
+T8	Intervention 892 902	sucralfate
+T9	Intervention 1271 1287	control (saline)
+T10	Intervention 1583 1586	EGF

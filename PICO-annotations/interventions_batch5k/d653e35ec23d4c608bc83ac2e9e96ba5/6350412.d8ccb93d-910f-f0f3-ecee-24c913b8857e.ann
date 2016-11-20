@@ -1,0 +1,6 @@
+T1	Intervention 457 555	Stage 1 is a single dose treatment where 12 patients were divided randomly into 2 groups of 6 each
+T2	Intervention 557 679	The patients of each group were given 1 drop into each eye: 1 drop every 12 hours for Polym, 1 drop every 6 hours for Plc.
+T3	Intervention 680 731	The patients were observed for a period of 24 hours
+T4	Intervention 733 861	After 24 hours without medication, the treatments were crossed over and nycthemeral graph curves were registered for both groups
+T5	Intervention 863 1088	Stage 2 is a medium term study were the 12 patients used in Stage 1 were added to another 28 patients. All 40 were then assigned to 1 of 2 treatment groups (2 groups of 20 patients each) according to a table of random numbers
+T6	Intervention 1177 1295	Stage 3: finally, every patient could choose his treatment (either Polym or Plc) for the rest of the period (2 months)

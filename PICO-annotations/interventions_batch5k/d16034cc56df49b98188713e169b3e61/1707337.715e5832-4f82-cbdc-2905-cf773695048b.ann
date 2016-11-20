@@ -1,0 +1,11 @@
+T1	Intervention 54 93	vincristine/corticosteroid chemotherapy
+T2	Intervention 180 192	chemotherapy
+T3	Intervention 460 471	vincristine
+T4	Intervention 629 640	vincristine
+T5	Intervention 492 497	bolus
+T6	Intervention 830 841	vincristine
+T7	Intervention 876 889	dexamethasone
+T8	Intervention 1303 1313	Cronassial
+T9	Intervention 1446 1457	Vincristine
+T10	Intervention 1818 1844	vincristine/corticosteroid
+T11	Intervention 1965 1996	vincristine or corticosteroids,

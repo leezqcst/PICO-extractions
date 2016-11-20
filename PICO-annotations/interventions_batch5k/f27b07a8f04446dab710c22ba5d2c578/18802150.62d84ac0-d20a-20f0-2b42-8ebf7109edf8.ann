@@ -1,0 +1,18 @@
+T1	Intervention 57 82	Ewing's sarcoma treatment
+T2	Intervention 84 100	cyclophosphamide
+T3	Intervention 115 125	ifosfamide
+T4	Intervention 330 346	cyclophosphamide
+T5	Intervention 373 383	ifosfamide
+T6	Intervention 443 452	etoposide
+T7	Intervention 1230 1234	VAIA
+T8	Intervention 1268 1272	VACA
+T9	Intervention 1298 1302	VAIA
+T10	Intervention 1341 1346	EVAIA
+T11	Intervention 617 628	vincristine
+T12	Intervention 630 642	dactinomycin
+T13	Intervention 644 654	ifosfamide
+T14	Intervention 660 671	doxorubicin
+T15	Intervention 738 749	vincristine
+T16	Intervention 751 763	dactinomycin
+T17	Intervention 765 781	cyclophosphamide
+T18	Intervention 787 798	doxorubicin

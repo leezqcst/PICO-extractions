@@ -1,0 +1,8 @@
+T1	Intervention 26 44	percutaneous laser
+T2	Intervention 49 72	radiofrequency ablation
+T3	Intervention 155 188	percutaneous laser ablation (PLA)
+T4	Intervention 193 228	radiofrequency thermoablation (RFA)
+T5	Intervention 475 478	PLA
+T6	Intervention 600 603	RFA
+T7	Intervention 1162 1165	RFA
+T8	Intervention 1220 1223	PLA

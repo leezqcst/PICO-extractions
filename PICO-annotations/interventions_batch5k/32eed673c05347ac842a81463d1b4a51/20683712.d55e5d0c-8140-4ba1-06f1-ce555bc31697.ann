@@ -1,0 +1,18 @@
+T1	Intervention 0 46	Sunlight exposure or vitamin D supplementation
+T2	Intervention 234 277	vitamin D 800 IU/day or 100,000 IU/3 months
+T3	Intervention 297 323	advised sunlight exposure.
+T4	Intervention 324 349	Vitamin D supplementation
+T5	Intervention 374 399	advised sunlight exposure
+T6	Intervention 612 637	vitamin D supplementation
+T7	Intervention 641 658	sunlight exposure
+T8	Intervention 703 769	vitamin D(3) supplementation (daily 800 IU or 100,000 IU/3 months)
+T9	Intervention 773 797	sunlight exposure advice
+T10	Intervention 1061 1114	supplementation (daily 800 IU or 100,000 IU/3 months)
+T11	Intervention 1118 1177	advice for sunlight exposure for 6 months (March-September)
+T12	Intervention 1535 1545	800 IU/day
+T13	Intervention 1567 1587	100,000 IU/3 months,
+T14	Intervention 1612 1678	advised sunlight exposure (supplementation vs sunshine p < 0.001).
+T15	Intervention 1755 1770	supplementation
+T16	Intervention 1790 1806	advised sunlight
+T17	Intervention 1920 1945	Vitamin D supplementation
+T18	Intervention 1969 1994	advised sunlight exposure

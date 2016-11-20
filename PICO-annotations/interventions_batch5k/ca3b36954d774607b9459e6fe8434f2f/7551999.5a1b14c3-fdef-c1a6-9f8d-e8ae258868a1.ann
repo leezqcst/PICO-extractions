@@ -1,0 +1,11 @@
+T1	Intervention 0 26	Abdominoperineal resection
+T2	Intervention 31 49	anterior resection
+T3	Intervention 199 237	abdominoperineal or anterior resection
+T4	Intervention 383 395	radiotherapy
+T5	Intervention 514 539	preoperative radiotherapy
+T6	Intervention 618 630	Radiotherapy
+T7	Intervention 775 787	radiotherapy
+T8	Intervention 947 973	abdominoperineal resection
+T9	Intervention 1089 1101	radiotherapy
+T10	Intervention 255 281	preoperative radiotherapy,
+T11	Intervention 117 142	preoperative radiotherapy

@@ -1,0 +1,15 @@
+T1	Intervention 41 50	cisplatin
+T2	Intervention 75 99	paclitaxel and cisplatin
+T3	Intervention 177 189	chemotherapy
+T4	Intervention 350 359	cisplatin
+T5	Intervention 601 610	cisplatin
+T6	Intervention 645 655	paclitaxel
+T7	Intervention 691 700	cisplatin
+T8	Intervention 872 892	paclitaxel/cisplatin
+T9	Intervention 1001 1021	paclitaxel/cisplatin
+T10	Intervention 1138 1158	paclitaxel/cisplatin
+T11	Intervention 1333 1353	paclitaxel/cisplatin
+T12	Intervention 1381 1390	cisplatin
+T13	Intervention 1634 1654	paclitaxel/cisplatin
+T14	Intervention 1691 1700	cisplatin
+T15	Intervention 1747 1767	paclitaxel/cisplatin

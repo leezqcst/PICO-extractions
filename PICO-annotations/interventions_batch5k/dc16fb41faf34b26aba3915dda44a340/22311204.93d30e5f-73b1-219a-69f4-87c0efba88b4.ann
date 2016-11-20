@@ -1,0 +1,8 @@
+T1	Intervention 33 37	rTMS
+T2	Intervention 775 868	12-week long slow frequency repetitive TMS (rTMS) over dorsolateral prefrontal cortex (DLPFC)
+T3	Intervention 929 988	12 sessions of 1 Hz rTMS bilaterally applied over the DLPFC
+T4	Intervention 1110 1157	active rTMS treatment or wait-list (WTL) groups
+T5	Intervention 1159 1234	Baseline and post-TMS/or WTL EEG was collected using 128 channel EEG system
+T6	Intervention 1236 1373	The task involved the recognition of a specific illusory shape, in this case a square or triangle, created by three or four inducer disks
+T7	Intervention 1382 1401	TMS treatment group
+T8	Intervention 1995 2023	neuromodulation (e.g., rTMS)

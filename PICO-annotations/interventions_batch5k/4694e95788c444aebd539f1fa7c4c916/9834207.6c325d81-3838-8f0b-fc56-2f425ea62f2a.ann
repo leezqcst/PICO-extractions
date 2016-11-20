@@ -1,0 +1,27 @@
+T1	Intervention 33 127	granulocyte colony-stimulating factor therapy after autologous blood stem cell transplantation
+T2	Intervention 224 229	PBSCT
+T3	Intervention 312 408	high-dose chemotherapy followed by autologous peripheral blood stem cell transplantation (PBSCT)
+T4	Intervention 485 550	exogenous granulocyte colony-stimulating factor (G-CSF) treatment
+T5	Intervention 596 601	PBSCT
+T6	Intervention 770 784	primary PBSCT,
+T7	Intervention 1068 1073	PBSCT
+T8	Intervention 1213 1218	G-CSF
+T9	Intervention 1259 1264	PBSCT
+T10	Intervention 1280 1293	control group
+T11	Intervention 1343 1535	high-dose regimens without total body irradiation consisted of the MCVAC regimen using ranimustine (MCNU, 450 mg/m2), cytosine arabinoside (16 g/m2), etoposide (1.6 g/m2), and cyclophosphamide
+T12	Intervention 1579 1609	Hi-MEC regimen using melphalan
+T13	Intervention 1623 1632	etoposide
+T14	Intervention 1649 1662	carboplatinum
+T15	Intervention 1853 1858	PBSCT
+T16	Intervention 1729 1738	treatment
+T17	Intervention 2063 2072	treatment
+T18	Intervention 1937 1943	CFU-GM
+T19	Intervention 2263 2268	PBSCT
+T20	Intervention 2589 2594	PBSCT
+T21	Intervention 2392 2399	control
+T22	Intervention 2350 2359	treatment
+T23	Intervention 2732 2739	control
+T24	Intervention 2817 2826	treatment
+T25	Intervention 3072 3111	between the G-CSF treatment and control
+T26	Intervention 3372 3385	G-CSF therapy
+T27	Intervention 3409 3414	PBSCT

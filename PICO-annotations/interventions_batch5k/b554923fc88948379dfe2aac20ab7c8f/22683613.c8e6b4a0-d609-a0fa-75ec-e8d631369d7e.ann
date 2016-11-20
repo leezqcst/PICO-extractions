@@ -1,0 +1,20 @@
+T1	Intervention 0 27	Plerixafor plus granulocyte
+T2	Intervention 61 85	placebo plus granulocyte
+T3	Intervention 885 895	plerixafor
+T4	Intervention 901 912	granulocyte
+T5	Intervention 954 972	placebo plus G-CSF
+T6	Intervention 1212 1222	plerixafor
+T7	Intervention 1241 1248	placebo
+T8	Intervention 1295 1305	plerixafor
+T9	Intervention 1485 1495	plerixafor
+T10	Intervention 1817 1827	plerixafor
+T11	Intervention 1832 1839	placebo
+T12	Intervention 2008 2018	plerixafor
+T13	Intervention 2138 2143	G-CSF
+T14	Intervention 2022 2027	G-CSF
+T15	Intervention 2352 2357	G-CSF
+T16	Intervention 2180 2185	G-CSF
+T17	Intervention 2164 2174	plerixafor
+T18	Intervention 2445 2455	plerixafor
+T19	Intervention 2461 2466	G-CSF
+T20	Intervention 2481 2486	G-CSF

@@ -1,0 +1,14 @@
+T1	Intervention 16 53	continuous femoral nerve block (CFNB)
+T2	Intervention 58 92	continuous epidural infusion (CEI)
+T3	Intervention 150 179	total knee arthroplasty (TKA)
+T4	Intervention 124 143	knee rehabilitation
+T5	Intervention 207 225	epidural analgesia
+T6	Intervention 235 260	femoral nerve block (FNB)
+T7	Intervention 455 458	FNB
+T8	Intervention 467 469	EA
+T9	Intervention 110 119	analgesia
+T10	Intervention 483 492	analgesic
+T11	Intervention 579 613	continuous epidural infusion (CEI)
+T12	Intervention 619 656	continuous femoral nerve block (CFNB)
+T13	Intervention 685 694	analgesic
+T14	Intervention 733 752	knee rehabilitation

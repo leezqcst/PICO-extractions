@@ -1,0 +1,8 @@
+T1	Intervention 195 206	ranibizumab
+T2	Intervention 214 252	verteporfin photodynamic therapy (PDT)
+T3	Intervention 512 523	ranibizumab
+T4	Intervention 550 565	sham PDT or PDT
+T5	Intervention 576 590	sham injection
+T6	Intervention 592 626	Photodynamic therapy (or sham PDT)
+T7	Intervention 1002 1013	ranibizumab
+T8	Intervention 1030 1033	PDT

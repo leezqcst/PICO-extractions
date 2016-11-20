@@ -1,0 +1,9 @@
+T1	Intervention 0 49	Mode of ventilation during cardiopulmonary bypass
+T2	Intervention 186 242	modes of ventilation during cardiopulmonary bypass (CPB)
+T3	Intervention 570 613	one of 5 modes of ventilation during bypass
+T4	Intervention 639 686	high-frequency/low-volume ventilation with 100%
+T5	Intervention 700 710	21% oxygen
+T6	Intervention 746 805	continuous positive airway pressure of 5 cm H(2)O with 100%
+T7	Intervention 819 829	21% oxygen
+T8	Intervention 857 936	each patient's airway was disconnected from the ventilator (passive deflation).
+T9	Intervention 1407 1437	Mode of ventilation during CPB

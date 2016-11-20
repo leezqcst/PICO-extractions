@@ -1,0 +1,9 @@
+T2	Intervention 77 122	Angio-Seal, StarClose, and manual compression
+T3	Intervention 147 209	Angio-Seal (AS) and StarClose (SC) and manual compression (MC)
+T1	Intervention 1522 1524	MC
+T4	Intervention 1365 1367	SC
+T5	Intervention 821 823	AS
+T7	Intervention 900 902	MC
+T6	Intervention 849 851	SC
+T8	Intervention 577 590	AS, SC, or MC
+T9	Intervention 665 667	MC

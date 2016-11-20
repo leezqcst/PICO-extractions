@@ -1,0 +1,14 @@
+T1	Intervention 21 58	clopidogrel plus acetylsalicylic acid
+T2	Intervention 73 128	extended-release dipyridamole plus acetylsalicylic acid
+T3	Intervention 260 271	clopidogrel
+T4	Intervention 282 313	plus acetylsalicylic acid (ASA)
+T5	Intervention 395 411	dipyridamole+ASA
+T6	Intervention 488 514	dual antiplatelet regimens
+T7	Intervention 773 795	once-daily clopidogrel
+T8	Intervention 802 827	plus acetylsalicylic acid
+T9	Intervention 850 879	extended-release dipyridamole
+T10	Intervention 887 912	plus acetylsalicylic acid
+T11	Intervention 1362 1399	clopidogrel plus acetylsalicylic acid
+T12	Intervention 1431 1486	extended-release dipyridamole plus acetylsalicylic acid
+T13	Intervention 1713 1750	Clopidogrel plus acetylsalicylic acid
+T14	Intervention 1819 1874	extended-release dipyridamole plus acetylsalicylic acid

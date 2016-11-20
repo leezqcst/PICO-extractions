@@ -1,0 +1,8 @@
+T1	Intervention 0 14	TEN versus TPN
+T2	Intervention 110 131	enteral feeding (TEN)
+T3	Intervention 144 170	parenteral nutrition (TPN)
+T4	Intervention 453 456	TEN
+T5	Intervention 474 477	TPN
+T6	Intervention 868 871	TEN
+T7	Intervention 880 883	TPN
+T8	Intervention 1328 1331	TEN

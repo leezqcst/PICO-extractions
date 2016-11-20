@@ -1,0 +1,10 @@
+T1	Intervention 0 54	Leucocyte depletion of perioperative blood transfusion
+T2	Intervention 159 205	Perioperative red blood cell (RBC) transfusion
+T3	Intervention 249 263	cancer surgery
+T4	Intervention 367 413	transfusion with leucocyte-depleted (LD) blood
+T5	Intervention 468 479	Transfusion
+T6	Intervention 507 518	Transfusion
+T7	Intervention 640 642	LD
+T8	Intervention 650 674	non-LD RBC transfusions.
+T9	Intervention 907 914	surgery
+T10	Intervention 959 1006	perioperative RBC transfusion (median 3 units).

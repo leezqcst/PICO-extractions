@@ -1,0 +1,5 @@
+T1	Intervention 374 414	treatment with a protease inhibitor (PI)
+T2	Intervention 416 470	non-nucleoside reverse transcriptase inhibitor (NNRTI)
+T3	Intervention 475 479	both
+T4	Intervention 2883 2902	NNRTI-based regimen
+T5	Intervention 2908 2925	PI-based regimen,

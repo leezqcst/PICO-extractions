@@ -1,0 +1,11 @@
+T1	Intervention 10 20	camel milk
+T2	Intervention 185 217	camel milk (CM) (raw and boiled)
+T3	Intervention 370 394	placebo group (cow milk)
+T4	Intervention 480 489	boiled CM
+T5	Intervention 512 518	raw CM
+T6	Intervention 546 553	placebo
+T7	Intervention 719 735	milk consumption
+T8	Intervention 860 883	boiled CM and in raw CM
+T9	Intervention 947 954	placebo
+T10	Intervention 1042 1048	raw CM
+T11	Intervention 1194 1196	CM

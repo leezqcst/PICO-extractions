@@ -1,0 +1,10 @@
+T1	Intervention 38 72	single donor platelet transfusions
+T2	Intervention 265 308	random multiple-donor platelet concentrates
+T3	Intervention 370 403	single-donor platelets (SD group)
+T4	Intervention 655 666	SD patients
+T5	Intervention 693 709	random platelets
+T6	Intervention 897 908	transfusion
+T7	Intervention 840 842	SD
+T8	Intervention 944 946	MD
+T9	Intervention 1068 1079	transfusion
+T10	Intervention 1098 1129	random SD platelet transfusions

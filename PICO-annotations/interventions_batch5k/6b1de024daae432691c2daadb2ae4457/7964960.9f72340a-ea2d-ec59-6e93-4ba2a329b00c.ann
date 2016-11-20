@@ -1,0 +1,20 @@
+T1	Intervention 25 32	placebo
+T2	Intervention 63 74	ondansetron
+T3	Intervention 195 206	ondansetron
+T4	Intervention 381 408	bone marrow transplantation
+T5	Intervention 462 484	ondansetron or placebo
+T6	Intervention 529 551	Initial rescue therapy
+T7	Intervention 584 595	ondansetron
+T8	Intervention 767 778	ondansetron
+T9	Intervention 954 965	ondansetron
+T10	Intervention 1039 1046	placebo
+T11	Intervention 1099 1110	ondansetron
+T12	Intervention 1146 1153	placebo
+T13	Intervention 1257 1268	ondansetron
+T14	Intervention 1308 1326	antiemetic therapy
+T15	Intervention 1367 1374	placebo
+T16	Intervention 1410 1428	antiemetic therapy
+T17	Intervention 1434 1441	placebo
+T18	Intervention 1464 1486	initial rescue therapy
+T19	Intervention 1497 1508	ondansetron
+T20	Intervention 1725 1736	ondansetron

@@ -1,0 +1,5 @@
+T1	Intervention 0 58	Granulocyte-macrophage colony-stimulating factor treatment
+T2	Intervention 186 359	inhibition of stem-cell activity induced by granulocyte-macrophage colony-stimulating factor ([GM-CSF]; Sargramostim; Immunex Corporation, Seattle, WA) withdrawal or priming
+T3	Intervention 654 798	double-blind, placebo-controlled, balanced randomization, subjects received GM-CSF priming on days 5 to 1 for courses 1 and 3 or courses 2 and 4
+T4	Intervention 2304 2318	GM-CSF priming
+T5	Intervention 1894 1978	GM-CSF priming from days 5 to 1 before doxorubicin and cyclophosphamide chemotherapy

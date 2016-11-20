@@ -1,0 +1,8 @@
+T1	Intervention 752 772	crystalloid solution
+T2	Intervention 801 808	colloid
+T3	Intervention 833 848	no prehydration
+T4	Intervention 119 162	crystalloids, colloids, and no prehydration
+T5	Intervention 216 258	infusing a crystalloid or colloid solution
+T6	Intervention 570 593	crystalloid and colloid
+T7	Intervention 1124 1131	colloid
+T8	Intervention 1575 1597	crystalloid or colloid

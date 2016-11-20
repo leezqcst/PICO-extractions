@@ -1,0 +1,11 @@
+T1	Intervention 0 60	Syncope Evaluation in the Emergency Department Study (SEEDS)
+T2	Intervention 520 543	syncope unit evaluation
+T3	Intervention 548 561	standard care
+T4	Intervention 595 604	chi2 test
+T5	Intervention 648 670	Wilcoxon rank sum test
+T6	Intervention 894 906	syncope unit
+T7	Intervention 916 928	syncope unit
+T8	Intervention 933 955	standard care patients
+T9	Intervention 1326 1338	syncope unit
+T10	Intervention 1343 1363	standard care groups
+T11	Intervention 1401 1413	syncope unit

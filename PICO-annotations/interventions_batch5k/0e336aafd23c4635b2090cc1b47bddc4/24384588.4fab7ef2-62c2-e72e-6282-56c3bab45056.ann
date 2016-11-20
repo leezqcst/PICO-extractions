@@ -1,0 +1,13 @@
+T1	Intervention 38 63	antiretroviral initiation
+T2	Intervention 159 187	antiretroviral therapy (ART)
+T3	Intervention 448 477	abacavir-lamivudine (ABC/3TC)
+T4	Intervention 481 517	tenofovir DF-emtricitabine (TDF/FTC)
+T6	Intervention 553 581	atazanavir-ritonavir (ATV/r)
+T5	Intervention 534 549	efavirenz (EFV)
+T7	Intervention 610 642	dual-energy absorptiometry (DXA)
+T8	Intervention 647 676	abdominal computed tomography
+T9	Intervention 1196 1203	ABC/3TC
+T10	Intervention 1208 1215	TDF/FTC
+T11	Intervention 1035 1050	ATV/r (vs. EFV)
+T12	Intervention 1498 1517	ABC/3TC vs. TDF/FTC
+T13	Intervention 1567 1580	ATV/r vs. EFV

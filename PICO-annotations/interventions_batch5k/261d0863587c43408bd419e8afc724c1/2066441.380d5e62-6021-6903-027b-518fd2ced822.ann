@@ -1,0 +1,11 @@
+T1	Intervention 344 438	4 consecutive administrations of tetracycline-immobilized cross-linked collagen film (TC film)
+T2	Intervention 480 513	root planing treatment (RP group)
+T3	Intervention 519 556	combination treatment (TC + RP group)
+T4	Intervention 562 590	no treatment (control group)
+T5	Intervention 48 86	tetracycline-immobilized collagen film
+T6	Intervention 91 103	root planing
+T7	Intervention 946 948	RP
+T8	Intervention 953 967	TC + RP groups
+T9	Intervention 988 1001	TC + RP group
+T10	Intervention 1149 1162	root planning
+T11	Intervention 1283 1291	TC films

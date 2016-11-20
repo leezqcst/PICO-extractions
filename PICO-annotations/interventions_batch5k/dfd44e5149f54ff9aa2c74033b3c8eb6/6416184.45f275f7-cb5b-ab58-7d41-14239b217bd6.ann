@@ -1,0 +1,14 @@
+T1	Intervention 25 56	long-term adjuvant chemotherapy
+T2	Intervention 62 70	ftorafur
+T3	Intervention 75 86	mitomycin C
+T4	Intervention 153 184	long-term adjuvant chemotherapy
+T5	Intervention 217 247	Surgical Adjuvant Chemotherapy
+T6	Intervention 355 358	MMC
+T7	Intervention 366 374	Futraful
+T8	Intervention 402 418	MMC and Futraful
+T9	Intervention 652 671	combination therapy
+T10	Intervention 711 719	Futraful
+T11	Intervention 786 826	long-term combined adjuvant chemotherapy
+T12	Intervention 832 835	MMC
+T13	Intervention 840 848	Futraful
+T14	Intervention 887 908	chemotherapy regimens

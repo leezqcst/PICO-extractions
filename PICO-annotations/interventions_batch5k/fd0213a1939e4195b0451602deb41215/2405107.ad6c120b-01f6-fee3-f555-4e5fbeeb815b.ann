@@ -1,0 +1,13 @@
+T1	Intervention 40 87	fluorouracil versus fluorouracil plus cisplatin
+T2	Intervention 159 171	chemotherapy
+T3	Intervention 301 349	fluorouracil (FU) versus cisplatin (CDDP) and FU
+T4	Intervention 405 407	FU
+T5	Intervention 483 490	CDDP/FU
+T6	Intervention 505 509	CDDP
+T7	Intervention 811 818	CDDP/FU
+T8	Intervention 879 886	CDDP/FU
+T9	Intervention 1252 1259	CDDP/FU
+T10	Intervention 1264 1266	FU
+T11	Intervention 1378 1385	CDDP/FU
+T12	Intervention 1368 1370	FU
+T13	Intervention 1576 1583	CDDP/FU

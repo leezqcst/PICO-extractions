@@ -1,0 +1,7 @@
+T1	Intervention 19 30	gemcitabine
+T2	Intervention 36 46	tipifarnib
+T3	Intervention 78 85	placebo
+T4	Intervention 163 302	farnesyltransferase inhibitor tipifarnib (Zarnestra, R115777; Johnson and Johnson Pharmaceutical Research and Development, Beerse, Belgium)
+T5	Intervention 306 334	standard gemcitabine therapy
+T6	Intervention 478 502	gemcitabine + tipifarnib
+T7	Intervention 510 531	gemcitabine + placebo

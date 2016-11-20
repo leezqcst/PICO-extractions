@@ -1,0 +1,12 @@
+T1	Intervention 18 30	chemotherapy
+T2	Intervention 35 52	radiation therapy
+T3	Intervention 245 296	breast-conserving therapy and adjuvant chemotherapy
+T4	Intervention 333 367	chemotherapy and radiation therapy
+T5	Intervention 597 614	radiation therapy
+T6	Intervention 561 573	chemotherapy
+T7	Intervention 879 891	chemotherapy
+T8	Intervention 846 858	radiotherapy
+T9	Intervention 1146 1181	radiotherapy-first and chemotherapy
+T10	Intervention 1575 1587	chemotherapy
+T11	Intervention 1600 1618	radiation therapy,
+T12	Intervention 1631 1673	radiation therapy followed by chemotherapy

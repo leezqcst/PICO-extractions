@@ -1,0 +1,4 @@
+T1	Intervention 401 465	full face mask and an artificial leak in the ventilatory circuit
+T2	Intervention 538 560	either without leakage
+T3	Intervention 574 610	with leakage during inspiration only
+T4	Intervention 629 675	with leakage during inspiration and expiration

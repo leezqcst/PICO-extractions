@@ -1,0 +1,10 @@
+T1	Intervention 23 97	thymopentin in zidovudine (AZT)-treated asymptomatic HIV-infected subjects
+T2	Intervention 168 225	Thymopentin, 50 mg subcutaneously (s.c.) 3 times per week
+T3	Intervention 272 279	placebo
+#1	AnnotatorNotes T3	control arm
+T4	Intervention 511 534	> 6 months AZT at entry
+#2	AnnotatorNotes T4	note: instructions regarding annotating pre-treatment is not clearly given to me.
+T5	Intervention 566 594	< or = 6 months AZT at entry
+#3	AnnotatorNotes T5	note: instructions regarding annotating pre-treatment is not clearly given to me.
+T6	Intervention 1019 1030	thymopentin
+T7	Intervention 1041 1048	placebo

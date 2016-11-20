@@ -1,0 +1,23 @@
+T1	Intervention 4 79	acute effects of fluid intake on urine specific gravity and fluid retention
+T2	Intervention 230 258	drink fluids before exercise
+T3	Intervention 520 525	water
+T4	Intervention 623 632	water (W)
+T5	Intervention 634 648	salt-water (SW
+T6	Intervention 663 696	carbohydrate-electrolyte solution
+T7	Intervention 708 726	light carbohydrate
+T9	Intervention 1050 1061	W ingestion
+T10	Intervention 1187 1190	CES
+T11	Intervention 1264 1265	W
+T12	Intervention 1281 1283	SW
+T13	Intervention 1299 1304	CES-L
+T14	Intervention 1320 1323	CES
+T15	Intervention 1347 1351	salt
+T16	Intervention 1355 1368	CES ingestion
+T17	Intervention 1401 1402	W
+T18	Intervention 1408 1410	SW
+T19	Intervention 1416 1421	CES-L
+T20	Intervention 1427 1430	CES
+T21	Intervention 1559 1560	W
+T22	Intervention 1566 1603	combination of salt and CES solutions
+T23	Intervention 776 779	CES
+T8	Intervention 750 774	CES with 6% carbohydrate

@@ -1,0 +1,6 @@
+T1	Intervention 755 766	doxorubicin
+T2	Intervention 695 707	Single agent
+T3	Intervention 711 744	combination chemotherapy regimens
+T4	Intervention 778 799	doxorubicin/cisplatin
+T5	Intervention 812 834	doxorubicin/paclitaxel
+T6	Intervention 851 883	paclitaxel/doxorubicin/cisplatin

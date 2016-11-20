@@ -1,0 +1,16 @@
+T1	Intervention 6 27	injection of propofol
+T2	Intervention 154 181	rapid injection of propofol
+T3	Intervention 416 445	elective orthopedic surgeries
+T4	Intervention 536 586	pretreated with normal saline followed by propofol
+T5	Intervention 634 690	pretreated with lidocaine 0.5 mg/kg followed by propofol
+T6	Intervention 742 798	pretreated with lidocaine 1.0 mg/kg followed by propofol
+T7	Intervention 850 900	pretreated with normal saline followed by propofol
+T8	Intervention 1025 1038	LMA insertion
+T9	Intervention 1134 1143	lidocaine
+T10	Intervention 1072 1087	Rapid injection
+T11	Intervention 1174 1222	slow injection after pretreatment with lidocaine
+T12	Intervention 1234 1249	Rapid injection
+T13	Intervention 1284 1313	slow injection with lidocaine
+T14	Intervention 1370 1418	slow injection after pretreatment with lidocaine
+T15	Intervention 1446 1478	rapid administration of propofol
+T16	Intervention 1529 1560	slow administration of propofol

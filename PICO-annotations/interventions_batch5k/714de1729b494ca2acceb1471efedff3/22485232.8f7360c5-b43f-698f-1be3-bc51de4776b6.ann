@@ -1,0 +1,6 @@
+T1	Intervention 571 657	Procalcitonin was measured daily by a semi-quantitative immunoassay in the study group
+T2	Intervention 0 13	Procalcitonin
+#1	AnnotatorNotes T2	assessment of Procalcitonin -- is the intervention (though not literally)
+T3	Intervention 50 68	antibiotic therapy
+T4	Intervention 717 785	PCT-guided group (study group) and a prophylactic antibiotic therapy
+T5	Intervention 803 1276	Antibiotic therapy in the study group was not applied until clinical signs and symptoms of infection appeared (PCT value was >0.5ng/ml). We discontinued the antibiotic therapy if clinical signs and symptoms of infection improved and PCT was <0.5ng/ml over 3 days. In the control group, antibiotic therapy was administrated for 2 weeks, or antibiotic therapy was continued because of confirmed infection until clinical signs and symptoms of infection disappeared over 3 days

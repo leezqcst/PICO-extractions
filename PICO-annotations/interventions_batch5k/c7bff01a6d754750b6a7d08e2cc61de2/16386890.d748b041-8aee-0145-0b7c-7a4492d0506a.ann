@@ -1,0 +1,11 @@
+T1	Intervention 76 88	radiotherapy
+T2	Intervention 189 271	Ki-67 staining, in patients treated in the CHART trial of accelerated radiotherapy
+T3	Intervention 395 409	Ki-67 staining
+T4	Intervention 498 503	Ki-67
+T5	Intervention 900 925	intermediate Ki-67 groups
+T6	Intervention 949 977	high Ki-67 group (P = 0.032)
+T7	Intervention 1056 1061	CHART
+T8	Intervention 1086 1118	locoregional control (P = 0.005)
+T9	Intervention 1175 1199	high pre-treatment Ki-67
+T10	Intervention 1246 1270	accelerated radiotherapy
+T11	Intervention 808 813	CHART

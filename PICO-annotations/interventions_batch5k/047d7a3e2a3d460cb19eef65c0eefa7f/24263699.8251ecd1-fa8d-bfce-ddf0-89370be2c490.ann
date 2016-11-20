@@ -1,0 +1,13 @@
+T1	Intervention 710 751	Patients underwent clinic and home visits
+T2	Intervention 917 962	Participants underwent clinic and home visits
+T3	Intervention 1053 1091	binocular distance visual acuity (DVA)
+T4	Intervention 1117 1141	near visual acuity (NVA)
+T5	Intervention 1143 1168	contrast sensitivity (CS)
+T6	Intervention 1170 1197	CS with glare, and lighting
+T7	Intervention 1452 1455	DVA
+T8	Intervention 1702 1705	NVA
+T9	Intervention 1763 1776	CS with glare
+T10	Intervention 1889 1924	DVA, NVA, and CS with glare testing
+T11	Intervention 2059 2070	DVA and NVA
+T12	Intervention 2188 2217	Vision measured in the clinic
+T13	Intervention 2243 2266	vision measured at home

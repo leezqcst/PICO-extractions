@@ -1,0 +1,17 @@
+T1	Intervention 0 50	Bedside ultrasound-guided celiac plexus neurolysis
+T2	Intervention 137 170	percutaneous bilateral paramedian
+T3	Intervention 175 223	unilateral paramedian needle-insertion technique
+T4	Intervention 239 290	Percutaneous anterior abdominal ultrasound guidance
+T5	Intervention 306 330	celiac plexus neurolysis
+T6	Intervention 569 619	ultrasound-guided celiac plexus neurolysis (USCPN)
+T7	Intervention 709 714	USCPN
+T8	Intervention 721 767	bilateral paramedian (double needle) technique
+T9	Intervention 773 820	unilateral paramedian (single needle) technique
+T10	Intervention 983 990	ethanol
+T11	Intervention 1002 1013	bupivacaine
+T12	Intervention 1034 1046	unilaterally
+T13	Intervention 1065 1076	bilaterally
+T14	Intervention 1307 1348	drug injections (single or double needle)
+T16	Intervention 1907 1970	bilateral paramedian (double needle) needle-insertion technique
+T15	Intervention 1774 1816	Ultrasound-guided celiac plexus neurolysis
+T17	Intervention 1823 1887	unilateral paramedian (single needle) needle-insertion technique

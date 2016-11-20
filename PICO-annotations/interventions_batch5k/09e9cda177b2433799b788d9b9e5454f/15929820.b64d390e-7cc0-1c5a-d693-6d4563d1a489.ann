@@ -1,0 +1,19 @@
+T1	Intervention 57 66	diltiazem
+T2	Intervention 175 184	diltiazem
+T3	Intervention 199 212	nitroglycerin
+T4	Intervention 422 448	diltiazem or nitroglycerin
+T5	Intervention 464 473	diltiazem
+T6	Intervention 592 605	nitroglycerin
+T7	Intervention 899 908	diltiazem
+T8	Intervention 1061 1062	c
+T9	Intervention 1080 1089	diltiazem
+T10	Intervention 1313 1322	diltiazem
+T11	Intervention 1337 1350	nitroglycerin
+T12	Intervention 1518 1527	diltiazem
+T13	Intervention 1556 1569	nitroglycerin
+T14	Intervention 1680 1689	diltiazem
+T15	Intervention 1714 1758	beta receptor blocker or calcium antagonists
+T16	Intervention 1841 1854	nitroglycerin
+T17	Intervention 1798 1807	diltiazem
+T18	Intervention 1920 1929	diltiazem
+T19	Intervention 2096 2109	nitroglycerin

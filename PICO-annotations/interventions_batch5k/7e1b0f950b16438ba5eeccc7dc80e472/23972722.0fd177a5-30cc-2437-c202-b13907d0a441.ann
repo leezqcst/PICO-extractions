@@ -1,0 +1,6 @@
+T1	Intervention 46 88	dose-intensified salvage radiation therapy
+T2	Intervention 326 356	salvage radiation therapy (RT)
+T3	Intervention 1228 1301	intensity modulated RT (IMRT) or volumetric modulated arc technique (VMAT
+T4	Intervention 1867 1871	IMRT
+T5	Intervention 1876 1880	VMAT
+T6	Intervention 1884 1890	3D-CRT

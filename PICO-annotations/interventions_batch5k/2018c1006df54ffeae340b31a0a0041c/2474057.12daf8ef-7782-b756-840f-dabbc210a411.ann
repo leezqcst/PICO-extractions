@@ -1,0 +1,7 @@
+T1	Intervention 39 61	intensive chemotherapy
+T2	Intervention 284 295	doxorubicin
+T3	Intervention 307 323	cyclophosphamide
+T4	Intervention 338 347	vindesine
+T5	Intervention 362 371	bleomycin
+T6	Intervention 388 400	prednisolone
+T7	Intervention 452 654	methotrexate, ifosfamide, etoposide, asparaginase, and cytarabine, and a randomized late intensification with two courses of cytarabine, cyclophosphamide, teniposide, bleomycin, and prednisone (AraCVmB)

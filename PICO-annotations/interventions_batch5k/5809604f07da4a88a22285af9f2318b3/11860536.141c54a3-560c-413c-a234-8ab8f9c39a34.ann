@@ -1,0 +1,15 @@
+T1	Intervention 0 46	Laparoscopically assisted vaginal hysterectomy
+T2	Intervention 54 76	abdominal hysterectomy
+T3	Intervention 163 185	laparoscopic treatment
+T4	Intervention 226 260	traditional transabdominal approac
+T5	Intervention 477 519	laparoscopic assisted vaginal hysterectomy
+T6	Intervention 531 561	bilateral salpingo-oophrectomy
+T7	Intervention 573 614	minus laparoscopic pelvic lymphadenectomy
+T8	Intervention 663 685	traditional laparotomy
+T9	Intervention 700 728	total abdominal hysterectomy
+T10	Intervention 739 742	BSO
+T11	Intervention 748 776	minus pelvic lymphadenectomy
+T12	Intervention 810 973	were operative time, blood loss, blood transfusion, intraoperative complications, postoperative complications, duration of hospital stay, and number of lymph nodes
+T13	Intervention 999 1021	laparoscopic treatment
+T14	Intervention 1156 1165	procedure
+T15	Intervention 1349 1371	laparoscopic procedure

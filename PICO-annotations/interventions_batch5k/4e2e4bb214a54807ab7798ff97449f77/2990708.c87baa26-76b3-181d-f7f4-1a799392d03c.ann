@@ -1,0 +1,5 @@
+T1	Intervention 0 32	Intensive induction chemotherapy
+T2	Intervention 95 127	intensive induction chemotherapy
+T3	Intervention 305 321	cyclophosphamide
+T4	Intervention 323 334	vincristine
+T5	Intervention 340 349	semustine

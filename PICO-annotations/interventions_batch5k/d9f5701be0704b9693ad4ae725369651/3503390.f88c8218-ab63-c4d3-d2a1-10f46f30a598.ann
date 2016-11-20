@@ -1,0 +1,6 @@
+T1	Intervention 0 42	Hemolytic streptococcus preparation OK-432
+T2	Intervention 127 172	a hemolytic streptococcus preparation, OK-432
+T3	Intervention 485 568	Intradermal group (ID Group), 42 patients given an intradermal injections of OK-432
+T4	Intervention 573 660	Intramuscular group (IM Group), 40 patients given an intramuscular injections of OK-432
+T5	Intervention 665 722	Control group (C Group), 39 patients not given injections
+T6	Intervention 1470 1501	intradermal injection of OK-432

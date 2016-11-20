@@ -1,0 +1,6 @@
+T1	Intervention 9 21	radiotherapy
+T2	Intervention 257 284	Combined-modality treatment
+T3	Intervention 564 598	involved-node radiotherapy (IN-RT)
+T4	Intervention 731 735	ABVD
+T5	Intervention 738 789	oxorubicin, bleomycin, vinblastine, and dacarbazine
+T6	Intervention 808 845	standard combined-modality treatment.

@@ -1,0 +1,30 @@
+T1	Intervention 29 40	antibiotics
+T2	Intervention 64 85	H. pylori eradication
+T3	Intervention 104 123	Helicobacter pylori
+T4	Intervention 230 265	undergo different treatment options
+T5	Intervention 282 299	H. pylori therapy
+T6	Intervention 377 388	antibiotics
+T7	Intervention 437 487	H. pylori-positive patients were randomly assigned
+T8	Intervention 512 528	7-day treatments
+T9	Intervention 548 591	amoxicillin, clarithromycin and rabeprazole
+T10	Intervention 643 668	anitidine bismuth citrate
+T11	Intervention 611 637	tinidazole, clarithromycin
+T12	Intervention 688 742	tinidazole, clarithromycin and rabeprazole Eradication
+T13	Intervention 759 779	13C-Urea Breath Test
+T14	Intervention 856 923	second cycle with tinidazole, tetracycline, bismuth and rabeprazole
+T15	Intervention 820 834	Not-eradicated
+T16	Intervention 963 1040	validated questionnaire regarding presence and intensity of drug side effects
+T17	Intervention 1094 1121	H. pylori-positive patients
+T18	Intervention 1176 1193	eradication rates
+T19	Intervention 1238 1265	intention to treat analysis
+T20	Intervention 1277 1294	protocol analysis
+T21	Intervention 1535 1553	first-line therapy
+T22	Intervention 1481 1498	enrolled subjects
+T23	Intervention 1589 1664	eradicated by the tinidazole, tetracycline, bismuth and rabeprazole therapy
+T24	Intervention 1683 1700	quadruple therapy
+T25	Intervention 1800 1825	first-line triple therapy
+T26	Intervention 1874 1919	triple rabeprazole-based eradicating regimens
+T27	Intervention 2005 2024	three-drug regimens
+T28	Intervention 2031 2048	Quadruple therapy
+T29	Intervention 2087 2106	second line therapy
+T30	Intervention 2193 2213	first-line treatment

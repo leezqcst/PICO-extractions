@@ -1,0 +1,6 @@
+T1	Intervention 930 953	triple standard therapy
+T2	Intervention 969 982	metronidazole
+T3	Intervention 996 1006	omeprazole
+T4	Intervention 1019 1033	clarithromycin
+T5	Intervention 1051 1106	newly created quadruple-regimen, which adds amoxicillin
+T6	Intervention 1117 1144	to the above triple regimen

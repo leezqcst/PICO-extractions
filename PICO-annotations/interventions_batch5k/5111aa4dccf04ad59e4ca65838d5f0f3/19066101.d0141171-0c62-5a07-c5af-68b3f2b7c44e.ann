@@ -1,0 +1,14 @@
+T1	Intervention 38 64	invasive surgery plus rtPA
+T2	Intervention 69 104	intracerebral hemorrhage evacuation
+T3	Intervention 156 171	ischemic stroke
+T4	Intervention 173 197	intracerebral hemorrhage
+T5	Intervention 360 387	interventional amelioration
+T6	Intervention 614 654	recombinant tissue plasminogen activator
+T7	Intervention 582 608	minimally-invasive surgery
+T8	Intervention 663 669	MISTIE
+T9	Intervention 782 804	intervention plus rtPA
+T10	Intervention 971 1001	stereotactic catheter placemen
+T11	Intervention 1067 1084	hematoma catheter
+T12	Intervention 1597 1619	bacterial ventriculiti
+T13	Intervention 1564 1587	symptomatic re-bleeding
+T14	Intervention 1803 1821	catheter placement

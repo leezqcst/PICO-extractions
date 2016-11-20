@@ -1,0 +1,11 @@
+T1	Intervention 0 21	Pars plana vitrectomy
+T2	Intervention 50 89	Internal limiting membrane delamination
+T3	Intervention 93 118	posterior hyaloid removal
+T4	Intervention 348 388	internal limiting membrane (ILM) removal
+T5	Intervention 777 834	surgical induction of posterior vitreous detachment (PVD)
+T6	Intervention 863 889	PVD and removal of the ILM
+T7	Intervention 976 987	ILM removal
+T8	Intervention 1613 1633	PVD with ILM removal
+T9	Intervention 1735 1745	Vitrectomy
+T10	Intervention 1747 1778	PVD with or without ILM removal
+T11	Intervention 1905 1921	ILM delamination

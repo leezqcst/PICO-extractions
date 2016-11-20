@@ -1,0 +1,7 @@
+T1	Intervention 176 307	different modes of ventilation during cardiopulmonary bypass (CPB) on immediate postbypass oxygenation in pediatric cardiac surgery
+#1	AnnotatorNotes T1	To study the effects of varied ventilation modes for patients who had a CPB or pediatric bypass oxygenation
+T2	Intervention 464 519	undergoing elective repair of congenital heart disease.
+#2	AnnotatorNotes T2	General surgical intervention.
+T3	Intervention 577 613	5 modes of ventilation during bypass
+T4	Intervention 615 720	Groups 1 and 2 received high-frequency/low-volume ventilation with 100% (group 1) or 21% oxygen (group 2)
+T5	Intervention 722 935	Groups 3 and 4 received continuous positive airway pressure of 5 cm H(2)O with 100% (group 3) or 21% oxygen (group 4); and in group 5, each patient's airway was disconnected from the ventilator (passive deflation)

@@ -1,0 +1,10 @@
+T1	Intervention 37 69	transbronchial needle aspiration
+T2	Intervention 234 273	transbronchial needle aspiration (TBNA)
+T3	Intervention 363 367	TBNA
+T4	Intervention 690 717	transbronchial biopsy (TBB)
+T5	Intervention 722 744	bronchial washing (BW)
+T6	Intervention 809 813	TBNA
+T7	Intervention 815 818	TBB
+T8	Intervention 824 826	BW
+T9	Intervention 1024 1043	EBUS-TBNA plus CDPs
+T10	Intervention 1611 1630	EBUS-TBNA plus CDPs

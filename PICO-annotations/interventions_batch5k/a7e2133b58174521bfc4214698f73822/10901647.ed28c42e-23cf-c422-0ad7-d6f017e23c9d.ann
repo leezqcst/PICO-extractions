@@ -1,0 +1,11 @@
+T1	Intervention 0 32	Transesophageal echocardiography
+T2	Intervention 85 118	reamed versus unreamed techniques
+T3	Intervention 178 221	two different techniques of femoral nailing
+T4	Intervention 292 346	reamed (7 fractures) and unreamed (5 fractures) groups
+T5	Intervention 348 370	Intramedullary nailing
+T6	Intervention 384 427	AO/ASIF* universal reamed or unreamed nail.
+T7	Intervention 428 466	Transesophageal echocardiography (TEE)
+T8	Intervention 788 877	various steps (fracture manipulation, proximal portal opening, reaming, and nail passage)
+T11	Intervention 927 950	software quantification
+T9	Intervention 879 903	Manual grading of emboli
+T10	Intervention 1023 1061	both methods of intramedullary nailing

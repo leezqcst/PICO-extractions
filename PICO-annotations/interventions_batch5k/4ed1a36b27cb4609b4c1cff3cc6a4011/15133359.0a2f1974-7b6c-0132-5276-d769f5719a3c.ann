@@ -1,0 +1,6 @@
+T1	Intervention 372 597	dedicated guiding catheters (guiding catheter alone positioning strategy, GCA) or with the aid of an electrophysiology catheter advanced inside the guiding catheter (electrophysiology catheter aided positioning strategy, EPA)
+T2	Intervention 640 653	EPA technique
+T3	Intervention 724 738	GCA technique.
+T4	Intervention 810 813	GCA
+T5	Intervention 828 834	or EPA
+T6	Intervention 849 872	CS cannulation strategy

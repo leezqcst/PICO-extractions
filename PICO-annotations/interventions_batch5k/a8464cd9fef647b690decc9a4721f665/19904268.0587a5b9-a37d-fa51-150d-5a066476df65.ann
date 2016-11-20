@@ -1,0 +1,10 @@
+T2	Intervention 708 811	concurrent gemcitabine (300 mg m(-2)), and cisplatin (30 mg m(-2)) on days 1, 8, 22, and 29 (RT-GC arm)
+T1	Intervention 617 707	concurrent 5-fluorouracil (350 mg m(-2) per day on each day of radiotherapy, RT-5-FU arm),
+T3	Intervention 820 963	same concurrent treatment followed by sequential full-dose gemcitabine (1000 mg m(-2)) and cisplatin (50 mg m(-2)) every 2 weeks (RT-GC+GC arm)
+T4	Intervention 1077 1088	RT-5-FU arm
+T5	Intervention 1101 1110	RT-GC arm
+T6	Intervention 1127 1139	RT-GC+GC arm
+T7	Intervention 1451 1469	GC-containing arms
+T8	Intervention 1548 1560	CRT regimens
+T9	Intervention 23 126	concurrent gemcitabine and cisplatin with or without sequential chemotherapy with gemcitabine/cisplatin
+T10	Intervention 130 178	chemoradiotherapy with concurrent 5-fluorouracil

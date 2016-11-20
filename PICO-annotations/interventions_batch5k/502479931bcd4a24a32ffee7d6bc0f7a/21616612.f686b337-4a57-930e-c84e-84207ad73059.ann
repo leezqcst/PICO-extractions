@@ -1,0 +1,7 @@
+T1	Intervention 45 68	progesterone injections
+T2	Intervention 176 255	delivering progesterone as part of an estrous synchronization protocol in sheep
+T3	Intervention 375 406	untreated, control animals (C),
+T4	Intervention 413 440	receive PGF(2α) on d0 (PG),
+T5	Intervention 444 557	receive two injections of progesterone (200mg, i.m. each) on D -5 and on D -2.5, prior to PGF(2α), on D 0 (2PPG).
+T6	Intervention 1016 1030	remain nursing
+T7	Intervention 1041 1050	or weaned

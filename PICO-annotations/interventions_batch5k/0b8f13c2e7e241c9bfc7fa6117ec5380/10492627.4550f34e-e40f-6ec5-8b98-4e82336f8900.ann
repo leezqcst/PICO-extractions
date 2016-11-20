@@ -1,0 +1,8 @@
+T1	Intervention 0 12	Chemotherapy
+T2	Intervention 176 202	pre-operative chemotherapy
+T3	Intervention 379 391	chemotherapy
+T4	Intervention 398 467	5-fluorouracil, doxorubicin and methotrexate (FAMTX) prior to surgery
+T5	Intervention 482 494	surgery only
+T6	Intervention 1102 1129	standard surgical procedure
+T7	Intervention 1136 1215	limited lymphadenectomy (D1) with staging biopsy of the para-aortic lymph nodes
+T8	Intervention 1338 1358	FAMTX before surgery

@@ -1,0 +1,7 @@
+T1	Intervention 0 26	Treatment of renal failure
+T2	Intervention 61 107	Plasmapheresis, hemodialysis, and chemotherapy
+T3	Intervention 465 497	forced diuresis and chemotherapy
+T4	Intervention 526 575	forced diuresis, chemotherapy, and plasmapheresis
+T5	Intervention 591 622	Plasmapheresis and chemotherapy
+T6	Intervention 686 704	chemotherapy alone
+T7	Intervention 806 820	plasmapheresis

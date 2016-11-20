@@ -1,0 +1,6 @@
+T1	Intervention 27 49	induction chemotherapy
+T2	Intervention 57 142	induction chemotherapy followed by maintenance chemotherapy in small-cell lung cancer
+T3	Intervention 364 373	etoposide
+T4	Intervention 406 415	vindesine
+T5	Intervention 577 587	ifosfamide
+T6	Intervention 589 648	etoposide, and an anthracycline (doxorubicin or epirubicin)

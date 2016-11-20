@@ -1,0 +1,14 @@
+T1	Intervention 178 209	Time in therapeutic range (TTR)
+T2	Intervention 815 823	controls
+T3	Intervention 882 897	stroke analysis
+T4	Intervention 922 939	bleeding analysis
+T5	Intervention 972 980	controls
+T6	Intervention 997 1000	TTR
+T7	Intervention 1009 1021	stroke cases
+T8	Intervention 1062 1076	bleeding cases
+T9	Intervention 1145 1151	stroke
+T10	Intervention 1177 1185	bleeding
+T11	Intervention 1366 1374	controls
+T12	Intervention 1318 1332	bleeding cases
+T13	Intervention 1424 1427	TTR
+T14	Intervention 1551 1554	TTR

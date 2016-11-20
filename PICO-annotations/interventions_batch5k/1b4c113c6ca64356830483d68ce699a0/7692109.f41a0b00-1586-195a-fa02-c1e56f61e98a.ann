@@ -1,0 +1,5 @@
+T1	Intervention 31 47	chemoprophylaxis
+T2	Intervention 291 302	ceftriaxone
+T3	Intervention 352 380	trimethoprimsulfamethoxazole
+T4	Intervention 398 442	controls given no antimicrobial prophylaxis.
+T5	Intervention 941 963	antibiotic prophylaxis

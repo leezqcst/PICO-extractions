@@ -1,0 +1,8 @@
+T1	Intervention 11 55	reducing dietary [(Na+ + K+) - (Cl- + SO4=)]
+T2	Intervention 138 242	feeding diets with different milliequivalents (meq) of dietary [(Na+ + K+) - (Cl- + SO4=)] to dairy cows
+T3	Intervention 551 658	-4 meq (anion diet) or +572.5 meq (cation diet) of [(Na+ + K+) - (Cl- + SO4=)] kg-1 dietary dry matter (DM)
+T4	Intervention 696 705	grass hay
+T5	Intervention 715 727	concentrates
+T6	Intervention 800 867	adding KCl, K2SO4 and (NH4)2SO4 (anion diet) or K2CO3 (cation diet)
+T7	Intervention 1123 1135	anion diet t
+T8	Intervention 1155 1166	cation diet

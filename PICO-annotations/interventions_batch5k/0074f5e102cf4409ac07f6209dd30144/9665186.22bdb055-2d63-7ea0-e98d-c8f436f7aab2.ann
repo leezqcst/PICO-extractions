@@ -1,0 +1,11 @@
+T1	Intervention 447 474	early intensification block
+T2	Intervention 478 504	late intensification block
+T3	Intervention 506 510	both
+T4	Intervention 515 522	neither
+T5	Intervention 23 44	early intensification
+T6	Intervention 731 757	late intensification alone
+T7	Intervention 762 789	both early plus late blocks
+T8	Intervention 948 969	intensification block
+T9	Intervention 998 1018	late intensification
+T10	Intervention 1084 1105	Early intensification
+T11	Intervention 1357 1378	early intensification

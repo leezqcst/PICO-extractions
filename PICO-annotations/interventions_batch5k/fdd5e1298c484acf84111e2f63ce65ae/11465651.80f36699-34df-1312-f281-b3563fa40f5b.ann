@@ -1,0 +1,10 @@
+T1	Intervention 0 51	Valsartan alone or with a diuretic or ACE inhibitor
+T2	Intervention 697 726	valsartan (160 mg once a day)
+T3	Intervention 816 913	low salt (100 mEq Na+/day) for 2 weeks and the same diet supplemented by 100 mEq Na+ for 4 weeks.
+T4	Intervention 937 1183	while continuing the Na+ supplementation, patients were randomized to valsartan 320 mg/day (n = 28), or the addition of hydrochlorothiazide (HCTZ) 12.5 mg/day (n = 30), or benazepril 20 mg/day to the valsartan 160 mg/day for an additional 6 weeks
+T5	Intervention 1185 1207	Valsartan (160 mg/day)
+T6	Intervention 1282 1366	low salt (-6.4/-4.8 mm Hg: P < .001) and a high salt diet (-4.9/-3.8 mm Hg: P = .01)
+T7	Intervention 1579 1608	valsartan 160 mg/HCTZ 12.5 mg
+T8	Intervention 1731 1757	valsartan 160 mg/day alone
+T9	Intervention 1772 1813	dose of valsartan to 320 mg incrementally
+T10	Intervention 1912 1963	adding benazepril 20 mg/day to valsartan 160 mg/day

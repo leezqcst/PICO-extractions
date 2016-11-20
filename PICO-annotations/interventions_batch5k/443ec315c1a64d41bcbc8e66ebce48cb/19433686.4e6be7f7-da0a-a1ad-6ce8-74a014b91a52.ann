@@ -1,0 +1,6 @@
+T1	Intervention 22 50	pegylated interferon alfa-2b
+T2	Intervention 280 320	Interferon (IFN) -based adjuvant therapy
+T3	Intervention 491 541	adjuvant pegylated IFN-alpha-2b (PEG-IFN-alpha-2b)
+T4	Intervention 549 560	observation
+T5	Intervention 724 735	observation
+T6	Intervention 749 946	PEG-IFN-alpha-2b (n = 627): induction 6 micrograms/kg/wk [DOSAGE ERROR CORRECTED] for 8 weeks then maintenance 3 micrograms/kg/wk [DOSAGE ERROR CORRECTED] for an intended total duration of 5 years.

@@ -1,0 +1,6 @@
+T1	Intervention 14 44	fasting and treatment omission
+T2	Intervention 379 385	fasted
+T3	Intervention 702 709	omitted
+T4	Intervention 2025 2032	omitted
+T5	Intervention 2025 2032	omitted
+#1	AnnotatorNotes T5	it doesn't fit the description of treatment but it is important to the study

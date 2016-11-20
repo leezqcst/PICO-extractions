@@ -1,0 +1,27 @@
+T1	Intervention 0 17	Tissue microarray
+T2	Intervention 192 238	standard combination chemotherapy (CHOP, n=48)
+T3	Intervention 269 285	rituximab (n=45)
+T4	Intervention 309 350	investigational immunohistochemical (IHC)
+T5	Intervention 357 380	tissue microarray (TMA)
+T6	Intervention 385 666	contrasted to the approximately corresponding categories as defined either by Hans and associates using a three marker panel into germinal or non-germinal centre subtypes or by Choi and colleagues with two additional antibodies into germinal centre (GCB) or activated B-cells (ABC)
+T7	Intervention 825 834	rituximab
+T8	Intervention 1013 1019	R-CHOP
+T9	Intervention 1074 1090	subtype analysis
+T10	Intervention 1153 1168	cytotoxic drugs
+T11	Intervention 1462 1492	anti CD 20 monoclonal antibody
+T12	Intervention 1528 1566	chemotherapy or immunotherapy antibody
+T13	Intervention 1753 1778	immunohistochemical (IHC)
+T14	Intervention 1881 1886	BCL2,
+T15	Intervention 1931 2006	treatment modality (chemotherapy with or without the addition of rituximab)
+T16	Intervention 2121 2140	BCL2 positive group
+T17	Intervention 2184 2217	rituximab containing chemotherapy
+T18	Intervention 2431 2450	LMO2 positive group
+T19	Intervention 2489 2517	rituximab containing regimen
+T20	Intervention 2534 2559	IHC based TMA methodology
+T21	Intervention 2629 2660	gene expression profiling (GEP)
+T22	Intervention 2799 2804	DLBCL
+T23	Intervention 2975 2987	chemotherapy
+T24	Intervention 3055 3064	rituximab
+T25	Intervention 3187 3196	rituximab
+T26	Intervention 3221 3233	chemotherapy
+T27	Intervention 3492 3510	immunochemotherapy

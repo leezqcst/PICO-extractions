@@ -1,0 +1,8 @@
+T1	Intervention 78 95	immunosuppression
+T2	Intervention 162 217	a once-daily modified release formulation of tacrolimus
+T3	Intervention 503 518	twice-daily Tac
+T4	Intervention 548 559	Tac therapy
+T5	Intervention 593 600	TacMR f
+T6	Intervention 971 1008	Tac, TacMR, and back on Tac combined,
+T7	Intervention 1013 1020	MPA AUC
+T8	Intervention 309 332	mycophenolic acid (MPA)

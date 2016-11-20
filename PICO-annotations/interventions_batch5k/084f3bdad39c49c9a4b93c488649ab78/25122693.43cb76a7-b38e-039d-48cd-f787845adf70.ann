@@ -1,0 +1,10 @@
+T1	Intervention 68 79	bevacizumab
+T2	Intervention 625 646	bevacizumab plus 5-FU
+T3	Intervention 648 658	leucovorin
+T4	Intervention 663 684	oxaliplatin (Folfox-4
+T5	Intervention 700 719	bevacizumab-5-FU-RT
+T6	Intervention 727 758	total mesorectal excision (TME)
+T7	Intervention 793 812	bevacizumab-5-FU-RT
+T8	Intervention 820 823	TME
+T9	Intervention 1426 1437	bevacizumab
+T10	Intervention 1647 1699	bevacizumab-Folfox-4 followed by bevacizumab-5-FU-RT

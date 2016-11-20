@@ -1,0 +1,22 @@
+T1	Intervention 42 51	leukemia.
+T2	Intervention 54 72	Pediatric Oncology
+T3	Intervention 127 135	leukemia
+T4	Intervention 156 188	acute lymphocytic leukemia [ALL]
+T5	Intervention 201 238	acute nonlymphocytic leukemia [ANLL])
+T6	Intervention 343 352	Regimen I
+T7	Intervention 383 393	Regimen II
+T8	Intervention 248 289	AMSA (4'-(9-Acridinylamino) methanesulfon
+T9	Intervention 291 302	m-anisidide
+T10	Intervention 438 455	Regimens I and II
+T11	Intervention 554 563	Regimen I
+T12	Intervention 697 714	Regimens I and II
+T13	Intervention 839 861	Fatal cardiac toxicity
+T14	Intervention 729 746	fungal infections
+T15	Intervention 1017 1027	Regimen I,
+T16	Intervention 1032 1042	Regimen II
+T17	Intervention 1225 1233	regimens
+T18	Intervention 1048 1052	ANLL
+T19	Intervention 1282 1286	ANLL
+T20	Intervention 1500 1504	AMSA
+T21	Intervention 1590 1594	AMSA
+T22	Intervention 1883 1895	chemotherapy

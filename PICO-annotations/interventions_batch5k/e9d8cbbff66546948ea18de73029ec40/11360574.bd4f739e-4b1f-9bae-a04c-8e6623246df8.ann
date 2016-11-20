@@ -1,0 +1,14 @@
+T1	Intervention 39 60	Epimedium brevicornum
+T2	Intervention 191 217	Epimedium brevicornum (EB)
+T3	Intervention 488 498	prednisone
+T4	Intervention 656 677	corticosterone (CORT)
+T5	Intervention 719 721	EB
+T6	Intervention 1413 1449	prednisone group (clinical research)
+T7	Intervention 1453 1485	EB group (experimental research)
+T8	Intervention 1490 1510	CORT control groups,
+T9	Intervention 1532 1534	EB
+T13	Intervention 538 585	prednisone group (mixture of prednisone and EB)
+T14	Intervention 590 606	prednisone group
+T15	Intervention 284 308	exogenous glucocorticoid
+T16	Intervention 123 147	exogenous glucocorticoid
+T10	Intervention 1598 1622	exogenous glucocorticoid

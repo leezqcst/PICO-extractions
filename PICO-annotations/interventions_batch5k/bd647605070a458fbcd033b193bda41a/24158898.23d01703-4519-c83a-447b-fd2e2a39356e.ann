@@ -1,0 +1,14 @@
+T1	Intervention 0 18	Sequential therapy
+T2	Intervention 26 54	standard triple-drug therapy
+T3	Intervention 228 248	sequential treatment
+T4	Intervention 512 555	sequential vs. standard triple-drug therapy
+T6	Intervention 705 962	sequential regimen (40 mg of pantoprazole, 1 g of amoxicillin, each administered twice daily for the first 5 days, followed by 40 mg of pantoprazole, 500 mg of clarithromycin, and 500 mg of tinidazole, each administered twice daily for the remaining 5 days)
+T5	Intervention 969 1097	standard 14-day therapy (40 mg of pantoprazole, 500 mg of clarithromycin, and 1 g of amoxicillin, each administered twice daily)
+T7	Intervention 1146 1164	sequential regimen
+T8	Intervention 1219 1233	triple therapy
+T9	Intervention 1268 1286	sequential therapy
+T10	Intervention 1363 1385	standard drug therapy.
+T11	Intervention 1742 1780	standard and sequential therapy groups
+T12	Intervention 1796 1904	Sequential therapy includes one additional antibiotic (tinidazole) that is not contained in standard therapy
+T13	Intervention 1918 1936	Sequential therapy
+T14	Intervention 1967 1983	standard therapy

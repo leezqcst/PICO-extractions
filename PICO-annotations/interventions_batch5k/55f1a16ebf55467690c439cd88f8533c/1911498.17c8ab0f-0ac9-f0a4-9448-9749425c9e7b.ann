@@ -1,0 +1,7 @@
+T1	Intervention 0 21	Intravenous lidocaine
+T2	Intervention 140 158	epidural lidocaine
+T3	Intervention 380 387	placebo
+T4	Intervention 442 475	intravenous lidocaine (or saline)
+T5	Intervention 568 585	abdominal surgery
+T6	Intervention 872 893	intravenous lidocaine
+T7	Intervention 939 957	epidural lidocaine

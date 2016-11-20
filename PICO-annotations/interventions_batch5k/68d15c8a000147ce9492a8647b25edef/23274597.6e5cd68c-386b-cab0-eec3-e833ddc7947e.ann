@@ -1,0 +1,18 @@
+T1	Intervention 0 15	Pseudoephedrine
+T2	Intervention 147 168	pseudoephedrine (PSE)
+T3	Intervention 20 39	preexercise feeding
+T4	Intervention 717 720	fed
+T5	Intervention 724 730	nonfed
+T6	Intervention 777 780	PSE
+T8	Intervention 1168 1171	PSE
+T9	Intervention 1230 1233	fed
+T10	Intervention 1266 1269	PSE
+T11	Intervention 1322 1328	nonfed
+T12	Intervention 1413 1416	PSE
+T7	Intervention 786 799	placebo (PLA)
+T13	Intervention 1435 1438	PLA
+T14	Intervention 1488 1491	PSE
+T15	Intervention 1726 1745	PSE supplementation
+T16	Intervention 1598 1601	PSE
+T17	Intervention 1776 1779	PSE
+T18	Intervention 1810 1830	with or without food

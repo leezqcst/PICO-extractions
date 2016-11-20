@@ -1,0 +1,8 @@
+T1	Intervention 52 59	heparin
+T2	Intervention 64 83	vancomycin solution
+T3	Intervention 185 195	vancomycin
+T4	Intervention 199 243	central venous catheter (CVC) flush solution
+T5	Intervention 553 588	heparin CVC flush solution (n = 31)
+T6	Intervention 594 641	heparin-vancomycin CVC flush solution (n = 32).
+T7	Intervention 1435 1487	addition of vancomycin to heparin CVC flush solution
+T8	Intervention 1624 1627	CVC

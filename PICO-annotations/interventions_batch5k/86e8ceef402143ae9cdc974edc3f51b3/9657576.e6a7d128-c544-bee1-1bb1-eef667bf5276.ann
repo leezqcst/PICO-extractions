@@ -1,0 +1,7 @@
+T1	Intervention 11 21	formoterol
+T2	Intervention 23 33	salmeterol
+T3	Intervention 37 55	oxitropium bromide
+T4	Intervention 79 89	salbutamol
+T5	Intervention 122 185	pretreatment with formoterol, oxitropium bromide, or salmeterol
+T6	Intervention 227 245	inhaled salbutamol
+T7	Intervention 487 494	placebo

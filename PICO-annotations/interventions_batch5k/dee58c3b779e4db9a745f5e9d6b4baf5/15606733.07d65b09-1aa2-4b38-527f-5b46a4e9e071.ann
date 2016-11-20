@@ -1,0 +1,16 @@
+T1	Intervention 0 18	5% imiquimod cream
+T2	Intervention 399 417	5% imiquimod cream
+T3	Intervention 519 555	reflectance-mode confocal microscopy
+T4	Intervention 23 59	reflectance-mode confocal microscopy
+T5	Intervention 620 629	imiquimod
+T6	Intervention 672 677	cream
+T7	Intervention 807 826	Confocal microscopy
+T8	Intervention 946 971	Mohs micrographic surgery
+T9	Intervention 983 1017	Mohs micrographic surgery excision
+T10	Intervention 1096 1115	Confocal microscopy
+T11	Intervention 1280 1299	Confocal microscopy
+T12	Intervention 1370 1379	Imiquimod
+T13	Intervention 1477 1502	Mohs micrographic surgery
+T14	Intervention 1504 1523	Confocal microscopy
+T15	Intervention 1600 1619	confocal microscopy
+T16	Intervention 85 110	Mohs micrographic surgery

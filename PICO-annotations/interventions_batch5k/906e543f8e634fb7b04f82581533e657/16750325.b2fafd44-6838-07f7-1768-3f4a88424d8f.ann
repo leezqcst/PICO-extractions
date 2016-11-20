@@ -1,0 +1,10 @@
+T1	Intervention 58 98	hyperfractionated chest wall irradiation
+T2	Intervention 106 139	once-daily chest wall irradiation
+T3	Intervention 330 374	hyperfractionated radiotherapy (RT) schedule
+T4	Intervention 880 942	hyperfractionated (twice-daily, b.i.d.) chest wall RT schedule
+T5	Intervention 985 1011	once-daily (q.d.) schedule
+T6	Intervention 1751 1799	hyperfractionation schedule of postmastectomy RT
+T7	Intervention 1451 1461	b.i.d. arm
+T8	Intervention 1503 1511	q.d. arm
+T9	Intervention 1265 1273	q.d. arm
+T10	Intervention 1290 1300	b.i.d. arm

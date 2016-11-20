@@ -1,0 +1,11 @@
+T1	Intervention 0 50	Gemcitabine and split-dose paclitaxel or docetaxel
+T2	Intervention 186 209	paclitaxel or docetaxel
+T3	Intervention 230 241	gemcitabine
+T4	Intervention 434 445	gemcitabine
+T5	Intervention 477 487	paclitaxel
+T6	Intervention 534 545	gemcitabine
+T7	Intervention 577 587	paclitaxel
+T8	Intervention 1557 1567	paclitaxel
+T9	Intervention 1506 1537	gemcitabine-taxane combinations
+T10	Intervention 1649 1658	docetaxel
+T11	Intervention 1695 1718	paclitaxel combinations

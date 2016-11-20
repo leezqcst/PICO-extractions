@@ -1,0 +1,9 @@
+T1	Intervention 20 84	interferon- and ribavirin-free ombitasvir/paritaprevir/ritonavir
+T2	Intervention 343 383	interferon (IFN)/ribavirin (RBV) therapy
+T3	Intervention 512 718	IFN- and RBV-free regimen of once-daily ombitasvir (ABT-267), an NS5A inhibitor, plus paritaprevir (ABT-450), an NS3/4A protease inhibitor dosed with ritonavir (paritaprevir/ritonavir), in pegylated IFN/RBV
+T4	Intervention 899 943	ombitasvir 25 mg plus paritaprevir/ritonavir
+T5	Intervention 1033 1043	ombitasvir
+T6	Intervention 1055 1077	paritaprevir/ritonavir
+T7	Intervention 1353 1358	SVR24
+T8	Intervention 1469 1474	SVR24
+T9	Intervention 1868 1901	ombitasvir/paritaprevir/ritonavir

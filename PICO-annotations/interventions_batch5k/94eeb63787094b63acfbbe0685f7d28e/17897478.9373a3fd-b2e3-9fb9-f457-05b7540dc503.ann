@@ -1,0 +1,11 @@
+T1	Intervention 0 38	Salmeterol plus fluticasone propionate
+T2	Intervention 46 85	fluticasone propionate plus montelukast
+T3	Intervention 492 551	salmeterol plus fluticasone propionate (FP) (Seretide; SFC)
+T4	Intervention 556 582	FP plus montelukast (FP/M)
+T5	Intervention 1043 1058	Both treatments
+T6	Intervention 1259 1262	SFC
+T7	Intervention 1343 1347	FP/M
+T8	Intervention 1349 1353	FP/M
+T9	Intervention 1432 1435	SFC
+T10	Intervention 1490 1505	Both treatments
+T11	Intervention 1616 1619	SFC

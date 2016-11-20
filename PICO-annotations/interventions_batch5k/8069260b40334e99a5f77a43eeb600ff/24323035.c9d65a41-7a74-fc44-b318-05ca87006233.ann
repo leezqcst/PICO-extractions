@@ -1,0 +1,18 @@
+T1	Intervention 12 19	placebo
+T2	Intervention 51 60	sunitinib
+T3	Intervention 66 76	prednisone
+T4	Intervention 84 94	prednisone
+T5	Intervention 211 228	sunitinib therapy
+T6	Intervention 379 388	docetaxel
+T7	Intervention 395 407	chemotherapy
+T8	Intervention 446 455	sunitinib
+T9	Intervention 482 489	placebo
+T10	Intervention 519 529	prednisone
+T11	Intervention 759 768	sunitinib
+T12	Intervention 1003 1024	sunitinib and placebo
+T13	Intervention 1165 1174	sunitinib
+T14	Intervention 1376 1385	sunitinib
+T15	Intervention 1391 1398	placebo
+T16	Intervention 1751 1758	placebo
+T17	Intervention 1694 1703	sunitinib
+T18	Intervention 1707 1717	prednisone

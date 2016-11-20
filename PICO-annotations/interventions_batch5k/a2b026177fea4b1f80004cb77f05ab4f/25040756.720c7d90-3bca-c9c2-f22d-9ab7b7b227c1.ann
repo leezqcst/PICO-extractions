@@ -1,0 +1,10 @@
+T1	Intervention 16 24	tramadol
+T2	Intervention 44 84	i.v. acetaminophen and morphine infusion
+T3	Intervention 166 184	placebo-controlled
+T4	Intervention 204 212	Tramadol
+T5	Intervention 408 426	placebo-controlled
+T6	Intervention 457 465	tramadol
+T7	Intervention 480 498	standard analgesia
+T8	Intervention 665 677	tramadol [T]
+T9	Intervention 690 704	or placebo [P]
+T10	Intervention 775 783	morphine

@@ -1,0 +1,8 @@
+T1	Intervention 0 10	Tinzaparin
+T2	Intervention 18 28	dalteparin
+T3	Intervention 142 177	Low-molecular-weight heparin (LMWH)
+T4	Intervention 579 587	warfarin
+T5	Intervention 1818 1847	"Bridging therapy" with LMWHs
+T6	Intervention 2010 2025	anticoagulation
+T7	Intervention 2048 2067	no bridging therapy
+T8	Intervention 2071 2090	intravenous heparin

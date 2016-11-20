@@ -1,0 +1,21 @@
+T1	Intervention 17 59	static active or dynamic active stretching
+T2	Intervention 163 211	active or dynamic hamstring-stretching exercises
+T3	Intervention 324 344	stretching protocols
+T4	Intervention 543 573	static active stretching (SAS)
+T5	Intervention 584 615	dynamic active stretching (DAS)
+T6	Intervention 620 633	control (CON)
+T7	Intervention 695 705	stretching
+T8	Intervention 999 1009	stretching
+T9	Intervention 1069 1072	SAS
+T10	Intervention 1082 1085	DAS
+T11	Intervention 1113 1116	CON
+T12	Intervention 1182 1185	DAS
+T13	Intervention 1211 1214	CON
+T14	Intervention 1227 1230	SAS
+T15	Intervention 1313 1316	SAS
+T16	Intervention 1335 1338	DAS
+T17	Intervention 1343 1346	CON
+T18	Intervention 1367 1390	Prior active stretching
+T19	Intervention 1479 1482	SAS
+T20	Intervention 1503 1506	DAS
+T21	Intervention 1512 1531	stretching protocol

@@ -1,0 +1,7 @@
+T1	Intervention 68 79	bevacizumab
+T2	Intervention 224 281	preoperative chemoradiotherapy [5-fluorouracil (5-FU-RT)]
+T3	Intervention 648 685	leucovorin and oxaliplatin (Folfox-4)
+T4	Intervention 625 646	bevacizumab plus 5-FU
+T5	Intervention 700 719	bevacizumab-5-FU-RT
+T6	Intervention 727 758	total mesorectal excision (TME)
+T7	Intervention 1647 1667	bevacizumab-Folfox-4

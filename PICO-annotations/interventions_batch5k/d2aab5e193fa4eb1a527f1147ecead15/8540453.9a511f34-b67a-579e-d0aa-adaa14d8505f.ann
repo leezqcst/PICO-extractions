@@ -1,0 +1,9 @@
+T1	Intervention 10 33	dietary supplementation
+T2	Intervention 380 388	fish oil
+T3	Intervention 417 425	fish oil
+T4	Intervention 447 454	control
+#1	AnnotatorNotes T4	control group 
+T5	Intervention 484 536	antithrombotic treatment, either aspirin or warfarin
+T6	Intervention 896 904	fish oil
+T7	Intervention 776 784	fish oil
+T8	Intervention 1376 1420	dietary supplementation with n-3 fatty acids

@@ -1,0 +1,8 @@
+T1	Intervention 293 338	patient-controlled administration of fentanyl
+T2	Intervention 352 387	administration by nurses on request
+T3	Intervention 14 65	patient-controlled and nurse-administered analgesia
+T4	Intervention 524 557	patient-controlled administration
+T5	Intervention 568 598	nurse administration on demand
+T6	Intervention 862 881	self-administration
+T7	Intervention 1176 1205	administration by the patient
+T8	Intervention 1229 1257	administration by the nurses

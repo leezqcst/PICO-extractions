@@ -1,0 +1,7 @@
+T1	Intervention 35 57	antiretroviral therapy
+T2	Intervention 85 107	antiretroviral regimen
+T3	Intervention 213 242	antiretroviral therapy (ART),
+T4	Intervention 453 573	avirenz (EFV) + zidovudine/lamivudine (n = 32) or lopinavir/ritonavir (LPV/r) + zidovudine/lamivudine induction (n = 74)
+T5	Intervention 602 619	LPV/r monotherapy
+T6	Intervention 1617 1657	EFV-based regimen or LPV/r-based regimen
+T7	Intervention 1702 1719	LPV/r monotherapy

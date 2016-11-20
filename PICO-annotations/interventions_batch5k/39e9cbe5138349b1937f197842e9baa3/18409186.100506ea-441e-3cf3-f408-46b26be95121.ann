@@ -1,0 +1,11 @@
+T1	Intervention 33 59	digital rectal examination
+T2	Intervention 193 225	digital rectal examination (DRE)
+T3	Intervention 544 547	DRE
+T4	Intervention 690 693	DRE
+T5	Intervention 866 869	DRE
+T6	Intervention 1246 1249	DRE
+T7	Intervention 1349 1352	DRE
+T8	Intervention 1535 1538	DRE
+T9	Intervention 1687 1690	DRE
+T10	Intervention 1792 1795	DRE
+#1	AnnotatorNotes T10	final note: this study doesnot have any treatment technically. It describes only a clinical examination or investigation, but no intervention

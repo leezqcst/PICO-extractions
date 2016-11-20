@@ -1,0 +1,20 @@
+T1	Intervention 26 53	isplatin versus carboplatin
+T2	Intervention 235 329	chemoradiotherapy with carboplatin versus standard concurrent chemoradiotherapy with cisplatin
+T3	Intervention 523 532	cisplatin
+T4	Intervention 548 559	carboplatin
+T5	Intervention 565 585	Planned radiotherapy
+T6	Intervention 805 814	cisplatin
+T7	Intervention 852 866	chemoradiation
+T8	Intervention 901 912	carboplatin
+T9	Intervention 939 948	cisplatin
+T10	Intervention 984 1000	adjuvant therapy
+T11	Intervention 1024 1035	carboplatin
+T12	Intervention 1106 1115	cisplatin
+T13	Intervention 1156 1167	carboplatin
+T14	Intervention 1231 1240	cisplatin
+T15	Intervention 1265 1276	carboplatin
+T16	Intervention 1405 1430	cisplatin and carboplatin
+T17	Intervention 1543 1554	carboplatin
+T18	Intervention 1596 1605	cisplatin
+T19	Intervention 1651 1662	carboplatin
+T20	Intervention 1693 1709	standard regimen

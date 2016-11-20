@@ -1,0 +1,14 @@
+T1	Intervention 56 78	etanercept monotherapy
+T2	Intervention 343 370	etanercept-treated patients
+T3	Intervention 429 508	Trial of Etanercept and Methotrexate with Radiographic Patient Outcomes [TEMPO]
+T4	Intervention 569 587	DMARD Intervention
+T5	Intervention 592 620	Utilization Study [RADIUS II
+T6	Intervention 750 795	etanercept (monotherapy or with methotrexate)
+T7	Intervention 980 999	TEMPO and RADIUS II
+T8	Intervention 1013 1035	etanercept monotherapy
+T9	Intervention 1141 1169	etanercept with methotrexate
+T10	Intervention 1254 1274	TEMPO than RADIUS II
+T11	Intervention 1351 1370	combination therapy
+T12	Intervention 1651 1701	etanercept-treated (with and without methotrexate)
+T13	Intervention 1716 1718	RA
+T14	Intervention 1759 1770	RCT (TEMPO)

@@ -1,0 +1,9 @@
+T1	Intervention 631 643	chemotherapy
+T2	Intervention 650 688	[5-fluorouracil and leucovorin (FU/LV)
+T3	Intervention 693 728	irinotecan (CPT11), FU and LV (IFL)
+T4	Intervention 874 886	chemotherapy
+T5	Intervention 1490 1493	IFL
+T6	Intervention 1501 1506	FU/LV
+T7	Intervention 1599 1602	IFL
+T8	Intervention 1645 1650	FU/LV
+T9	Intervention 1893 1917	irinotecan-based therapy

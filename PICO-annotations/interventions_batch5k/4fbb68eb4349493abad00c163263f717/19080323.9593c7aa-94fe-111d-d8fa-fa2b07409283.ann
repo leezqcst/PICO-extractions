@@ -1,0 +1,14 @@
+T1	Intervention 114 138	antiangiogenesis therapy
+T2	Intervention 161 185	antiangiogenesis therapy
+T3	Intervention 213 238	anti-neoplastic treatment
+T4	Intervention 385 407	antiangiogenic therapy
+T5	Intervention 465 512	activated circulating endothelial cells (aCECs)
+T6	Intervention 532 557	anti-angiogenesis therapy
+T7	Intervention 692 729	chemotherapy with or without Endostar
+T8	Intervention 1021 1039	chemotherapy alone
+T9	Intervention 1054 1080	chemotherapy plus Endostar
+T10	Intervention 1136 1148	chemotherapy
+T11	Intervention 1173 1200	chemotherapy with Endotatar
+T12	Intervention 1430 1448	chemotherapy group
+T13	Intervention 1524 1550	chemotherapy with Endostar
+T14	Intervention 2171 2202	antiangiogenic therapy of NSCLC

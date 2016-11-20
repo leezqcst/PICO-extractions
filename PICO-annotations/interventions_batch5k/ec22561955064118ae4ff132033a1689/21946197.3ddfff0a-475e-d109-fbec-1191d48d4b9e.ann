@@ -1,0 +1,15 @@
+T1	Intervention 11 18	heparin
+T2	Intervention 359 382	anticoagulation methods
+T3	Intervention 459 482	anticoagulation Methods
+T4	Intervention 489 512	MARS treatment sessions
+T5	Intervention 642 685	MARS treatment sessions in the heparin-free
+T6	Intervention 706 722	low-dose heparin
+T7	Intervention 1383 1404	anticoagulant heparin
+T8	Intervention 1613 1629	low-dose heparin
+T9	Intervention 1719 1731	heparin-free
+T10	Intervention 1934 1938	MARS
+T11	Intervention 1959 1966	heparin
+T12	Intervention 2033 2045	heparin-free
+T13	Intervention 2122 2126	MARS
+T14	Intervention 2368 2402	anticoagulation system before MARS
+T15	Intervention 2415 2439	low dose heparin in MARS

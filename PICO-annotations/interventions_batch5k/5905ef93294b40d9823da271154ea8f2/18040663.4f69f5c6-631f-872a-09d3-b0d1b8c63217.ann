@@ -1,0 +1,17 @@
+T1	Intervention 0 25	Intensive insulin therapy
+T2	Intervention 373 402	intensive diabetes management
+T3	Intervention 647 675	conventional insulin therapy
+T4	Intervention 403 435	[intensive insulin therapy (IIT)
+T5	Intervention 440 476	'Sweet Talk' text-messaging support]
+T6	Intervention 771 774	CIT
+T7	Intervention 797 800	CIT
+T8	Intervention 805 815	Sweet Talk
+T9	Intervention 836 839	IIT
+T10	Intervention 844 854	Sweet Talk
+T11	Intervention 1107 1110	CIT
+T12	Intervention 1164 1167	IIT
+T13	Intervention 1179 1182	IIT
+T14	Intervention 1268 1271	CIT
+T15	Intervention 1373 1376	IIT
+T16	Intervention 1418 1421	CIT
+T17	Intervention 1620 1623	IIT

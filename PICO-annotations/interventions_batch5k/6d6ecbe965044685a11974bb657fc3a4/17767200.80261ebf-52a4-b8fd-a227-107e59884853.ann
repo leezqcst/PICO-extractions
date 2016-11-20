@@ -1,0 +1,12 @@
+T1	Intervention 635 673	Dexamethasone sodium phosphate (DEX-P)
+T2	Intervention 674 692	phonophoresis (PH)
+T3	Intervention 703 736	DEX-P iontophoresis (ION) therapy
+T4	Intervention 42 55	phonophoresis
+T5	Intervention 60 73	iontophoresis
+T6	Intervention 80 93	dexamethasone
+T7	Intervention 900 902	PH
+T8	Intervention 906 909	ION
+T9	Intervention 1444 1446	PH
+T10	Intervention 1451 1454	ION
+T11	Intervention 1843 1862	DEX-P phonophoresis
+T12	Intervention 1883 1902	DEX-P iontophoresis

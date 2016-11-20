@@ -1,0 +1,16 @@
+T1	Intervention 20 42	calcineurin inhibitors
+T2	Intervention 47 69	everolimus monotherapy
+T3	Intervention 209 227	cyclosporine (CsA)
+T4	Intervention 258 286	everolimus (Evr) monotherapy
+T5	Intervention 457 460	CsA
+T6	Intervention 514 541	Evr in combination with CsA
+T7	Intervention 581 608	Evr monotherapy (Evr group)
+T8	Intervention 626 676	CsA with/without mycophenolate mofetil (CsA group)
+T9	Intervention 757 761	(Evr
+T10	Intervention 770 773	CsA
+T11	Intervention 827 830	Evr
+T12	Intervention 861 864	CsA
+T13	Intervention 1058 1061	Evr
+T14	Intervention 1230 1233	CsA
+T15	Intervention 1326 1329	CsA
+T16	Intervention 1342 1357	Evr monotherapy

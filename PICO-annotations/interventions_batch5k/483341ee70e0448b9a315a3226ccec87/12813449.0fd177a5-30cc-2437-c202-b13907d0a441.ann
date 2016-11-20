@@ -1,0 +1,17 @@
+T1	Intervention 0 32	Recombinant human thrombopoietin
+T2	Intervention 181 221	recombinant human thrombopoietin (rhTPO)
+T3	Intervention 638 645	placebo
+T4	Intervention 647 654	placebo
+T5	Intervention 656 661	rhTPO
+T6	Intervention 713 720	placebo
+T7	Intervention 722 729	placebo
+T8	Intervention 760 765	rhTPO
+T9	Intervention 873 910	chemotherapy and PBPC transplantation
+T10	Intervention 1130 1148	placebo plus G-CSF
+T11	Intervention 1182 1196	rhTPO to G-CSF
+T12	Intervention 1260 1265	rhTPO
+T13	Intervention 1475 1491	rhTPO to placebo
+T14	Intervention 1677 1682	rhTPO
+T15	Intervention 1793 1798	rhTPO
+T16	Intervention 1923 1924	O
+T17	Intervention 2087 2125	chemotherapy with PBPC transplantation

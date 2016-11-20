@@ -1,0 +1,9 @@
+T1	Intervention 35 107	decomposition of complex movements aids in robot-assisted motor learning
+T2	Intervention 110 139	Training with haptic guidance
+T3	Intervention 272 295	guidance-based training
+T4	Intervention 340 464	complex movement, similar to a tennis backhand, into simpler parts and then using haptic feedback from a robotic exoskeleton
+T5	Intervention 651 1040	target arm movement broken down in three ways: 1) elbow flexion/extension and the unified shoulder motion independently ("anatomical" decomposition), 2) three component shoulder motions in Euler coordinates and elbow flexion/extension ("Euler" decomposition), or 3) the motion of the tip of the elbow and motion of the hand with respect to the elbow, independently ("visual" decomposition)
+T6	Intervention 1087 1136	movements, but experienced the target motion only
+T7	Intervention 1245 1260	, part training
+T8	Intervention 1406 1444	simpler, anatomically-isolated motions
+T9	Intervention 1357 1382	robotic movement training

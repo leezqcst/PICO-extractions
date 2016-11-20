@@ -1,0 +1,8 @@
+T1	Intervention 416 431	RV IVRT (IVRT')
+T2	Intervention 440 463	invasively measured PAP
+T3	Intervention 465 528	Transthoracic echocardiography with myocardial velocity imaging
+T4	Intervention 533 560	right heart catheterization
+T5	Intervention 907 914	control
+T6	Intervention 1102 1107	IVRT'
+T7	Intervention 1158 1182	invasive PAP measurement
+T8	Intervention 4 102	evaluation of pulmonary hypertension using right ventricular myocardial isovolumic relaxation time

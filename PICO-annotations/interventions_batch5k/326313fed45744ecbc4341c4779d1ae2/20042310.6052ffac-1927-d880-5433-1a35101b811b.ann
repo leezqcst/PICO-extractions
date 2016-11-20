@@ -1,0 +1,8 @@
+T1	Intervention 20 29	cetuximab
+T2	Intervention 31 43	capecitabine
+T3	Intervention 48 60	radiotherapy
+T4	Intervention 404 416	capecitabine
+T5	Intervention 478 487	cetuximab
+T6	Intervention 547 565	cetuximab plus CRT
+T7	Intervention 170 193	chemoradiotherapy (CRT)
+T8	Intervention 1633 1670	cetuximab with capecitabine-based CRT

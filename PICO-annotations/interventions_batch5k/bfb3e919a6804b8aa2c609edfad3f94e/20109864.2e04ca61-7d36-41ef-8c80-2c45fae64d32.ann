@@ -1,0 +1,25 @@
+T1	Intervention 0 85	Catheter ablation of stable ventricular tachycardia before defibrillator implantation
+T2	Intervention 276 341	intervention with an implantable cardioverter defibrillator (ICD)
+T3	Intervention 420 423	ICD
+T4	Intervention 549 566	catheter ablation
+T5	Intervention 632 698	Ventricular Tachycardia Ablation in Coronary Heart Disease (VTACH)
+T6	Intervention 1048 1065	catheter ablation
+T7	Intervention 1073 1092	ICD (ablation group
+T8	Intervention 1103 1127	ICD alone (control group
+T9	Intervention 1369 1398	ventricular fibrillation (VF)
+T10	Intervention 1436 1439	ITT
+T11	Intervention 1571 1585	ablation group
+T12	Intervention 1593 1606	control group
+T13	Intervention 1892 1906	ablation group
+T14	Intervention 1994 2007	control group
+T15	Intervention 2107 2121	ablation group
+T16	Intervention 2137 2150	control group
+T17	Intervention 2365 2386	surgical intervention
+T18	Intervention 2412 2426	ablation group
+T19	Intervention 2434 2447	control group
+T20	Intervention 2493 2507	ablation group
+T21	Intervention 2515 2528	control group
+T22	Intervention 2552 2576	Prophylactic VT ablation
+T23	Intervention 2584 2610	defibrillator implantation
+T24	Intervention 2745 2762	catheter ablation
+T25	Intervention 2801 2845	implantation of a cardioverter defibrillator

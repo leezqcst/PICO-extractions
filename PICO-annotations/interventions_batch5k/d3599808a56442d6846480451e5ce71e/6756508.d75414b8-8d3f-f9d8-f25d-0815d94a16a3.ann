@@ -1,0 +1,11 @@
+T1	Intervention 29 71	tamoxifen plus sequential CMF chemotherapy
+T2	Intervention 79 94	tamoxifen alone
+T3	Intervention 414 473	low-dose cyclophosphamide-methotrexate-5-fluorouracil (CMF)
+T4	Intervention 490 499	tamoxifen
+T5	Intervention 610 625	tamoxifen alone
+T6	Intervention 792 801	tamoxifen
+T7	Intervention 840 849	tamoxifen
+T8	Intervention 1028 1037	tamoxifen
+T9	Intervention 1042 1056	tamoxifen plus
+T10	Intervention 1159 1168	tamoxifen
+T11	Intervention 1279 1319	CMF chemotherapy in tamoxifen responders

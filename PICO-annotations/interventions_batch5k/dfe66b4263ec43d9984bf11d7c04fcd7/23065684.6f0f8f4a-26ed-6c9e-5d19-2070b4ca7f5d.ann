@@ -1,0 +1,11 @@
+T1	Intervention 96 147	Prostate, Lung, Colorectal and Ovarian (PLCO) trial
+T2	Intervention 164 215	Prostate, Lung, Colorectal and Ovarian (PLCO) Trial
+T3	Intervention 257 312	screening with CA-125 and transvaginal ultrasound (TVU)
+T4	Intervention 32 63	ovarian cancer algorithm (ROCA)
+T5	Intervention 428 459	ovarian cancer algorithm (ROCA)
+T6	Intervention 671 692	had used ROCA in PLCO
+T7	Intervention 1262 1298	have been detected earlier with ROCA
+T8	Intervention 1445 1449	ROCA
+T9	Intervention 1547 1559	ROCA in PLCO
+T10	Intervention 1637 1641	ROCA
+T11	Intervention 1717 1724	UKCTOCS

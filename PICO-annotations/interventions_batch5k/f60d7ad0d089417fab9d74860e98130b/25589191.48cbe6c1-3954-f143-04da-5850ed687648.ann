@@ -1,0 +1,14 @@
+T1	Intervention 0 8	Afatinib
+T2	Intervention 16 44	cisplatin-based chemotherapy
+T3	Intervention 237 245	afatinib
+T4	Intervention 630 638	afatinib
+T5	Intervention 642 654	chemotherapy
+T6	Intervention 810 823	ethnic origin
+T8	Intervention 1361 1375	afatinib group
+T9	Intervention 1411 1437	pemetrexed-cisplatin group
+T10	Intervention 1556 1570	afatinib group
+T11	Intervention 1606 1633	gemcitabine-cisplatin group
+T12	Intervention 1821 1839	chemotherapy group
+T7	Intervention 1990 2008	chemotherapy group
+T13	Intervention 2395 2409	afatinib group
+T14	Intervention 2457 2475	chemotherapy group

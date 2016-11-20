@@ -1,0 +1,12 @@
+T1	Intervention 0 65	Trunk exercise combined with spinal manipulative or NSAID therapy
+T3	Intervention 376 420	SMT combined with trunk stretching exercises
+T2	Intervention 288 371	Spinal manipulative therapy (SMT) combined with trunk strengthening exercises (TSE)
+T4	Intervention 430 451	SMT combined with TSE
+T5	Intervention 456 525	nonsteroidal anti-inflammatory drug (NSAID) therapy combined with TSE
+T6	Intervention 1025 1028	SMT
+T7	Intervention 1032 1091	NSAID therapy in combination with supervised trunk exercise
+T8	Intervention 1128 1147	supervised exercise
+T9	Intervention 1438 1445	SMT/TSE
+T10	Intervention 1468 1476	exercise
+T11	Intervention 1799 1854	trunk exercise in combination with SMT or NSAID therapy
+T12	Intervention 1937 1944	placebo

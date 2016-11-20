@@ -1,0 +1,6 @@
+T1	Intervention 44 103	patient-controlled infusion with bupivacaine and sufentanil
+T2	Intervention 0 20	Perispinal analgesia
+T3	Intervention 105 158	combined spinal-epidural vs. epidural analgesia alone
+T4	Intervention 485 579	intrathecal bupivacaine 0.25% 1 mL + sufentanil 5 microg in the combined spinal-epidural group
+T5	Intervention 590 695	and with bupivacaine 0.125% + epinephrine 2.5 microg mL(-1) + sufentanil 7.5 microg in the epidural group
+T6	Intervention 706 837	In both cases this was followed by patient-controlled epidural analgesia with bupivacaine 0.125% (+ sufentanil 0.25 microg mL(-1)).

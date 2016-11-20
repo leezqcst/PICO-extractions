@@ -1,0 +1,11 @@
+T1	Intervention 0 32	Retroinfusion-supported stenting
+T2	Intervention 59 103	percutaneous intervention and bypass surgery
+T3	Intervention 255 287	retroinfusion-supported stenting
+T4	Intervention 322 336	bypass surgery
+T5	Intervention 566 618	conventional bypass surgery with stent implantation,
+T6	Intervention 875 889	bypass surgery
+T7	Intervention 935 997	percutaneous transluminal coronary angioplasty/stent procedure
+T8	Intervention 1866 1904	stent implantation and bypass surgery,
+T9	Intervention 1920 1961	etroinfusion-supported stent implantation
+T10	Intervention 2037 2052	bypass surgery.
+T11	Intervention 2162 2204	retroinfusion-supported stent implantation

@@ -1,0 +1,16 @@
+T1	Intervention 0 10	L-arginine
+T2	Intervention 15 35	S-nitrosoglutathione
+T3	Intervention 79 89	L-Arginine
+T4	Intervention 485 495	L-arginine
+T6	Intervention 712 722	L-arginine
+T7	Intervention 731 735	GSNO
+T8	Intervention 747 754	placebo
+T9	Intervention 879 886	aspirin
+T10	Intervention 897 904	heparin
+T11	Intervention 1192 1202	L-arginine
+T12	Intervention 1207 1211	GSNO
+T13	Intervention 1277 1284	placebo
+T14	Intervention 1302 1312	L-arginine
+T15	Intervention 1477 1487	L-arginine
+T16	Intervention 1492 1496	GSNO
+T5	Intervention 500 598	S-nitrosoglutathione (GSNO), a physiological nitric oxide donor with possible platelet specificity

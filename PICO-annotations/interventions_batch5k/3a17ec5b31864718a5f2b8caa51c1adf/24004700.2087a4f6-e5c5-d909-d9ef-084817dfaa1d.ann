@@ -1,0 +1,8 @@
+T1	Intervention 41 63	colon cancer screening
+T2	Intervention 411 424	CRC screening
+T3	Intervention 928 942	CRC screening.
+T4	Intervention 985 998	CRC screening
+T5	Intervention 484 494	usual care
+T6	Intervention 500 524	physician chart reminder
+T7	Intervention 530 653	physician chart reminder, mailed education, CRC reminder magnet, and fecal immunochemical test (FIT) (mailed education/FIT)
+T8	Intervention 662 727	all the preceding plus a structured telephone call to the patient

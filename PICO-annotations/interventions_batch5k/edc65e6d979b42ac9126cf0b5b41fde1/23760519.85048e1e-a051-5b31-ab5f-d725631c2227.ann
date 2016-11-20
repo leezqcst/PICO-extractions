@@ -1,0 +1,14 @@
+T1	Intervention 0 52	Ultrasonography-guided bilateral rectus sheath block
+T2	Intervention 56 85	local anesthetic infiltration
+T3	Intervention 546 573	ultrasonography-guided BRSB
+T4	Intervention 578 613	local anesthetic infiltration (LAI)
+T5	Intervention 966 991	Ropivacaine hydrochloride
+T6	Intervention 1071 1098	ultrasonography-guided BRSB
+T7	Intervention 1037 1040	LAI
+T8	Intervention 1338 1342	BRSB
+T9	Intervention 1367 1370	LAI
+T10	Intervention 1549 1553	BRSB
+T11	Intervention 1578 1581	LAI
+T12	Intervention 1680 1707	ultrasonography-guided BRSB
+T13	Intervention 1863 1867	LAI.
+T14	Intervention 1945 1972	ultrasonography-guided BRSB

@@ -1,0 +1,21 @@
+T1	Intervention 14 55	oral steroids with and without vitamin D3
+T2	Intervention 145 227	additional strategies to enhance the effectiveness of specific immunotherapy (SIT)
+T3	Intervention 306 326	oral corticosteroids
+T4	Intervention 331 378	oral corticosteroids combined with vitamin D(3)
+T5	Intervention 478 485	placebo
+T7	Intervention 621 663	oral steroid, with or without vitamin D(3)
+T8	Intervention 668 675	placebo
+T9	Intervention 717 720	SIT
+T10	Intervention 749 752	SIT
+T11	Intervention 771 799	inhaled corticosteroid (ICS)
+T12	Intervention 931 934	ICS
+T13	Intervention 960 967	control
+T14	Intervention 871 878	steroid
+T15	Intervention 999 1002	SIT
+T16	Intervention 1028 1040	steroid+D(3)
+T17	Intervention 1095 1105	prednisone
+T6	Intervention 1227 1230	SIT
+T18	Intervention 1449 1510	combined administration of a corticosteroid drug and allergen
+T19	Intervention 1578 1581	SIT
+T20	Intervention 1591 1603	vitamin D(3)
+T21	Intervention 1642 1650	steroids

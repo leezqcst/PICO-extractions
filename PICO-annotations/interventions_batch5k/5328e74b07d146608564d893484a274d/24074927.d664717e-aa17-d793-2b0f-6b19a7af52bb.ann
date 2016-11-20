@@ -1,0 +1,19 @@
+T1	Intervention 301 344	whole pelvic conventional radiation therapy
+T2	Intervention 361 398	intensity modulated radiation therapy
+T3	Intervention 679 685	WP-CRT
+T4	Intervention 689 696	WP-IMRT
+T5	Intervention 720 729	cisplatin
+T6	Intervention 1092 1098	WP-CRT
+T7	Intervention 1115 1122	WP-IMRT
+T8	Intervention 1131 1137	WP-CRT
+T9	Intervention 1214 1218	IMRT
+T10	Intervention 1322 1328	WP-CRT
+T11	Intervention 1387 1394	WP-IMRT
+T12	Intervention 1497 1503	WP-CRT
+T13	Intervention 1528 1535	WP-IMRT
+T14	Intervention 1588 1594	WP-CRT
+T15	Intervention 1621 1628	WP-IMRT
+T16	Intervention 1661 1668	WP-IMRT
+T17	Intervention 1866 1872	WP-CRT
+T18	Intervention 1955 1962	WP-IMRT
+T19	Intervention 2024 2030	WP-CRT

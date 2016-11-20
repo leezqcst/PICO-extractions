@@ -1,0 +1,11 @@
+T1	Intervention 0 11	Sham device
+T2	Intervention 14 24	inert pill
+T3	Intervention 117 166	sham device (a validated sham acupuncture needle)
+T4	Intervention 388 399	acupuncture
+T5	Intervention 404 417	amitriptyline
+T6	Intervention 430 455	espective placebo control
+T7	Intervention 781 836	Acupuncture with sham device twice a week for six weeks
+T8	Intervention 840 879	placebo pill once a day for eight weeks
+T9	Intervention 320 351	two week placebo run-in periods
+T10	Intervention 1186 1197	sham device
+T11	Intervention 1202 1214	placebo pill

@@ -1,0 +1,12 @@
+T1	Intervention 57 119	growth hormone-secretagogues and thyrotropin-releasing hormone
+T2	Intervention 995 1035	three combinations of peptide infusions,
+T3	Intervention 1053 1065	TRH (one day
+T4	Intervention 1071 1078	placebo
+T5	Intervention 1092 1138	TRH + GH-releasing peptide (GHRP)-2 and GHRP-2
+T6	Intervention 1140 1177	TRH + GHRH + GHRP-2 and GHRH + GHRP-2
+T7	Intervention 1961 1968	placebo
+T8	Intervention 1972 1975	TRH
+T9	Intervention 2014 2030	GH-secretagogues
+T10	Intervention 2079 2085	GHRP-2
+T11	Intervention 2154 2167	GHRH + GHRP-2
+T12	Intervention 2745 2760	GH-secretagogue

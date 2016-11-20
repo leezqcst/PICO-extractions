@@ -1,0 +1,9 @@
+T1	Intervention 21 46	educational interventions
+T2	Intervention 386 405	household education
+T3	Intervention 410 421	local media
+T4	Intervention 587 637	fee-based As testing with household education (HE)
+T6	Intervention 642 721	fee-based As testing with household education and a local media campaign (HELM)
+T5	Intervention 730 766	fee-based As testing alone (Control)
+T7	Intervention 899 929	ntervention groups HE and HELM
+T8	Intervention 976 989	control group
+T9	Intervention 1032 1051	household education

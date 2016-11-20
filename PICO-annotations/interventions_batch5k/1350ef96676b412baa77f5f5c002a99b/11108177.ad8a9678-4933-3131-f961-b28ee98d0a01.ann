@@ -1,0 +1,13 @@
+T1	Intervention 87 98	minocycline
+T2	Intervention 262 273	minocycline
+T3	Intervention 412 419	placebo
+T4	Intervention 427 434	control
+T5	Intervention 531 556	minocycline hydrochloride
+T6	Intervention 585 613	ointment without minocycline
+T7	Intervention 637 661	did not receive ointment
+T8	Intervention 1005 1024	placebo and control
+T9	Intervention 1060 1078	Peptidase activity
+T10	Intervention 1208 1250	peptidase activity for placebo and control
+T11	Intervention 1449 1468	placebo and control
+T12	Intervention 1686 1697	minocycline
+T13	Intervention 1797 1817	drug administration.

@@ -1,0 +1,14 @@
+T1	Intervention 0 16	Cryoprobe biopsy
+T2	Intervention 91 105	Forceps biopsy
+T3	Intervention 200 244	combine forceps biopsy with cytology methods
+T4	Intervention 292 310	flexible cryoprobe
+T5	Intervention 418 430	cryobiopsies
+T6	Intervention 590 619	cryobiopsy and forceps biopsy
+T7	Intervention 847 876	forceps biopsy and cryobiopsy
+T8	Intervention 1101 1111	cryobiopsy
+T9	Intervention 1249 1259	cryobiopsy
+T10	Intervention 1274 1288	forceps biopsy
+T11	Intervention 1450 1460	cryobiopsy
+T12	Intervention 1475 1489	forceps biopsy
+T13	Intervention 1535 1545	cryobiopsy
+T14	Intervention 1704 1714	Cryobiopsy

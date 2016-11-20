@@ -1,0 +1,12 @@
+T1	Intervention 15 26	chloroquine
+T2	Intervention 28 39	amodiaquine
+T3	Intervention 44 77	chloroquine plus chlorpheniramine
+T4	Intervention 223 239	chloroquine (CQ)
+T5	Intervention 241 257	amodiaquine (AQ)
+T6	Intervention 262 365	CQ plus chlorpheniramine (a histamine H(1) antagonist that reverses CQ resistance in vitro and in vivo)
+T7	Intervention 849 880	CQ plus chlorpheniramine (CQCP)
+T8	Intervention 1838 1842	CQCP
+T9	Intervention 1554 1558	CQCP
+T10	Intervention 2149 2153	CQCP
+T11	Intervention 2401 2417	chlorpheniramine
+T12	Intervention 2421 2432	chloroquine

@@ -1,0 +1,9 @@
+T1	Intervention 47 76	two nelfinavir-based regimens
+T2	Intervention 458 581	2 combination therapies containing an NRTI, protease inhibitors +/- a nonnucleoside reverse transcription inhibitor (NNRTI)
+T3	Intervention 229 258	highly active antiretrovirals
+T4	Intervention 787 831	nelfinavir (NFV) 30 mg/kg twice daily (bid),
+T5	Intervention 833 905	itonavir (RTV) 400 mg/m bid and buffered didanosine (ddI) 240 mg/m daily
+T6	Intervention 917 999	NFV 50-55 mg/kg bid, nevirapine (NVP) 120 mg/m bid and stavudine (d4T) 1 mg/kg bid
+T7	Intervention 1560 1575	NFV + RTV + ddI
+T8	Intervention 1583 1598	NFV + NVP + d4T
+T9	Intervention 2046 2062	NVP, RTV and d4T

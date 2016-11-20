@@ -1,0 +1,17 @@
+T1	Intervention 442 449	placebo
+T2	Intervention 0 14	Chlorthalidone
+T3	Intervention 59 69	nifedipine
+T4	Intervention 155 197	combination of nifedipine + chlorthalidone
+T5	Intervention 537 547	nifedipine
+T6	Intervention 569 583	chlorthalidone
+T7	Intervention 604 644	the two drugs combined at the same doses
+T8	Intervention 653 674	corresponding placebo
+T9	Intervention 713 720	placebo
+T10	Intervention 722 749	the three active treatments
+T11	Intervention 912 922	nifedipine
+T12	Intervention 927 942	the combination
+T13	Intervention 957 964	placebo
+T14	Intervention 1026 1040	chlorthalidone
+T15	Intervention 1079 1125	the combination of nifedipine + chlorthalidone
+T16	Intervention 1192 1208	nifedipine alone
+T17	Intervention 1259 1315	dihydropyridine calcium antagonist + a thiazide diuretic

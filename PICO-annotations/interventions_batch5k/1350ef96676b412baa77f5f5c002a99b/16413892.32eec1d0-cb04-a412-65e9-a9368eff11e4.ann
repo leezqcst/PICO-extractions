@@ -1,0 +1,16 @@
+T1	Intervention 14 40	remifentanil with fentanyl
+T2	Intervention 62 74	oral surgery
+T3	Intervention 135 147	oral surgery
+T4	Intervention 190 288	midazolam, propofol, and remifentanil with a standard control of fentanyl in place of remifentanil
+T5	Intervention 420 427	control
+T6	Intervention 438 447	midazolam
+T7	Intervention 460 468	fentanyl
+T8	Intervention 486 494	propofol
+T9	Intervention 544 553	midazolam
+T10	Intervention 566 578	remifentanil
+T11	Intervention 580 588	propofol
+T12	Intervention 609 625	initial propofol
+T13	Intervention 809 839	Digit Symbol Substitution Test
+T14	Intervention 1020 1028	propofol
+T15	Intervention 1291 1311	remifentanil regimen
+T16	Intervention 1410 1426	fentanyl regimen

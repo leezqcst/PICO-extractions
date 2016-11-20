@@ -1,0 +1,23 @@
+T1	Intervention 0 38	Calcium chloride before i.v. diltiazem
+T2	Intervention 82 91	Diltiazem
+T3	Intervention 278 287	diltiazem
+T4	Intervention 537 563	calcium chloride (CaCl(2))
+T5	Intervention 612 621	diltiazem
+T6	Intervention 638 647	diltiazem
+T7	Intervention 715 722	placebo
+T8	Intervention 872 879	CaCl(2)
+T9	Intervention 919 926	placebo
+T10	Intervention 960 969	diltiazem
+T11	Intervention 1021 1028	CaCl(2)
+T12	Intervention 1046 1053	placebo
+T13	Intervention 1058 1067	diltiazem
+T14	Intervention 1136 1143	CaCl(2)
+T15	Intervention 1148 1155	placebo
+T16	Intervention 1259 1266	calcium
+T17	Intervention 1311 1318	placebo
+T18	Intervention 1384 1393	diltiazem
+T19	Intervention 1418 1425	CaCl(2)
+T20	Intervention 1463 1470	placebo
+T21	Intervention 1602 1609	CaCl(2)
+T22	Intervention 1707 1714	CaCl(2)
+T23	Intervention 1736 1745	diltiazem

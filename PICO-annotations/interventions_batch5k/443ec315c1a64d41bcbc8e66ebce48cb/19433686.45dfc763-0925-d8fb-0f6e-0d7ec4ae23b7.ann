@@ -1,0 +1,6 @@
+T1	Intervention 0 50	Adjuvant therapy with pegylated interferon alfa-2b
+T2	Intervention 58 69	observation
+T3	Intervention 280 320	Interferon (IFN) -based adjuvant therapy
+T4	Intervention 491 541	adjuvant pegylated IFN-alpha-2b (PEG-IFN-alpha-2b)
+T5	Intervention 549 560	observation
+T6	Intervention 749 765	PEG-IFN-alpha-2b

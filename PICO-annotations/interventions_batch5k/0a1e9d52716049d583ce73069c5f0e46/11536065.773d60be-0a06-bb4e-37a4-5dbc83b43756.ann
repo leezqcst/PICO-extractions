@@ -1,0 +1,8 @@
+T1	Intervention 20 43	anterior rhinomanometry
+T2	Intervention 48 80	impulse-oscillometric rhinometry
+T3	Intervention 166 194	anterior rhinomanometry (aR)
+T4	Intervention 200 238	impulse-oscillometric rhinometry (IOS)
+T5	Intervention 666 675	pricktest
+T6	Intervention 687 712	nasal provocation testing
+T7	Intervention 1911 1914	IOS
+T8	Intervention 2005 2007	aR

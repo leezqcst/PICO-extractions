@@ -1,0 +1,15 @@
+T1	Intervention 29 57	exercise electrocardiography
+T2	Intervention 513 542	exercise treadmill test (ETT)
+T3	Intervention 458 492	myocardial perfusion imaging (MPI)
+T4	Intervention 1057 1060	ETT
+T5	Intervention 1073 1076	MPI
+T6	Intervention 1102 1105	ETT
+T7	Intervention 1210 1213	MPI
+T8	Intervention 1431 1434	ETT
+T9	Intervention 1385 1388	ETT
+T10	Intervention 1624 1627	ETT
+T11	Intervention 1741 1744	ETT
+T12	Intervention 1761 1764	MPI
+T13	Intervention 1651 1654	MPI
+T14	Intervention 1481 1484	MPI
+T15	Intervention 1403 1406	MPI

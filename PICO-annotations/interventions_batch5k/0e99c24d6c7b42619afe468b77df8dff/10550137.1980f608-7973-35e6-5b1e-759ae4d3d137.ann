@@ -1,0 +1,15 @@
+T1	Intervention 0 58	Granulocyte-macrophage colony-stimulating factor treatment
+T2	Intervention 230 287	granulocyte-macrophage colony-stimulating factor ([GM-CSF
+T3	Intervention 433 445	chemotherapy
+T4	Intervention 602 647	cyclophosphamide and doxorubicin chemotherapy
+T5	Intervention 668 686	placebo-controlled
+T6	Intervention 730 736	GM-CSF
+T7	Intervention 865 881	neutrophil nadir
+T8	Intervention 950 964	platelet nadir
+T9	Intervention 1101 1117	neutrophil nadir
+T10	Intervention 1535 1549	platelet nadir
+T11	Intervention 1894 1908	GM-CSF priming
+T12	Intervention 1933 1978	doxorubicin and cyclophosphamide chemotherapy
+T13	Intervention 2010 2039	neutrophil and platelet nadir
+T14	Intervention 2304 2318	GM-CSF priming
+T15	Intervention 2384 2396	chemotherapy

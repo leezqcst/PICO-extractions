@@ -1,0 +1,7 @@
+T1	Intervention 56 78	etanercept monotherapy
+T2	Intervention 343 361	etanercept-treated
+T3	Intervention 750 795	etanercept (monotherapy or with methotrexate)
+T4	Intervention 1013 1035	etanercept monotherapy
+T5	Intervention 1141 1169	etanercept with methotrexate
+T6	Intervention 1594 1601	therapy
+T7	Intervention 1651 1701	etanercept-treated (with and without methotrexate)

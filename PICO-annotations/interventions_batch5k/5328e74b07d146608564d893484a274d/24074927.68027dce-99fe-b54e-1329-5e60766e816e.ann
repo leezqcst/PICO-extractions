@@ -1,0 +1,12 @@
+T1	Intervention 40 59	intensity modulated
+T2	Intervention 67 104	conventional pelvic radiation therapy
+T3	Intervention 301 409	whole pelvic conventional radiation therapy (WP-CRT) versus intensity modulated radiation therapy (WP-IMRT).
+T4	Intervention 634 741	50.4 Gy in 28 fractions delivered via either WP-CRT or WP-IMRT with concurrent weekly cisplatin 40 mg/m(2).
+T5	Intervention 1092 1098	WP-CRT
+T6	Intervention 1115 1123	WP-IMRT.
+T7	Intervention 1131 1137	WP-CRT
+T8	Intervention 1214 1218	IMRT
+T9	Intervention 1497 1509	WP-CRT group
+T10	Intervention 1528 1541	WP-IMRT group
+T11	Intervention 1955 1962	WP-IMRT
+T12	Intervention 2024 2030	WP-CRT

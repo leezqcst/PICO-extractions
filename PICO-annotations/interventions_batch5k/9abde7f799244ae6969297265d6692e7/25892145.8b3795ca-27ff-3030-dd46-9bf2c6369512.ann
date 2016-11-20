@@ -1,0 +1,23 @@
+T1	Intervention 0 8	Afatinib
+T2	Intervention 16 28	methotrexate
+T3	Intervention 448 456	Afatinib
+T4	Intervention 596 604	afatinib
+T5	Intervention 619 631	methotrexate
+T6	Intervention 1084 1099	salvage surgery
+T7	Intervention 1103 1115	radiotherapy
+T8	Intervention 1316 1396	EGFR-targeted antibody therapy (but not EGFR-targeted tyrosine-kinase inhibitors
+T11	Intervention 2476 2484	afatinib
+T12	Intervention 2503 2515	methotrexate
+T13	Intervention 2750 2762	rash or acne
+T14	Intervention 2863 2872	diarrhoea
+T15	Intervention 2898 2908	stomatitis
+T16	Intervention 2931 2938	fatigue
+T17	Intervention 2967 2978	neutropenia
+T10	Intervention 1517 1529	methotrexate
+T9	Intervention 1481 1489	afatinib
+T18	Intervention 1790 1892	not masked to treatment allocation; independent review of tumour response was done in a blinded manner
+T19	Intervention 2344 2352	afatinib
+T20	Intervention 2364 2376	methotrexate
+T21	Intervention 3048 3056	afatinib
+T22	Intervention 3090 3102	methotrexate
+T23	Intervention 3136 3144	Afatinib

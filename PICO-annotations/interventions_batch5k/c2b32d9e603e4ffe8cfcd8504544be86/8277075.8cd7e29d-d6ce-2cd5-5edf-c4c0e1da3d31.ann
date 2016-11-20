@@ -1,0 +1,16 @@
+T1	Intervention 42 55	nitroglycerin
+T2	Intervention 200 226	nitroglycerin plus placebo
+T3	Intervention 231 266	nitroglycerin plus N-acetylcysteine
+T4	Intervention 356 372	N-acetylcysteine
+T5	Intervention 583 596	nitroglycerin
+T6	Intervention 705 712	placebo
+T7	Intervention 986 1020	N-acetylcysteine and nitroglycerin
+T8	Intervention 1120 1209	(nitroglycerin plus N-acetylcysteine, 4.45 +/- 0.36 ml/100 g; nitroglycerin plus placebo,
+T9	Intervention 1415 1431	N-acetylcysteine
+T10	Intervention 1449 1462	nitroglycerin
+T11	Intervention 1591 1628	(nitroglycerin plus N-acetylcysteine:
+T12	Intervention 1662 1688	nitroglycerin plus placebo
+T13	Intervention 1860 1894	nitroglycerin and N-acetylcysteine
+T14	Intervention 1934 1968	nitroglycerin-induced venodilation
+T15	Intervention 2220 2236	N-acetylcysteine
+T16	Intervention 2292 2305	nitroglycerin

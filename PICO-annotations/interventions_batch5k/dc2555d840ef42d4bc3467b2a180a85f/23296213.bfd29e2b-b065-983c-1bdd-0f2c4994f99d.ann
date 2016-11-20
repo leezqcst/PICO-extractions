@@ -1,0 +1,14 @@
+T1	Intervention 0 22	Contingency management
+T2	Intervention 237 264	Contingency management (CM)
+T3	Intervention 450 452	CM
+T4	Intervention 599 747	i) The combination of a standardized lifestyle modification (LM) program for individuals with SMI and payment for group attendance (CM(attendance)),
+T5	Intervention 748 814	ii) The combination of LM and payment for weight loss (CM(weight))
+T6	Intervention 825 841	waitlist control
+T7	Intervention 849 970	After the waitlist period, those participants joined a LM group and received payment for behavioral change (CM(behavior))
+T8	Intervention 996 1010	CM(attendance)
+T9	Intervention 1022 1032	CM(weight)
+T10	Intervention 1111 1114	CON
+T11	Intervention 1160 1172	CM(behavior)
+T12	Intervention 1250 1257	control
+T13	Intervention 1277 1300	LM supplemented with CM
+T14	Intervention 1374 1419	financial reimbursement for behavioral change

@@ -1,0 +1,21 @@
+T1	Intervention 31 42	granisetron
+T2	Intervention 62 73	ondansetron
+T3	Intervention 337 348	ondansetron
+T4	Intervention 287 298	granisetron
+T5	Intervention 393 427	moderately emetogenic chemotherapy
+T6	Intervention 512 535	emetogenic chemotherapy
+T7	Intervention 578 594	cyclophosphamide
+T8	Intervention 620 631	carboplatin
+T9	Intervention 657 669	chemotherapy
+T10	Intervention 710 721	granisetron
+T11	Intervention 898 910	chemotherapy
+T12	Intervention 1019 1047	Prophylactic corticosteroids
+T13	Intervention 1182 1211	prophylactic corticosteroids.
+T14	Intervention 1229 1240	granisetron
+T15	Intervention 1257 1268	ondansetron
+T16	Intervention 1363 1375	chemotherapy
+T17	Intervention 1600 1611	ondonsetron
+T18	Intervention 1617 1628	granisetron
+T19	Intervention 1860 1871	ondansetron
+T20	Intervention 1778 1789	granisetron
+T21	Intervention 1977 1988	ondansetron

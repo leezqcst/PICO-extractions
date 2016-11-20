@@ -1,0 +1,27 @@
+T1	Intervention 15 43	preoperative oral pregabalin
+T2	Intervention 217 245	preoperative oral pregabalin
+T3	Intervention 48 92	perioperative intravenous lidocaine infusion
+T4	Intervention 250 294	perioperative intravenous lidocaine infusion
+T5	Intervention 611 689	group C, placebo capsules and normal saline infusion perioperatively (control)
+T6	Intervention 691 811	group L, placebo capsules and lidocaine 1 mg⁄kg intravenous bolus dose followed by 2 mg⁄kg⁄h infusion until skin closure
+T7	Intervention 813 887	group P, 150 mg oral pregabalin and normal saline infusion perioperatively
+T8	Intervention 893 982	group PL, 150&nbsp;mg oral pregabalin and lidocaine 2 mg⁄kg⁄h infusion until skin closure
+T9	Intervention 1211 1218	group L
+T10	Intervention 1220 1227	group P
+T11	Intervention 1232 1240	group PL
+T12	Intervention 1257 1264	group C
+T13	Intervention 1299 1306	group P
+T14	Intervention 1311 1319	group PL
+T15	Intervention 1335 1342	group C
+T16	Intervention 1376 1383	group C
+T17	Intervention 1400 1407	group L
+T18	Intervention 1412 1420	group PL
+T19	Intervention 1480 1487	group L
+T20	Intervention 1492 1500	group PL
+T21	Intervention 1515 1522	group C
+T22	Intervention 1544 1572	Preoperative oral pregabalin
+T23	Intervention 1577 1621	perioperative intravenous lidocaine infusion
+T24	Intervention 1658 1686	Preoperative oral pregabalin
+T25	Intervention 1722 1766	perioperative intravenous lidocaine infusion
+T26	Intervention 1904 1927	preoperative pregabalin
+T27	Intervention 1944 1953	lidocaine

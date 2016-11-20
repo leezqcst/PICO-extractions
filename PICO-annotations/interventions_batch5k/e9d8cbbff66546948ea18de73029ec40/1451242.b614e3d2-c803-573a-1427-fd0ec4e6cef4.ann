@@ -1,0 +1,23 @@
+T3	Intervention 446 519	PTCA therapy with or without adjunctive intravenous streptokinase therapy
+T5	Intervention 804 811	aspirin
+T4	Intervention 772 779	heparin
+T1	Intervention 67 128	streptokinase and angioplasty versus lone angioplasty therapy
+T2	Intervention 224 312	thrombolytic agents during percutaneous transluminal coronary angioplasty (PTCA) therapy
+T6	Intervention 854 861	placebo
+T7	Intervention 865 878	streptokinase
+T8	Intervention 1070 1074	PTCA
+T9	Intervention 1230 1234	PTCA
+T10	Intervention 1236 1247	Use of PTCA
+T11	Intervention 1264 1271	placebo
+T12	Intervention 1282 1295	streptokinase
+T13	Intervention 1310 1321	Angioplasty
+T14	Intervention 1379 1386	placebo
+T15	Intervention 1397 1410	streptokinase
+T16	Intervention 1601 1626	placebo and streptokinase
+T17	Intervention 1883 1908	placebo and streptokinase
+T18	Intervention 1931 1951	Coronary angiography
+T19	Intervention 2232 2253	streptokinase therapy
+T20	Intervention 2687 2708	streptokinase therapy
+T21	Intervention 2834 2846	PTCA therapy
+T22	Intervention 2944 2968	PTCA therapy of acute MI
+T23	Intervention 3031 3052	streptokinase therapy

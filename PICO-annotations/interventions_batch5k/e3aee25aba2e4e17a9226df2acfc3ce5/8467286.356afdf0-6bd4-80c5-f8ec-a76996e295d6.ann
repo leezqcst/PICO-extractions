@@ -1,0 +1,11 @@
+T1	Intervention 7 55	granulocyte-macrophage colony-stimulating factor
+T2	Intervention 60 74	erythropoietin
+T3	Intervention 190 267	recombinant human granulocyte-macrophage colony-stimulating factor (rhGM-CSF)
+T4	Intervention 272 313	recombinant human erythropoietin (rHuEPO)
+T5	Intervention 96 129	autologous marrow transplantation
+T6	Intervention 326 340	autologous BMT
+T7	Intervention 514 528	rhGM-CSF alone
+T8	Intervention 935 942	placebo
+T9	Intervention 1178 1204	autologous transplantation
+T10	Intervention 920 926	rHuEPO
+T11	Intervention 899 907	rhGM-CSF

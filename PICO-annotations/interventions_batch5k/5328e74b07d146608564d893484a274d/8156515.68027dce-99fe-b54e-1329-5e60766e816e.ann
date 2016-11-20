@@ -1,0 +1,11 @@
+T1	Intervention 0 57	Antifungal prophylaxis during remission induction therapy
+T2	Intervention 89 122	versus intravenous amphotericin B
+T3	Intervention 219 246	remission induction therapy
+T4	Intervention 363 380	Fluconazole (FLU)
+T5	Intervention 531 575	Subtherapeutic doses of amphotericin B (AMB)
+T6	Intervention 858 920	antifungal prophylaxis with AMB (0.5 mg/kg three times weekly)
+T7	Intervention 924 942	FLU (400 mg daily)
+T8	Intervention 1323 1326	AMB
+T9	Intervention 1411 1414	FLU
+T10	Intervention 1729 1732	AMB
+T11	Intervention 1779 1782	FLU

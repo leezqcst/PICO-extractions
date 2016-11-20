@@ -1,0 +1,41 @@
+T1	Intervention 0 11	Nicardipine
+T2	Intervention 27 34	esmolol
+T3	Intervention 57 95	postcraniotomy emergence hypertension:
+T4	Intervention 139 161	Emergence hypertension
+T5	Intervention 168 178	craniotomy
+T6	Intervention 339 352	catecholamine
+T7	Intervention 391 414	neurogenic hypertension
+T8	Intervention 436 465	renin-angiotensin-aldosterone
+T9	Intervention 540 572	monotherapeutic antihypertensive
+T10	Intervention 627 665	postcraniotomy emergence hypertension:
+T11	Intervention 666 677	nicardipine
+T12	Intervention 682 689	esmolol
+T13	Intervention 726 751	preoperative hypertension
+T14	Intervention 755 782	postcraniotomy hypertension
+T15	Intervention 810 837	postcraniotomy hypertension
+T16	Intervention 948 959	nicardipine
+T17	Intervention 963 970	esmolol
+T18	Intervention 1005 1027	emergence hypertension
+T19	Intervention 1049 1060	brain tumor
+T20	Intervention 1231 1254	systolic blood pressure
+T21	Intervention 1400 1443	antihypertensive (labetalol or hydralazine)
+T22	Intervention 1718 1729	nicardipine
+T23	Intervention 1820 1827	esmolol
+T24	Intervention 1900 1905	tumor
+T25	Intervention 1990 2002	hypertension
+T26	Intervention 2031 2046	open craniotomy
+T27	Intervention 2054 2080	endonasal transsphenoidal)
+T28	Intervention 2142 2158	antihypertensive
+T29	Intervention 2221 2235	opioid therapy
+T30	Intervention 2240 2254	postcraniotomy
+T31	Intervention 2363 2382	rescue drug therapy
+T32	Intervention 2770 2782	hypertension
+T33	Intervention 3021 3032	Nicardipine
+T34	Intervention 3048 3055	esmolol
+T35	Intervention 3077 3114	postcraniotomy emergence hypertension
+T36	Intervention 3129 3141	hypertension
+T37	Intervention 3231 3250	catecholamine surge
+T38	Intervention 3322 3360	postcraniotomy emergence hypertension,
+T39	Intervention 3361 3372	nicardipine
+T40	Intervention 3421 3428	esmolol
+T41	Intervention 3438 3473	rescue antihypertensive medications

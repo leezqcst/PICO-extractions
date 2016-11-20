@@ -1,0 +1,23 @@
+T1	Intervention 20 29	rituximab
+T3	Intervention 409 467	rituximab (RTX) in patients with rheumatoid arthritis (RA)
+T2	Intervention 502 540	tumor necrosis factor (TNF) inhibitors
+T4	Intervention 172 205	tumor necrosis factor inhibitors:
+T5	Intervention 599 649	placebo (PBO) + methotrexate (MTX; PBO-randomized)
+T6	Intervention 653 680	RTX + MTX (RTX-randomized).
+T7	Intervention 681 695	PBO-randomized
+T8	Intervention 723 726	RTX
+T9	Intervention 774 787	RTX treatment
+T10	Intervention 810 821	RTX courses
+T11	Intervention 866 880	PBO-randomized
+T12	Intervention 923 936	RTX treatment
+T13	Intervention 967 981	RTX-randomized
+T14	Intervention 1075 1078	RTX
+T15	Intervention 1182 1196	PBO-randomized
+T16	Intervention 1201 1215	RTX-randomized
+T17	Intervention 1269 1272	RTX
+T18	Intervention 1765 1779	PBO-randomized
+T19	Intervention 1793 1807	RTX-randomized
+T20	Intervention 1887 1901	PBO-randomized
+T21	Intervention 1909 1923	RTX-randomized
+T22	Intervention 1960 1976	RTX re-treatment
+T23	Intervention 2156 2169	RTX treatment

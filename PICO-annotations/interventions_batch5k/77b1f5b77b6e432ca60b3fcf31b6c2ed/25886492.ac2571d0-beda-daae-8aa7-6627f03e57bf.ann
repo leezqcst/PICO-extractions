@@ -1,0 +1,22 @@
+T1	Intervention 471 509	tailored computerised decision support
+T2	Intervention 513 555	non-tailored computer or paper information
+T3	Intervention 898 943	Tailored Personalised Decision Support (TPDS)
+T4	Intervention 945 969	Non-Tailored PDS (NTPDS)
+T5	Intervention 974 986	Control (CG)
+T6	Intervention 1021 1025	TPDS
+T7	Intervention 1030 1035	NTPDS
+T8	Intervention 1123 1127	TPDS
+T9	Intervention 1181 1183	CG
+T10	Intervention 1507 1511	TPDS
+T11	Intervention 1520 1525	NTPDS
+T12	Intervention 1536 1538	CG
+T13	Intervention 1676 1680	TPDS
+T14	Intervention 1687 1692	NTPDS
+T15	Intervention 1703 1705	CG
+T16	Intervention 1732 1736	TPDS
+T17	Intervention 1741 1746	NTPDS
+T18	Intervention 1987 1991	TPDS
+T19	Intervention 1996 2001	NTPDS
+T20	Intervention 2099 2101	CG
+T21	Intervention 2118 2122	TPDS
+T22	Intervention 2127 2132	NTPDS

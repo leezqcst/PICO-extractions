@@ -1,0 +1,8 @@
+T1	Intervention 0 14	Benzodiazepine
+T2	Intervention 19 34	opioid sedation
+T3	Intervention 73 96	fiberoptic bronchoscopy
+T4	Intervention 111 120	labetalol
+T5	Intervention 186 193	placebo
+T6	Intervention 271 301	fiber-optic bronchoscopy (FOB)
+T7	Intervention 373 400	beta-adrenergic anatagonist
+T8	Intervention 589 618	midazolam-alfentanil sedation

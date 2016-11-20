@@ -1,0 +1,18 @@
+T1	Intervention 12 19	rhubarb
+T2	Intervention 40 57	enteral nutrition
+T3	Intervention 177 184	rhubarb
+T4	Intervention 205 228	enteral nutrition (EEN)
+T6	Intervention 480 497	standard solution
+T7	Intervention 508 510	EN
+T9	Intervention 550 563	EN suspension
+T10	Intervention 568 571	EEN
+T12	Intervention 614 621	rhubarb
+T13	Intervention 631 633	EN
+T5	Intervention 439 459	parenteral nutrition
+T8	Intervention 526 529	EEN
+T11	Intervention 586 593	rhubarb
+T14	Intervention 853 864	EEN/rhubarb
+T17	Intervention 1155 1176	Combination therapies
+T18	Intervention 1333 1354	combination therapies
+T19	Intervention 1565 1580	EEN and rhubarb
+T15	Intervention 1085 1100	EEN and rhubarb

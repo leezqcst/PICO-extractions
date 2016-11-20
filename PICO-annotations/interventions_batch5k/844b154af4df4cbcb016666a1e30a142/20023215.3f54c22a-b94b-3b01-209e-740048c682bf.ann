@@ -1,0 +1,8 @@
+T1	Intervention 0 55	Rituximab plus concurrent infusional EPOCH chemotherapy
+T2	Intervention 124 169	Rituximab plus intravenous bolus chemotherapy
+T3	Intervention 539 629	etoposide, vincristine, doxorubicin, cyclophosphamide, and prednisone (EPOCH) chemotherapy
+T4	Intervention 697 709	chemotherapy
+T5	Intervention 733 738	EPOCH
+T6	Intervention 786 846	etoposide, doxorubicin, and vincristine plus oral prednisone
+T7	Intervention 877 893	cyclophosphamide
+T8	Intervention 1445 1450	EPOCH

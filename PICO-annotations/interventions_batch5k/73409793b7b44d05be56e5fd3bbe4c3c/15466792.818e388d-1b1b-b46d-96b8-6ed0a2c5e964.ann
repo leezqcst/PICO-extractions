@@ -1,0 +1,13 @@
+T1	Intervention 70 89	balloon angioplasty
+T2	Intervention 44 62	stent implantation
+T3	Intervention 230 245	stent placement
+T5	Intervention 471 486	stent placement
+T6	Intervention 868 877	IntraCoil
+T4	Intervention 401 466	balloon angioplasty (percutaneous transluminal angioplasty [PTA])
+T7	Intervention 887 890	PTA
+T8	Intervention 1106 1125	balloon angioplasty
+T9	Intervention 1127 1142	stent placement
+T10	Intervention 1359 1374	IntraCoil stent
+T11	Intervention 1390 1393	PTA
+T12	Intervention 1951 1954	PTA
+T13	Intervention 1999 2002	PTA

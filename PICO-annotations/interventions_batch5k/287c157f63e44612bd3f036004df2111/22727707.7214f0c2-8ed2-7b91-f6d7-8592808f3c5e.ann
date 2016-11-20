@@ -1,0 +1,12 @@
+T1	Intervention 0 86	Rosiglitazone and cognitive function in clozapine-treated patients with schizophrenia:
+T2	Intervention 187 249	Peroxisome proliferator-activated receptor-γ (PPAR-γ) agonists
+T3	Intervention 312 429	evaluate the effect of rosiglitazone, a PPAR-γ agonist, on cognition in clozapine-treated patients with schizophrenia
+T4	Intervention 494 590	clozapine-treated patients with schizophrenia were randomized to receive rosiglitazone (4mg/day)
+T5	Intervention 594 601	placebo
+T6	Intervention 603 631	A neuropsychological battery
+T7	Intervention 861 903	was administered at baseline and week eigh
+#1	AnnotatorNotes T7	A battery of Neuropsychological tests were performed
+T8	Intervention 1044 1063	rosiglitazone group
+T9	Intervention 1078 1085	placebo
+T10	Intervention 1280 1293	rosiglitazone
+#2	AnnotatorNotes T10	no cognitive benefit in clozapine-treated patients with schizophrenia

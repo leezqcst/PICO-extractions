@@ -1,0 +1,13 @@
+T1	Intervention 48 65	enteral nutrition
+T2	Intervention 280 298	feeding strategies
+T3	Intervention 465 490	parenteral nutrition (PN)
+T4	Intervention 512 534	enteral nutrition (EN)
+T5	Intervention 586 598	EPaNIC trial
+T6	Intervention 817 847	initiation of PN when EN fails
+T7	Intervention 888 890	PN
+T8	Intervention 898 900	PN
+T9	Intervention 971 993	enteral nutrition (EN)
+T10	Intervention 1040 1047	late PN
+T11	Intervention 1069 1071	EN
+T12	Intervention 1157 1159	EN
+T13	Intervention 1353 1359	EPaNIC

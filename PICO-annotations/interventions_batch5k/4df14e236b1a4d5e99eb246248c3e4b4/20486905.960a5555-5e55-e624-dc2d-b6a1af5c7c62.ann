@@ -1,0 +1,20 @@
+T1	Intervention 20 42	calcineurin inhibitors
+T2	Intervention 47 69	everolimus monotherapy
+T3	Intervention 209 226	cyclosporine (CsA
+T4	Intervention 258 273	everolimus (Evr
+T5	Intervention 81 97	liver transplant
+T6	Intervention 304 323	transplantation (LT
+T7	Intervention 388 391	CsA
+T9	Intervention 457 460	CsA
+T10	Intervention 514 541	Evr in combination with CsA
+T8	Intervention 581 584	Evr
+T11	Intervention 626 664	CsA with/without mycophenolate mofetil
+T12	Intervention 758 761	Evr
+T13	Intervention 770 773	CsA
+T14	Intervention 827 830	Evr
+T15	Intervention 861 864	CsA
+T16	Intervention 1058 1061	Evr
+T17	Intervention 1230 1233	CsA
+T18	Intervention 1326 1329	CsA
+T19	Intervention 1342 1345	Evr
+T20	Intervention 1369 1371	LT

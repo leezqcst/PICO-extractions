@@ -1,0 +1,12 @@
+T1	Intervention 31 43	root planing
+T2	Intervention 102 145	Ultrasonic and power-driven instrumentation
+T3	Intervention 205 238	manual periodontal root treatment
+T4	Intervention 315 333	ultrasonic scalers
+T5	Intervention 335 351	hand instruments
+T6	Intervention 360 380	power-driven systems
+T7	Intervention 736 781	Periopolisher diamond-coated inserts (US-POL)
+T8	Intervention 810 852	Perioplaner-Periopolisher system (PPL-POL)
+T9	Intervention 857 904	Periokit ultrasonic-designed scalers (PERIOKIT)
+T10	Intervention 954 977	ultrasonic scaler alone
+T11	Intervention 982 998	hand instruments
+T12	Intervention 1489 1509	power-driven inserts

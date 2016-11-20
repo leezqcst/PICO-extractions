@@ -1,0 +1,12 @@
+T1	Intervention 0 16	Wavefront-guided
+T2	Intervention 24 38	standard LASIK
+T3	Intervention 232 267	wavefront-guided and standard LASIK
+T4	Intervention 510 575	wavefront-guided Zyoptix Ablation Refinement software (ZAR) LASIK
+T5	Intervention 649 673	standard Planoscan LASIK
+T6	Intervention 1239 1242	ZAR
+T7	Intervention 1442 1445	ZAR
+T8	Intervention 1399 1408	Planoscan
+T9	Intervention 1265 1274	Planoscan
+T10	Intervention 1748 1751	ZAR
+T11	Intervention 1988 1997	Planoscan
+T12	Intervention 2049 2052	ZAR

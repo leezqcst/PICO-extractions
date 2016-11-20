@@ -1,0 +1,20 @@
+T1	Intervention 302 392	combined treatment (COMB) with risperidone and parent training (PT) in behavior management
+T2	Intervention 0 30	Medication and parent training
+T3	Intervention 728 732	COMB
+T4	Intervention 745 748	MED
+T5	Intervention 408 430	medication alone (MED)
+T6	Intervention 785 808	risperidone monotherapy
+T7	Intervention 848 891	aripiprazole if risperidone was ineffective
+T8	Intervention 909 913	COMB
+T9	Intervention 960 971	PT sessions
+T10	Intervention 1127 1133	t COMB
+T11	Intervention 1150 1153	MED
+T12	Intervention 1272 1276	COMB
+T13	Intervention 1326 1329	MED
+T14	Intervention 1441 1444	MED
+T15	Intervention 1446 1450	COMB
+T16	Intervention 1683 1686	MED
+T17	Intervention 1748 1752	COMB
+T18	Intervention 1790 1808	Medication plus PT
+T19	Intervention 1657 1668	risperidone
+T20	Intervention 1876 1879	MED

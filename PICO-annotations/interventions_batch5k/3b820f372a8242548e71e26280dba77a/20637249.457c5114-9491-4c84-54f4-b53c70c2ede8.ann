@@ -1,0 +1,8 @@
+T1	Intervention 42 69	risperidone plus topiramate
+T2	Intervention 686 718	topiramate+risperidone (Group A)
+T3	Intervention 722 751	placebo+risperidone (Group B)
+T4	Intervention 819 830	risperidone
+T5	Intervention 954 964	topiramate
+T6	Intervention 1333 1343	topiramate
+T7	Intervention 1520 1547	topiramate with risperidone
+T8	Intervention 1567 1590	risperidone monotherapy

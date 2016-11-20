@@ -1,0 +1,9 @@
+T1	Intervention 12 34	nutrition intervention
+T2	Intervention 576 598	nutrition intervention
+T3	Intervention 682 711	nutritious supplement (atole)
+T4	Intervention 748 776	less nutritious one (fresco)
+T5	Intervention 1022 1027	atole
+T6	Intervention 1031 1037	fresco
+T7	Intervention 1103 1108	atole
+T8	Intervention 1509 1528	Improving nutrition
+#1	AnnotatorNotes T8	personal note: i consider this study is not totally ethical

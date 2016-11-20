@@ -1,0 +1,17 @@
+T1	Intervention 26 65	non-depolarizing neuromuscular blockers
+T2	Intervention 176 221	neuromuscular blockers and high-dose fentanyl
+T3	Intervention 402 413	pancuronium
+T4	Intervention 432 442	vecuronium
+T5	Intervention 461 471	atracurium
+T6	Intervention 492 522	pancuronium-metocurine mixture
+T7	Intervention 793 804	pancuronium
+T8	Intervention 836 846	vecuronium
+T9	Intervention 850 860	atracurium
+T10	Intervention 900 951	pancuronium-metocurine mixture than with vecuronium
+T11	Intervention 1348 1370	pancuronium-metocurine
+T12	Intervention 1386 1396	Vecuronium
+T13	Intervention 1658 1668	Atracurium
+T14	Intervention 1541 1603	vecuronium, pancuronium and the pancuronium-metocurine mixture
+T15	Intervention 1646 1656	vecuronium
+T16	Intervention 1780 1790	vecuronium
+T17	Intervention 1911 1921	atracurium

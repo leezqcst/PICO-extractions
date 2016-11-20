@@ -1,0 +1,8 @@
+T1	Intervention 0 24	Palliative brachytherapy
+T2	Intervention 41 64	primary stent placement
+T3	Intervention 166 232	combination of self-expanding metal stent (SEMS) and brachytherapy
+T4	Intervention 322 341	brachytherapy alone
+T5	Intervention 428 432	SEMS
+T6	Intervention 445 458	brachytherapy
+T7	Intervention 865 895	SEMS followed by brachytherapy
+T8	Intervention 1375 1419	brachytherapy with or without preceding SEMS

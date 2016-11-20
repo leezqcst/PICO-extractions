@@ -1,0 +1,14 @@
+T1	Intervention 555 579	27-gauge NVS (NVS-group)
+T2	Intervention 583 619	25-gauge vitrectomy (Standard-group)
+T3	Intervention 225 292	27-gauge transconjunctival nonvitrectomizing vitreous surgery (NVS)
+T4	Intervention 300 356	25-gauge transconjunctival sutureless vitrectomy surgery
+T5	Intervention 825 828	NVS
+T6	Intervention 992 995	NVS
+T7	Intervention 1247 1261	Standard-group
+T8	Intervention 1423 1437	Standard-group
+T9	Intervention 1465 1474	NVS-group
+T10	Intervention 1524 1536	27-gauge NVS
+T11	Intervention 1663 1682	25-gauge vitrectomy
+T12	Intervention 796 810	Standard-group
+T13	Intervention 0 52	TRANSCONJUNCTIVAL NONVITRECTOMIZING VITREOUS SURGERY
+T14	Intervention 60 79	25-GAUGE VITRECTOMY

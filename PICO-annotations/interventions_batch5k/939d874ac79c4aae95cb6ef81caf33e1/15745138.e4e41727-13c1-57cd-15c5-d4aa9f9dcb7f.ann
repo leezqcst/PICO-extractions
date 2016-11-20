@@ -1,0 +1,11 @@
+T1	Intervention 0 30	Online conductivity monitoring
+T2	Intervention 81 111	reduced dialysate conductivity
+T3	Intervention 183 238	reducing the overall sodium burden in dialysis patients
+T4	Intervention 240 262	Excess sodium removal,
+T5	Intervention 326 374	randomized controlled trial of reduction of Cndi
+T6	Intervention 422 489	maintenance of Cndi at 13.6 mS/cm (equivalent to 135 mmol/L of Na+)
+T7	Intervention 493 578	serial reduction of Cndi in steps of 0.2 mS/cm, guided by symptoms and blood pressure
+T8	Intervention 580 594	Sodium removal
+T9	Intervention 788 806	reduction of Cndi,
+T10	Intervention 1116 1154	reduction in convective sodium removal
+T11	Intervention 1260 1294	Reduction in Cndi monitored by IMB

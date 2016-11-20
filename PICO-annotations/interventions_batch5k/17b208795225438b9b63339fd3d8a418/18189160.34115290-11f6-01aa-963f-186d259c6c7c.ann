@@ -1,0 +1,13 @@
+T1	Intervention 15 90	two dose-dense FEC regimens with growth factor support for adjuvant therapy
+T3	Intervention 674 710	intermediate dose-dense FEC regimens
+T2	Intervention 740 761	six cycles of FEC(75)
+T4	Intervention 765 772	FEC(90)
+T5	Intervention 1089 1096	FEC(75)
+T6	Intervention 1101 1108	FEC(90)
+T7	Intervention 1136 1143	FEC(75)
+T8	Intervention 1192 1199	FEC(90)
+T9	Intervention 1357 1364	FEC(90)
+T10	Intervention 1462 1469	FEC(90)
+T11	Intervention 1689 1696	FEC(90)
+T12	Intervention 1789 1797	FEC(75 )
+T13	Intervention 1801 1808	FEC(90)

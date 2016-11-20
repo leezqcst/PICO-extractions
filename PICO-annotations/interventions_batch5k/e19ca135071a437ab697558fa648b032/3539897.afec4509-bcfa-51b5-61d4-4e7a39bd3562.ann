@@ -1,0 +1,19 @@
+T1	Intervention 3 11	analysis
+T2	Intervention 81 96	neutron therapy
+T3	Intervention 136 161	analysis of the morbidity
+T4	Intervention 221 238	d(15)+Be neutrons
+T5	Intervention 246 265	megavoltage photons
+T6	Intervention 374 388	photon therapy
+T7	Intervention 406 426	treated with photons
+T8	Intervention 495 510	neutron therapy
+T9	Intervention 566 574	observed
+T10	Intervention 605 619	photon therapy
+T11	Intervention 645 660	neutron therapy
+T12	Intervention 727 735	neutrons
+T13	Intervention 812 826	eutron therapy
+T14	Intervention 846 860	photon therapy
+T15	Intervention 904 912	observed
+T16	Intervention 940 955	neutron therapy
+T17	Intervention 979 993	photon therapy
+T18	Intervention 1082 1106	assessment of RBE values
+T19	Intervention 1180 1191	photon dose

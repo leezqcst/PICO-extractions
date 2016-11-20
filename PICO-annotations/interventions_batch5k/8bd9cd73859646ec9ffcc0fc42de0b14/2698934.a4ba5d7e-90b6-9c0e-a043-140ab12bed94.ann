@@ -1,0 +1,13 @@
+T1	Intervention 0 14	Chlorthalidone
+T2	Intervention 59 69	nifedipine
+T3	Intervention 170 197	nifedipine + chlorthalidone
+T4	Intervention 442 449	placebo
+T5	Intervention 569 583	chlorthalidone
+T6	Intervention 537 547	nifedipine
+T7	Intervention 667 674	placebo
+T8	Intervention 912 922	nifedipine
+T9	Intervention 957 964	placebo
+T10	Intervention 1026 1040	chlorthalidone
+T11	Intervention 1098 1125	nifedipine + chlorthalidone
+T12	Intervention 1192 1202	nifedipine
+T13	Intervention 1259 1315	dihydropyridine calcium antagonist + a thiazide diuretic

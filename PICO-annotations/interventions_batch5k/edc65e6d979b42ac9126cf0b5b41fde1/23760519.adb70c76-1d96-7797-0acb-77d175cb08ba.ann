@@ -1,0 +1,15 @@
+T1	Intervention 0 52	Ultrasonography-guided bilateral rectus sheath block
+T2	Intervention 56 85	local anesthetic infiltration
+T3	Intervention 180 210	Regional anesthetic techniques
+T4	Intervention 316 382	ultrasonographic guidance for bilateral rectus sheath block (BRSB)
+T5	Intervention 546 573	ultrasonography-guided BRSB
+T6	Intervention 578 615	local anesthetic infiltration (LAI) i
+T7	Intervention 966 1064	Ropivacaine hydrochloride administered at the conclusion of surgery as LAI by the surgeon (n = 25)
+T8	Intervention 1071 1131	ultrasonography-guided BRSB by the anesthesiologist (n = 27)
+T9	Intervention 1238 1278	use of analgesic medications in the PACU
+T10	Intervention 1338 1342	BRSB
+T11	Intervention 1367 1370	LAI
+T12	Intervention 1549 1553	BRSB
+T13	Intervention 1578 1581	LAI
+T14	Intervention 1680 1737	ultrasonography-guided BRSB after umbilical hernia repair
+T15	Intervention 1901 1972	use of longer-acting anesthetic agents with ultrasonography-guided BRSB

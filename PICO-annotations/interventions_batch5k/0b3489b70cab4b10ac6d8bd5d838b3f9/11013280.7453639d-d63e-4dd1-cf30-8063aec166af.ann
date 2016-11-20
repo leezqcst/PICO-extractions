@@ -1,0 +1,6 @@
+T1	Intervention 31 50	high-dose cisplatin
+T2	Intervention 60 99	combination of paclitaxel and cisplatin
+T3	Intervention 285 295	Paclitaxel
+T4	Intervention 350 359	cisplatin
+T5	Intervention 591 610	high-dose cisplatin
+T6	Intervention 630 713	combination of paclitaxel (175 mg/m(2), 3-hour infusion) and cisplatin (80 mg/m(2))

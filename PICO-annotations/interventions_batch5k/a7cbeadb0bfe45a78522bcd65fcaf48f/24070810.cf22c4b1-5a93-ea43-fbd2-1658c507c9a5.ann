@@ -1,0 +1,24 @@
+T1	Intervention 438 595	Controlled exposure to grass pollen using an environmental chamber to stimulate an ocular allergic reaction followed by application of artificial tears (ATs)
+T2	Intervention 610 628	cold compress (CC)
+T3	Intervention 630 650	ATs combined with CC
+T4	Intervention 655 675	no treatment applied
+T5	Intervention 749 813	epinastine hydrochloride (EH) applied alone and combined with CC
+T6	Intervention 17 44	nonpharmacologic treatments
+T7	Intervention 1166 1194	nonpharmaceutical treatments
+T8	Intervention 1209 1221	no treatment
+T9	Intervention 1233 1266	Artificial tears combined with CC
+T10	Intervention 1386 1388	CC
+T11	Intervention 1347 1349	EH
+T12	Intervention 1401 1438	Cold compress combined with ATs or EH
+T13	Intervention 1533 1548	Artificial tear
+T14	Intervention 1571 1597	CC combined with ATs or EH
+T15	Intervention 1647 1684	Cold compress combined with ATs or EH
+T16	Intervention 1786 1788	EH
+T17	Intervention 1793 1812	EH combined with CC
+T18	Intervention 1818 1820	CC
+T19	Intervention 1824 1827	ATs
+T20	Intervention 1919 1921	CC
+T21	Intervention 1926 1928	AT
+T22	Intervention 2234 2236	CC
+T23	Intervention 2257 2260	ATs
+T24	Intervention 2264 2266	EH
