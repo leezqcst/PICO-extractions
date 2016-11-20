@@ -1,0 +1,12 @@
+Intervention 24 41 3
+CT slice interval
+Intervention 271 295 5
+computed tomography (CT)
+Intervention 320 354 5
+5, 2.5 and 1.25 mm slice intervals
+Intervention 389 502 4
+118 lesions in lung, liver and lymph nodes were selected from 30 patients enrolled in early phase clinical trials
+Intervention 504 601 8
+Each CT scan was reconstructed at 5, 2.5 and 1.25 mm slice intervals during the image acquisition
+Intervention 603 706 5
+Lesions were semi-automatically segmented on each interval image series and supervised by a radiologist

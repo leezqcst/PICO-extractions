@@ -1,0 +1,12 @@
+Intervention 121 150 5
+fast elbow extension movement
+Intervention 189 198 5
+go signal
+Intervention 217 230 4
+a stop signal
+Intervention 255 264 4
+go signal
+Intervention 340 464 7
+The interstimulus interval (ISI), or time interval between the go and stop signals, was randomly varied between 0 and 200 ms
+Intervention 466 551 5
+Electromyographic (EMG) activity was recorded from biceps brachii and triceps brachii
