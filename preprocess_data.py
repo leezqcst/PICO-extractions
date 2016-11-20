@@ -160,7 +160,7 @@ Output: [text_array, tag_array]
     tag_array: list of tags of the tokens
 
 '''
-def read_file(abstract_path, tag_path=None):    
+def read_file(abstract_path, tag_path=None, sentences=False):    
     abstract_file = open(abstract_path, 'r');
     file_text = abstract_file.read();    
     text_array = file_text.split()
@@ -173,7 +173,23 @@ def read_file(abstract_path, tag_path=None):
         tags = tag_file.read()
         tag_array = tags.split()
         tag_file.close()
-    
+        
+    if (sentences):
+        sentence_array = []
+        sentence_tag_array = []
+        sentence_start_ind = 0
+        for index in range(0, len(text_array)):
+            token = text_array[index];
+            if token == '.' or token[-1] == '.':
+                sentence_array.append([text_array[sentence_start_ind:index+1]])
+                sentence_tag_array.append([tag_array[sentence_start_ind:index+1]])
+                sentence_start_ind = index + 1;
+                if sentence_start_ind >= len(text_array):
+                    break
+        text_array = sentence_array
+        tag_array = sentence_tag_array
+        
+                
     return [text_array, tag_array]
     
 
@@ -201,7 +217,7 @@ Output: [word_array, tag_array]
     where t1 is the tag for token 'hello' and t6 is the tag for token
     'hungry'.
     '''
-def get_all_data_in_abstracts(abstract_list):
+def get_all_data_in_abstracts(abstract_list, sentences=False):
     abs_list = open(abstract_list, 'r')
     abstract_list = abs_list.readlines()
     abstract_list = [x.strip() for x in abstract_list]
@@ -214,7 +230,7 @@ def get_all_data_in_abstracts(abstract_list):
         tag_path = abstract_path[:-4] + ABSTRACT_TAGS_PATH_END
 #         print abstract_token_path
 #         print tag_path
-        [curr_word_array, curr_tag_array] = read_file(abstract_token_path, tag_path)
+        [curr_word_array, curr_tag_array] = read_file(abstract_token_path, tag_path, sentences)
         if not(len(curr_word_array) == len(curr_tag_array)):
             raise ValueError('For this file, len of abstract words and tags did not match.', abstract_path)
         word_array.append(curr_word_array)
@@ -230,8 +246,8 @@ def get_all_data_in_abstracts(abstract_list):
 Get all the training data.
 Returns [word_array, tag_array]
 '''
-def get_all_data_train(train_abstract_list='PICO-annotations/train_abstracts.txt'):
-    return get_all_data_in_abstracts(train_abstract_list)
+def get_all_data_train(train_abstract_list='PICO-annotations/train_abstracts.txt', sentences=False):
+    return get_all_data_in_abstracts(train_abstract_list, sentences)
 
 
 # In[9]:
@@ -240,8 +256,8 @@ def get_all_data_train(train_abstract_list='PICO-annotations/train_abstracts.txt
 Get all the dev data.
 Returns [word_array, tag_array]
 '''
-def get_all_data_dev(dev_abstract_list='PICO-annotations/dev_abstracts.txt'):
-    return get_all_data_in_abstracts(dev_abstract_list)
+def get_all_data_dev(dev_abstract_list='PICO-annotations/dev_abstracts.txt', sentences=False):
+    return get_all_data_in_abstracts(dev_abstract_list, sentences)
 
 
 # In[10]:
@@ -250,8 +266,8 @@ def get_all_data_dev(dev_abstract_list='PICO-annotations/dev_abstracts.txt'):
 Get all the test data.
 Returns [word_array, tag_array]
 '''
-def get_all_data_test(test_abstract_list='PICO-annotations/test_abstracts.txt'):
-    return get_all_data_in_abstracts(test_abstract_list)
+def get_all_data_test(test_abstract_list='PICO-annotations/test_abstracts.txt', sentences=False):
+    return get_all_data_in_abstracts(test_abstract_list, sentences)
 
 
 # In[52]:
