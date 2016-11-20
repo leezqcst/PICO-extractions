@@ -1,0 +1,26 @@
+Intervention 19 27 3
+propofol
+Intervention 173 181 3
+propofol
+Intervention 552 586 6
+normal saline followed by propofol
+Intervention 650 690 6
+lidocaine 0.5 mg/kg followed by propofol
+Intervention 758 798 5
+lidocaine 1.0 mg/kg followed by propofol
+Intervention 866 923 6
+normal saline followed by propofol 2.0 mg/kg at 50 mg/sec
+Intervention 1134 1143 3
+lidocaine
+Intervention 1174 1188 4
+slow injection
+Intervention 1195 1222 4
+pretreatment with lidocaine
+Intervention 1284 1313 3
+slow injection with lidocaine
+Intervention 1370 1418 3
+slow injection after pretreatment with lidocaine
+Intervention 1446 1478 3
+rapid administration of propofol
+Intervention 1529 1560 3
+slow administration of propofol

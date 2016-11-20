@@ -1,0 +1,16 @@
+Intervention 0 29 6
+Concomitant radiochemotherapy
+Intervention 33 45 6
+radiotherapy
+Intervention 359 368 14
+cisplatin
+Intervention 378 389 14
+carboplatin
+Intervention 568 582 4
+RT monotherapy
+Intervention 612 637 4
+RT concomitantly with DDP
+Intervention 1308 1337 3
+concomitant chemoradiotherapy
+Intervention 1515 1566 3
+concomitant chemoradiotherapy with platinum analogs
