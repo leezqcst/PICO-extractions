@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[7]:
+# In[1]:
 
 # from genia_features_2 import abstracts2features
 from preprocess_data import get_all_data_train # for testing
@@ -11,13 +11,13 @@ import tensorflow as tf
 from tensorflow.contrib import learn
 
 
-# In[51]:
+# In[2]:
 
 Null_TAG = 'None'
 P_TAG = 'P'
 
 
-# In[ ]:
+# In[3]:
 
 # transform X to sparse matrices 
 def x_dict_to_vect(X, dict_vect=None):
@@ -31,7 +31,7 @@ def x_dict_to_vect(X, dict_vect=None):
     return x_vect, dict_vect
 
 
-# In[ ]:
+# In[4]:
 
 # TESTING CODE #
 # word_array, tag_array = get_all_data_train()
