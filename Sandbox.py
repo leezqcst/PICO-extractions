@@ -1,12 +1,12 @@
 
 # coding: utf-8
 
-# In[4]:
+# In[1]:
 
 import os
 
 
-# In[14]:
+# In[2]:
 
 # DEBUG VERSION
 # fixes gold annotations to not index based on white space
@@ -58,7 +58,7 @@ def fix_gold_annotations_debug(abstract_path, gold_annotation_path):
             print " "
 
 
-# In[2]:
+# In[3]:
 
 # abstract = 'PICO-annotations/batch5k/0074f5e102cf4409ac07f6209dd30144/9665186.txt'
 # annpath = 'PICO-annotations/batch5k/0074f5e102cf4409ac07f6209dd30144/9665186_gold.ann'
@@ -69,10 +69,10 @@ def fix_gold_annotations_debug(abstract_path, gold_annotation_path):
 # fix_gold_annotations_debug(abstract, annpath)
 
 
-# In[67]:
+# In[4]:
 
 # fixes gold annotations to not index based on white space
-def fix_gold_annotations(abstract_path, gold_annotation_path):
+def fix_gold_annotations(abstract_path, gold_annotation_path, TYPE='Participants'):
     abs_file = open(abstract_path, 'r');
     text = abs_file.read()
     
@@ -93,7 +93,7 @@ def fix_gold_annotations(abstract_path, gold_annotation_path):
     new_ann_path = gold_annotation_path[:-4] + '_2.ann'
     new_ann_file = open(new_ann_path, 'w');
     new_anns_str = [str(x) for x in new_anns]
-    out = 'Participants ' + ' '.join(new_anns_str)
+    out = TYPE + ' ' + ' '.join(new_anns_str)
     new_ann_file.write(out)
 
 
@@ -150,6 +150,31 @@ for subdir in os.listdir(directory):
 #             # print abstract_path
 #             ann_path = abstract_path[0:-4] + '_gold.ann'
 #             fix_gold_annotations_debug(abstract_path, ann_path)
+
+Fix intervention gold annotations to be white space independant
+# In[5]:
+
+directory = 'PICO-annotations/batch5k'
+i_directory = 'PICO-annotations/interventions_batch5k'
+
+# For each subdirectory
+for subdir in os.listdir(directory):
+    subdir_path = directory + '/' + subdir
+    ann_subdir_path =  i_directory + '/' + subdir
+    # print subdir_path
+    
+    # Not a directory
+    if not os.path.isdir(subdir_path):
+        continue
+    
+    # For each abstract in subdirectory
+    for abstract in os.listdir(subdir_path):
+        if (abstract.endswith('.txt')) and not (abstract.endswith('tokens.txt')):
+            abstract_path = subdir_path + '/' + abstract; 
+            ann_path = ann_subdir_path +'/' + abstract; 
+            # print abstract_path
+            ann_path = ann_path[0:-4] + '_gold.ann'
+            fix_gold_annotations(abstract_path, ann_path, TYPE='Intervention')
 
 
 # In[ ]:
