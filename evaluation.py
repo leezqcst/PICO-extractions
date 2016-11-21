@@ -17,6 +17,7 @@ Null_TAG = 'None'
 P_TAG_b = 'Pb'  # beginning of participant phrase
 P_TAG_m = 'Pm'  # middle/end of participant phrase
 P_TAG = 'P'
+I_TAG = 'I'
 
 
 # In[130]:
@@ -29,16 +30,16 @@ Eval abstract to get
 
 for this abstract and return
 '''
-def evaluate_abstract_token_counts(gold_tags, pred_tags):
+def evaluate_abstract_token_counts(gold_tags, pred_tags, TAG=P_TAG):
     gold_tags = np.array(gold_tags)
     pred_tags = np.array(pred_tags)
 
     unique, counts = np.unique(pred_tags, return_counts=True)
     pred_tag_dict = dict(zip(unique, counts))
-    p_tokens_extracted = pred_tag_dict[P_TAG]
+    p_tokens_extracted = pred_tag_dict[TAG]
 
     intersection = (gold_tags == pred_tags)
-    p_tokens = (gold_tags == P_TAG) 
+    p_tokens = (gold_tags == TAG) 
     p_tokens_correct = (((intersection*1)+(p_tokens*1)))== 2
 
     unique, counts = np.unique(p_tokens_correct, return_counts=True)
@@ -60,8 +61,8 @@ Eval single abstract at a time
 return precision, accuracy and f1 for single abstract
 for each token type (participant/intervention/outcome)
 '''
-def evaluate_abstract_PRF1(gold_tags, pred_tags):
-    (p_tokens_extracted, p_tokens_correct, p_true_tokens)=evaluate_abstract_token_counts(gold_tags, pred_tags)
+def evaluate_abstract_PRF1(gold_tags, pred_tags, TAG=P_TAG):
+    (p_tokens_extracted, p_tokens_correct, p_true_tokens)=evaluate_abstract_token_counts(gold_tags, pred_tags, TAG)
 
 #     print "tokens extracted correctly: ", p_tokens_correct
 #     print "tokens extracted: ", p_tokens_extracted
@@ -84,7 +85,7 @@ def evaluate_abstract_PRF1(gold_tags, pred_tags):
 
 # In[133]:
 
-def eval_abstracts_avg(all_gold_tags, all_pred_tags):
+def eval_abstracts_avg(all_gold_tags, all_pred_tags, TAG=P_TAG):
     if not(len(all_gold_tags) == len(all_pred_tags)):
             raise ValueError('len of all_gold_tags and all_pred_tags did not match.')
 
@@ -95,7 +96,7 @@ def eval_abstracts_avg(all_gold_tags, all_pred_tags):
         curr_gold_tags = all_gold_tags[ind];
         curr_pred_tags = curr_pred_tags[ind];
         
-        (p_precision, p_recall, p_f1) = evaluate_abstract_PRF1(curr_gold_tags, curr_pred_tags)
+        (p_precision, p_recall, p_f1) = evaluate_abstract_PRF1(curr_gold_tags, curr_pred_tags, TAG)
         p_precision_total += p_precision
         p_recall_total += p_recall
         p_f1_total += p_f1
@@ -108,7 +109,7 @@ def eval_abstracts_avg(all_gold_tags, all_pred_tags):
 
 # In[134]:
 
-def eval_abstracts(all_gold_tags, all_pred_tags):
+def eval_abstracts(all_gold_tags, all_pred_tags, TAG=P_TAG):
     if not(len(all_gold_tags) == len(all_pred_tags)):
             raise ValueError('len of all_gold_tags and all_pred_tags did not match.')
 
@@ -120,7 +121,7 @@ def eval_abstracts(all_gold_tags, all_pred_tags):
         curr_gold_tags = all_gold_tags[ind];
         curr_pred_tags = curr_pred_tags[ind];
         
-        (p_tokens_extracted, p_tokens_correct, p_true_tokens) = evaluate_abstract_token_counts(curr_gold_tags, curr_pred_tags)
+        (p_tokens_extracted, p_tokens_correct, p_true_tokens) = evaluate_abstract_token_counts(curr_gold_tags, curr_pred_tags, TAG)
         p_tokens_extracted_total += p_tokens_extracted
         p_tokens_correct_total += p_tokens_correct
         p_true_tokens_total += p_true_tokens

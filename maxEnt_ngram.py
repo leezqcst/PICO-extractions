@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[2]:
+# In[1]:
 
 import sys
 import numpy as np
@@ -19,7 +19,7 @@ from evaluation import evaluate_abstract_PRF1
 # 1-Hot features: Function to return x and Y from words and tags.
 # X contains W_t-n...W_t and Z_t-n...Z_t-1.
 
-# In[3]:
+# In[2]:
 
 def clf2_1hot_get_X_Y_dictlist(words, tags, n, dict_vectorizer=None):
     dict_list = []
@@ -65,7 +65,7 @@ def clf2_1hot_get_X_Y_dictlist(words, tags, n, dict_vectorizer=None):
 
 
 
-# In[4]:
+# In[3]:
 
 def get_clf2_X_train(dict_list, dict_vectorizer=None):
     if dict_vectorizer == None:
@@ -78,7 +78,7 @@ def get_clf2_X_train(dict_list, dict_vectorizer=None):
 
 # Train classifier clf2.
 
-# In[5]:
+# In[4]:
 
 def train_clf2(X_train, Y_train, c=1.0):
     clf2 = LogisticRegression(random_state=123, C=c, penalty='l1')
@@ -88,7 +88,7 @@ def train_clf2(X_train, Y_train, c=1.0):
 
 # Function to predict tags using clf2
 
-# In[6]:
+# In[5]:
 
 def predict_tags_clf2(clf2, dev_words, n, dict_vectorizer):
     Y_pred= []
@@ -192,10 +192,15 @@ Y_pred_dev = predict_tags_clf2(clf2, words_dev, n, dict_vectorizer)
 evaluate_abstract_PRF1(Y_dev, Y_pred_dev)
 
 
-# In[42]:
+# In[6]:
 
-words_tr, tags_tr = get_all_data_train()
-words_dev, tags_dev = get_all_data_dev()
+curr_tag='I'
+
+
+# In[ ]:
+
+words_tr, tags_tr = get_all_data_train(TAG=curr_tag)
+words_dev, tags_dev = get_all_data_dev(TAG=curr_tag)
 n = 3
 
 max_f1 = 0.0
@@ -207,7 +212,7 @@ for reg_param in [1.0, 3.0, 5.0, 7.0, 10.0]:
 
     dict_list_other, Y_dev = clf2_1hot_get_X_Y_dictlist(words_dev, tags_dev, n)
     Y_pred_dev = predict_tags_clf2(clf2, words_dev, n, dict_vectorizer)
-    P, R, F1 = evaluate_abstract_PRF1(Y_dev, Y_pred_dev)
+    P, R, F1 = evaluate_abstract_PRF1(Y_dev, Y_pred_dev, TAG=curr_tag)
     if (F1 > max_f1):
         max_f1 = F1
         best_reg = reg_param
