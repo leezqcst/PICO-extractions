@@ -1,14 +1,14 @@
 
 # coding: utf-8
 
-# In[2]:
+# In[16]:
 
 import tensorflow as tf
 import numpy as np
 import os
 
 
-# In[48]:
+# In[17]:
 
 Null_TAG = 'None'
 P_TAG = 'P'  # participant phrase
@@ -17,7 +17,7 @@ ABSTRACT_TOKENS_PATH_END = '_tokens.txt'
 ABSTRACT_TAGS_PATH_END = '_tokens_tags.ann'
 
 
-# In[49]:
+# In[18]:
 
 '''
 Takes in the abstract and the gold annotation path and assigns a tag,
@@ -114,7 +114,7 @@ def annotate_abstract(abstract_path, gold_annotation_path):
     
 
 
-# In[50]:
+# In[19]:
 
 '''
 Iterates through data directories and produces tag files.
@@ -140,12 +140,12 @@ def produce_tag_files():
                 annotate_abstract(abstract_path, ann_path)
 
 
-# In[51]:
+# In[20]:
 
-produce_tag_files()
+# produce_tag_files()
 
 
-# In[6]:
+# In[4]:
 
 '''
 Takes a file with the abstract as tokens seperated by a space and the
@@ -178,18 +178,37 @@ def read_file(abstract_path, tag_path=None, sentences=False):
         sentence_array = []
         sentence_tag_array = []
         sentence_start_ind = 0
+        end_found = False
         for index in range(0, len(text_array)):
             token = text_array[index];
             if token == '.' or token[-1] == '.':
-                sentence_array.append([text_array[sentence_start_ind:index+1]])
-                sentence_tag_array.append([tag_array[sentence_start_ind:index+1]])
+                sentence_array.append(text_array[sentence_start_ind:index+1])
+                sentence_tag_array.append(tag_array[sentence_start_ind:index+1])
                 sentence_start_ind = index + 1;
+                if ((index+1-sentence_start_ind) > 60):
+                    print abstract_path
                 if sentence_start_ind >= len(text_array):
+                    end_found = True;
                     break
+        if not(end_found):
+            sentence_array.append(text_array[sentence_start_ind:len(text_array)])
+            sentence_tag_array.append(tag_array[sentence_start_ind:len(text_array)])
         text_array = sentence_array
         tag_array = sentence_tag_array
         
-                
+#     length = max([len(sent) for sent in text_array])
+#     if (length > 200):
+#         print "THIS ABSTRACT HAS A SENTANCE GREATER THAN 200: "
+#         print abstract_path
+#         print text_array
+#     for sent in text_array:
+#         if (len(sent) > 140):
+#             print len(sent)
+# #             print sent
+#             if (len(sent) > 160):
+#                 print abstract_path
+#                 print ' '.join(sent)
+    
     return [text_array, tag_array]
     
 
@@ -199,7 +218,7 @@ def read_file(abstract_path, tag_path=None, sentences=False):
 
 
 
-# In[7]:
+# In[22]:
 
 '''
 Input: path to a list of abstract file paths.
@@ -240,7 +259,7 @@ def get_all_data_in_abstracts(abstract_list, sentences=False):
     return [word_array, tag_array]
 
 
-# In[8]:
+# In[23]:
 
 '''
 Get all the training data.
@@ -250,7 +269,7 @@ def get_all_data_train(train_abstract_list='PICO-annotations/train_abstracts.txt
     return get_all_data_in_abstracts(train_abstract_list, sentences)
 
 
-# In[9]:
+# In[24]:
 
 '''
 Get all the dev data.
@@ -260,7 +279,7 @@ def get_all_data_dev(dev_abstract_list='PICO-annotations/dev_abstracts.txt', sen
     return get_all_data_in_abstracts(dev_abstract_list, sentences)
 
 
-# In[10]:
+# In[25]:
 
 '''
 Get all the test data.
@@ -270,7 +289,18 @@ def get_all_data_test(test_abstract_list='PICO-annotations/test_abstracts.txt', 
     return get_all_data_in_abstracts(test_abstract_list, sentences)
 
 
-# In[52]:
+# In[31]:
+
+def get_all_data(abstract_list='PICO-annotations/abstracts.txt', sentences=False):
+    return get_all_data_in_abstracts(abstract_list, sentences)
+
+
+# In[ ]:
+
+
+
+
+# In[ ]:
 
 #  [word_array, tag_array] = get_all_data_train();
 # [dev_word_array, dev_tag_array] = get_all_data_dev();

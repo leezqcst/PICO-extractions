@@ -5,6 +5,7 @@
 
 # from genia_features_2 import abstracts2features
 from preprocess_data import get_all_data_train # for testing
+from preprocess_data import get_all_data
 import numpy as np
 from sklearn.feature_extraction import DictVectorizer
 import tensorflow as tf
@@ -13,11 +14,16 @@ from tensorflow.contrib import learn
 
 # In[2]:
 
+word_array, tag_array = get_all_data(sentences=True)
+
+
+# In[2]:
+
 Null_TAG = 'None'
 P_TAG = 'P'
 
 
-# In[3]:
+# In[4]:
 
 # transform X to sparse matrices 
 def x_dict_to_vect(X, dict_vect=None):
@@ -31,9 +37,9 @@ def x_dict_to_vect(X, dict_vect=None):
     return x_vect, dict_vect
 
 
-# In[4]:
+# In[8]:
 
-# TESTING CODE #
+# # TESTING CODE #
 # word_array, tag_array = get_all_data_train()
 # X,Y = abstracts2features(word_array[1:10],tag_array[1:10],1,1,False, w2v_size=100)
 # x_vect, dict_vect = x_dict_to_vect(X)
@@ -53,7 +59,7 @@ def x_dict_to_vect(X, dict_vect=None):
 # _, loss_value_train, predictions_value_train, accuracy_value_train = session.run(feed_dict=feed_dict_train)
 
 
-# In[59]:
+# In[4]:
 
 def get_1_hot_abstract_encodings(word_array, tag_array):
     max_abstract_len = max([len(x) for x in word_array])
@@ -75,18 +81,11 @@ def get_1_hot_abstract_encodings(word_array, tag_array):
     return (X, Y)
 
 
-# In[60]:
+# In[29]:
 
-# word_array, tag_array = get_all_data_train()
-# X, Y = get_1_hot_abstract_encodings(word_array, tag_array)
-
-
-# In[62]:
-
-
-
-
-# In[ ]:
-
-
+def get_1_hot_sentence_encodings(word_array, tag_array):
+    word_array_sentences = [sentence for abstract in word_array for sentence in abstract]
+    tag_array_sentences = [sentence for abstract in tag_array for sentence in abstract]
+    (X, Y) = get_1_hot_abstract_encodings(word_array_sentences,tag_array_sentences)
+    return (X, Y)
 

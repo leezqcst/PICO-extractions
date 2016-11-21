@@ -6,7 +6,7 @@
 import numpy as np
 import tensorflow as tf
 from preprocess_data import get_all_data_train
-from TF_preprocess_data import get_1_hot_abstract_encodings
+from TF_preprocess_data import get_1_hot_sentence_encodings
 from text_cnn import TextCNN
 import datetime
 # import data_helpers
@@ -20,27 +20,19 @@ from tensorflow.contrib import learn
 # https://github.com/nicholaslocascio/tensorflow-nlp-tutorial/blob/master/sentiment-analysis/Sentiment-RNN.ipynb
 
 
-# In[2]:
-
-tf.InteractiveSession 
-with tf.Session() as sess:
-    matrix1 = tf.constant(2.0)
-    print(sess.run(matrix1))
-
-
 # ## Parameters
 
-# In[3]:
+# In[2]:
 
 # Data loading params
 tf.flags.DEFINE_float("dev_sample_percentage", .1, "Percentage of the training data to use for validation")
 
 # Model Hyperparameters
-tf.flags.DEFINE_integer("embedding_dim", 128, "Dimensionality of character embedding (default: 128)")
+tf.flags.DEFINE_integer("embedding_dim", 512, "Dimensionality of character embedding (default: 128)")
 tf.flags.DEFINE_string("filter_sizes", "3,4,5", "Comma-separated filter sizes (default: '3,4,5')")
-tf.flags.DEFINE_integer("num_filters", 128, "Number of filters per filter size (default: 128)")
+tf.flags.DEFINE_integer("num_filters", 512, "Number of filters per filter size (default: 128)")
 tf.flags.DEFINE_float("dropout_keep_prob", 0.5, "Dropout keep probability (default: 0.5)")
-tf.flags.DEFINE_float("l2_reg_lambda", 0.01, "L2 regularizaion lambda (default: 0.0)")
+tf.flags.DEFINE_float("l2_reg_lambda", 0.0, "L2 regularizaion lambda (default: 0.0)")
 
 # Training parameters
 tf.flags.DEFINE_integer("batch_size", 64, "Batch Size (default: 64)")
@@ -61,11 +53,19 @@ print("")
 
 # ## Data Preperation
 
+# In[3]:
+
+word_array, tag_array = get_all_data_train(sentences=True)
+X, Y = get_1_hot_sentence_encodings(word_array, tag_array)
+
+
+
 # In[4]:
 
-word_array, tag_array = get_all_data_train()
-X, Y = get_1_hot_abstract_encodings(word_array, tag_array)
-
+# print Y[0]
+# print X[0]
+# print word_array[0]
+# print tag_array[0]
 
 
 # In[5]:
@@ -112,7 +112,7 @@ def batch_iter(data, batch_size, num_epochs, shuffle=True):
 
 # In[7]:
 
-max([max(sub_X) for sub_X in X]) + 1
+# max([max(sub_X) for sub_X in X]) + 1
 
 
 # ## Training
@@ -136,7 +136,7 @@ with tf.Graph().as_default():
 
         # Define Training procedure
         global_step = tf.Variable(0, name="global_step", trainable=False)
-        optimizer = tf.train.AdamOptimizer(1e-4)
+        optimizer = tf.train.AdamOptimizer(1e-3)
         grads_and_vars = optimizer.compute_gradients(cnn.loss) # TODO check cnn.loss
         train_op = optimizer.apply_gradients(grads_and_vars, global_step=global_step)
 
