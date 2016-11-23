@@ -162,3 +162,32 @@ Fold 4
 P: (0.7343669781291714, 0.46014282956958114, 0.565778023890515)
 Average
 P: (0.72819665768177089, 0.44625054344350013, 0.5531870305790767)
+
+on dev:
+There are 1404 predicted intervals:
+Number of type Identical      : 738
+Number of type Subinterval    : 196
+Number of type Superinterval  : 244
+Number of type Overlapping    : 17
+Number of type Non-overlapping: 209
+
+There are 14108 predicted tokens:
+Number of type Identical      : 5950
+Number of type Subinterval    : 1696
+Number of type Superinterval  : 4477
+Number of type Overlapping    : 261
+Number of type Non-overlapping: 1724
+
+There are 2694 gold intervals:
+Number of type Identical      : 738
+Number of type Subinterval    : 281
+Number of type Superinterval  : 195
+Number of type Overlapping    : 26
+Number of type Non-overlapping: 1454
+
+There are 22102 gold tokens:
+Number of type Identical      : 5950
+Number of type Subinterval    : 2672
+Number of type Superinterval  : 3089
+Number of type Overlapping    : 370
+Number of type Non-overlapping: 10021
