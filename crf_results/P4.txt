@@ -1,0 +1,172 @@
+'left_neighbors=1 right_neighbors=1 one_hot one_hot_neighbors \
+inside_paren pos chunk iob named_entity \
+inside_paren_neighbors pos_neighbors chunk_neighbors iob_neighbors named_entity_neighbors \
+chunk_end chunk_end_neighbors same_chunk_neighbors \
+w2v_model=pubmed w2v w2v_neighbors w2v_size=30'
+
+Number of abstracts: 3500
+Number of tokens:    927022
+Number of features:  104487486 
+
+Avg tokens per abstract: 264
+Avg features per token:  112 
+
+Max features per token:  113
+Min features per token:  75
+
+200 iters
+--- 15935.535151 seconds ---
+L1: 0.1, L2: 1
+P: (0.74175287917236, 0.5157904262057732, 0.6084705505590989)
+L1: 1, L2: 0.1
+P: (0.7478324663198613, 0.5073296534250294, 0.6045395729997844)
+L1: 1, L2: 0.01
+P: (0.7314396384764364, 0.5126232920097729, 0.602787827197276)
+L1: 1, L2: 0
+P: (0.7499831206535683, 0.5025789521310289, 0.6018475875707745)
+L1: 0.01, L2: 1
+P: (0.7479324951253951, 0.5033028685186861, 0.6017038539553753)
+L1: 0.001, L2: 1
+P: (0.7460328088382993, 0.5041172744548005, 0.6016686016686017)
+L1: 1, L2: 0.001
+P: (0.7475184009723816, 0.500859650710343, 0.5998211915147246)
+L1: 1, L2: 1
+P: (0.7637448501207558, 0.4864718125056556, 0.5943615257048092)
+L1: 0.1, L2: 0.1
+P: (0.7168759610456177, 0.5062437788435435, 0.5934234950941395)
+L1: 0.001, L2: 0.1
+P: (0.6981756841184555, 0.5056103520043435, 0.5864910255064554)
+L1: 0.01, L2: 0.1
+P: (0.7057359790722899, 0.5004524477422858, 0.5856254136333554)
+L1: 0, L2: 0.01
+P: (0.7192160485680349, 0.49312279431725636, 0.5850869658578485)
+L1: 0, L2: 0.001
+P: (0.7374317128829265, 0.48249027237354086, 0.583321937477778)
+L1: 0, L2: 0.1
+P: (0.7313000276014353, 0.4795041172744548, 0.5792206372629393)
+L1: 0.1, L2: 0.01
+P: (0.6902715925484538, 0.4979187403854855, 0.578525430411355)
+L1: 0, L2: 1
+P: (0.7298758926714276, 0.4762917383042259, 0.5764271047227926)
+L1: 0.1, L2: 0.001
+P: (0.6775882244256944, 0.49778300606279974, 0.5739325491014372)
+L1: 0, L2: 0
+P: (0.7237531000275558, 0.47534159804542575, 0.5738161559888579)
+L1: 0.1, L2: 0
+P: (0.6720166625827003, 0.4963351732874853, 0.5709675740384115)
+L1: 0.01, L2: 0.01
+P: (0.64784626368396, 0.4926703465749706, 0.5597018761243897)
+L1: 0.001, L2: 0.01
+P: (0.6327571051860533, 0.48855307212017013, 0.5513825414251794)
+L1: 0.01, L2: 0.001
+P: (0.6149395950314787, 0.4905438421862275, 0.545742833413032)
+L1: 0.01, L2: 0
+P: (0.6032207559830015, 0.4881006243778844, 0.5395888560996349)
+L1: 0.001, L2: 0.001
+P: (0.593057160147439, 0.48773866618405576, 0.5352665160505474)
+L1: 0.001, L2: 0
+P: (0.5799651378145767, 0.48172111121165506, 0.5262975778546712)
+
+225,0.1,1
+P: (0.7460211760005327, 0.5068772056827436, 0.6036261752741184)
+
+200,0.1,1
+
+Top likely transitions:
+None   -> None    1.543014
+P      -> P       0.790263
+None   -> P       -2.450482
+P      -> None    -4.407885
+
+Top positive:
+3.450168 None   word[0]:BACKGROUND
+2.191395 None   word[0]:PARTICIPANTS
+2.058701 None   word[0]:METHODS
+1.848147 P      word[-1]:PARTICIPANTS
+1.792458 P      word[-1]:METHODS
+1.718294 P      word[1]:AIM
+1.687107 None   word[0]:Of
+1.663679 P      word[1]:OBJECTIVE
+1.640205 None   word[0]:DESIGN
+1.632327 None   w2v[0][1]
+1.627023 None   word[0]:Results
+1.603380 None   word[0]:In
+1.600203 None   pos[0]:.
+1.592494 P      word[0]:students
+1.573772 P      word[-1]:METHOD
+1.572287 P      word[1]:PURPOSE
+1.571916 None   word[0]:The
+1.524695 None   word[0]:OBJECTIVE
+1.488100 None   word[0]:which
+1.479740 None   word[0]:PURPOSE
+
+Top negative:
+-1.438419 P      word[0]:]
+-1.456278 None   word[0]:smokers
+-1.464310 None   word[1]:BACKGROUND
+-1.466703 P      word[-1]:volunteers.
+-1.466755 None   word[-1]:Patients
+-1.470391 None   word[1]:hundred
+-1.488100 P      word[0]:which
+-1.524695 P      word[0]:OBJECTIVE
+-1.571916 P      word[0]:The
+-1.572287 None   word[1]:PURPOSE
+-1.573772 None   word[-1]:METHOD
+-1.592494 None   word[0]:students
+-1.600203 P      pos[0]:.
+-1.603380 P      word[0]:In
+-1.663679 None   word[1]:OBJECTIVE
+-1.687107 P      word[0]:Of
+-1.718294 None   word[1]:AIM
+-1.792458 None   word[-1]:METHODS
+-1.848147 None   word[-1]:PARTICIPANTS
+-2.058701 P      word[0]:METHODS
+
+dev:
+P: (0.74175287917236, 0.5157904262057732, 0.6084705505590989)
+train:
+P: (0.873304184020877, 0.6348719752745182, 0.7352408389532727)
+test:
+P: (0.7547018807523009, 0.5144104009455405, 0.6118079584775087)
+
+Fold 0
+P: (0.7557745285018013, 0.46654457453070836, 0.576940186840296)
+Fold 1
+P: (0.7348428143712575, 0.48157459071678216, 0.5818424269363264)
+Fold 2
+P: (0.726083707025411, 0.4831830898352502, 0.5802381574526858)
+Fold 3
+P: (0.7300675059295749, 0.4889418377321603, 0.5856567874130991)
+Fold 4
+P: (0.7436770428015564, 0.49186128803963197, 0.592107810866282)
+Average
+P: (0.73808911972592017, 0.48242107617090663, 0.58335707390173785)
+
+on dev:
+There are 1540 predicted intervals:
+Number of type Identical      : 815
+Number of type Subinterval    : 217
+Number of type Superinterval  : 233
+Number of type Overlapping    : 29
+Number of type Non-overlapping: 246
+
+There are 15369 predicted tokens:
+Number of type Identical      : 6597
+Number of type Subinterval    : 2036
+Number of type Superinterval  : 4295
+Number of type Overlapping    : 396
+Number of type Non-overlapping: 2045
+
+There are 2694 gold intervals:
+Number of type Identical      : 815
+Number of type Subinterval    : 277
+Number of type Superinterval  : 216
+Number of type Overlapping    : 38
+Number of type Non-overlapping: 1348
+
+There are 22102 gold tokens:
+Number of type Identical      : 6597
+Number of type Subinterval    : 2457
+Number of type Superinterval  : 3535
+Number of type Overlapping    : 526
+Number of type Non-overlapping: 8987

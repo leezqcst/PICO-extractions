@@ -1,0 +1,168 @@
+'left_neighbors=1 right_neighbors=1 \
+inside_paren pos chunk iob named_entity \
+inside_paren_neighbors pos_neighbors chunk_neighbors iob_neighbors named_entity_neighbors \
+chunk_end chunk_end_neighbors same_chunk_neighbors \
+w2v_model=pubmed w2v w2v_neighbors w2v_size=30'
+
+Number of abstracts: 3500
+Number of tokens:    927022
+Number of features:  101713420 
+
+Avg tokens per abstract: 264
+Avg features per token:  109 
+
+Max features per token:  110
+Min features per token:  73
+
+200 iters
+--- 16398.615891 seconds ---
+L1: 0, L2: 0.001
+P: (0.5829290206648697, 0.14677404759750248, 0.2345031987566415)
+L1: 0, L2: 1
+P: (0.5822949600148782, 0.14166138810967333, 0.22788311073910986)
+L1: 0.01, L2: 0.1
+P: (0.5383806519453207, 0.1389919464301873, 0.22094361334867663)
+L1: 0, L2: 0
+P: (0.5690834473324213, 0.13175278255361506, 0.21396818398912526)
+L1: 0, L2: 0.01
+P: (0.5743313290483102, 0.12532802461315717, 0.20575673166202416)
+L1: 0, L2: 0.1
+P: (0.5730056238283691, 0.12446837390281422, 0.20451250789874734)
+L1: 0.1, L2: 0.1
+P: (0.5395585075210002, 0.12496606641932857, 0.20293156019249844)
+L1: 1, L2: 0.001
+P: (0.5561486347772532, 0.122568093385214, 0.2008675342008675)
+L1: 0.001, L2: 0.01
+P: (0.5655581444609193, 0.12080354719029952, 0.19908287663572305)
+L1: 1, L2: 0.01
+P: (0.5448822095857027, 0.12139172925527102, 0.19854954488270554)
+L1: 0.1, L2: 0
+P: (0.5369196154632849, 0.11876753235001357, 0.19450928087140157)
+L1: 0.1, L2: 1
+P: (0.5358166189111748, 0.11845081893041354, 0.19401215354972579)
+L1: 1, L2: 0.1
+P: (0.5712070874861572, 0.11668627273549904, 0.19378592628771088)
+L1: 0.1, L2: 0.001
+P: (0.5687848383500558, 0.1154194190570989, 0.19189829615977735)
+L1: 0.001, L2: 1
+P: (0.5703405017921147, 0.11519319518595603, 0.19167356771813598)
+L1: 0.01, L2: 0.01
+P: (0.563302346170872, 0.11514795041172744, 0.19120961682945153)
+L1: 0.001, L2: 0.001
+P: (0.5694663364107183, 0.11442403402407023, 0.1905587160456618)
+L1: 0.01, L2: 0
+P: (0.5662192393736017, 0.11451452357252738, 0.19050127954237542)
+L1: 1, L2: 0
+P: (0.5694160418086799, 0.11338340421681296, 0.18911066671697543)
+L1: 0.1, L2: 0.01
+P: (0.5396071659831643, 0.1131119355714415, 0.1870207593042828)
+L1: 0.001, L2: 0.1
+P: (0.5699674569967457, 0.11094018640846982, 0.18572943493410088)
+L1: 0.001, L2: 0
+P: (0.5846376113652781, 0.10985431182698398, 0.18495524661969145)
+L1: 0.01, L2: 0.001
+P: (0.5815138282387191, 0.10845172382589811, 0.1828096400244051)
+L1: 1, L2: 1
+P: (0.5581835383159887, 0.10677766717944077, 0.17926319787314848)
+L1: 0.01, L2: 1
+P: (0.5494761350407451, 0.10677766717944077, 0.17880819790127664)
+
+200,0,0.001
+
+Top likely transitions:
+P      -> P       2.793538
+None   -> None    1.788454
+None   -> P       -2.084987
+P      -> None    -2.497005
+
+Top positive:
+2.283798 None   pos[0]:.
+1.596571 None   w2v[0][1]
+1.409856 None   pos[0]:DT
+1.335314 P      pos[0]:CD
+0.994375 P      pos[1]:.
+0.960821 P      pos[0]:NNS
+0.944158 None   iob[0]:O
+0.944158 None   chunk[0]:O
+0.933884 None   pos[1]:CD
+0.898811 None   iob[0]:B
+0.875793 None   named_entity[0]:O
+0.846988 P      pos[1]:DT
+0.823419 None   chunk_end[0]
+0.801271 P      pos[0]:)
+0.740207 None   pos[0]:VBD
+0.726793 P      pos[1]::
+0.712038 None   pos[1]:NNS
+0.700120 P      pos[0]:(
+0.683558 None   named_entity[0]:protein
+0.677163 None   pos[1]:(
+
+Top negative:
+-0.683558 P      named_entity[0]:protein
+-0.700120 None   pos[0]:(
+-0.712038 P      pos[1]:NNS
+-0.726793 None   pos[1]::
+-0.731943 None   w2v[0][16]
+-0.740207 P      pos[0]:VBD
+-0.801271 None   pos[0]:)
+-0.823419 P      chunk_end[0]
+-0.846988 None   pos[1]:DT
+-0.875793 P      named_entity[0]:O
+-0.898811 P      iob[0]:B
+-0.933884 P      pos[1]:CD
+-0.944158 P      chunk[0]:O
+-0.944158 P      iob[0]:O
+-0.960821 None   pos[0]:NNS
+-0.994375 None   pos[1]:.
+-1.183355 None   w2v[1][1]
+-1.335314 None   pos[0]:CD
+-1.409856 P      pos[0]:DT
+-2.283798 P      pos[0]:.
+
+dev:
+P: (0.5829290206648697, 0.14677404759750248, 0.2345031987566415)
+train:
+P: (0.6152380952380953, 0.15420760358821017, 0.24660451659567628)
+test:
+P: (0.614102118791247, 0.160741885625966, 0.25479175673728205)
+
+Fold 0
+P: (0.6170021027335536, 0.1343449538884165, 0.220646686002793)
+Fold 1
+P: (0.6229219143576826, 0.15163406707952665, 0.24389762808817003)
+Fold 2
+P: (0.6117742810634834, 0.14019272614236866, 0.22811188103788377)
+Fold 3
+P: (0.6396535725332508, 0.12634408602150538, 0.21100964236518546)
+Fold 4
+P: (0.5940039226674139, 0.13639580518561412, 0.22185014650481374)
+Average
+P: (0.61707115867107687, 0.13778232766348625, 0.2251031967997692)
+
+There are 445 predicted intervals:
+Number of type Identical      : 168
+Number of type Subinterval    : 56
+Number of type Superinterval  : 95
+Number of type Overlapping    : 11
+Number of type Non-overlapping: 115
+
+There are 5565 predicted tokens:
+Number of type Identical      : 1527
+Number of type Subinterval    : 636
+Number of type Superinterval  : 1879
+Number of type Overlapping    : 191
+Number of type Non-overlapping: 1332
+
+There are 2694 gold intervals:
+Number of type Identical      : 168
+Number of type Subinterval    : 108
+Number of type Superinterval  : 56
+Number of type Overlapping    : 15
+Number of type Non-overlapping: 2347
+
+There are 22102 gold tokens:
+Number of type Identical      : 1527
+Number of type Subinterval    : 940
+Number of type Superinterval  : 969
+Number of type Overlapping    : 209
+Number of type Non-overlapping: 18457

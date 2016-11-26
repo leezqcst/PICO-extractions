@@ -1,0 +1,19 @@
+'left_neighbors=3 right_neighbors=3 one_hot one_hot_neighbors \
+inside_paren pos chunk iob named_entity \
+inside_paren_neighbors pos_neighbors chunk_neighbors iob_neighbors named_entity_neighbors \
+chunk_end chunk_end_neighbors same_chunk_neighbors \
+w2v_model=pubmed_wiki w2v w2v_neighbors w2v_size=30 \
+cosine_simil cosine_simil_neighbors \
+isupper isupper_neighbors istitle istitle_neighbors'
+
+Number of abstracts: 3500
+Number of tokens:    927022
+Number of features:  263345838 
+
+Avg tokens per abstract: 264
+Avg features per token:  284 
+
+Max features per token:  286
+Min features per token:  161
+
+200 iters

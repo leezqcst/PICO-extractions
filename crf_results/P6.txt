@@ -1,0 +1,124 @@
+'left_neighbors=3 right_neighbors=3 one_hot one_hot_neighbors \
+inside_paren pos chunk iob named_entity \
+inside_paren_neighbors pos_neighbors chunk_neighbors iob_neighbors named_entity_neighbors \
+chunk_end chunk_end_neighbors same_chunk_neighbors \
+w2v_model=pubmed w2v w2v_neighbors w2v_size=30'
+
+Number of abstracts: 3500
+Number of tokens:    927022
+Number of features:  244064830 
+
+Avg tokens per abstract: 264
+Avg features per token:  263 
+
+Max features per token:  265
+Min features per token:  151
+
+200 iters
+--- 20993.0537431 seconds ---
+L1: 1, L2: 0.01
+P: (0.7703820650457847, 0.5519410008144059, 0.6431188549437226)
+L1: 1, L2: 0.1
+P: (0.7745721592026752, 0.5344765179621753, 0.6325060905415896)
+L1: 1, L2: 1
+P: (0.7886162374095856, 0.5278255361505746, 0.6323892126304377)
+L1: 0.1, L2: 1
+P: (0.7641236583327977, 0.5379151208035472, 0.6313693210482993)
+L1: 0.01, L2: 1
+P: (0.7786479250334672, 0.5263324586010316, 0.6280978348901247)
+L1: 0.1, L2: 0.1
+P: (0.7236974578404228, 0.5203601484028595, 0.605411380744328)
+L1: 0.1, L2: 0.01
+P: (0.6870736297341802, 0.5285946973124604, 0.5975042193013861)
+L1: 0.01, L2: 0.1
+P: (0.7082363304599509, 0.5092751787168582, 0.59249901302803)
+L1: 0.01, L2: 0.01
+P: (0.6434583014537107, 0.49466111664102796, 0.5593328728928452)
+
+200,0.1,1
+
+Top likely transitions:
+None   -> None    1.810097
+P      -> P       1.739306
+None   -> P       -1.950532
+P      -> None    -4.001374
+
+Top positive:
+6.529025 None   word[0]:BACKGROUND
+5.535447 None   word[0]:DESIGN
+4.460577 None   word[0]:PARTICIPANTS
+4.367466 P      word[-1]:PBSCT.
+4.261567 None   word[0]:AIM
+4.182910 P      word[0]:nonsmokers.
+4.087682 None   word[0]:PURPOSE
+3.681372 P      word[-1]:rowers
+3.617833 None   word[0]:However
+3.520786 None   word[3]:full-scale
+3.005856 None   word[0]:SUBJECTS
+2.967749 None   word[0]:METHODS
+2.831217 None   word[-1]:osteoporosis.
+2.826334 None   word[0]:Interventions
+2.800663 None   word[-1]:hypertension.
+2.792574 None   word[1]:Men
+2.750532 None   word[0]:Results
+2.732426 None   word[1]:Eleven
+2.699881 P      word[-2]:Guillian-Barre
+2.697313 P      word[1]:ISAT
+
+Top negative:
+-1.775467 P      word[0]:We
+-1.781724 None   word[-2]:Italian
+-1.792666 P      word[0]:These
+-1.804077 P      word[0]:The
+-1.865348 None   word[-1]:African-Americans
+-1.882979 None   word[0]:smokers
+-1.899684 None   word[-3]:hens
+-1.909232 None   word[1]:PURPOSE
+-1.912737 P      word[0]:This
+-1.925254 None   word[0]:horses
+-1.929118 None   word[1]:BACKGROUND
+-1.969399 None   word[0]:rats
+-2.009715 None   word[-1]:wearers
+-2.134713 None   word[-1]:brucellosis
+-2.143810 None   word[0]:students
+-2.234806 None   word[1]:hundred
+-2.279939 P      word[0]:OBJECTIVE
+-2.302759 P      word[-1]:volunteers.
+-2.656590 None   word[1]:AIM
+-2.967749 P      word[0]:METHODS
+
+dev:
+P: (0.7703820650457847, 0.5519410008144059, 0.6431188549437226)
+train:
+P: (0.8809938145040404, 0.6424102319270297, 0.7430194793399839)
+test:
+P: (0.770860752829692, 0.5325029548140741, 0.6298865408399205)
+
+on dev:
+There are 1657 predicted intervals:
+Number of type Identical      : 915
+Number of type Subinterval    : 233
+Number of type Superinterval  : 243
+Number of type Overlapping    : 23
+Number of type Non-overlapping: 243
+
+There are 15835 predicted tokens:
+Number of type Identical      : 7386
+Number of type Subinterval    : 1900
+Number of type Superinterval  : 4636
+Number of type Overlapping    : 263
+Number of type Non-overlapping: 1650
+
+There are 2694 gold intervals:
+Number of type Identical      : 915
+Number of type Subinterval    : 275
+Number of type Superinterval  : 232
+Number of type Overlapping    : 33
+Number of type Non-overlapping: 1239
+
+There are 22102 gold tokens:
+Number of type Identical      : 7386
+Number of type Subinterval    : 2672
+Number of type Superinterval  : 3393
+Number of type Overlapping    : 393
+Number of type Non-overlapping: 8258

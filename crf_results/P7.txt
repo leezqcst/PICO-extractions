@@ -1,0 +1,130 @@
+'left_neighbors=3 right_neighbors=3 one_hot one_hot_neighbors \
+inside_paren pos chunk iob named_entity \
+inside_paren_neighbors pos_neighbors chunk_neighbors iob_neighbors named_entity_neighbors \
+chunk_end chunk_end_neighbors same_chunk_neighbors \
+w2v_model=pubmed_wiki w2v w2v_neighbors w2v_size=30'
+
+Number of abstracts: 3500
+Number of tokens:    927022
+Number of features:  244064830 
+
+Avg tokens per abstract: 264
+Avg features per token:  263 
+
+Max features per token:  265
+Min features per token:  151
+
+200 iters
+--- 13879.8207121 seconds ---
+L1: 1, L2: 0.1
+P: (0.772533266382124, 0.5568726812053207, 0.6472103907030552)
+L1: 1, L2: 0.01
+P: (0.7673582644888692, 0.55053841281332, 0.6411127795779658)
+L1: 1, L2: 1
+P: (0.7932673002275465, 0.5362863089313185, 0.6399416909620991)
+L1: 0.1, L2: 1
+P: (0.773632334457895, 0.5291376346032033, 0.6284424621832935)
+L1: 0.01, L2: 1
+P: (0.7651805794417251, 0.5233915482761741, 0.6216012896292316)
+L1: 0.1, L2: 0.1
+P: (0.7202373593769317, 0.5271921093113745, 0.6087774294670847)
+L1: 0.1, L2: 0.01
+P: (0.6969678702754838, 0.5231200796308026, 0.597658370163604)
+L1: 0.01, L2: 0.1
+P: (0.6983201704901592, 0.5040720296805719, 0.5855055707378599)
+L1: 0.01, L2: 0.01
+P: (0.6362394718870931, 0.5058365758754864, 0.5635932852749912)
+
+225,1,0.1
+P: (0.7840497151734852, 0.5480047054565198, 0.6451131824234354)
+
+250,1,0.1
+P: (0.7740372353991328, 0.5492715591349199, 0.6425660297464669)
+
+200,1,0.1
+
+Top likely transitions:
+None   -> None    2.243883
+P      -> P       1.540577
+None   -> P       -2.047852
+P      -> None    -3.837160
+
+Top positive:
+6.095411 None   word[0]:BACKGROUND
+4.655562 None   word[0]:DESIGN
+3.564335 None   word[0]:PARTICIPANTS
+3.374100 None   word[0]:PURPOSE
+2.848437 P      word[0]:nonsmokers.
+2.759534 P      word[0]:Norway
+2.692501 None   word[0]:INTERVENTIONS
+2.631998 None   word[0]:AIM
+2.629622 P      word[1]:AIM
+2.615234 P      word[-1]:PBSCT.
+2.490310 None   word[0]:SUBJECTS
+2.443489 None   word[0]:METHODS
+2.431655 P      word[1]:hundred
+2.361379 None   word[0]:OBJECTIVE
+2.239778 None   word[-1]:hypertension.
+2.231100 None   word[-1]:osteoporosis.
+2.198523 P      word[0]:alcoholics
+2.109546 None   word[1]:Eleven
+2.077961 P      word[-1]:rowers
+2.070004 P      word[3]:immigrants
+
+Top negative:
+-1.634466 P      word[0]:The
+-1.654770 None   word[0]:horses
+-1.664240 None   word[-1]:Patients
+-1.669932 P      pos[0]:.
+-1.692833 None   word[-2]:Italian
+-1.693605 None   word[1]:BACKGROUND
+-1.720530 P      word[-1]:included.
+-1.734576 P      word[2]:hundred
+-1.745879 None   word[0]:Thailand
+-1.761377 P      word[0]:PATIENTS
+-1.762434 P      word[0]:]
+-1.762695 None   word[1]:PURPOSE
+-1.799322 None   word[-1]:brucellosis
+-1.845873 P      word[-1]:volunteers.
+-1.876199 None   word[0]:rats
+-1.902534 None   word[0]:students
+-2.361379 P      word[0]:OBJECTIVE
+-2.431655 None   word[1]:hundred
+-2.443489 P      word[0]:METHODS
+-2.629622 None   word[1]:AIM
+
+dev:
+P: (0.772533266382124, 0.5568726812053207, 0.6472103907030552)
+train:
+P: (0.8716431652713601, 0.642272030555067, 0.7395817509747329)
+test:
+P: (0.7730534148285942, 0.528957177925266, 0.6281241565452093)
+
+on dev:
+There are 1687 predicted intervals:
+Number of type Identical      : 930
+Number of type Subinterval    : 246
+Number of type Superinterval  : 248
+Number of type Overlapping    : 21
+Number of type Non-overlapping: 242
+
+There are 15932 predicted tokens:
+Number of type Identical      : 7305
+Number of type Subinterval    : 2050
+Number of type Superinterval  : 4647
+Number of type Overlapping    : 242
+Number of type Non-overlapping: 1688
+
+There are 2694 gold intervals:
+Number of type Identical      : 930
+Number of type Subinterval    : 282
+Number of type Superinterval  : 246
+Number of type Overlapping    : 30
+Number of type Non-overlapping: 1206
+
+There are 22102 gold tokens:
+Number of type Identical      : 7305
+Number of type Subinterval    : 2757
+Number of type Superinterval  : 3660
+Number of type Overlapping    : 358
+Number of type Non-overlapping: 8022
