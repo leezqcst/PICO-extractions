@@ -17,3 +17,110 @@ Max features per token:  286
 Min features per token:  161
 
 200 iters
+--- 17316.6615322 seconds ---
+L1: 1, L2: 0.01
+P: (0.7751111111111111, 0.5523482037824631, 0.6450385712776074)
+L1: 1, L2: 1
+P: (0.7757568048842534, 0.5518957560401774, 0.6449532067889812)
+L1: 1, L2: 0.1
+P: (0.7903479973736047, 0.5446113473893766, 0.644862316511304)
+L1: 0.1, L2: 1
+P: (0.7623230535894844, 0.5457877115193195, 0.6361335231767126)
+L1: 0.01, L2: 1
+P: (0.7592417658542729, 0.5454709980997194, 0.6348437376583028)
+L1: 0.1, L2: 0.1
+P: (0.7182303491440143, 0.5295900823454891, 0.6096512930024219)
+L1: 0.1, L2: 0.01
+P: (0.68991835285765, 0.5275993122794317, 0.5979386729566197)
+L1: 0.01, L2: 0.1
+P: (0.7013414482672959, 0.5109492353633155, 0.5911946393047848)
+L1: 0.01, L2: 0.01
+P: (0.639768115942029, 0.49932132838657134, 0.5608863590160602)
+
+200,1,0.01
+
+Top likely transitions:
+None   -> None    2.526950
+P      -> P       2.104650
+None   -> P       -1.951732
+P      -> None    -3.203641
+
+Top positive:
+5.959447 None   word[0]:DESIGN
+5.786099 None   word[0]:BACKGROUND
+4.432196 P      word[0]:nonsmokers.
+4.417129 None   word[0]:PARTICIPANTS
+4.292859 P      word[-1]:PBSCT.
+4.074433 P      word[-1]:rowers
+4.040106 None   word[0]:INTERVENTIONS
+3.606371 None   word[1]:Eleven
+3.551399 None   word[1]:Young
+3.496381 None   word[0]:PURPOSE
+3.492651 P      word[0]:Norway
+3.345511 None   word[0]:SUBJECTS
+3.087589 P      word[-2]:Guillian-Barre
+3.016858 None   word[1]:Men
+2.871961 P      word[1]:Sprague-Dawley
+2.752129 None   word[-1]:osteoporosis.
+2.682785 P      word[0]:Third-
+2.673258 P      word[1]:alpacas
+2.671603 None   word[0]:AIM
+2.592882 P      word[0]:evaluable.
+
+Top negative:
+-1.678454 None   word[-1]:Girls
+-1.703361 None   word[-3]:Medicaid
+-1.714073 None   word[0]:students
+-1.726519 None   word[-2]:supervisor
+-1.748018 P      word[0]:The
+-1.752349 None   word[-3]:hens
+-1.758342 P      word[0]:treating
+-1.825593 None   word[-1]:African-Americans
+-1.830325 P      word[0]:]
+-1.870329 P      word[2]:hundred
+-1.888000 P      word[0]:OBJECTIVE
+-1.909799 None   word[0]:rats
+-1.993468 None   word[-2]:Italian
+-2.003803 P      word[-1]:volunteers.
+-2.019970 None   word[0]:Thailand
+-2.055028 P      word[0]:PATIENTS
+-2.055223 None   word[-1]:brucellosis
+-2.253040 P      word[0]:METHODS
+-2.333943 None   word[1]:AIM
+-2.499877 None   word[1]:hundred
+
+dev:
+P: (0.7751111111111111, 0.5523482037824631, 0.6450385712776074)
+train:
+P: (0.888781209803887, 0.6337286730155539, 0.7398916001085466)
+test:
+P: (0.7827730525178885, 0.5271388308028002, 0.6300119526241442)
+
+on dev:
+There are 1700 predicted intervals:
+Number of type Identical      : 928
+Number of type Subinterval    : 246
+Number of type Superinterval  : 250
+Number of type Overlapping    : 24
+Number of type Non-overlapping: 252
+
+There are 15750 predicted tokens:
+Number of type Identical      : 7269
+Number of type Subinterval    : 2037
+Number of type Superinterval  : 4493
+Number of type Overlapping    : 285
+Number of type Non-overlapping: 1666
+
+There are 2694 gold intervals:
+Number of type Identical      : 928
+Number of type Subinterval    : 277
+Number of type Superinterval  : 245
+Number of type Overlapping    : 35
+Number of type Non-overlapping: 1209
+
+There are 22102 gold tokens:
+Number of type Identical      : 7269
+Number of type Subinterval    : 2662
+Number of type Superinterval  : 3645
+Number of type Overlapping    : 399
+Number of type Non-overlapping: 8127
