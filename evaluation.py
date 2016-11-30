@@ -48,7 +48,7 @@ def evaluate_abstract_token_counts(gold_tags, pred_tags, TAG=P_TAG):
     
     unique, counts = np.unique(gold_tags, return_counts=True)
     gold_tag_dict = dict(zip(unique, counts))
-    p_true_tokens = gold_tag_dict[P_TAG]
+    p_true_tokens = gold_tag_dict[TAG]
     
     return (p_tokens_extracted, p_tokens_correct, p_true_tokens)
 
