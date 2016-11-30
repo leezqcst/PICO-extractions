@@ -128,3 +128,11 @@ Number of type Subinterval    : 2757
 Number of type Superinterval  : 3660
 Number of type Overlapping    : 358
 Number of type Non-overlapping: 8022
+
+noun phrase only:
+dev:
+P: (0.7879107362502197, 0.5767202572347266, 0.6659735630476756)
+train:
+P: (0.8792282039066222, 0.658249068178981, 0.7528581481443708)
+test:
+P: (0.7855040470934511, 0.5472955652396821, 0.645112554766581)

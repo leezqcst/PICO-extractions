@@ -151,3 +151,21 @@ def compare_tags(pred_tags_list, gold_tags_list, eval_tag):
     print_result(count_pred, length_pred, count_gold, length_gold)
     return
 
+
+# In[ ]:
+
+def filter_phrase(tags_list, genia_tags_list, phrase='NP'):
+    filtered_tags_list = []
+    
+    for i in range(len(tags_list)):
+        tags = tags_list[i]
+        genia_tags = genia_tags_list[i]
+        
+        phrases = [x[3][2:] for x in genia_tags]
+        
+        filtered_tags = [tags[j] for j in range(len(tags)) if phrases[j] == phrase]
+        
+        filtered_tags_list.append(filtered_tags)
+    
+    return filtered_tags_list
+
