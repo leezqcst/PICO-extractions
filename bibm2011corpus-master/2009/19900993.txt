@@ -1,0 +1,19 @@
+OBJECTIVES: To study the effect of insulin treatment in combination with metformin or an insulin secretagogue, repaglinide, on glycaemic regulation in non-obese patients with type 2 diabetes. 
+DESIGN: Randomised, double blind, double dummy, parallel trial. 
+SETTING: Secondary care in Denmark between 2003 and 2006. 
+PARTICIPANTS: Non-obese patients (BMI </=27) with preserved beta cell function. 
+INTERVENTIONS: After a four month run-in period with repaglinide plus metformin combination therapy, patients with a glycated haemoglobin (HbA(1c)) concentration of 6.5% or more were randomised to repaglinide 6 mg or metformin 2000 mg. 
+All patients also received biphasic insulin aspart 70/30 (30% soluble insulin aspart and 70% intermediate acting insulin aspart) 6 units once a day before dinner for 12 months. 
+Insulin dose was adjusted aiming for a fasting plasma glucose concentration of 4.0-6.0 
+mmol/l. 
+The target of HbA(1c) concentration was less than 6.5%. 
+Treatment was intensified to two or three insulin injections a day if glycaemic targets were not reached. 
+MAIN OUTCOME MEASURE: HbA(1c) concentration. 
+RESULTS: Of the 459 patients who were eligible, 102 were randomised, and 97 completed the trial. 
+Patients had had type 2 diabetes for approximately 10 years. 
+At the end of treatment, HbA(1c) concentration was reduced by a similar amount in the two treatment groups (insulin plus metformin: mean (standard deviation) HbA(1c) 8.15% (1.32) v 6.72% (0.66); insulin plus repaglinide: 8.07% (1.49) v 6.90% (0.68); P=0.177). 
+Total daily insulin dose and risk of hypoglycaemia were also similar in the two treatment groups. 
+Weight gain was less with metformin plus biphasic insulin aspart 70/30 than with repaglinide plus biphasic insulin aspart 70/30 (difference in mean body weight between treatments -2.51 kg, 95% confidence interval -4.07 to -0.95). 
+CONCLUSIONS: In non-obese patients with type 2 diabetes and poor glycaemic regulation on oral hypoglycaemic agents, overall glycaemic regulation with insulin in combination with metformin was equivalent to that with insulin plus repaglinide. 
+Weight gain seemed less with insulin plus metformin than with insulin plus repaglinide. 
+TRIAL REGISTRATION: NCT00118963.

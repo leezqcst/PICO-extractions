@@ -1,0 +1,17 @@
+OBJECTIVE: To examine the protective efficacy of measles vaccination in infants in a low income country before 9 months of age. 
+DESIGN: Randomised clinical trial. 
+PARTICIPANTS: 1333 infants aged 4.5 months: 441 in treatment group and 892 in control group. 
+SETTING: Urban area in Guinea-Bissau. 
+INTERVENTION: Measles vaccination using standard titre Edmonston-Zagreb vaccine at 4.5 months of age. 
+MAIN OUTCOME MEASURES: Vaccine efficacy against measles infection, admission to hospital for measles, and measles mortality before standard vaccination at 9 months of age. 
+RESULTS: 28% of the children tested at 4.5 months of age had protective levels of maternal antibodies against measles at enrolment. 
+After early vaccination against measles 92% had measles antibodies at 9 months of age. 
+A measles outbreak offered a unique situation for testing the efficacy of early measles vaccination. 
+During the outbreak, 96 children developed measles; 19% of unvaccinated children had measles before 9 months of age. 
+The monthly incidence of measles among the 441 children enrolled in the treatment arm was 0.7% and among the 892 enrolled in the control arm was 3.1%. 
+Early vaccination with the Edmonston-Zagreb measles vaccine prevented infection; vaccine efficacy for children with serologically confirmed measles and definite clinical measles was 94% (95% confidence interval 77% to 99%), for admissions to hospital for measles was 100% (46% to 100%), and for measles mortality was 100% (-42% to 100%). 
+The number needed to treat to prevent one case of measles between ages 4.5 months and 9 months during the epidemic was 7.2 (6.8 to 9.2). 
+The treatment group tended to have lower overall mortality (mortality rate ratio 0.18, 0.02 to 1.36) although this was not significant. 
+CONCLUSIONS: In low income countries, maternal antibody levels against measles may be low and severe outbreaks of measles can occur in infants before the recommended age of vaccination at 9 months. 
+Outbreaks of measles may be curtailed by measles vaccination using the Edmonston-Zagreb vaccine as early as 4.5 months of age. 
+TRIAL REGISTRATION CLINICAL TRIALS: NCT00168558 [ClinicalTrials.gov].

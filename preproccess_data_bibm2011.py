@@ -19,7 +19,7 @@ from random import shuffle
 
 
 
-# In[143]:
+# In[147]:
 
 def extract_and_write_good_abstracts():
     directory = 'bibm2011corpus-master'
@@ -41,7 +41,9 @@ def extract_and_write_good_abstracts():
             if (abstract.endswith('.xml')):
                 abstract_path = subdir_path + '/' + abstract; 
                 
-                full_text_txt_path = subdir_path + '/' + abstract;
+                full_text_txt_path = abstract_path[:-4] + '.txt';
+                f = open(full_text_txt_path, 'w')
+                
                 soup = BeautifulSoup(open(abstract_path).read())
                 pmid = soup.find("abstract")['id']
 
@@ -50,6 +52,12 @@ def extract_and_write_good_abstracts():
                 fulltext = soup.find('fulltext')
                 if (fulltext.string == None):
                     print "DAMN"
+                else:
+                    out = str(fulltext.string)
+                    f.write(out)
+                
+                f.close()
+                
                 use_abstract = True;
 
                 for i in sentances_part:
@@ -71,7 +79,7 @@ def extract_and_write_good_abstracts():
 #     f.close()
 
 
-# In[144]:
+# In[148]:
 
 extract_and_write_good_abstracts()
 

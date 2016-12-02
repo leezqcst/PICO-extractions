@@ -1,0 +1,14 @@
+OBJECTIVE: To assess the effectiveness of an antenatal service using community based breastfeeding peer support workers on initiation of breast feeding. 
+DESIGN: Cluster randomised controlled trial. 
+SETTING: Community antenatal clinics in one primary care trust in a multiethnic, deprived population. 
+PARTICIPANTS: 66 antenatal clinics with 2511 pregnant women: 33 clinics including 1140 women were randomised to receive the peer support worker service and 33 clinics including 1371 women were randomised to receive standard care. 
+INTERVENTION: An antenatal peer support worker service planned to comprise a minimum of two contacts with women to provide advice, information, and support from approximately 24 weeks' gestation within the antenatal clinic or at home. 
+The trained peer support workers were of similar ethnic and sociodemographic backgrounds to their clinic population. 
+MAIN OUTCOME MEASURE: Initiation of breast feeding obtained from computerised maternity records of the hospitals where women from the primary care trust delivered. 
+RESULTS: The sample was multiethnic, with only 9.4% of women being white British, and 70% were in the lowest 10th for deprivation. 
+Most of the contacts with peer support workers took place in the antenatal clinics. 
+Data on initiation of breast feeding were obtained for 2398 of 2511 (95.5%) women (1083/1140 intervention and 1315/1371 controls). 
+The groups did not differ for initiation of breast feeding: 69.0% (747/1083) in the intervention group and 68.1% (896/1315) in the control groups; cluster adjusted odds ratio 1.11 (95% confidence interval 0.87 to 1.43). 
+Ethnicity, parity, and mode of delivery independently predicted initiation of breast feeding, but randomisation to the peer support worker service did not. 
+CONCLUSION: A universal service for initiation of breast feeding using peer support workers provided within antenatal clinics serving a multiethnic, deprived population was ineffective in increasing initiation rates. 
+TRIAL REGISTRATION: Current Controlled Trials ISRCTN16126175.

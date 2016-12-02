@@ -1,0 +1,14 @@
+OBJECTIVE: To examine the effectiveness of a family based grief counselling programme to prevent complicated grief among first degree relatives and spouses of someone who had committed suicide. 
+DESIGN: Cluster randomised controlled trial with follow-up at 13 months after the suicide. 
+SETTING: General practices in the Netherlands. 
+PARTICIPANTS: 122 first degree relatives and spouses of 70 people who committed suicide; 39 families (68 participants) were allocated to intervention, 31 families (54 participants) to control. 
+INTERVENTION: A family based, cognitive behaviour counselling programme of four sessions with a trained psychiatric nurse counsellor between three to six months after the suicide. 
+Control participants received usual care. 
+MAIN OUTCOME MEASURES: Self report complicated grief. 
+Secondary outcomes were the presence of maladaptive grief reactions, depression, suicidal ideation, and perceptions of being to blame for the suicide. 
+RESULTS: The intervention was not associated with a reduction in complicated grief (mean difference -0.61, 95% confidence interval -6.05 to 4.83; P=0.82). 
+Secondary outcomes were not affected either. 
+When adjusted for baseline inequalities, the intervention reduced the risk of perceptions of being to blame (odds ratio 0.18, 0.05 to 0.67; P=0.01) and maladaptive grief reactions (0.39, 0.15 to 1.01; P=0.06). 
+CONCLUSIONS: A cognitive behaviour grief counselling programme for families bereaved by suicide did not reduce the risk of complicated grief or suicidal ideation or the level of depression. 
+The programme may help to prevent maladaptive grief reactions and perceptions of blame among first degree relatives and spouses. 
+TRIAL REGISTRATION: Current Controlled Trials ISRCTN66473618.

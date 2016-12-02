@@ -1,0 +1,14 @@
+OBJECTIVE: To compare the behavioural side effects associated with two commonly used antiepilepsy drugs-phenobarbital and carbamazepine-in children in Bangladesh. 
+DESIGN: Prospective randomised controlled single centre trial. 
+SETTING: Specialist children's hospital in Dhaka, Bangladesh. 
+PARTICIPANTS: 108 children aged 2-15 with generalised tonic-clonic (n=51) or partial and secondary generalised seizures (n=57). 
+MAIN OUTCOME MEASURES: Seizure control and behavioural side effects. 
+RESULTS: 91 children were followed up for 12 months. 
+Six required a change of antiepilepsy drug. 
+Side effects were compared in 85 children. 
+In the last quarter of the 12 month follow-up, 71 children were seizure free after one year's treatment. 
+Thirty two in the phenobarbital group and 39 in the carbamazepine group had no seizures in 74 and 102 days after randomisation, respectively. 
+Ten children had increased behavioural problems, which were unacceptable in four (one in the phenobarbital group and three in the carbamazepine group). 
+Independent t tests, however, showed no difference between the two trial drugs. 
+CONCLUSION: There was no excess in behavioural side effects with phenobarbital in children with epilepsy in a country with limited resources. 
+Trial registration NCT00381537.

@@ -1,0 +1,14 @@
+OBJECTIVE: To determine the short term efficacy and safety of tonsillectomy for recurrent streptococcal pharyngitis in adults. 
+Design Randomised controlled trial. 
+SETTING: Academic referral centre in Finland. 
+PARTICIPANTS: 70 adults with documented recurrent episodes of streptococcal group A pharyngitis. 
+INTERVENTION: Instant tonsillectomy (n=36) or remaining on waiting list as control (n=34). 
+MAIN OUTCOME MEASURES: Percentage change in the risk of an episode of streptococcal pharyngitis at 90 days. 
+Rates of all episodes of pharyngitis and days with symptoms and adverse effects. 
+RESULTS: The mean (SD) follow-up was 164 (63) days in the control group and 170 (12) days in the tonsillectomy group. 
+At 90 days, streptococcal pharyngitis had recurred in 24% (8/34) in the control group and 3% (1/36) in the tonsillectomy group (difference 21%; 95% confidence interval 6% to 36%). 
+The number needed to undergo tonsillectomy to prevent one recurrence was 5 (3 to 16). 
+During the whole follow-up, the rates of other episodes of pharyngitis and days with throat pain and fever were significantly lower in the tonsillectomy group than in the control group. 
+The most common morbidity related to tonsillectomy was postoperative throat pain (mean length 13 days, SD 4). 
+CONCLUSIONS: Adults with a history of documented recurrent episodes of streptococcal pharyngitis were less likely to have further streptococcal or other throat infections or days with throat pain if they had their tonsils removed. 
+TRIAL REGISTRATION: Clinical Trials NCT00136877.

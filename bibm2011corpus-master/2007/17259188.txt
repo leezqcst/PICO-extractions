@@ -1,0 +1,16 @@
+OBJECTIVE: To compare rapid diagnostic tests (RDTs) for malaria with routine microscopy in guiding treatment decisions for febrile patients. 
+DESIGN: Randomised trial. 
+SETTING: Outpatient departments in northeast Tanzania at varying levels of malaria transmission. 
+PARTICIPANTS: 2416 patients for whom a malaria test was requested. 
+INTERVENTION: Staff received training on rapid diagnostic tests; patients sent for malaria tests were randomised to rapid diagnostic test or routine microscopy MAIN OUTCOME MEASURE: Proportion of patients with a negative test prescribed an antimalarial drug. 
+RESULTS: Of 7589 outpatient consultations, 2425 (32%) had a malaria test requested. 
+Of 1204 patients randomised to microscopy, 1030 (86%) tested negative for malaria; 523 (51%) of these were treated with an antimalarial drug. 
+Of 1193 patients randomised to rapid diagnostic test, 1005 (84%) tested negative; 540 (54%) of these were treated for malaria (odds ratio 1.13, 95% confidence interval 0.95 to 1.34; P=0.18). 
+Children aged under 5 with negative rapid diagnostic tests were more likely to be prescribed an antimalarial drug than were those with negative slides (P=0.003). 
+Patients with a negative test by any method were more likely to be prescribed an antibiotic (odds ratio 6.42, 4.72 to 8.75; P<0.001). 
+More than 90% of prescriptions for antimalarial drugs in low-moderate transmission settings were for patients for whom a test requested by a clinician was negative for malaria. 
+CONCLUSIONS: Although many cases of malaria are missed outside the formal sector, within it malaria is massively over-diagnosed. 
+This threatens the sustainability of deployment of artemisinin combination treatment, and treatable bacterial diseases are likely to be missed. 
+Use of rapid diagnostic tests, with basic training for clinical staff, did not in itself lead to any reduction in over-treatment for malaria. 
+Interventions to improve clinicians' management of febrile illness are essential but will not be easy. 
+TRIAL REGISTRATION: Clinical trials NCT00146796 [ClinicalTrials.gov].

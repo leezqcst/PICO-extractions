@@ -1,0 +1,15 @@
+OBJECTIVE: To compare the effectiveness of an algorithm for diagnosis of active labour in primiparous women with standard care in terms of maternal and neonatal outcomes. 
+DESIGN: Cluster randomised trial. 
+SETTING: Maternity units in Scotland with at least 800 annual births. 
+PARTICIPANTS: 4503 women giving birth for the first time, in 14 maternity units. 
+Seven experimental clusters collected data from a baseline sample of 1029 women and a post-implementation sample of 896 women. 
+The seven control clusters had a baseline sample of 1291 women and a post-implementation sample of 1287 women. 
+INTERVENTION: Use of an algorithm by midwives to assist their diagnosis of active labour, compared with standard care. 
+Main outcomes Primary outcome: use of oxytocin for augmentation of labour. 
+Secondary outcomes: medical interventions in labour, admission management, and birth outcome. 
+RESULTS: No significant difference was found between groups in percentage use of oxytocin for augmentation of labour (experimental minus control, difference=0.3, 
+95% confidence interval -9.2 to 9.8; P=0.9) or in the use of medical interventions in labour. 
+Women in the algorithm group were more likely to be discharged from the labour suite after their first labour assessment (difference=-19.2, -29.9 to -8.6; P=0.002) and to have more pre-labour admissions (0.29, 0.04 to 0.55; P=0.03). 
+CONCLUSIONS: Use of an algorithm to assist midwives with the diagnosis of active labour in primiparous women did not result in a reduction in oxytocin use or in medical intervention in spontaneous labour. 
+Significantly more women in the experimental group were discharged home after their first labour ward assessment. 
+TRIAL REGISTRATION: Current Controlled Trials ISRCTN00522952.

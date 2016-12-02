@@ -1,0 +1,15 @@
+OBJECTIVE: To determine whether older patients with chronic knee pain should be advised to use topical or oral non-steroidal anti-inflammatory drugs (NSAIDs). 
+DESIGN: Randomised controlled trial and patient preference study. 
+SETTING: 26 general practices. 
+PARTICIPANTS: People aged > or =50 with knee pain: 282 in randomised trial and 303 in preference study. 
+INTERVENTIONS: Advice to use topical or oral ibuprofen. 
+Primary outcome measures WOMAC (Western Ontario and McMaster Universities) osteoarthritis index, major and minor adverse effects. 
+RESULTS: Changes in global WOMAC scores at 12 months were equivalent. 
+In the randomised trial the difference (topical minus oral) was two points (95% confidence interval -2 to 6); in the preference study, it was one point (-4 to 6). 
+There were no differences in major adverse effects in the trial or study. 
+The only significant differences in secondary outcomes were in the randomised trial. 
+The oral group had more respiratory adverse effects (17% v 7%,95% confidence interval for difference -17% to -2%), the change in serum creatinine was 3.7 mmol/l less favourable (0.9 micromol/l to 6.5 micromol/l); and more participants changed treatments because of adverse effects (16% v 1%, -16% to -5%). 
+In the topical group more participants had chronic pain grade III or IV at three months, and more participants changed treatment because of ineffectiveness. 
+CONCLUSIONS: Advice to use oral or topical preparations has an equivalent effect on knee pain over one year, and there are more minor side effects with oral NSAIDs. 
+Topical NSAIDs may be a useful alternative to oral NSAIDs. 
+TRIAL REGISTRATION: ISRCTN 79353052.

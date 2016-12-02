@@ -1,0 +1,17 @@
+OBJECTIVE: To evaluate the impact of telling patients their estimated spirometric lung age as an incentive to quit smoking. 
+DESIGN: Randomised controlled trial. 
+SETTING: Five general practices in Hertfordshire, England. 
+PARTICIPANTS: 561 current smokers aged over 35. 
+INTERVENTION: All participants were offered spirometric assessment of lung function. 
+Participants in intervention group received their results in terms of "lung age" (the age of the average healthy individual who would perform similar to them on spirometry). 
+Those in the control group received a raw figure for forced expiratory volume at one second (FEV1). 
+Both groups were advised to quit and offered referral to local NHS smoking cessation services. 
+MAIN OUTCOME MEASURES: The primary outcome measure was verified cessation of smoking by salivary cotinine testing 12 months after recruitment. 
+Secondary outcomes were reported changes in daily consumption of cigarettes and identification of new diagnoses of chronic obstructive lung disease. 
+RESULTS: Follow-up was 89%. 
+Independently verified quit rates at 12 months in the intervention and control groups, respectively, were 13.6% and 6.4% (difference 7.2%, P=0.005, 95% confidence interval 2.2% to 12.1%; number needed to treat 14). 
+People with worse spirometric lung age were no more likely to have quit than those with normal lung age in either group. 
+Cost per successful quitter was estimated at 280 pounds sterling (366 euros, $556). 
+A new diagnosis of obstructive lung disease was made in 17% in the intervention group and 14% in the control group; a total of 16% (89/561) of participants. 
+CONCLUSION: Telling smokers their lung age significantly improves the likelihood of them quitting smoking, but the mechanism by which this intervention achieves its effect is unclear. 
+TRIAL REGISTRATION: National Research Register N0096173751.

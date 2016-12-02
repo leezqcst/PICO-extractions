@@ -1,0 +1,14 @@
+OBJECTIVES: To report the sensitivities of the faecal occult blood test, screening episode, and screening programme for colorectal cancer and the benefits of applying a randomised design at the implementation phase of a new public health policy. 
+DESIGN: Experimental design incorporated in public health evaluation using randomisation at individual level in the target population. 
+SETTING: 161 of the 431 Finnish municipalities in 2004-6. 
+PARTICIPANTS: 106 000 adults randomised to screening or control arms. 
+In total, 52 998 adults aged 60-64 in the screening arm received faecal occult blood test kits. 
+MAIN OUTCOME MEASURES: Test, episode, and programme sensitivities estimated by the incidence method and corrected for selective attendance and overdiagnosis. 
+RESULTS: The response for screening was high overall (70.8%), and significantly better in women (78.1%) than in men (63.3%). 
+The incidence of cancer in the controls was somewhat higher in men than in women (103 v 93 per 100 000 person years), which was not true for interval cancers (42 v 49 per 100 000 person years). 
+The sensitivity of the faecal occult blood test was 54.6%. 
+Only a few interval cancers were detected among those with positive test results, hence the episode sensitivity of 51.3% was close to the test sensitivity. 
+At the population level the sensitivity of the programme was 37.5%. 
+CONCLUSIONS: Although relatively low, the sensitivity of screening for colorectal cancer with the faecal occult blood test in Finland was adequate. 
+An experimental design is a prerequisite for evaluation of such a screening programme because the effectiveness of preventing deaths is likely to be small and results may otherwise remain inconclusive. 
+Thus, screening for colorectal cancer using any primary test modality should be launched in a public health programme with randomisation of the target population at the implementation phase.
