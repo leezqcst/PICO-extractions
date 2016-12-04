@@ -56,9 +56,15 @@ print("")
 # In[3]:
 
 # per sentence 
-word_array, tag_array = get_all_data_train(sentences=True)
-X, Y = get_1_hot_sentence_encodings(word_array, tag_array)
+# word_array, tag_array = get_all_data_train(sentences=True)
+# X, Y = get_1_hot_sentence_encodings(word_array, tag_array)
 
+
+
+# In[ ]:
+
+# per n surrounding words 
+word_array, tag_array = get_all_data_train(sentences=False)
 
 
 # In[4]:

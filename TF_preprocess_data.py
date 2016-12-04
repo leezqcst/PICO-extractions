@@ -14,16 +14,22 @@ from tensorflow.contrib import learn
 
 # In[2]:
 
-word_array, tag_array = get_all_data(sentences=True)
+# word_array, tag_array = get_all_data(sentences=True)
+# word_array[0] = [["this", "is", "sentence", "1"], ["this, "is", "2"]]
 
 
-# In[2]:
+# In[3]:
+
+# word_array[0]
+
+
+# In[4]:
 
 Null_TAG = 'None'
 P_TAG = 'P'
 
 
-# In[4]:
+# In[5]:
 
 # transform X to sparse matrices 
 def x_dict_to_vect(X, dict_vect=None):
@@ -37,7 +43,7 @@ def x_dict_to_vect(X, dict_vect=None):
     return x_vect, dict_vect
 
 
-# In[8]:
+# In[6]:
 
 # # TESTING CODE #
 # word_array, tag_array = get_all_data_train()
@@ -45,13 +51,13 @@ def x_dict_to_vect(X, dict_vect=None):
 # x_vect, dict_vect = x_dict_to_vect(X)
 
 
-# In[24]:
+# In[7]:
 
 # data_placeholder = tf.placeholder(tf.float32, name='data_placeholder')
 # labels_placeholder = tf.placeholder(tf.float32, name='labels_placeholder')
 
 
-# In[1]:
+# In[8]:
 
 # feed_dict_train = {data_placeholder: x_vect, labels_placeholder : Y}
 # # Run the optimizer, get the loss, get the predictions.
@@ -59,7 +65,7 @@ def x_dict_to_vect(X, dict_vect=None):
 # _, loss_value_train, predictions_value_train, accuracy_value_train = session.run(feed_dict=feed_dict_train)
 
 
-# In[4]:
+# In[9]:
 
 def get_1_hot_abstract_encodings(word_array, tag_array):
     max_abstract_len = max([len(x) for x in word_array])
@@ -81,11 +87,66 @@ def get_1_hot_abstract_encodings(word_array, tag_array):
     return (X, Y)
 
 
-# In[29]:
+# In[10]:
 
 def get_1_hot_sentence_encodings(word_array, tag_array):
     word_array_sentences = [sentence for abstract in word_array for sentence in abstract]
+#     print word_array_sentences[2]
     tag_array_sentences = [sentence for abstract in tag_array for sentence in abstract]
     (X, Y) = get_1_hot_abstract_encodings(word_array_sentences,tag_array_sentences)
     return (X, Y)
+
+
+# In[11]:
+
+# # word_array[0] is a list of words in single abstract 
+# # n = number of words on either side of target word
+# def get_1_hot_surround_n_encodings(word_array, tag_array, n):
+#     # create array of arrays with 2n*1 words 
+#     word_array_context = []
+    
+#     for abstract in word_array:
+#         # pad abstract with * 
+#         padding = ["*"] * n
+#         padded_abstract = padding
+#         padded_abstract.extend(abstract)
+#         padded_abstract.extend(padding)
+#         # for all words (excluding padding)
+#         for i in range(n, len(abstract)-n):
+#             word_array_context.extend(i-n,i+n)
+            
+#     tags = [y for x in tag_array for y in x] # flatten tag array 
+#     (X, Y) = get_1_hot_abstract_encodings(word_array_context, tags)
+
+
+# In[ ]:
+
+
+
+
+# In[12]:
+
+# word_array, tag_array = get_all_data_train(sentences=True)
+# X, Y = get_1_hot_sentence_encodings(word_array, tag_array)
+
+
+# In[13]:
+
+# word_array, tag_array = get_all_data(sentences=False)
+# print word_array[0]
+
+
+# In[14]:
+
+# abstract_array = [' '.join(x) for x in word_array]
+
+
+# In[15]:
+
+# print abstract_array[0]
+
+
+# In[ ]:
+
+
 

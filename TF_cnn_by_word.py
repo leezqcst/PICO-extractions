@@ -1,13 +1,13 @@
 
 # coding: utf-8
 
-# In[3]:
+# In[1]:
 
 import numpy as np
 import tensorflow as tf
 from preprocess_data import get_all_data_train
 from TF_preprocess_data import get_1_hot_sentence_encodings
-from text_cnn import TextCNN
+from text_cnn_by_word import TextCNN
 import datetime
 # import data_helpers
 import time
@@ -28,9 +28,9 @@ from tensorflow.contrib import learn
 tf.flags.DEFINE_float("dev_sample_percentage", .1, "Percentage of the training data to use for validation")
 
 # Model Hyperparameters
-tf.flags.DEFINE_integer("embedding_dim", 512, "Dimensionality of character embedding (default: 128)")
+tf.flags.DEFINE_integer("embedding_dim", 128, "Dimensionality of character embedding (default: 128)")
 tf.flags.DEFINE_string("filter_sizes", "3,4,5", "Comma-separated filter sizes (default: '3,4,5')")
-tf.flags.DEFINE_integer("num_filters", 512, "Number of filters per filter size (default: 128)")
+tf.flags.DEFINE_integer("num_filters", 128, "Number of filters per filter size (default: 128)")
 tf.flags.DEFINE_float("dropout_keep_prob", 0.5, "Dropout keep probability (default: 0.5)")
 tf.flags.DEFINE_float("l2_reg_lambda", 0.0, "L2 regularizaion lambda (default: 0.0)")
 
@@ -55,26 +55,78 @@ print("")
 
 # In[3]:
 
-# per sentence 
-word_array, tag_array = get_all_data_train(sentences=True)
-X, Y = get_1_hot_sentence_encodings(word_array, tag_array)
-
+# split into train and dev 
+word_array, tag_array = get_all_data_train(sentences=False)
 
 
 # In[4]:
 
-# print Y[0]
-# print X[0]
-# print word_array[0]
-# print tag_array[0]
+# pad single words with n words on either side 
+n = 3
+x_n = []
+for abstract in word_array:
+    # pad abstract with * 
+    padding = ["*"] * n
+    padded_abstract = padding
+    padded_abstract.extend(abstract)
+    padded_abstract.extend(padding)
+    # for all words (excluding padding)
+    for i in range(n, len(abstract)+n):
+        x_n.append(padded_abstract[i-n:i+n+1])
+
+y_binary = [y for x in tag_array for y in x] # flatten tag array
+y = np.array([[1,0] if tag == 'P' else [0,1] for tag in y_binary ])
 
 
-# In[5]:
+# In[8]:
+
+print x_n[150:200]
+print y[150:200]
+
+
+# In[9]:
+
+# Build vocabulary
+document_length = 2*n+1
+vocab_processor = learn.preprocessing.VocabularyProcessor(document_length)
+n_array = [' '.join(word) for word in x_n]
+x = np.array(list(vocab_processor.fit_transform(n_array)))
+
+
+# In[14]:
+
+print type(x)
+print type(y)
+print x.shape
+print y.shape
+print x[0]
+print x_n[0]
+print y[0]
+
+print x[1]
+print x_n[1]
+print x[2]
+print x_n[2]
+print x[3]
+print x_n[3]
+print x[4]
+print x_n[4]
+print x[5]
+print x_n[5]
+print x[6]
+print x_n[6]
+print x[7]
+print x_n[7]
+print x[11]
+print x_n[11]
+
+
+# In[7]:
 
 # max_document_length = len(X[0])
 # vocab_processor = learn.preprocessing.VocabularyProcessor(max_document_length)
 
-# # Randomly shuffle data
+# # # Randomly shuffle data
 # np.random.seed(10)
 # shuffle_indices = np.random.permutation(np.arange(len(Y)))
 # x_shuffled = X[shuffle_indices]
@@ -89,8 +141,9 @@ X, Y = get_1_hot_sentence_encodings(word_array, tag_array)
 # print("Train/Dev split: {:d}/{:d}".format(len(y_train), len(y_dev)))
 
 
-# In[6]:
+# In[8]:
 
+# copied unchanged function
 def batch_iter(data, batch_size, num_epochs, shuffle=True):
     """
     Generates a batch iterator for a dataset.
@@ -111,14 +164,14 @@ def batch_iter(data, batch_size, num_epochs, shuffle=True):
             yield shuffled_data[start_index:end_index]
 
 
-# In[7]:
+# In[ ]:
 
-# max([max(sub_X) for sub_X in X]) + 1
+# len(vocab_processor.vocabulary_)
 
 
 # ## Training
 
-# In[8]:
+# In[ ]:
 
 with tf.Graph().as_default():
     session_conf = tf.ConfigProto(
@@ -127,9 +180,9 @@ with tf.Graph().as_default():
     sess = tf.Session(config=session_conf)
     with sess.as_default():
         cnn = TextCNN(
-            sequence_length=X.shape[1],
-            num_classes=Y.shape[1],
-            vocab_size=max([max(sub_X) for sub_X in X]) + 1, # TODO: get vocab size another way
+            sequence_length=x.shape[1],
+            num_classes=y.shape[1],
+            vocab_size=len(vocab_processor.vocabulary_),
             embedding_size=FLAGS.embedding_dim,
             filter_sizes=list(map(int, FLAGS.filter_sizes.split(","))),
             num_filters=FLAGS.num_filters,
@@ -192,10 +245,20 @@ with tf.Graph().as_default():
               cnn.input_y: y_batch,
               cnn.dropout_keep_prob: FLAGS.dropout_keep_prob
             }
-            _, step, summaries, loss, accuracy, scores, predictions, temp, extracted, truth, correct, gold, precision, recall, f1 = sess.run(
-                [train_op, global_step, train_summary_op, cnn.loss, cnn.accuracy, cnn.scores, cnn.predictions, cnn.temp, cnn.extracted, cnn.truth, cnn.correct, cnn.gold, cnn.precision, cnn.recall, cnn.f1],feed_dict)
+            # TODO: uncomment and add scores
+#             _, step, summaries, loss, accuracy, scores, predictions, temp, extracted, truth, correct, gold, precision, recall, f1 = sess.run(
+#                 [train_op, global_step, train_summary_op, cnn.loss, cnn.accuracy, cnn.scores, cnn.predictions, cnn.temp, cnn.extracted, cnn.truth, cnn.correct, cnn.gold, cnn.precision, cnn.recall, cnn.f1],feed_dict)
+           # remove below afterwards  
+            _, step, summaries, loss, accuracy = sess.run(
+                [train_op, global_step, train_summary_op, cnn.loss, cnn.accuracy],
+                feed_dict)
+        
             time_str = datetime.datetime.now().isoformat()
-            print("{}: step {}, loss {:g}, pre {:g}, rec {:g}, f1 {:g}".format(time_str, step, loss, precision, recall, f1))
+            # TODO UNCOMMENT BELOW
+#             print("{}: step {}, loss {:g}, pre {:g}, rec {:g}, f1 {:g}".format(time_str, step, loss, precision, recall, f1))
+            #temp
+            print("{}: step {}, loss {:g}, acc {:g}".format(time_str, step, loss, accuracy))
+
             train_summary_writer.add_summary(summaries, step)
 #             print "type of scores: ", type(scores)
 #             print type(scores[0])
@@ -226,6 +289,7 @@ with tf.Graph().as_default():
               cnn.dropout_keep_prob: 1.0
             }
             step, summaries, loss, accuracy, scores, predictions = sess.run(
+    
                 [global_step, dev_summary_op, cnn.loss, cnn.accuracy, cnn.scores, cnn.predictions],
                 feed_dict)
             time_str = datetime.datetime.now().isoformat()
@@ -235,7 +299,7 @@ with tf.Graph().as_default():
 
         # Generate batches
         batches = batch_iter(
-            list(zip(X, Y)), FLAGS.batch_size, FLAGS.num_epochs)
+            list(zip(x, y)), FLAGS.batch_size, FLAGS.num_epochs)
         # Training loop. For each batch...
         for batch in batches:
             x_batch, y_batch = zip(*batch)
