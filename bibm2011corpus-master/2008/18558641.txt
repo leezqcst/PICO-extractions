@@ -1,0 +1,13 @@
+OBJECTIVE: To investigate the effect of high dose vitamin A supplementation given with BCG vaccine at birth in an African setting with high infant mortality. 
+DESIGN: Randomised placebo controlled trial. 
+Setting Bandim Health Project's demographic surveillance system in Guinea-Bissau, covering approximately 90,000 inhabitants. 
+Participants 4345 infants due to receive BCG. INTERVENTION: Infants were randomised to 50,000 IU vitamin A or placebo and followed until age 12 months. 
+MAIN OUTCOME MEASURE: Mortality rate ratios. 
+RESULTS: 174 children died during follow-up (mortality=47/1000 person-years). 
+Vitamin A supplementation was not significantly associated with mortality; the mortality rate ratio was 1.07 (95% confidence interval 0.79 to 1.44). 
+The effect was 1.00 (0.65 to 1.56) during the first four months and 1.13 (0.75 to 1.68) from 4 to 12 months of age. 
+The mortality rate ratio in boys was 0.84 (0.55 to 1.27) compared with 1.39 (0.90 to 2.14) in girls (P for interaction=0.10). 
+An explorative analysis revealed a strong interaction between vitamin A and season of administration. 
+CONCLUSIONS: Vitamin A supplementation given with BCG vaccine at birth had no significant benefit in this African setting. 
+Although little doubt exists that vitamin A supplementation reduces mortality in older children, a global recommendation of supplementation for all newborn infants may not contribute to better survival. 
+TRIAL REGISTRATION: Clinical trials NCT00168597.

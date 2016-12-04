@@ -1,0 +1,13 @@
+OBJECTIVE: To determine the efficacy of a targeted multifactorial falls prevention programme in elderly care wards with relatively short lengths of stay. 
+DESIGN: Cluster randomised trial. 
+SETTING: 24 elderly care wards in 12 hospitals in Sydney, Australia. 
+PARTICIPANTS: 3999 patients, mean age 79 years, with a median hospital stay of seven days. 
+INTERVENTIONS: A nurse and physiotherapist each worked for 25 hours a week for three months in all intervention wards. 
+They provided a targeted multifactorial intervention that included a risk assessment of falls, staff and patient education, drug review, modification of bedside and ward environments, an exercise programme, and alarms for selected patients. 
+MAIN OUTCOME MEASURE: Falls during hospital stay. 
+RESULTS: Intervention and control wards were similar at baseline for previous rates of falls and individual patient characteristics. 
+Overall, 381 falls occurred during the study. 
+No difference was found in fall rates during follow-up between intervention and control wards: respectively, 9.26 falls per 1000 bed days and 9.20 falls per 1000 bed days (P=0.96). 
+The incidence rate ratio adjusted for individual lengths of stay and previous fall rates in the ward was 0.96 (95% confidence interval 0.72 to 1.28). 
+CONCLUSION: A targeted multifactorial falls prevention programme was not effective among older people in hospital wards with relatively short lengths of stay. 
+TRIAL REGISTRATION: Australian New Zealand Clinical Trials Registry ACTRNO 12605000467639.

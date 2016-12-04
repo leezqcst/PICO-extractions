@@ -1,0 +1,15 @@
+OBJECTIVE: To determine the effectiveness of increasing the dietary content of soluble fibre (psyllium) or insoluble fibre (bran) in patients with irritable bowel syndrome. 
+DESIGN: Randomised controlled trial. 
+SETTING: General practice. 
+PARTICIPANTS: 275 patients aged 18-65 years with irritable bowel syndrome. 
+INTERVENTIONS: 12 weeks of treatment with 10 g psyllium (n=85), 10 g bran (n=97), or 10 g placebo (rice flour) (n=93). 
+MAIN OUTCOME MEASURES: The primary end point was adequate symptom relief during at least two weeks in the previous month, analysed after one, two, and three months of treatment to assess both short term and sustained effectiveness. 
+Secondary end points included irritable bowel syndrome symptom severity score, severity of abdominal pain, and irritable bowel syndrome quality of life scale. 
+RESULTS: The proportion of responders was significantly greater in the psyllium group than in the placebo group during the first month (57% v 35%; relative risk 1.60, 95% confidence interval 1.13 to 2.26) and the second month of treatment (59% v 41%; 1.44, 1.02 to 2.06). 
+Bran was more effective than placebo during the third month of treatment only (57% v 32%; 1.70, 1.12 to 2.57), but this was not statistically significant in the worst case analysis (1.45, 0.97 to 2.16). 
+After three months of treatment, symptom severity in the psyllium group was reduced by 90 points, compared with 49 points in the placebo group (P=0.03) and 58 points in the bran group (P=0.61 versus placebo). 
+No differences were found with respect to quality of life. 
+Fifty four (64%) of the patients allocated to psyllium, 54 (56%) in the bran group, and 56 (60%) in the placebo group completed the three month treatment period. 
+Early dropout was most common in the bran group; the main reason was that the symptoms of irritable bowel syndrome worsened. 
+CONCLUSIONS: Psyllium offers benefits in patients with irritable bowel syndrome in primary care. 
+TRIAL REGISTRATION: Clinical trials NCT00189033.

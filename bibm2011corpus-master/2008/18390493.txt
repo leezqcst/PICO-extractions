@@ -1,0 +1,18 @@
+OBJECTIVE: To investigate whether placebo effects can experimentally be separated into the response to three components-assessment and observation, a therapeutic ritual (placebo treatment), and a supportive patient-practitioner relationship-and then progressively combined to produce incremental clinical improvement in patients with irritable bowel syndrome. 
+To assess the relative magnitude of these components. 
+DESIGN: A six week single blind three arm randomised controlled trial. 
+SETTING: Academic medical centre. 
+PARTICIPANTS: 262 adults (76% women), mean (SD) age 39 (14), diagnosed by Rome II criteria for and with a score of > or =150 on the symptom severity scale. 
+INTERVENTIONS: For three weeks either waiting list (observation), placebo acupuncture alone ("limited"), or placebo acupuncture with a patient-practitioner relationship augmented by warmth, attention, and confidence ("augmented"). 
+At three weeks, half of the patients were randomly assigned to continue in their originally assigned group for an additional three weeks. 
+MAIN OUTCOME MEASURES: Global improvement scale (range 1-7), adequate relief of symptoms, symptom severity score, and quality of life. 
+RESULTS: At three weeks, scores on the global improvement scale were 3.8 (SD 1.0) v 4.3 (SD 1.4) v 5.0 (SD 1.3) for waiting list versus "limited" versus "augmented," respectively (P<0.001 for trend). 
+The proportion of patients reporting adequate relief showed a similar pattern: 28% on waiting list, 44% in limited group, and 62% in augmented group (P<0.001 for trend). 
+The same trend in response existed in symptom severity score (30 (63) v 42 (67) v 82 (89), P<0.001) and quality of life (3.6 (8.1) v 4.1 (9.4) v 9.3 (14.0), P<0.001). 
+All pairwise comparisons between augmented and limited patient-practitioner relationship were significant: global improvement scale (P<0.001), 
+adequate relief of symptoms (P<0.001), 
+symptom severity score (P=0.007), quality of life (P=0.01). 
+Results were similar at six week follow-up. 
+CONCLUSION: Factors contributing to the placebo effect can be progressively combined in a manner resembling a graded dose escalation of component parts. 
+Non-specific effects can produce statistically and clinically significant outcomes and the patient-practitioner relationship is the most robust component. 
+TRIAL REGISTRATION: Clinical Trials NCT00065403.

@@ -1,0 +1,13 @@
+OBJECTIVE: To evaluate the effectiveness of treatment with collar or physiotherapy compared with a wait and see policy in recent onset cervical radiculopathy. 
+DESIGN: Randomised controlled trial. 
+SETTING: Neurology outpatient clinics in three Dutch hospitals. 
+PARTICIPANTS: 205 patients with symptoms and signs of cervical radiculopathy of less than one month's duration INTERVENTIONS: Treatment with a semi-hard collar and taking rest for three to six weeks; 12 twice weekly sessions of physiotherapy and home exercises for six weeks; or continuation of daily activities as much as possible without specific treatment (control group). 
+MAIN OUTCOME MEASURES: Time course of changes in pain scores for arm and neck pain on a 100 mm visual analogue scale and in the neck disability index during the first six weeks. 
+RESULTS: In the wait and see group, arm pain diminished by 3 mm/week on the visual analogue scale (beta=-3.1mm, 95% confidence interval -4.0 to -2.2 mm) and by 19 mm in total over six weeks. 
+Patients who were treated with cervical collar or physiotherapy achieved additional pain reduction (collar: beta=-1.9 mm, -3.3 to -0.5 mm; physiotherapy: beta=-1.9, -3.3 to -0.8), resulting in an extra pain reduction compared with the control group of 12 mm after six weeks. 
+In the wait and see group, neck pain did not decrease significantly in the first six weeks (beta=-0.9 mm, -2.0 to 0.3). 
+Treatment with the collar resulted in a weekly reduction on the visual analogue scale of 2.8 mm (-4.2 to -1.3), amounting to 17 mm in six weeks, whereas physiotherapy gave a weekly reduction of 2.4 mm (-3.9 to -0.8) resulting in a decrease of 14 mm after six weeks. 
+Compared with a wait and see policy, the neck disability index showed a significant change with the use of the collar and rest (beta=-0.9 
+mm, -1.6 to -0.1) and a non-significant effect with physiotherapy and home exercises. 
+CONCLUSION: A semi-hard cervical collar and rest for three to six weeks or physiotherapy accompanied by home exercises for six weeks reduced neck and arm pain substantially compared with a wait and see policy in the early phase of cervical radiculopathy. 
+TRIAL REGISTRATION: Clinical trials NCT00129714.

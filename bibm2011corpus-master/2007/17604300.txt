@@ -1,0 +1,15 @@
+OBJECTIVE: To determine the efficacy of a probiotic drink containing Lactobacillus for the prevention of any diarrhoea associated with antibiotic use and that caused by Clostridium difficile. 
+DESIGN: Randomised double blind placebo controlled study. 
+PARTICIPANTS: 135 hospital patients (mean age 74) taking antibiotics. 
+Exclusions included diarrhoea on admission, bowel pathology that could result in diarrhoea, antibiotic use in the previous four weeks, severe illness, immunosuppression, bowel surgery, artificial heart valves, and history of rheumatic heart disease or infective endocarditis. 
+INTERVENTION: Consumption of a 100 g (97 ml) drink containing Lactobacillus casei, L bulgaricus, and Streptococcus thermophilus twice a day during a course of antibiotics and for one week after the course finished. 
+The placebo group received a longlife sterile milkshake. 
+MAIN OUTCOME MEASURES: Primary outcome: occurrence of antibiotic associated diarrhoea. 
+Secondary outcome: presence of C difficile toxin and diarrhoea. 
+RESULTS: 7/57 (12%) of the probiotic group developed diarrhoea associated with antibiotic use compared with 19/56 (34%) in the placebo group (P=0.007). 
+Logistic regression to control for other factors gave an odds ratio 0.25 (95% confidence interval 0.07 to 0.85) for use of the probiotic, with low albumin and sodium also increasing the risk of diarrhoea. 
+The absolute risk reduction was 21.6% (6.6% to 36.6%), and the number needed to treat was 5 (3 to 15). 
+No one in the probiotic group and 9/53 (17%) in the placebo group had diarrhoea caused by C difficile (P=0.001). 
+The absolute risk reduction was 17% (7% to 27%), and the number needed to treat was 6 (4 to 14). 
+CONCLUSION: Consumption of a probiotic drink containing L casei, L bulgaricus, and S thermophilus can reduce the incidence of antibiotic associated diarrhoea and C difficile associated diarrhoea. 
+This has the potential to decrease morbidity, healthcare costs, and mortality if used routinely in patients aged over 50. TRIAL REGISTRATION: National Research Register N0016106821.

@@ -1,0 +1,13 @@
+OBJECTIVE: To assess the impact of prophylactic oral co-trimoxazole in reducing mortality in HIV positive Zambian adults being treated for pulmonary tuberculosis. 
+DESIGN: Double blind placebo controlled randomised clinical trial. 
+PARTICIPANTS: Two groups of antiretroviral treatment naive adults with HIV infection: patients newly diagnosed as having tuberculosis and receiving tuberculosis treatment either for the first time or for retreatment after relapse; previously treated patients not receiving treatment. 
+INTERVENTION: Oral co-trimoxazole or matching placebo daily. 
+Primary outcome measures Time to death and occurrence of serious adverse events related to study drug. 
+RESULTS: 1003 patients were randomised: 835 (416 co-trimoxazole, 419 placebo) were receiving treatment for tuberculosis, 762 (376 co-trimoxazole, 386 placebo) of them newly diagnosed previously untreated patients and 73 (40 co-trimoxazole, 33 placebo) receiving a retreatment regimen; 168 (84 co-trimoxazole, 84 placebo) were not on treatment but had received treatment in the past. 
+Of 835 participants receiving tuberculosis treatment, follow-up information was available for 757, with a total of 1012.6 person years of follow-up. 
+A total of 310 (147 co-trimoxazole, 163 placebo) participants died, corresponding to death rates of 27.3 and 34.4 per 100 person years. 
+In the Cox regression analysis, the hazard ratio for death (co-trimoxazole:placebo) was 0.79 (95% confidence interval 0.63 to 0.99). 
+The effect of co-trimoxazole waned with time, possibly owing to falling adherence levels; in a per protocol analysis based on patients who spent at least 90% of their time at risk supplied with study drug, the hazard ratio was 0.65 (0.45 to 0.93). 
+CONCLUSIONS: Prophylaxis with co-trimoxazole reduces mortality in HIV infected adults with pulmonary tuberculosis. 
+Co-trimoxazole was generally safe and well tolerated. 
+TRIAL REGISTRATION: Current Controlled Trials ISRCTN15281875.

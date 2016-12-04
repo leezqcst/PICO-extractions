@@ -1,0 +1,14 @@
+OBJECTIVE: To determine the clinical effectiveness of topical intranasal corticosteroids in children with bilateral otitis media with effusion. 
+DESIGN: Double blind randomised placebo controlled trial. 
+SETTING: 76 Medical Research Council General Practice Research Framework practices throughout the United Kingdom, between 2004 and 2007. 
+PARTICIPANTS: 217 children aged 4-11 years who had at least one practice recorded episode of otitis media or a related ear problem in the previous 12 months, and with bilateral otitis media with effusion confirmed by a research nurse using otoscopy plus micro-tympanometry (B/B or B/C2, modified Jerger types). 
+INTERVENTION: Mometasone furoate 50 microg or placebo spray given once daily into each nostril for three months. 
+MAIN OUTCOME MEASURES: Proportions of children cured of bilateral otitis media with effusion assessed with tympanometry (C1 or A type) at one month (primary end point), three months, and nine months; adverse events; three month diary symptoms. 
+Results 41% (39/96) of the topical steroid group and 45% (44/98) of the placebo group were cured in one or both ears at one month (difference favouring placebo 4.3% (95% confidence interval -9.3% to 18.1%). 
+Poisson regression was done with adjustment for four pre-specified covariates (clinical severity, P=0.003; atopy, P=0.67; age, P=0.92; season, P=0.71). 
+The adjusted relative risk at one month was 0.97 (95% confidence interval 0.74 to 1.26). 
+At three months, 58% of the topical steroid group and 52% of the placebo group were cured (relative risk 1.23, 0.84 to 1.80). 
+Diary symptoms did not differ between the two groups, and no significant harms were reported. 
+CONCLUSIONS: Topical steroids are unlikely to be an effective treatment for otitis media with effusion in general practice. 
+High rates of natural resolution occurred by 1-3 months. 
+TRIAL REGISTRATION: Current Controlled Trials ISRCTN38988331; National Research Register NO575123823; MREC 03/11/073.

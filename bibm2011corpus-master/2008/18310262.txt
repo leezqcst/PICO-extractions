@@ -1,0 +1,15 @@
+OBJECTIVE: To determine the cost effectiveness of Helicobacter pylori "test and treat" compared with empirical acid suppression in the initial management of patients with dyspepsia in primary care. 
+DESIGN: Randomised controlled trial. 
+SETTING: 80 general practices in the United Kingdom. 
+PARTICIPANTS: 699 patients aged 18-65 who presented to their general practitioner with epigastric pain, heartburn, or both without "alarm symptoms" for malignancy. 
+INTERVENTION: H pylori 13C urea breath test plus one week of eradication treatment if positive or proton pump inhibitor alone; subsequent management at general practitioner's discretion. 
+MAIN OUTCOME MEASURES: Cost effectiveness in cost per quality adjusted life year (QALY) (EQ-5D) and effect on dyspeptic symptoms at one year measured with short form Leeds dyspepsia questionnaire. 
+RESULTS: 343 patients were randomised to testing for H pylori, and 100 were positive. 
+The successful eradication rate was 78%. 
+356 patients received proton pump inhibitor for 28 days. 
+At 12 months no significant differences existed between the two groups in QALYs, costs, or dyspeptic symptoms. 
+Minor reductions in costly resource use over the year in the test and treat group "paid back" the initial cost of the intervention. 
+CONCLUSIONS: Test and treat and acid suppression are equally cost effective in the initial management of dyspepsia. 
+Empirical acid suppression is an appropriate initial strategy. 
+As costs are similar overall, general practitioners should discuss with patients at which point to consider H pylori testing. 
+TRIAL REGISTRATION: Current Controlled Trials ISRCTN87644265.

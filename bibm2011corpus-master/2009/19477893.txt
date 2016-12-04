@@ -1,0 +1,21 @@
+OBJECTIVE: To evaluate the effect of a video decision support tool on the preferences for future medical care in older people if they develop advanced dementia, and the stability of those preferences after six weeks. 
+DESIGN: Randomised controlled trial conducted between 1 September 2007 and 30 May 2008. 
+Setting Four primary care clinics (two geriatric and two adult medicine) affiliated with three academic medical centres in Boston. 
+PARTICIPANTS: Convenience sample of 200 older people (>or=65 years) living in the community with previously scheduled appointments at one of the clinics. 
+Mean age was 75 and 58% were women. 
+INTERVENTION: Verbal narrative alone (n=106) or with a video decision support tool (n=94). 
+MAIN OUTCOME MEASURES: Preferred goal of care: life prolonging care (cardiopulmonary resuscitation, mechanical ventilation), limited care (admission to hospital, antibiotics, but not cardiopulmonary resuscitation), or comfort care (treatment only to relieve symptoms). 
+Preferences after six weeks. 
+The principal category for analysis was the difference in proportions of participants in each group who preferred comfort care. 
+RESULTS: Among participants receiving the verbal narrative alone, 68 (64%) chose comfort care, 20 (19%) chose limited care, 15 (14%) chose life prolonging care, and three (3%) were uncertain. 
+In the video group, 81 (86%) chose comfort care, eight (9%) chose limited care, four (4%) chose life prolonging care, and one (1%) was uncertain (chi(2)=13.0, df=3, P=0.003). 
+Among all participants the factors associated with a greater likelihood of opting for comfort care were being a college graduate or higher, good or better health status, greater health literacy, white race, and randomisation to the video arm. 
+In multivariable analysis, participants in the video group were more likely to prefer comfort care than those in the verbal group (adjusted odds ratio 3.9, 95% confidence interval 1.8 to 8.6). 
+Participants were re-interviewed after six weeks. 
+Among the 94/106 (89%) participants re-interviewed in the verbal group, 27 (29%) changed their preferences (kappa=0.35). 
+Among the 84/94 (89%) participants re-interviewed in the video group, five (6%) changed their preferences (kappa=0.79) 
+(P<0.001 for difference). 
+CONCLUSION: Older people who view a video depiction of a patient with advanced dementia after hearing a verbal description of the condition are more likely to opt for comfort as their goal of care compared with those who solely listen to a verbal description. 
+They also have more stable preferences over time. 
+TRIAL REGISTRATION: Clinicaltrials.gov 
+NCT00704886.

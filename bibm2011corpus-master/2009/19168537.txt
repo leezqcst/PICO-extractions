@@ -1,0 +1,10 @@
+OBJECTIVE: To compare the effectiveness of ultrasound guided corticosteroid injection in the subacromial bursa with systemic corticosteroid injection in patients with rotator cuff disease. 
+DESIGN: Double blind randomised clinical trial. 
+SETTING: Outpatient clinic of a physical medicine and rehabilitation department in Oslo, Norway. 
+Patients 106 patients with rotator cuff disease lasting at least three months. 
+INTERVENTIONS: Ultrasound guided corticosteroid and lidocaine injection in the subacromial bursa and lidocaine injection in the gluteal region (local group); corticosteroid and lidocaine injection in the gluteal region and ultrasound guided lidocaine injection in the subacromial bursa (systemic group). 
+MAIN OUTCOME MEASURES: Difference in improvement in the overall shoulder pain and disability index score after six weeks. 
+RESULTS: Six weeks after the intervention, the mean difference in improvement in overall shoulder pain and disability index score between the local group and the systemic group was -5.2 (95% confidence interval -13.9 to 3.5); it was -4.1 (-12.3 to 4.1, P=0.32) after adjustment for baseline score. 
+A small but statistically significant difference in improvement between groups occurred in favour of the local group for two secondary outcome measures: the Western Ontario rotator cuff index (8.1, 0.7 to 15.6) and change in main complaint (2.0, 0 to 4). 
+CONCLUSIONS: No important differences in short term outcomes were found between local ultrasound guided corticosteroid injection and systemic corticosteroid injection in rotator cuff disease. 
+TRIAL REGISTRATION: Clinical trials NCT00640575.

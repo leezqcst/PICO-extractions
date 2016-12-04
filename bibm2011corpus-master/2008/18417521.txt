@@ -1,0 +1,18 @@
+OBJECTIVE: To determine whether introducing a rapid test for meticillin resistant Staphylococcus aureus (MRSA) screening leads to a reduction in MRSA acquisition on hospital general wards. 
+DESIGN: Cluster randomised crossover trial. 
+SETTING: Medical, surgical, elderly care, and oncology wards of a London teaching hospital on two sites. 
+MAIN OUTCOME MEASURE: MRSA acquisition rate (proportion of patients negative for MRSA who became MRSA positive). 
+PARTICIPANTS: All patients admitted to the study wards who were MRSA negative on admission and screened for MRSA on discharge. 
+INTERVENTION: Rapid polymerase chain reaction based screening test for MRSA compared with conventional culture. 
+RESULTS: Of 9608 patients admitted to study wards, 8374 met entry criteria and 6888 had full data (82.3%); 
+3335 in the control arm and 3553 in the rapid test arm. 
+The overall MRSA carriage rate on admission was 6.7%. 
+Rapid tests led to a reduction in median reporting time from admission, from 46 to 22 hours (P<0.001). 
+Rapid testing also reduced the number of inappropriate pre-emptive isolation days between the control and intervention arms (399 v 277, P<0.001). 
+This was not seen in other measurements of resource use. 
+MRSA was acquired by 108 (3.2%) patients in the control arm and 99 (2.8%) in the intervention arm. 
+When predefined confounding factors were taken into account the adjusted odds ratio was 0.91 (95% confidence interval 0.61 to 1.234). 
+Rates of MRSA transmission, wound infection, and bacteraemia were not statistically different between the two arms. 
+CONCLUSION: A rapid test for MRSA led to the quick receipt of results and had an impact on bed usage. 
+No evidence was found of a significant reduction in MRSA acquisition and on these data it is unlikely that the increased costs of rapid tests can be justified compared with alternative control measures against MRSA. 
+TRIAL REGISTRATION: Clinical controlled trials ISRCTN75590122 [controlled-trials.com].

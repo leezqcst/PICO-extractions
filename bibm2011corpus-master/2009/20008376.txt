@@ -1,0 +1,18 @@
+OBJECTIVES: To determine whether listening to music during cardiopulmonary resuscitation (CPR) training increases the proportion of lay people delivering chest compressions of 100 per minute. 
+DESIGN: Prospective randomised crossover trial. 
+SETTING: Large UK university. 
+PARTICIPANTS: 130 volunteers (81 men) recruited on an opportunistic basis. 
+Exclusion criteria included age under 18, trained health professionals, and cardiopulmonary resuscitation (CPR) training within the past three months. 
+INTERVENTIONS: Volunteers performed three sequences of one minute of continuous chest compressions on a skill meter resuscitation manikin accompanied by no music, repeated choruses of Nellie the Elephant (Nellie), and That's the Way (I like it) (TTW) according to a pre-randomised order. 
+MAIN OUTCOME MEASURES: Rate of chest compressions delivered (primary outcome), depth of compressions, proportion of incorrect compressions, and type of error. 
+RESULTS: Median (interquartile range) compression rates were 110 (93-119) with no music, 105 (98-107) with Nellie, and 109 (103-110) with TTW. 
+There were significant differences within groups between Nellie v no music and Nellie v TTW (P<0.001) but not no music v TTW (P=0.055). 
+A compression rate of between 95 and 105 was achieved with no music, Nellie, and TTW for 15/130 (12%), 42/130 (32%), and 12/130 (9%) attempts, respectively. 
+Differences in proportions were significant for Nellie v no music and Nellie v TTW (P<0.001) but not for no music v TTW (P=0.55). 
+Relative risk for a compression rate between 95 and 105 was 2.8 (95% confidence interval 1.66 to 4.80) for Nellie v no music, 0.8 (0.40 to 1.62) for TTW v no music, and 3.5 (1.97 to 6.33) for Nellie v TTW. 
+The number needed to treat for listening to Nellie v no music was 5 (4 to 10)-that is, the number of cardiac arrests required during which lay responders listen to Nellie to facilitate one patient receiving compressions at the correct rate (v no music) would be between four and 10. 
+A greater proportion of compressions were too shallow when participants listened to Nellie v no music (56% v 47%, P=0.022). 
+CONCLUSIONS: Listening to Nellie the Elephant significantly increased the proportion of lay people delivering compression rates at close to 100 per minute. 
+Unfortunately it also increased the proportion of compressions delivered at an inadequate depth. 
+As current resuscitation guidelines give equal emphasis to correct rate and depth, listening to Nellie the Elephant as a learning aid during CPR training should be discontinued. 
+Further research is required to identify music that, when played during CPR training, increases the proportion of lay responders providing chest compressions at both the correct rate and depth.

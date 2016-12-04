@@ -1,0 +1,13 @@
+OBJECTIVE: To compare the effect of intramuscular olanzapine with intramuscular haloperidol plus promethazine on rapid tranquillisation of agitated or violent people with mental illness. 
+DESIGN: Pragmatic, allocation concealed, randomised controlled trial. 
+SETTING: Emergency services of a general hospital psychiatry department in Vellore, south India. 
+PARTICIPANTS: 300 adults with agitated or violent behaviour as a result of mental illness; 150 randomised to intramuscular olanzapine and 150 randomised to intramuscular haloperidol plus promethazine. 
+INTERVENTIONS: Open treatment with intramuscular olanzapine or intramuscular haloperidol plus promethazine. 
+MAIN OUTCOME MEASURES: Primary outcome was proportion of patients who were tranquil or asleep at 15 minutes and 240 minutes. 
+Secondary outcomes were proportion of patients who were tranquil, asleep, restrained, absconding, or clinically improved at 15, 30, 60, 120, and 240 minutes; additional medical interventions and adverse effects over four hours; and compliance with oral drugs and adverse effects over two weeks. 
+RESULTS: Of 300 people randomised to receive either intramuscular olanzapine or intramuscular haloperidol plus promethazine, follow-up data were available for primary outcomes for 298 (99%). 
+Both treatments resulted in similar proportions of people being tranquil or asleep at 15 minutes (olanzapine 131/150 (87%), haloperidol plus promethazine 136/150 (91%); relative risk 0.96, 95% confidence interval 0.34 to 1.47) and 240 minutes (olanzapine 144/150 (96%), haloperidol plus promethazine 145/150 (97%); relative risk 0.99, 0.95 to 1.03). 
+However, more people given olanzapine than those given haloperidol plus promethazine required additional drugs over four hours (65/150 (43%) v 31/150 (21%); relative risk 2.07, 1.43 to 2.97). 
+Adverse effects were uncommon with both treatments. 
+CONCLUSIONS: Intramuscular olanzapine and intramuscular haloperidol plus promethazine were effective at rapidly tranquillising or sedating agitated or violent patients with mental illness but the combination resulted in fewer additional medical interventions within four hours of intervention. 
+TRIAL REGISTRATION: Clinical trials NCT00455234 [ClinicalTrials.gov].

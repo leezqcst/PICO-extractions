@@ -1,0 +1,15 @@
+OBJECTIVE: To compare the clinical effectiveness of larval therapy with a standard debridement technique (hydrogel) for sloughy or necrotic leg ulcers. 
+DESIGN: Pragmatic, three armed randomised controlled trial. 
+SETTING: Community nurse led services, hospital wards, and hospital outpatient leg ulcer clinics in urban and rural settings, United Kingdom. 
+PARTICIPANTS: 267 patients with at least one venous or mixed venous and arterial ulcer with at least 25% coverage of slough or necrotic tissue, and an ankle brachial pressure index of 0.6 or more. 
+INTERVENTIONS: Loose larvae, bagged larvae, and hydrogel. 
+MAIN OUTCOME MEASURES: The primary outcome was time to healing of the largest eligible ulcer. 
+Secondary outcomes were time to debridement, health related quality of life (SF-12), bacterial load, presence of meticillin resistant Staphylococcus aureus, adverse events, and ulcer related pain (visual analogue scale, from 0 mm for no pain to 150 mm for worst pain imaginable). 
+RESULTS: Time to healing was not significantly different between the loose or bagged larvae group and the hydrogel group (hazard ratio for healing using larvae v hydrogel 1.13, 95% confidence interval 0.76 to 1.68; P=0.54). 
+Larval therapy significantly reduced the time to debridement (2.31, 1.65 to 3.2; P<0.001). 
+Health related quality of life and change in bacterial load over time were not significantly different between the groups. 
+6.7% of participants had MRSA at baseline. 
+No difference was found between larval therapy and hydrogel in their ability to eradicate MRSA by the end of the debridement phase (75% (9/12) v 50% (3/6); P=0.34), although this comparison was underpowered. 
+Mean ulcer related pain scores were higher in either larvae group compared with hydrogel (mean difference in pain score: loose larvae v hydrogel 46.74 (95% confidence interval 32.44 to 61.04), P<0.001; bagged larvae v hydrogel 38.58 (23.46 to 53.70), P<0.001). 
+CONCLUSIONS: Larval therapy did not improve the rate of healing of sloughy or necrotic leg ulcers or reduce bacterial load compared with hydrogel but did significantly reduce the time to debridement and increase ulcer pain. 
+TRIAL REGISTRATION: Current Controlled Trials ISRCTN55114812 and National Research Register N0484123692.
