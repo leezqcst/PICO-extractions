@@ -123,6 +123,7 @@ Number of type Superinterval  : 3393
 Number of type Overlapping    : 393
 Number of type Non-overlapping: 8258
 
+noun phrase only:
 dev:
 P: (0.7860432164364152, 0.5708038585209003, 0.6613516131435809)
 train:

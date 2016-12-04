@@ -80,7 +80,7 @@ def extract_and_write_good_abstracts():
 
 # In[148]:
 
-extract_and_write_good_abstracts()
+#extract_and_write_good_abstracts()
 
 
 # In[ ]:
@@ -90,13 +90,13 @@ extract_and_write_good_abstracts()
 
 # In[90]:
 
-f = open('./bibm2011corpus-master/abstracts_1.txt', 'r')
-abstract_list = f.readlines()
+#f = open('./bibm2011corpus-master/abstracts_1.txt', 'r')
+#abstract_list = f.readlines()
 
 
 # In[91]:
 
-abstract_list = [x.strip() for x in abstract_list]
+#abstract_list = [x.strip() for x in abstract_list]
 
 
 # In[ ]:
@@ -182,13 +182,13 @@ def get_data_in_interval_output(start, end):
 
 # In[43]:
 
-a = 'hello my name is hansa'
-print a[0:5]
+#a = 'hello my name is hansa'
+#print a[0:5]
 
 
 # In[44]:
 
-get_data_in_interval_output(0, 10)
+#get_data_in_interval_output(0, 10)
 
 
 # In[ ]:
