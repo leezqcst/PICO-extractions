@@ -267,7 +267,7 @@ def process_abstract(abstract_path):
                     
 
 
-# In[134]:
+# In[142]:
 
 def get_data_in_interval(start, end):
     f = open('./bibm2011corpus-master/abstracts_2.txt', 'r')
@@ -280,8 +280,8 @@ def get_data_in_interval(start, end):
     
     for abstract in final_list:
         [word_array_curr, tag_array_curr] = process_abstract(abstract)
-        word_array.extend(word_array_curr)
-        tag_array.extend(tag_array_curr)
+        word_array.append(word_array_curr)
+        tag_array.append(tag_array_curr)
 
     return [word_array, tag_array]
         
@@ -294,19 +294,19 @@ def get_all_data():
 
 
 
-# In[135]:
+# In[143]:
 
 def get_all_data_train():
     return get_data_in_interval(0, 95)
 
 
-# In[136]:
+# In[144]:
 
 def get_all_data_dev():
     return get_data_in_interval(95, 122)
 
 
-# In[137]:
+# In[145]:
 
 def get_all_data_test():
     return get_data_in_interval(122, 135)
@@ -322,4 +322,9 @@ def get_all_data_test():
 # for i in range(0, len(word_array)):
 #     if tag_array[i] == 'P':
 #         print word_array[i]
+
+
+# In[ ]:
+
+
 
