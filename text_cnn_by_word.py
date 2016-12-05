@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[1]:
+# In[2]:
 
 # source: https://github.com/dennybritz/cnn-text-classification-tf/blob/master/text_cnn.py
 
@@ -93,6 +93,7 @@ class TextCNN(object):
         # Accuracy
         with tf.name_scope("accuracy"):
             correct_predictions = tf.equal(self.predictions, tf.argmax(self.input_y, 1))
+            self.temp = tf.argmax(self.input_y, 1)
             self.accuracy = tf.reduce_mean(tf.cast(correct_predictions, "float"), name="accuracy")
 
         # OLD CODE FROM TF_CNN

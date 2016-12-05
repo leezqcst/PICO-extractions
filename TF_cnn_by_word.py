@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[1]:
+# In[ ]:
 
 import numpy as np
 import tensorflow as tf
@@ -22,7 +22,7 @@ from tensorflow.contrib import learn
 
 # ## Parameters
 
-# In[2]:
+# In[ ]:
 
 # Data loading params
 tf.flags.DEFINE_float("dev_sample_percentage", .1, "Percentage of the training data to use for validation")
@@ -36,7 +36,7 @@ tf.flags.DEFINE_float("l2_reg_lambda", 0.0, "L2 regularizaion lambda (default: 0
 
 # Training parameters
 tf.flags.DEFINE_integer("batch_size", 64, "Batch Size (default: 64)")
-tf.flags.DEFINE_integer("num_epochs", 200, "Number of training epochs (default: 200)")
+tf.flags.DEFINE_integer("num_epochs", 1, "Number of training epochs (default: 200)")
 # tf.flags.DEFINE_integer("evaluate_every", 100, "Evaluate model on dev set after this many steps (default: 100)")
 tf.flags.DEFINE_integer("checkpoint_every", 100, "Save model after this many steps (default: 100)")
 # Misc Parameters
@@ -53,13 +53,13 @@ print("")
 
 # ## Data Preperation
 
-# In[3]:
+# In[ ]:
 
 # split into train and dev 
 word_array, tag_array = get_all_data_train(sentences=False)
 
 
-# In[4]:
+# In[ ]:
 
 # pad single words with n words on either side 
 n = 3
@@ -78,13 +78,13 @@ y_binary = [y for x in tag_array for y in x] # flatten tag array
 y = np.array([[1,0] if tag == 'P' else [0,1] for tag in y_binary ])
 
 
-# In[5]:
+# In[ ]:
 
 # print x_n[150:200]
 # print y[150:200]
 
 
-# In[6]:
+# In[ ]:
 
 # Build vocabulary
 document_length = 2*n+1
@@ -93,7 +93,7 @@ n_array = [' '.join(word) for word in x_n]
 x = np.array(list(vocab_processor.fit_transform(n_array)))
 
 
-# In[7]:
+# In[ ]:
 
 # print type(x)
 # print type(y)
@@ -121,7 +121,7 @@ x = np.array(list(vocab_processor.fit_transform(n_array)))
 # print x_n[11]
 
 
-# In[8]:
+# In[ ]:
 
 # max_document_length = len(X[0])
 # vocab_processor = learn.preprocessing.VocabularyProcessor(max_document_length)
@@ -141,7 +141,7 @@ x = np.array(list(vocab_processor.fit_transform(n_array)))
 # print("Train/Dev split: {:d}/{:d}".format(len(y_train), len(y_dev)))
 
 
-# In[9]:
+# In[ ]:
 
 # copied unchanged function
 def batch_iter(data, batch_size, num_epochs, shuffle=True):
@@ -246,8 +246,8 @@ with tf.Graph().as_default():
               cnn.dropout_keep_prob: FLAGS.dropout_keep_prob
             }
             # TODO: uncomment and add scores
-            _, step, summaries, loss, accuracy, input_y, predictions, input_x = sess.run(
-                [train_op, global_step, train_summary_op, cnn.loss, cnn.accuracy, cnn.input_y, cnn.predictions, cnn.input_x],feed_dict)
+            _, step, summaries, loss, accuracy, input_y, predictions, input_x, scores, temp = sess.run(
+                [train_op, global_step, train_summary_op, cnn.loss, cnn.accuracy, cnn.input_y, cnn.predictions, cnn.input_x, cnn.scores, cnn.temp],feed_dict)
             # remove below afterwards  
 #             _, step, summaries, loss, accuracy = sess.run(
 #                 [train_op, global_step, train_summary_op, cnn.loss, cnn.accuracy],
@@ -270,10 +270,18 @@ with tf.Graph().as_default():
 #             print "len input_y"
 #             print "input_y"
 #             print input_y
+            print "scores"
+            print type(scores)
+            print scores
+            print "input_y"
+            print type(input_y)
+            print input_y
             print "predictions"
             print type(predictions)
             print len(predictions)
             print predictions
+            print "temp"
+            print type(tyemp)
             print " "
 
         def dev_step(x_batch, y_batch, writer=None):
