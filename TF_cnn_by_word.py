@@ -78,13 +78,13 @@ y_binary = [y for x in tag_array for y in x] # flatten tag array
 y = np.array([[1,0] if tag == 'P' else [0,1] for tag in y_binary ])
 
 
-# In[8]:
+# In[5]:
 
-print x_n[150:200]
-print y[150:200]
+# print x_n[150:200]
+# print y[150:200]
 
 
-# In[9]:
+# In[6]:
 
 # Build vocabulary
 document_length = 2*n+1
@@ -93,35 +93,35 @@ n_array = [' '.join(word) for word in x_n]
 x = np.array(list(vocab_processor.fit_transform(n_array)))
 
 
-# In[14]:
-
-print type(x)
-print type(y)
-print x.shape
-print y.shape
-print x[0]
-print x_n[0]
-print y[0]
-
-print x[1]
-print x_n[1]
-print x[2]
-print x_n[2]
-print x[3]
-print x_n[3]
-print x[4]
-print x_n[4]
-print x[5]
-print x_n[5]
-print x[6]
-print x_n[6]
-print x[7]
-print x_n[7]
-print x[11]
-print x_n[11]
-
-
 # In[7]:
+
+# print type(x)
+# print type(y)
+# print x.shape
+# print y.shape
+# print x[0]
+# print x_n[0]
+# print y[0]
+
+# print x[1]
+# print x_n[1]
+# print x[2]
+# print x_n[2]
+# print x[3]
+# print x_n[3]
+# print x[4]
+# print x_n[4]
+# print x[5]
+# print x_n[5]
+# print x[6]
+# print x_n[6]
+# print x[7]
+# print x_n[7]
+# print x[11]
+# print x_n[11]
+
+
+# In[8]:
 
 # max_document_length = len(X[0])
 # vocab_processor = learn.preprocessing.VocabularyProcessor(max_document_length)
@@ -141,7 +141,7 @@ print x_n[11]
 # print("Train/Dev split: {:d}/{:d}".format(len(y_train), len(y_dev)))
 
 
-# In[8]:
+# In[9]:
 
 # copied unchanged function
 def batch_iter(data, batch_size, num_epochs, shuffle=True):
@@ -246,12 +246,12 @@ with tf.Graph().as_default():
               cnn.dropout_keep_prob: FLAGS.dropout_keep_prob
             }
             # TODO: uncomment and add scores
-#             _, step, summaries, loss, accuracy, scores, predictions, temp, extracted, truth, correct, gold, precision, recall, f1 = sess.run(
-#                 [train_op, global_step, train_summary_op, cnn.loss, cnn.accuracy, cnn.scores, cnn.predictions, cnn.temp, cnn.extracted, cnn.truth, cnn.correct, cnn.gold, cnn.precision, cnn.recall, cnn.f1],feed_dict)
-           # remove below afterwards  
-            _, step, summaries, loss, accuracy = sess.run(
-                [train_op, global_step, train_summary_op, cnn.loss, cnn.accuracy],
-                feed_dict)
+            _, step, summaries, loss, accuracy, input_y, predictions, input_x = sess.run(
+                [train_op, global_step, train_summary_op, cnn.loss, cnn.accuracy, cnn.input_y, cnn.predictions, cnn.input_x],feed_dict)
+            # remove below afterwards  
+#             _, step, summaries, loss, accuracy = sess.run(
+#                 [train_op, global_step, train_summary_op, cnn.loss, cnn.accuracy],
+#                 feed_dict)
         
             time_str = datetime.datetime.now().isoformat()
             # TODO UNCOMMENT BELOW
@@ -260,24 +260,21 @@ with tf.Graph().as_default():
             print("{}: step {}, loss {:g}, acc {:g}".format(time_str, step, loss, accuracy))
 
             train_summary_writer.add_summary(summaries, step)
-#             print "type of scores: ", type(scores)
-#             print type(scores[0])
-#             print "scores: \n", scores[0]
-#             print " "
-#             print "type of predictions: ", type(predictions)
-#             print "predictions: \n", predictions
-#             print type(temp)
-#             print "temp: \n", temp[0]
-#             print "gold: \n", gold[0]
-#             print "extracted: ", extracted
-#             print "extracted python: ", sum([sum(score) for score in scores])
-#             print "truth: ", truth
-#             print "truth python: ", sum([sum(x) for x in gold])
-#             print "correct: ", correct
-#             print "correct python: ", sum([sum(x) for x in temp])
-#             print "precision: ", precision
-#             print "recall: ", recall
-#             print "f1: ", f1
+            
+            
+#             print "input_y"
+#             print type(input_y)
+#             print input_y
+            
+#             print "len input_x"
+#             print "len input_y"
+#             print "input_y"
+#             print input_y
+            print "predictions"
+            print type(predictions)
+            print len(predictions)
+            print predictions
+            print " "
 
         def dev_step(x_batch, y_batch, writer=None):
             """
