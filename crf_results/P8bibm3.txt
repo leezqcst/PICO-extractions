@@ -1,0 +1,50 @@
+'left_neighbors=3 right_neighbors=3 one_hot one_hot_neighbors \
+inside_paren pos chunk iob named_entity \
+inside_paren_neighbors pos_neighbors chunk_neighbors iob_neighbors named_entity_neighbors \
+chunk_end chunk_end_neighbors same_chunk_neighbors \
+w2v_model=pubmed_wiki w2v w2v_neighbors w2v_size=30 \
+cosine_simil cosine_simil_neighbors \
+isupper isupper_neighbors istitle istitle_neighbors'
+
+dev:
+P: (0.10406553398058252, 0.015518957560401773, 0.02701000078746358)
+train:
+P: (0.10797530553105708, 0.01076714325200392, 0.01958163393540574)
+test:
+P: (0.10617626648161, 0.013910355486862442, 0.02459807073954984)
+
+There are 40 predicted intervals:
+Number of type Identical      : 0
+Number of type Subinterval    : 1
+Number of type Superinterval  : 15
+Number of type Overlapping    : 12
+Number of type Non-overlapping: 12
+
+There are 3296 predicted tokens:
+Number of type Identical      : 0
+Number of type Subinterval    : 28
+Number of type Superinterval  : 1574
+Number of type Overlapping    : 196
+Number of type Non-overlapping: 1498
+
+There are 2694 gold intervals:
+Number of type Identical      : 0
+Number of type Subinterval    : 22
+Number of type Superinterval  : 1
+Number of type Overlapping    : 13
+Number of type Non-overlapping: 2658
+
+There are 22102 gold tokens:
+Number of type Identical      : 0
+Number of type Subinterval    : 135
+Number of type Superinterval  : 30
+Number of type Overlapping    : 212
+Number of type Non-overlapping: 21725
+
+noun phrase only:
+dev:
+P: (0.1174025974025974, 0.014533762057877814, 0.025865522174535048)
+train:
+P: (0.12414853878268513, 0.010076150732081395, 0.01863948271311692)
+test:
+P: (0.12672811059907835, 0.014098948987439118, 0.025374855824682817)
