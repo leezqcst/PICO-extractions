@@ -4,6 +4,7 @@
 # In[1]:
 
 import os
+import numpy as np
 
 
 # In[2]:
@@ -175,6 +176,68 @@ for subdir in os.listdir(directory):
             # print abstract_path
             ann_path = ann_path[0:-4] + '_gold.ann'
             fix_gold_annotations(abstract_path, ann_path, TYPE='Intervention')
+
+
+# In[ ]:
+
+
+
+
+# In[ ]:
+
+
+
+
+# In[3]:
+
+predictions = np.array([0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0])
+truth = np.array([1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1])
+
+print type(predictions)
+
+print type(truth)
+
+print predictions
+
+print truth
+
+print len(predictions)
+
+print len(truth)
+
+
+# In[11]:
+
+gold_tags = truth
+pred_tags = predictions
+print gold_tags
+print pred_tags
+
+unique, counts = np.unique(pred_tags, return_counts=True)
+pred_tag_dict = dict(zip(unique, counts))
+p_tokens_extracted = pred_tag_dict[0]
+print pred_tag_dict
+print p_tokens_extracted
+
+intersection = (gold_tags == pred_tags)
+p_tokens = (gold_tags == 0) 
+p_tokens_correct = (((intersection*1)+(p_tokens*1)))== 2
+print " ------------------------------------------------------ "
+print intersection
+print ""
+print p_tokens
+print ""
+print p_tokens_correct
+
+unique, counts = np.unique(p_tokens_correct, return_counts=True)
+p_tokens_correct_tag_dict = dict(zip(unique, counts))
+p_tokens_correct = p_tokens_correct_tag_dict[True]
+
+unique, counts = np.unique(gold_tags, return_counts=True)
+gold_tag_dict = dict(zip(unique, counts))
+p_true_tokens = gold_tag_dict[0]
+
+print (p_tokens_extracted, p_tokens_correct, p_true_tokens)
 
 
 # In[ ]:

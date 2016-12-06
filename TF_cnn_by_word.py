@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[12]:
+# In[1]:
 
 import numpy as np
 import tensorflow as tf
@@ -22,7 +22,7 @@ from tensorflow.contrib import learn
 
 # ## Parameters
 
-# In[13]:
+# In[2]:
 
 # Data loading params
 tf.flags.DEFINE_float("dev_sample_percentage", .1, "Percentage of the training data to use for validation")
@@ -42,6 +42,7 @@ tf.flags.DEFINE_integer("checkpoint_every", 100, "Save model after this many ste
 # Misc Parameters
 tf.flags.DEFINE_boolean("allow_soft_placement", True, "Allow device soft device placement")
 tf.flags.DEFINE_boolean("log_device_placement", False, "Log placement of ops on devices")
+tf.flags.DEFINE_integer("eval_batches", 1, "Number of batches output to use when calculating precision, recall and f1")
 
 FLAGS = tf.flags.FLAGS
 FLAGS._parse_flags()
@@ -53,13 +54,13 @@ print("")
 
 # ## Data Preperation
 
-# In[ ]:
+# In[3]:
 
 # split into train and dev 
 word_array, tag_array = get_all_data_train(sentences=False)
 
 
-# In[ ]:
+# In[4]:
 
 # pad single words with n words on either side 
 n = 3
@@ -78,13 +79,13 @@ y_binary = [y for x in tag_array for y in x] # flatten tag array
 y = np.array([[1,0] if tag == 'P' else [0,1] for tag in y_binary ])
 
 
-# In[ ]:
+# In[5]:
 
 # print x_n[150:200]
 # print y[150:200]
 
 
-# In[ ]:
+# In[6]:
 
 # Build vocabulary
 document_length = 2*n+1
@@ -93,7 +94,7 @@ n_array = [' '.join(word) for word in x_n]
 x = np.array(list(vocab_processor.fit_transform(n_array)))
 
 
-# In[ ]:
+# In[7]:
 
 # print type(x)
 # print type(y)
@@ -121,7 +122,7 @@ x = np.array(list(vocab_processor.fit_transform(n_array)))
 # print x_n[11]
 
 
-# In[ ]:
+# In[8]:
 
 # max_document_length = len(X[0])
 # vocab_processor = learn.preprocessing.VocabularyProcessor(max_document_length)
@@ -141,7 +142,7 @@ x = np.array(list(vocab_processor.fit_transform(n_array)))
 # print("Train/Dev split: {:d}/{:d}".format(len(y_train), len(y_dev)))
 
 
-# In[ ]:
+# In[9]:
 
 # copied unchanged function
 def batch_iter(data, batch_size, num_epochs, shuffle=True):
@@ -164,14 +165,47 @@ def batch_iter(data, batch_size, num_epochs, shuffle=True):
             yield shuffled_data[start_index:end_index]
 
 
-# In[ ]:
+# In[10]:
 
 # len(vocab_processor.vocabulary_)
 
 
-# ## Training
+# ## Helper Functions
+
+# In[17]:
+
+def get_eval_counts(truth, predictions):
+    gold_tags = truth
+    pred_tags = predictions
+
+    unique, counts = np.unique(pred_tags, return_counts=True)
+    pred_tag_dict = dict(zip(unique, counts))
+    p_tokens_extracted = pred_tag_dict.get(0,0)
+    
+    intersection = (gold_tags == pred_tags)
+    p_tokens = (gold_tags == 0) 
+    p_tokens_correct = (((intersection*1)+(p_tokens*1)))== 2
+    
+    unique, counts = np.unique(p_tokens_correct, return_counts=True)
+    p_tokens_correct_tag_dict = dict(zip(unique, counts))
+    p_tokens_correct = pred_tag_dict.get(True, 0)
+        
+    unique, counts = np.unique(gold_tags, return_counts=True)
+    gold_tag_dict = dict(zip(unique, counts))
+    p_true_tokens = gold_tag_dict.get(0, 0)
+
+    print (p_tokens_extracted, p_tokens_correct, p_true_tokens)
+    return (p_tokens_extracted, p_tokens_correct, p_true_tokens)
+
 
 # In[ ]:
+
+
+
+
+# ## Training
+
+# In[18]:
 
 with tf.Graph().as_default():
     session_conf = tf.ConfigProto(
@@ -261,7 +295,6 @@ with tf.Graph().as_default():
 
             train_summary_writer.add_summary(summaries, step)
             
-            
 #             print "input_y"
 #             print type(input_y)
 #             print input_y
@@ -270,19 +303,24 @@ with tf.Graph().as_default():
 #             print "len input_y"
 #             print "input_y"
 #             print input_y
-            print "scores"
-            print type(scores)
-            print scores
-            print "input_y"
-            print type(input_y)
-            print input_y
-            print "predictions"
-            print type(predictions)
-            print len(predictions)
-            print predictions
-            print "temp"
-            print type(tyemp)
-            print " "
+#             print "scores"
+#             print type(scores)
+#             print scores
+#             print "input_y"
+#             print type(input_y)
+#             print input_y
+#             print "predictions"
+#             print type(predictions)
+#             print len(predictions)
+#             print predictions
+#             print "temp"
+#             print type(temp)
+#             print temp
+#             print " "
+            
+            return get_eval_counts(temp, predictions)
+            
+            
 
         def dev_step(x_batch, y_batch, writer=None):
             """
@@ -306,9 +344,42 @@ with tf.Graph().as_default():
         batches = batch_iter(
             list(zip(x, y)), FLAGS.batch_size, FLAGS.num_epochs)
         # Training loop. For each batch...
+        batches_since_last_eval_calc = 0
+        p_tokens_extracted_tot = 0
+        p_tokens_correct_tot = 0
+        p_true_tokens_tot = 0
         for batch in batches:
             x_batch, y_batch = zip(*batch)
-            train_step(x_batch, y_batch)
+            (p_tokens_extracted, p_tokens_correct, p_true_tokens) = train_step(x_batch, y_batch)
+            p_tokens_extracted_tot += p_tokens_extracted
+            p_tokens_correct_tot += p_tokens_correct
+            p_true_tokens_tot += p_true_tokens
+            
+            batches_since_last_eval_calc += 1
+            if batches_since_last_eval_calc == FLAGS.eval_batches:
+                if (p_tokens_extracted_tot == 0):
+                    if (p_tokens_correct_tot == 0):
+                        precision = 1
+                    else:
+                        precision = 0
+                else:
+                    precision = float(p_tokens_correct_tot)/float(p_tokens_extracted_tot)
+                
+                if (p_true_tokens_tot == 0):
+                    if (p_tokens_correct_tot == 0):
+                        recall = 1
+                    else:
+                        recall = 0
+                else:
+                    recall = float(p_tokens_correct_tot)/float(p_true_tokens_tot)
+                f1 = (2*precision*recall)/(precision+recall)
+                print("correct: {:g}, extracted: {:g}, true: {:g}".format(p_tokens_correct_tot, p_tokens_extracted_tot, p_true_tokens_tot))
+                print("Precision: {:g}, recall: {:g}, f1: {:g}".format(precision, recall, f1))
+                p_tokens_extracted_tot = 0
+                p_tokens_correct_tot = 0
+                p_true_tokens_tot = 0
+                batches_since_last_eval_calc = 0
+            
             current_step = tf.train.global_step(sess, global_step)
 #             if current_step % FLAGS.evaluate_every == 0:
 #                 print("\nEvaluation:")
