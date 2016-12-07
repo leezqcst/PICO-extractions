@@ -38,13 +38,13 @@ tf.flags.DEFINE_float("l2_reg_lambda", 0.0, "L2 regularizaion lambda (default: 0
 
 # Training parameters
 tf.flags.DEFINE_integer("batch_size", 64, "Batch Size (default: 64)")
-tf.flags.DEFINE_integer("num_epochs", 1, "Number of training epochs (default: 200)")
-tf.flags.DEFINE_integer("evaluate_every", 1000, "Evaluate model on dev set after this many steps (default: 100)")
-tf.flags.DEFINE_integer("checkpoint_every", 500, "Save model after this many steps (default: 100)")
+tf.flags.DEFINE_integer("num_epochs", 10, "Number of training epochs (default: 200)")
+tf.flags.DEFINE_integer("evaluate_every", 10000, "Evaluate model on dev set after this many steps (default: 100)")
+tf.flags.DEFINE_integer("checkpoint_every", 5000, "Save model after this many steps (default: 100)")
 # Misc Parameters
 tf.flags.DEFINE_boolean("allow_soft_placement", True, "Allow device soft device placement")
 tf.flags.DEFINE_boolean("log_device_placement", False, "Log placement of ops on devices")
-tf.flags.DEFINE_integer("eval_batches", 250, "Number of batches output to use when calculating precision, recall and f1")
+tf.flags.DEFINE_integer("eval_batches", 2500, "Number of batches output to use when calculating precision, recall and f1")
 
 FLAGS = tf.flags.FLAGS
 FLAGS._parse_flags()
@@ -187,7 +187,7 @@ def get_eval_counts(truth, predictions):
     return (p_tokens_extracted, p_tokens_correct, p_true_tokens)
 
 
-# In[ ]:
+# In[13]:
 
 def calculate_precision_recall_f1(p_tokens_extracted, p_tokens_correct, p_true_tokens):
     if (p_tokens_extracted == 0):
@@ -214,7 +214,7 @@ def calculate_precision_recall_f1(p_tokens_extracted, p_tokens_correct, p_true_t
 
 # ## Training
 
-# In[ ]:
+# In[14]:
 
 with tf.Graph().as_default():
     session_conf = tf.ConfigProto(
