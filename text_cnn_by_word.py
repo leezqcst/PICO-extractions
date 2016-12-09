@@ -43,10 +43,14 @@ class TextCNN(object):
                 filter_shape = [filter_size, embedding_size, 1, num_filters]
                 W = tf.Variable(tf.truncated_normal(filter_shape, stddev=0.1), name="W")
                 b = tf.Variable(tf.constant(0.1, shape=[num_filters]), name="b")
+                if (filter_size == 10):
+                    strides_list = [10, 10, 10, 10]
+                else:
+                    strides_list = [1, 1, 1, 1]
                 conv = tf.nn.conv2d(
                     self.embedded_chars_expanded,
                     W,
-                    strides=[1, 1, 1, 1],
+                    strides=strides_list,
                     padding="VALID",
                     name="conv")
                 # Apply nonlinearity
