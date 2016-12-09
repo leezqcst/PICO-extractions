@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[ ]:
+# In[1]:
 
 import numpy as np
 import tensorflow as tf
@@ -25,7 +25,7 @@ import sys
 
 # # Parameters
 
-# In[ ]:
+# In[2]:
 
 # Data loading params
 tf.flags.DEFINE_float("dev_sample_percentage", .1, "Percentage of the training data to use for validation")
@@ -59,7 +59,7 @@ print("")
 
 # # Data Preparation
 
-# In[ ]:
+# In[3]:
 
 def use(what='w2v'):
     return True
@@ -91,7 +91,7 @@ else:
     
 
 
-# In[ ]:
+# In[4]:
 
 #n must be a factor of 200
 def condense_vector(vector, target_n=10):
@@ -105,7 +105,7 @@ def condense_vector(vector, target_n=10):
 # b = condense_vector(w2v['participant'])
 
 
-# In[ ]:
+# In[5]:
 
 # n words to pad on each side of the word 
 def get_train_data(n):
@@ -122,7 +122,7 @@ def get_train_data(n):
     return x, y, vocab_processor
 
 
-# In[ ]:
+# In[6]:
 
 def get_dev_data(n, vocab_processor):
     word_array, tag_array = get_all_data_dev(sentences=False)
@@ -133,7 +133,7 @@ def get_dev_data(n, vocab_processor):
     return x,y  
 
 
-# In[ ]:
+# In[7]:
 
 def get_data(n, vocab_processor, data_type='dev'):
     if data_type == 'dev':
@@ -147,7 +147,7 @@ def get_data(n, vocab_processor, data_type='dev'):
     return x,y  
 
 
-# In[ ]:
+# In[8]:
 
 def process_data_into_chunks(word_array, tag_array, n):
     x_n = []
@@ -177,7 +177,10 @@ def get_train_data_word2vec(n, embedding_n=10):
     word_array, tag_array = get_all_data_train(sentences=False)
     x_n_padded, y = process_data_into_chunks(word_array, tag_array, n)
 
+ 
     w2v_array = []
+    max_elt = 0.0
+    min_elt = 0.0
     for phrase in x_n_padded:
         phrase_array = []
         for word in phrase.split(' '):
@@ -185,14 +188,39 @@ def get_train_data_word2vec(n, embedding_n=10):
                 a = w2v[word]
             else: 
                 a = [0]*embedding_n
-            phrase_array.append(condense_vector(a, target_n=target_n))
+            c_vec = condense_vector(a, target_n=embedding_n)
+            phrase_array.append(c_vec)
+            if (np.max(c_vec) > max_elt):
+                max_elt = np.max(c_vec)
+            if (np.min(c_vec) < min_elt):
+                min_elt = np.min(c_vec)                
+#         phrase_array = phrase_array)
         w2v_array.append(phrase_array)
-                
+    
+    print "MAX: ", max_elt
+    print "MIN: ", min_elt
+    
     # Build vocabulary
     document_length = 2*n+1
     vocab_processor = learn.preprocessing.VocabularyProcessor(document_length)
     
     x = np.array(list(vocab_processor.fit_transform(x_n_padded)))    
+    
+#     return x, w2v_array, y
+
+    factor = float(np.max(x))/float(max_elt)
+    for phrase in w2v_array:
+        for word_array in phrase:
+#             print "first"
+#             print word_array
+            word_array = word_array + np.ceil(-min_elt)
+#             print "second"
+#             print word_array
+            word_array = word_array * factor
+#             print "third"
+#             print word_array
+    
+                
     x_final = np.zeros((x.shape[0], (x.shape[1]*10)+x.shape[1]))
 
     for row in range(0, x.shape[0]):
@@ -245,14 +273,14 @@ def get_data_word2vec(n, vocab_processor, embedding_n=10, data_type='dev'):
     factor = float(np.max(x))/float(max_elt)
     for phrase in w2v_array:
         for word_array in phrase:
-            print "first"
-            print word_array
+#             print "first"
+#             print word_array
             word_array = word_array + np.ceil(-min_elt)
-            print "second"
-            print word_array
+#             print "second"
+#             print word_array
             word_array = word_array * factor
-            print "third"
-            print word_array
+#             print "third"
+#             print word_array
     
 #     print "factor: ", factor 
     
@@ -279,12 +307,12 @@ def get_data_word2vec(n, vocab_processor, embedding_n=10, data_type='dev'):
     return x_final, y 
 
 
-# In[10]:
+# In[ ]:
 
 # x_train, y_train, vocab_processor = get_train_data(FLAGS.word_padding_size)
 
 
-# In[11]:
+# In[ ]:
 
 # x_dev, y_dev = get_data(FLAGS.word_padding_size, vocab_processor)
 
@@ -294,33 +322,33 @@ def get_data_word2vec(n, vocab_processor, embedding_n=10, data_type='dev'):
 # x_test, y_test = get_data(FLAGS.word_padding_size, vocab_processor, data_type='test')
 
 
-# In[12]:
+# In[ ]:
 
 x_train, y_train, vocab_processor = get_train_data_word2vec(FLAGS.word_padding_size, FLAGS.word_embedding_size)
 
 
-# In[39]:
+# In[ ]:
 
 print x_train.shape
 print x_train[0]
 
 
-# In[ ]:
+# In[11]:
 
 x_dev, y_dev = get_data_word2vec(FLAGS.word_padding_size, vocab_processor, FLAGS.word_embedding_size)
 
 
-# In[72]:
+# In[ ]:
 
 print x_dev[0]
 
 
-# In[37]:
+# In[ ]:
 
 x_dev, w2v_array, y_dev = get_dev_data_word2vec(FLAGS.word_padding_size, vocab_processor, FLAGS.word_embedding_size)
 
 
-# In[42]:
+# In[ ]:
 
 print np.max(x_dev)
 print np.max(w2v_array)
@@ -329,18 +357,18 @@ print factor
 new = w2v_array * factor
 
 
-# In[43]:
+# In[ ]:
 
 print new[0]
 
 
-# In[44]:
+# In[ ]:
 
 a = [1, 2, 3, 4] * 10
 print a
 
 
-# In[26]:
+# In[ ]:
 
 print x_train[0]
 print len(x_train)
@@ -351,7 +379,7 @@ print np.max(x_train)
 
 
 
-# In[34]:
+# In[ ]:
 
 a = np.array([1, 2, 3])
 print a
@@ -359,7 +387,7 @@ print a + 10
 print a * float(1.72)
 
 
-# In[14]:
+# In[ ]:
 
 # # pad single words with n words on either side 
 # n = 3
@@ -378,7 +406,7 @@ print a * float(1.72)
 # y = np.array([[1,0] if tag == 'P' else [0,1] for tag in y_binary ])
 
 
-# In[15]:
+# In[ ]:
 
 # # Build vocabulary
 # document_length = 2*n+1
@@ -394,7 +422,7 @@ print a * float(1.72)
 
 # # Helper Functions
 
-# In[16]:
+# In[ ]:
 
 # copied unchanged function
 def batch_iter(data, batch_size, num_epochs, shuffle=True):
@@ -417,7 +445,7 @@ def batch_iter(data, batch_size, num_epochs, shuffle=True):
             yield shuffled_data[start_index:end_index]
 
 
-# In[17]:
+# In[ ]:
 
 def get_eval_counts(truth, predictions):
 
@@ -429,7 +457,7 @@ def get_eval_counts(truth, predictions):
     return (p_tokens_extracted, p_tokens_correct, p_true_tokens)
 
 
-# In[18]:
+# In[ ]:
 
 def calculate_precision_recall_f1(p_tokens_extracted, p_tokens_correct, p_true_tokens):
     if (p_tokens_extracted == 0):
@@ -456,7 +484,7 @@ def calculate_precision_recall_f1(p_tokens_extracted, p_tokens_correct, p_true_t
 
 # ## Training
 
-# In[19]:
+# In[ ]:
 
 with tf.Graph().as_default():
     session_conf = tf.ConfigProto(
