@@ -7,6 +7,7 @@ import numpy as np
 import tensorflow as tf
 from preprocess_data import get_all_data_train
 from preprocess_data import get_all_data_dev
+from preprocess_data import get_all_data_test
 from TF_preprocess_data import get_1_hot_sentence_encodings
 from text_cnn_by_word import TextCNN
 import datetime
@@ -33,14 +34,14 @@ tf.flags.DEFINE_integer("word_padding_size", 3, "Number of words for padding fro
 tf.flags.DEFINE_integer("word_embedding_size", 10, "Number of words for padding front and back")
 
 # Model Hyperparameters
-tf.flags.DEFINE_integer("embedding_dim", 128, "Dimensionality of character embedding (default: 128)")
+tf.flags.DEFINE_integer("embedding_dim", 256, "Dimensionality of character embedding (default: 128)")
 tf.flags.DEFINE_string("filter_sizes", "3,4,5", "Comma-separated filter sizes (default: '3,4,5')")
-tf.flags.DEFINE_integer("num_filters", 64, "Number of filters per filter size (default: 128)")
+tf.flags.DEFINE_integer("num_filters", 256, "Number of filters per filter size (default: 128)")
 tf.flags.DEFINE_float("dropout_keep_prob", 0.5, "Dropout keep probability (default: 0.5)")
 tf.flags.DEFINE_float("l2_reg_lambda", 0.001, "L2 regularizaion lambda (default: 0.0)")
 
 # Training parameters
-tf.flags.DEFINE_integer("batch_size", 128, "Batch Size (default: 64)")
+tf.flags.DEFINE_integer("batch_size", 64, "Batch Size (default: 64)")
 tf.flags.DEFINE_integer("num_epochs", 10, "Number of training epochs (default: 200)")
 tf.flags.DEFINE_integer("evaluate_every", 2000, "Evaluate model on dev set after this many steps (default: 100)")
 tf.flags.DEFINE_integer("checkpoint_every", 1000, "Save model after this many steps (default: 100)")
@@ -169,7 +170,7 @@ def process_data_into_chunks(word_array, tag_array, n):
     return x_n_padded, y
 
 
-# In[ ]:
+# In[12]:
 
 # n words to pad on each side of the word 
 def get_train_data_word2vec(n, embedding_n=10):
@@ -209,33 +210,37 @@ def get_train_data_word2vec(n, embedding_n=10):
 #     return x, w2v_array, y
 
     factor = float(np.max(x))/float(max_elt)
-    for phrase in w2v_array:
-        for word_array in phrase:
+    for phrase_ind in range(0, len(w2v_array)):
+        for word_array_ind in range(0, len(w2v_array[phrase_ind])):
 #             print "first"
 #             print word_array
-            word_array = word_array + np.ceil(-min_elt)
+            w2v_array[phrase_ind][word_array_ind] = w2v_array[phrase_ind][word_array_ind] + np.ceil(-min_elt)
 #             print "second"
 #             print word_array
-            word_array = word_array * factor
+            w2v_array[phrase_ind][word_array_ind] = w2v_array[phrase_ind][word_array_ind] * factor
 #             print "third"
 #             print word_array
+            w2v_array[phrase_ind][word_array_ind] = np.round(w2v_array[phrase_ind][word_array_ind]).astype(np.int64)
     
-                
+                    
+    print type (w2v_array[0][0][0])
     x_final = np.zeros((x.shape[0], (x.shape[1]*10)+x.shape[1]))
 
     for row in range(0, x.shape[0]):
         row_list = []
         for col in range(0, x.shape[1]):
-            word_list = w2v_array[row][col]
+            word_list = []
+            word_list = w2v_array[row][col].tolist()
             word_list.append(x[row, col])
             row_list.extend(word_list)
+#             print type(row_list[0])
         x_final[row] = row_list
         
 
-    return x_final, y, vocab_processor
+    return x_final, w2v_array, y, vocab_processor
 
 
-# In[ ]:
+# In[13]:
 
 def get_data_word2vec(n, vocab_processor, embedding_n=10, data_type='dev'):
     if data_type == 'dev':
@@ -271,16 +276,17 @@ def get_data_word2vec(n, vocab_processor, embedding_n=10, data_type='dev'):
 #     return x, w2v_array, y
 
     factor = float(np.max(x))/float(max_elt)
-    for phrase in w2v_array:
-        for word_array in phrase:
+    for phrase_ind in range(0, len(w2v_array)):
+        for word_array_ind in range(0, len(w2v_array[phrase_ind])):
 #             print "first"
 #             print word_array
-            word_array = word_array + np.ceil(-min_elt)
+            w2v_array[phrase_ind][word_array_ind] = w2v_array[phrase_ind][word_array_ind] + np.ceil(-min_elt)
 #             print "second"
 #             print word_array
-            word_array = word_array * factor
+            w2v_array[phrase_ind][word_array_ind] = w2v_array[phrase_ind][word_array_ind] * factor
 #             print "third"
 #             print word_array
+            w2v_array[phrase_ind][word_array_ind] = np.round(w2v_array[phrase_ind][word_array_ind]).astype(np.int64)
     
 #     print "factor: ", factor 
     
@@ -309,31 +315,43 @@ def get_data_word2vec(n, vocab_processor, embedding_n=10, data_type='dev'):
 
 # In[ ]:
 
-# x_train, y_train, vocab_processor = get_train_data(FLAGS.word_padding_size)
+x_train, y_train, vocab_processor = get_train_data(FLAGS.word_padding_size)
 
 
 # In[ ]:
 
-# x_dev, y_dev = get_data(FLAGS.word_padding_size, vocab_processor)
+x_dev, y_dev = get_data(FLAGS.word_padding_size, vocab_processor)
 
 
 # In[ ]:
 
-# x_test, y_test = get_data(FLAGS.word_padding_size, vocab_processor, data_type='test')
+x_test, y_test = get_data(FLAGS.word_padding_size, vocab_processor, data_type='test')
 
 
 # In[ ]:
 
-x_train, y_train, vocab_processor = get_train_data_word2vec(FLAGS.word_padding_size, FLAGS.word_embedding_size)
+a = np.array([1.4124, 1.13, 1.72566, 35.1345, 345.53])
+print a
+print np.round(a)
+
+
+# In[14]:
+
+x_train, w2v_array, y_train, vocab_processor = get_train_data_word2vec(FLAGS.word_padding_size, FLAGS.word_embedding_size)
 
 
 # In[ ]:
 
 print x_train.shape
+print x_train[0][0]
+
+
+# In[ ]:
+
 print x_train[0]
 
 
-# In[11]:
+# In[15]:
 
 x_dev, y_dev = get_data_word2vec(FLAGS.word_padding_size, vocab_processor, FLAGS.word_embedding_size)
 
@@ -343,48 +361,30 @@ x_dev, y_dev = get_data_word2vec(FLAGS.word_padding_size, vocab_processor, FLAGS
 print x_dev[0]
 
 
-# In[ ]:
+# In[16]:
 
-x_dev, w2v_array, y_dev = get_dev_data_word2vec(FLAGS.word_padding_size, vocab_processor, FLAGS.word_embedding_size)
-
-
-# In[ ]:
-
-print np.max(x_dev)
-print np.max(w2v_array)
-factor = np.max(x_dev)/np.max(w2v_array)
-print factor
-new = w2v_array * factor
+x_test, y_test = get_data_word2vec(FLAGS.word_padding_size, vocab_processor, FLAGS.word_embedding_size, data_type='test')
 
 
 # In[ ]:
 
-print new[0]
+print x_train.shape
+print y_train.shape
+print x_dev.shape
+print y_dev.shape
+print x_test.shape
+print y_test.shape
 
 
 # In[ ]:
 
-a = [1, 2, 3, 4] * 10
-print a
-
-
-# In[ ]:
-
+print x_train_o[0]
 print x_train[0]
-print len(x_train)
-print np.min(x_train)
-x_train_final = x_train + 5
-print x_train_final[0]
-print np.max(x_train)
-
-
-
-# In[ ]:
-
-a = np.array([1, 2, 3])
-print a
-print a + 10
-print a * float(1.72)
+print type(x_train_o[0][0])
+print type(x_train[0][0])
+print ''
+print x_train_o[0].shape
+print x_train[0].shape
 
 
 # In[ ]:
@@ -422,7 +422,7 @@ print a * float(1.72)
 
 # # Helper Functions
 
-# In[ ]:
+# In[17]:
 
 # copied unchanged function
 def batch_iter(data, batch_size, num_epochs, shuffle=True):
@@ -445,7 +445,7 @@ def batch_iter(data, batch_size, num_epochs, shuffle=True):
             yield shuffled_data[start_index:end_index]
 
 
-# In[ ]:
+# In[18]:
 
 def get_eval_counts(truth, predictions):
 
@@ -457,7 +457,7 @@ def get_eval_counts(truth, predictions):
     return (p_tokens_extracted, p_tokens_correct, p_true_tokens)
 
 
-# In[ ]:
+# In[19]:
 
 def calculate_precision_recall_f1(p_tokens_extracted, p_tokens_correct, p_true_tokens):
     if (p_tokens_extracted == 0):
@@ -486,6 +486,9 @@ def calculate_precision_recall_f1(p_tokens_extracted, p_tokens_correct, p_true_t
 
 # In[ ]:
 
+vocab_size_max = int(np.max([np.max(x_train), np.max(x_dev), np.max(x_test)]))
+
+
 with tf.Graph().as_default():
     session_conf = tf.ConfigProto(
       allow_soft_placement=FLAGS.allow_soft_placement,
@@ -495,7 +498,7 @@ with tf.Graph().as_default():
         cnn = TextCNN(
             sequence_length=x_train.shape[1],
             num_classes=y_train.shape[1],
-            vocab_size=len(vocab_processor.vocabulary_),
+            vocab_size= vocab_size_max, #len(vocab_processor.vocabulary_),
             embedding_size=FLAGS.embedding_dim,
             filter_sizes=list(map(int, FLAGS.filter_sizes.split(","))),
             num_filters=FLAGS.num_filters,
