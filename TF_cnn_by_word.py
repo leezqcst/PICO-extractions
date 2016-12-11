@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[1]:
+# In[ ]:
 
 import numpy as np
 import tensorflow as tf
@@ -26,7 +26,7 @@ import sys
 
 # # Parameters
 
-# In[2]:
+# In[ ]:
 
 # Data loading params
 tf.flags.DEFINE_float("dev_sample_percentage", .1, "Percentage of the training data to use for validation")
@@ -43,12 +43,12 @@ tf.flags.DEFINE_float("l2_reg_lambda", 0.001, "L2 regularizaion lambda (default:
 # Training parameters
 tf.flags.DEFINE_integer("batch_size", 64, "Batch Size (default: 64)")
 tf.flags.DEFINE_integer("num_epochs", 10, "Number of training epochs (default: 200)")
-tf.flags.DEFINE_integer("evaluate_every", 2000, "Evaluate model on dev set after this many steps (default: 100)")
-tf.flags.DEFINE_integer("checkpoint_every", 1000, "Save model after this many steps (default: 100)")
+tf.flags.DEFINE_integer("evaluate_every", 50, "Evaluate model on dev set after this many steps (default: 100)")
+tf.flags.DEFINE_integer("checkpoint_every", 100, "Save model after this many steps (default: 100)")
 # Misc Parameters
 tf.flags.DEFINE_boolean("allow_soft_placement", True, "Allow device soft device placement")
 tf.flags.DEFINE_boolean("log_device_placement", False, "Log placement of ops on devices")
-tf.flags.DEFINE_integer("eval_batches", 1000, "Number of batches output to use when calculating precision, recall and f1")
+tf.flags.DEFINE_integer("eval_batches", 10, "Number of batches output to use when calculating precision, recall and f1")
 
 FLAGS = tf.flags.FLAGS
 FLAGS._parse_flags()
@@ -60,7 +60,7 @@ print("")
 
 # # Data Preparation
 
-# In[3]:
+# In[ ]:
 
 def use(what='w2v'):
     return True
@@ -92,7 +92,7 @@ else:
     
 
 
-# In[4]:
+# In[ ]:
 
 #n must be a factor of 200
 def condense_vector(vector, target_n=10):
@@ -106,7 +106,7 @@ def condense_vector(vector, target_n=10):
 # b = condense_vector(w2v['participant'])
 
 
-# In[5]:
+# In[ ]:
 
 # n words to pad on each side of the word 
 def get_train_data(n):
@@ -123,7 +123,7 @@ def get_train_data(n):
     return x, y, vocab_processor
 
 
-# In[6]:
+# In[ ]:
 
 def get_dev_data(n, vocab_processor):
     word_array, tag_array = get_all_data_dev(sentences=False)
@@ -134,7 +134,7 @@ def get_dev_data(n, vocab_processor):
     return x,y  
 
 
-# In[7]:
+# In[ ]:
 
 def get_data(n, vocab_processor, data_type='dev'):
     if data_type == 'dev':
@@ -148,7 +148,7 @@ def get_data(n, vocab_processor, data_type='dev'):
     return x,y  
 
 
-# In[8]:
+# In[ ]:
 
 def process_data_into_chunks(word_array, tag_array, n):
     x_n = []
@@ -170,7 +170,7 @@ def process_data_into_chunks(word_array, tag_array, n):
     return x_n_padded, y
 
 
-# In[12]:
+# In[ ]:
 
 # n words to pad on each side of the word 
 def get_train_data_word2vec(n, embedding_n=10):
@@ -220,7 +220,7 @@ def get_train_data_word2vec(n, embedding_n=10):
             w2v_array[phrase_ind][word_array_ind] = w2v_array[phrase_ind][word_array_ind] * factor
 #             print "third"
 #             print word_array
-            w2v_array[phrase_ind][word_array_ind] = np.round(w2v_array[phrase_ind][word_array_ind]).astype(np.int64)
+            w2v_array[phrase_ind][word_array_ind] = (w2v_array[phrase_ind][word_array_ind]).astype(np.int64)
     
                     
     print type (w2v_array[0][0][0])
@@ -240,7 +240,7 @@ def get_train_data_word2vec(n, embedding_n=10):
     return x_final, w2v_array, y, vocab_processor
 
 
-# In[13]:
+# In[ ]:
 
 def get_data_word2vec(n, vocab_processor, embedding_n=10, data_type='dev'):
     if data_type == 'dev':
@@ -286,7 +286,7 @@ def get_data_word2vec(n, vocab_processor, embedding_n=10, data_type='dev'):
             w2v_array[phrase_ind][word_array_ind] = w2v_array[phrase_ind][word_array_ind] * factor
 #             print "third"
 #             print word_array
-            w2v_array[phrase_ind][word_array_ind] = np.round(w2v_array[phrase_ind][word_array_ind]).astype(np.int64)
+            w2v_array[phrase_ind][word_array_ind] = (w2v_array[phrase_ind][word_array_ind]).astype(np.int64)
     
 #     print "factor: ", factor 
     
@@ -315,76 +315,32 @@ def get_data_word2vec(n, vocab_processor, embedding_n=10, data_type='dev'):
 
 # In[ ]:
 
-x_train, y_train, vocab_processor = get_train_data(FLAGS.word_padding_size)
+# x_train, y_train, vocab_processor = get_train_data(FLAGS.word_padding_size)
 
 
 # In[ ]:
 
-x_dev, y_dev = get_data(FLAGS.word_padding_size, vocab_processor)
+# x_dev, y_dev = get_data(FLAGS.word_padding_size, vocab_processor)
 
 
 # In[ ]:
 
-x_test, y_test = get_data(FLAGS.word_padding_size, vocab_processor, data_type='test')
+# x_test, y_test = get_data(FLAGS.word_padding_size, vocab_processor, data_type='test')
 
 
 # In[ ]:
-
-a = np.array([1.4124, 1.13, 1.72566, 35.1345, 345.53])
-print a
-print np.round(a)
-
-
-# In[14]:
 
 x_train, w2v_array, y_train, vocab_processor = get_train_data_word2vec(FLAGS.word_padding_size, FLAGS.word_embedding_size)
 
 
 # In[ ]:
 
-print x_train.shape
-print x_train[0][0]
-
-
-# In[ ]:
-
-print x_train[0]
-
-
-# In[15]:
-
 x_dev, y_dev = get_data_word2vec(FLAGS.word_padding_size, vocab_processor, FLAGS.word_embedding_size)
 
 
 # In[ ]:
 
-print x_dev[0]
-
-
-# In[16]:
-
 x_test, y_test = get_data_word2vec(FLAGS.word_padding_size, vocab_processor, FLAGS.word_embedding_size, data_type='test')
-
-
-# In[ ]:
-
-print x_train.shape
-print y_train.shape
-print x_dev.shape
-print y_dev.shape
-print x_test.shape
-print y_test.shape
-
-
-# In[ ]:
-
-print x_train_o[0]
-print x_train[0]
-print type(x_train_o[0][0])
-print type(x_train[0][0])
-print ''
-print x_train_o[0].shape
-print x_train[0].shape
 
 
 # In[ ]:
@@ -422,7 +378,7 @@ print x_train[0].shape
 
 # # Helper Functions
 
-# In[17]:
+# In[ ]:
 
 # copied unchanged function
 def batch_iter(data, batch_size, num_epochs, shuffle=True):
@@ -445,7 +401,7 @@ def batch_iter(data, batch_size, num_epochs, shuffle=True):
             yield shuffled_data[start_index:end_index]
 
 
-# In[18]:
+# In[ ]:
 
 def get_eval_counts(truth, predictions):
 
@@ -457,7 +413,7 @@ def get_eval_counts(truth, predictions):
     return (p_tokens_extracted, p_tokens_correct, p_true_tokens)
 
 
-# In[19]:
+# In[ ]:
 
 def calculate_precision_recall_f1(p_tokens_extracted, p_tokens_correct, p_true_tokens):
     if (p_tokens_extracted == 0):
