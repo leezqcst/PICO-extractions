@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[ ]:
+# In[1]:
 
 import numpy as np
 import tensorflow as tf
@@ -26,29 +26,29 @@ import sys
 
 # # Parameters
 
-# In[ ]:
+# In[2]:
 
 # Data loading params
 tf.flags.DEFINE_float("dev_sample_percentage", .1, "Percentage of the training data to use for validation")
-tf.flags.DEFINE_integer("word_padding_size", 3, "Number of words for padding front and back")
+tf.flags.DEFINE_integer("word_padding_size", 6, "Number of words for padding front and back")
 tf.flags.DEFINE_integer("word_embedding_size", 10, "Number of words for padding front and back")
 
 # Model Hyperparameters
-tf.flags.DEFINE_integer("embedding_dim", 256, "Dimensionality of character embedding (default: 128)")
+tf.flags.DEFINE_integer("embedding_dim", 64, "Dimensionality of character embedding (default: 128)")
 tf.flags.DEFINE_string("filter_sizes", "3,4,5", "Comma-separated filter sizes (default: '3,4,5')")
-tf.flags.DEFINE_integer("num_filters", 256, "Number of filters per filter size (default: 128)")
+tf.flags.DEFINE_integer("num_filters", 64, "Number of filters per filter size (default: 128)")
 tf.flags.DEFINE_float("dropout_keep_prob", 0.5, "Dropout keep probability (default: 0.5)")
-tf.flags.DEFINE_float("l2_reg_lambda", 0.001, "L2 regularizaion lambda (default: 0.0)")
+tf.flags.DEFINE_float("l2_reg_lambda", 0.0, "L2 regularizaion lambda (default: 0.0)")
 
 # Training parameters
 tf.flags.DEFINE_integer("batch_size", 64, "Batch Size (default: 64)")
 tf.flags.DEFINE_integer("num_epochs", 10, "Number of training epochs (default: 200)")
-tf.flags.DEFINE_integer("evaluate_every", 50, "Evaluate model on dev set after this many steps (default: 100)")
-tf.flags.DEFINE_integer("checkpoint_every", 100, "Save model after this many steps (default: 100)")
+tf.flags.DEFINE_integer("evaluate_every", 5000, "Evaluate model on dev set after this many steps (default: 100)")
+tf.flags.DEFINE_integer("checkpoint_every", 5000, "Save model after this many steps (default: 100)")
 # Misc Parameters
 tf.flags.DEFINE_boolean("allow_soft_placement", True, "Allow device soft device placement")
 tf.flags.DEFINE_boolean("log_device_placement", False, "Log placement of ops on devices")
-tf.flags.DEFINE_integer("eval_batches", 10, "Number of batches output to use when calculating precision, recall and f1")
+tf.flags.DEFINE_integer("eval_batches", 2500, "Number of batches output to use when calculating precision, recall and f1")
 
 FLAGS = tf.flags.FLAGS
 FLAGS._parse_flags()
@@ -60,14 +60,14 @@ print("")
 
 # # Data Preparation
 
-# In[ ]:
+# In[3]:
 
 def use(what='w2v'):
-    return True
+    return False
 
 w2v_size = 10; #134 #???????????????????
 
-w2v_model = 'pubmed';
+w2v_model = '' #pubmed';
  
 pubmed_w2v_name = 'PubMed-w2v.bin'
 pubmed_wiki_w2v_name = 'wikipedia-pubmed-and-PMC-w2v.bin'
@@ -315,32 +315,38 @@ def get_data_word2vec(n, vocab_processor, embedding_n=10, data_type='dev'):
 
 # In[ ]:
 
-# x_train, y_train, vocab_processor = get_train_data(FLAGS.word_padding_size)
+x_train, y_train, vocab_processor = get_train_data(FLAGS.word_padding_size)
 
 
 # In[ ]:
 
-# x_dev, y_dev = get_data(FLAGS.word_padding_size, vocab_processor)
+x_dev, y_dev = get_data(FLAGS.word_padding_size, vocab_processor)
 
 
 # In[ ]:
 
-# x_test, y_test = get_data(FLAGS.word_padding_size, vocab_processor, data_type='test')
+x_test, y_test = get_data(FLAGS.word_padding_size, vocab_processor, data_type='test')
 
 
 # In[ ]:
 
-x_train, w2v_array, y_train, vocab_processor = get_train_data_word2vec(FLAGS.word_padding_size, FLAGS.word_embedding_size)
+# x_train, w2v_array, y_train, vocab_processor = get_train_data_word2vec(FLAGS.word_padding_size, FLAGS.word_embedding_size)
 
 
 # In[ ]:
 
-x_dev, y_dev = get_data_word2vec(FLAGS.word_padding_size, vocab_processor, FLAGS.word_embedding_size)
+# x_dev, y_dev = get_data_word2vec(FLAGS.word_padding_size, vocab_processor, FLAGS.word_embedding_size)
 
 
 # In[ ]:
 
-x_test, y_test = get_data_word2vec(FLAGS.word_padding_size, vocab_processor, FLAGS.word_embedding_size, data_type='test')
+# print x_dev[0]
+# print y_dev[0]
+
+
+# In[ ]:
+
+# x_test, y_test = get_data_word2vec(FLAGS.word_padding_size, vocab_processor, FLAGS.word_embedding_size, data_type='test')
 
 
 # In[ ]:
@@ -442,7 +448,8 @@ def calculate_precision_recall_f1(p_tokens_extracted, p_tokens_correct, p_true_t
 
 # In[ ]:
 
-vocab_size_max = int(np.max([np.max(x_train), np.max(x_dev), np.max(x_test)]))
+# vocab_size_max = int(np.max([np.max(x_train), np.max(x_dev), np.max(x_test)]))
+# vocab_size_max = int(np.max([np.max(x_train), np.max(x_dev)]))
 
 
 with tf.Graph().as_default():
@@ -454,7 +461,7 @@ with tf.Graph().as_default():
         cnn = TextCNN(
             sequence_length=x_train.shape[1],
             num_classes=y_train.shape[1],
-            vocab_size= vocab_size_max, #len(vocab_processor.vocabulary_),
+            vocab_size=len(vocab_processor.vocabulary_), # vocab_size_max,
             embedding_size=FLAGS.embedding_dim,
             filter_sizes=list(map(int, FLAGS.filter_sizes.split(","))),
             num_filters=FLAGS.num_filters,
