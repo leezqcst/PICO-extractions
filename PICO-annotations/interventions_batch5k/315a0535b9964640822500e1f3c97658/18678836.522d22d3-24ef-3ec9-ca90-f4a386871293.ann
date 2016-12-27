@@ -1,9 +1,0 @@
-T1	Intervention 0 37	Concurrent doxorubicin plus docetaxel
-T2	Intervention 65 109	concurrent doxorubicin plus cyclophosphamide
-T3	Intervention 255 292	doxorubicin and cyclophosphamide (AC)
-T4	Intervention 325 355	Doxorubicin and docetaxel (AT)
-T5	Intervention 796 807	doxorubicin
-T6	Intervention 821 849	plus either cyclophosphamide
-T7	Intervention 868 880	or docetaxel
-T8	Intervention 1640 1642	AT
-T9	Intervention 1299 1301	AC

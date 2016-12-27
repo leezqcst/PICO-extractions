@@ -1,8 +1,0 @@
-T1	Intervention 181 193	chemotherapy
-T2	Intervention 581 593	dactinomycin
-T3	Intervention 657 668	vincristine
-T4	Intervention 595 608	Actinomycin D
-T5	Intervention 794 818	AMD + VCR +/- Adriamycin
-T6	Intervention 1104 1140	postoperative radiation therapy (RT)
-T7	Intervention 1145 1187	AMD + VCR + ADR +/- cyclophosphamide (CPM)
-T8	Intervention 1329 1332	CPM

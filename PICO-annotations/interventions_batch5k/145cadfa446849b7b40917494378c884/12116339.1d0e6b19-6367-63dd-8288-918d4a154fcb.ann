@@ -1,7 +1,0 @@
-T1	Intervention 96 110	Flow cytometry
-T2	Intervention 0 47	Monitoring tumour cells in the peripheral blood
-T3	Intervention 249 308	magnetic bead selection to isolate and identify these cells
-T4	Intervention 582 645	Fresh venous blood was taken throughout treatment and follow-up
-T5	Intervention 647 738	Aliquots were stained with a "tumour-specific" antibody against epithelial tissue (Ber EP4)
-T6	Intervention 805 916	Matched samples labelled with Ber EP4 were separated magnetically by adding a secondary bead-antibody conjugate
-T7	Intervention 1308 1350	Flow cytometry and magnetic bead isolation

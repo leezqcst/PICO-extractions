@@ -1,8 +1,0 @@
-T1	Intervention 51 60	sirolimus
-T2	Intervention 68 93	paclitaxel-eluting stents
-T3	Intervention 364 393	sirolimus-eluting stent (SES)
-T4	Intervention 397 427	paclitaxel-eluting stent (PES)
-T5	Intervention 600 603	SES
-T6	Intervention 607 611	PES.
-T7	Intervention 1341 1360	SES and PES Groups.
-T8	Intervention 1462 1486	SES or PES implantation.

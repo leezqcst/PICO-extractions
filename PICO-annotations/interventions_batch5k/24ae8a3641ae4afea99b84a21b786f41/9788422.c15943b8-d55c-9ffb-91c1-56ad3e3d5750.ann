@@ -1,8 +1,0 @@
-T1	Intervention 0 79	Preoperative irradiation versus the use of nonsteroidal anti-inflammatory drugs
-T2	Intervention 245 298	early preoperative (4 h before operation) irradiation
-T3	Intervention 625 705	preoperative irradiation on the day preceding surgery (16-20 h before operation)
-T4	Intervention 883 947	irradiated with 7 Gy single dose within 16-20 h before operation
-T5	Intervention 987 1076	nonsteroidal anti-inflammatory drugs (NSAID) (Voltaren resinat 2 x 75 mg/day for 2 weeks)
-T6	Intervention 1186 1209	no prophylactic therapy
-T7	Intervention 1632 1673	NSAID group and the 7 Gy group (p < 0.01)
-T8	Intervention 2179 2258	Irradiation within 16-20 h before operation and use of NSAID (Voltaren resinat)

@@ -1,8 +1,0 @@
-T1	Intervention 0 51	Amoxicillin/metronidazole/omeprazole/clarithromycin
-T2	Intervention 66 83	quadruple therapy
-T3	Intervention 460 477	quadruple therapy
-T4	Intervention 930 1144	triple standard therapy, consisting of metronidazole 400 mg bid + omeprazole 20 mg bid + clarithromycin 250 mg bid, or a newly created quadruple-regimen, which adds amoxicillin (1 g bid) to the above triple regimen
-T5	Intervention 1331 1349	quadruple therapy,
-T6	Intervention 1382 1396	triple therapy
-T7	Intervention 1451 1510	quadruple treatment, without vs. with previous dual therapy
-T8	Intervention 1717 1798	quadruple therapy (with omeprazole, metronidazole, clarithromycin and amoxicillin

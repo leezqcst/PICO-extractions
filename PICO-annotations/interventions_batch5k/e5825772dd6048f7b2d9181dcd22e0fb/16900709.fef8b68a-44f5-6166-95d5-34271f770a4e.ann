@@ -1,7 +1,0 @@
-T1	Intervention 117 165	conventional Percutaneous Nephrolithotomy (PCNL)
-T2	Intervention 282 286	PCNL
-T3	Intervention 555 613	nephrostomy tube (NT) and temporary ureteral catheter (TU)
-T4	Intervention 626 633	only TU
-T5	Intervention 649 687	only indwelling ureteral catheter (IU)
-T6	Intervention 16 77	conventional PCNL and two modifications to standard procedure
-T7	Intervention 1503 1516	Tubeless PCNL

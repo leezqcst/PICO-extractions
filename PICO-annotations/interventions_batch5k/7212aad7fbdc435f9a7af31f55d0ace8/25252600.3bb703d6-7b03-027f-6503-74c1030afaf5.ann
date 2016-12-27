@@ -1,9 +1,0 @@
-T1	Intervention 46 98	adenosine, sodium nitroprusside and standard therapy
-T2	Intervention 445 485	percutaneous coronary intervention (PCI)
-T3	Intervention 639 703	vasoactive agents, with adenosine and sodium nitroprusside (SNP)
-T4	Intervention 939 986	LOcal adjunctive therapy in STEMI (REFLO-STEMI)
-T5	Intervention 1301 1312	angiography
-T6	Intervention 1463 1474	Bivalirudin
-T7	Intervention 1495 1514	thrombus aspiration
-T8	Intervention 2125 2151	adjunctive pharmacotherapy
-T9	Intervention 2450 2531	adjunctive therapy (intracoronary adenosine or SNP following thrombus aspiration)

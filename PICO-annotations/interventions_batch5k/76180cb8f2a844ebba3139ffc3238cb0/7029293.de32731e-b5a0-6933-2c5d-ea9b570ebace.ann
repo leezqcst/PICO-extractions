@@ -1,9 +1,0 @@
-T1	Intervention 0 18	Multimodal therapy
-T2	Intervention 461 583	adriamycin (ADR) or bilateral pulmonary radiotherapy (RT) to vincristine, dactinomycin, and cyclophosphamide (VAC therapy)
-T3	Intervention 674 676	RT
-T4	Intervention 786 798	VAC plus ADR
-T5	Intervention 926 953	VAC plus ADR or VAC plus RT
-T6	Intervention 1039 1042	VAC
-T7	Intervention 1054 1102	addition of ADR or bilateral pulmonary RT to VAC
-T8	Intervention 1228 1262	addition of bilateral pulmonary RT
-T9	Intervention 1296 1299	ADR

@@ -1,8 +1,0 @@
-T1	Intervention 0 20	Biventricular pacing
-T2	Intervention 238 264	biventricular (BiV) pacing
-T3	Intervention 438 466	CLS and CRT Pacing Therapies
-T4	Intervention 862 947	BiV pacing with CLS, BiV pacing with accelerometer, or right ventricular (RV) pacing.
-T5	Intervention 1062 1071	RV pacing
-T6	Intervention 1307 1317	BiV pacing
-T7	Intervention 1701 1710	RV pacing
-T8	Intervention 1840 1872	BiV pacing post-AV node ablation

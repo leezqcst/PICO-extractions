@@ -1,7 +1,0 @@
-T1	Intervention 575 588	metronidazole
-T2	Intervention 450 470	intestinal resection
-T3	Intervention 650 660	thiopurine
-T4	Intervention 665 675	adalimumab
-T5	Intervention 768 779	colonoscopy
-T6	Intervention 809 839	no colonoscopy (standard care)
-T7	Intervention 1075 1101	adalimumab with thiopurine

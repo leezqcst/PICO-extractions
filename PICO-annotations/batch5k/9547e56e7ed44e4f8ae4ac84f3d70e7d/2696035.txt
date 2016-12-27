@@ -1,3 +1,0 @@
-Methods for assessing treatment efficacy in trials for adjuvant therapy for breast cancer.
-
-

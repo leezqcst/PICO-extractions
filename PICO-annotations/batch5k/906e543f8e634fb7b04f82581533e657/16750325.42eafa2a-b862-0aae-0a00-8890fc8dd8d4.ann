@@ -1,9 +1,0 @@
-T1	Participants 178 224	patients with locally advanced noninflammatory
-T2	Participants 225 238	breast cancer
-T3	Participants 277 301	Phase III clinical trial
-T4	Participants 441 464	locally advanced breast
-T5	Participants 536 625	Between 1985 and 1989, 200 patients with clinical Stage III noninflammatory breast cancer
-#1	AnnotatorNotes T5	Age and number of patients
-T6	Participants 716 847	Of the 179 patients treated with mastectomy after neoadjuvant chemotherapy, 108 participated in a randomized component of the trial
-T7	Participants 1149 1190	The median follow-up period was 15 years.
-#2	AnnotatorNotes T7	Relates to age of patient

@@ -1,8 +1,0 @@
-T1	Intervention 35 56	adjuvant chemotherapy
-T2	Intervention 410 434	resection of gross tumor
-T3	Intervention 449 475	postoperative radiotherapy
-T4	Intervention 573 584	doxorubicin
-T5	Intervention 620 636	cyclophosphamide
-T6	Intervention 677 689	methotrexate
-T7	Intervention 825 840	no-chemotherapy
-T8	Intervention 776 788	chemotherapy

@@ -1,7 +1,0 @@
-T1	Intervention 28 83	minimally invasive or conventional esophageal resection
-T2	Intervention 208 239	conventional open esophagectomy
-T3	Intervention 275 407	horacotomy and laparotomy with minimally invasive esophagectomy [minimally invasive procedure (MIE)] by thoracoscopy and laparoscopy
-T4	Intervention 674 703	neoadjuvant chemoradiotherapy
-T5	Intervention 1236 1245	prolactin
-T6	Intervention 1887 1894	surgery
-T7	Intervention 1953 1956	MIE

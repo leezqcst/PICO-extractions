@@ -1,7 +1,0 @@
-T1	Intervention 25 48	radiofrequency ablation
-T2	Intervention 606 617	AF ablation
-T3	Intervention 622 635	esophagoscopy
-T4	Intervention 229 262	atrial fibrillation (AF) ablation
-T5	Intervention 718 748	Ablation without visualization
-T6	Intervention 859 898	Ablation guided by barium visualization
-T7	Intervention 993 1074	Ablation guided by barium visualization using 25 W and "short burns" (max. 5 sec)

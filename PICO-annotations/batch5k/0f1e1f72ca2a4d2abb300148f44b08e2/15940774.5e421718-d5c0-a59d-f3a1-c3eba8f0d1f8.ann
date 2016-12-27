@@ -1,9 +1,0 @@
-T2	Participants 108 136	analysis of the VACT studies
-T3	Participants 175 338	1578 patients with osteoarthritis randomized to take acetaminophen 4000 mg (n=269), celecoxib 200 mg (n=523), rofecoxib 12.5 mg (n=259), or rofecoxib 25 mg (n=527)
-T1	Participants 12 63	rofecoxib, celecoxib, and acetaminophen in patients
-#1	AnnotatorNotes T1	Efficacy in patients
-T4	Participants 149 174	To compare efficacy among
-#2	AnnotatorNotes T4	objective
-#3	AnnotatorNotes T3	no of patients participate with this
-T5	Participants 510 664	Days 1 to 6 and 6 weeks with Patient Global Assessment of Response to Therapy (PGART) and Western Ontario and McMaster Universities (WOMAC) Osteoarthritis
-#4	AnnotatorNotes T5	patient evaluate day and therapy

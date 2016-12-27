@@ -1,8 +1,0 @@
-T1	Participants 43 95	patients with different degrees of immunosuppression
-T2	Participants 512 563	patients with different degrees of immunodepression
-T3	Participants 141 180	patients undergoing elective operations
-#1	AnnotatorNotes T3	?
-T4	Participants 729 796	subjects with the highest degree of immunodepression (hypo-anergic)
-#2	AnnotatorNotes T4	this seems to be a pre-condition for choosing participants, but maybe not?
-T5	Participants 847 916	those with a lesser degree of immunodepression (relatively hypo-ergic
-T6	Participants 1291 1328	subjects with marked immunodepression

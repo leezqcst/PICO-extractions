@@ -1,8 +1,0 @@
-T1	Intervention 271 289	prime-target pairs
-T2	Intervention 451 482	target word (e.g. 'typewriter')
-T3	Intervention 495 573	related prime that shared manipulation features with the target (e.g. 'piano')
-T4	Intervention 582 614	unrelated prime (e.g. 'blanket')
-T5	Intervention 695 777	visual display on a computer screen while listening to a concurrent auditory input
-T6	Intervention 978 989	target word
-T7	Intervention 1038 1078	unrelated object picture (e.g. "bucket")
-T8	Intervention 1092 1131	visually matched control (e.g. "couch")

@@ -1,8 +1,0 @@
-T1	Intervention 33 72	ischemic and anesthetic preconditioning
-T2	Intervention 188 218	Ischemic preconditioning (IPC)
-T3	Intervention 223 255	anesthetic preconditioning (APC)
-T4	Intervention 506 534	intermittent clamping (INT).
-T5	Intervention 674 877	IPC (10 minutes of inflow occlusion followed by 10 minutes of reperfusion before liver transection), APC (sevoflurane administration for 20 minutes before liver transection), and INT (no preconditioning)
-T6	Intervention 1884 1887	IPC
-T7	Intervention 1892 1895	APC
-T8	Intervention 1965 1968	INT

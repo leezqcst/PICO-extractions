@@ -1,4 +1,0 @@
-T1	Intervention 24 41	CT slice interval
-T2	Intervention 504 601	Each CT scan was reconstructed at 5, 2.5 and 1.25 mm slice intervals during the image acquisition
-T3	Intervention 242 354	measurements determined from computed tomography (CT) images reconstructed at 5, 2.5 and 1.25 mm slice intervals
-T4	Intervention 603 706	Lesions were semi-automatically segmented on each interval image series and supervised by a radiologist

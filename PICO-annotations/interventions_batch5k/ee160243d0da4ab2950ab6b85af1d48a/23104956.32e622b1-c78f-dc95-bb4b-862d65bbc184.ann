@@ -1,9 +1,0 @@
-T1	Intervention 10 57	unfractionated and low-molecular-weight heparin
-#1	AnnotatorNotes T1	Effects on OPG, sRANKL, and von WIllebrand factor concentrations during hemodialysis
-T2	Intervention 323 394	unfractionated (UFH) and low-molecular-weight (LMWH enoxaparin) heparin
-T3	Intervention 643 685	either enoxaparin (n = 10) or UFH (n = 11)
-#2	AnnotatorNotes T3	Monitor anticoagulation during the next 12 weeks
-T4	Intervention 770 808	alternate therapy for further 12 weeks
-T5	Intervention 1053 1080	enoxaparin and UFH treatmen
-T6	Intervention 1587 1607	enoxaparin treatment
-T7	Intervention 1772 1779	heparin

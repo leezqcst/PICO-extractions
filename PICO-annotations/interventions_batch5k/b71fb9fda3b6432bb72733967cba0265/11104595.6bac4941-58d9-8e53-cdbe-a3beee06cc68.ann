@@ -1,9 +1,0 @@
-T1	Intervention 0 31	Perioperative enteral nutrition
-T2	Intervention 190 223	perioperative nutritional support
-T3	Intervention 474 529	no preoperative and standard postoperative tube-feeding
-T4	Intervention 541 593	standard preoperative and postoperative tube-feeding
-T5	Intervention 608 673	arginine-supplemented preoperative and postoperative tube-feeding
-T6	Intervention 1120 1150	both preoperatively fed groups
-T7	Intervention 1460 1479	both pre-fed groups
-T8	Intervention 1563 1580	Enteral nutrition
-T9	Intervention 1696 1724	preoperative enteral feeding

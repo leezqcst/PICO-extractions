@@ -1,6 +1,0 @@
-T1	Intervention 1 101	Mitomycin C plus HCFU adjuvant chemotherapy for noncuratively resected cases of colorectal carcinoma
-T2	Intervention 258 327	adjuvant chemotherapy employing mitomycin C (MMC) and carmofur (HCFU)
-T3	Intervention 907 1093	MMC group received bolus intravenous injections of 20 mg MMC on the day of operation and 10 mg the next day, followed by 10 mg every 4 weeks until a total of 100 mg had been administered
-T4	Intervention 1111 1263	MMC + HCFU group received the same treatment in Group A, but with the addition of 600 mg/day of HCFU from the second week, orally for at least one year.
-#1	AnnotatorNotes T4	Group A is the MMC group
-T5	Intervention 1742 1772	administration of MMC and HCFU

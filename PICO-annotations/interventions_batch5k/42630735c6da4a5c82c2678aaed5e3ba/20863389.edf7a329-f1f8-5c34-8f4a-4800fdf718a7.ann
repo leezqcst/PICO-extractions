@@ -1,8 +1,0 @@
-T1	Intervention 38 104	radiotherapy with concurrent weekly cisplatin or weekly paclitaxel
-T2	Intervention 210 219	cisplatin
-T3	Intervention 230 240	paclitaxel
-T4	Intervention 273 294	standard radiotherapy
-T5	Intervention 572 682	Cisplatin (group I; 16 patients) or 50 mg/m² paclitaxel (group II; 15 patients) concurrently with radiotherapy
-T6	Intervention 1410 1420	paclitaxel
-T7	Intervention 1473 1482	cisplatin
-T8	Intervention 1487 1512	concurrent chemoradiation

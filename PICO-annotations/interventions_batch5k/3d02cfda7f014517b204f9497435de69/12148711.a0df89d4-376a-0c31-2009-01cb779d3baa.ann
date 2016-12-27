@@ -1,7 +1,0 @@
-T1	Intervention 10 36	clinical pharmacy services
-T2	Intervention 212 267	received direct patient care from a clinical pharmacist
-T3	Intervention 357 400	who did not have clinical pharmacy services
-#1	AnnotatorNotes T3	control group. 
-T4	Intervention 529 769	intervention group received clinical pharmacy services that included a clinical pharmacist performing patient medication reviews, with emphasis on preventing or resolving medication-related problems and providing medication recommendations.
-T5	Intervention 786 876	control group received routine clinic services, but had no clinical pharmacist interaction
-T6	Intervention 1899 2003	Direct patient care services provided by a clinical pharmacist, in addition to routine clinical services

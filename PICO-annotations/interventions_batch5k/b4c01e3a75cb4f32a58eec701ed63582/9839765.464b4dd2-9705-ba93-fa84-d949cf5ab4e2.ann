@@ -1,9 +1,0 @@
-T1	Intervention 0 54	Concurrent administration of donepezil HCl and digoxin
-T2	Intervention 161 217	donepezil HCl and digoxin separately, and in combination
-T3	Intervention 537 608	donepezil HCl (5 mg), digoxin (0.25 mg), or a combination of both drugs
-T4	Intervention 792 801	donepezil
-T5	Intervention 888 916	donepezil administered alone
-T6	Intervention 935 985	donepezil administered in combination with digoxin
-T7	Intervention 1042 1049	digoxin
-T8	Intervention 1086 1149	digoxin was administered alone or in combination with donepezil
-T9	Intervention 1325 1367	donepezil HCl (5 mg) and digoxin (0.25 mg)

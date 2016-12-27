@@ -1,6 +1,0 @@
-T1	Intervention 0 11	Nateglinide
-T2	Intervention 277 315	strict glycemic control by nateglinide
-T4	Intervention 682 711	control group (no treatment).
-T3	Intervention 640 671	receive nateglinide (270 mg/dL)
-T5	Intervention 712 720	After 12
-#1	AnnotatorNotes T5	duration of intervention

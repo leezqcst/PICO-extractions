@@ -1,9 +1,0 @@
-T1	Intervention 408 413	68 Gy
-T2	Intervention 428 433	78 Gy
-T3	Intervention 486 498	radiotherapy
-T4	Intervention 599 709	Two traditional dose-based models (Lyman-Kutcher-Burman (LKB) and Relative Seriality (RS) and a logistic model
-T5	Intervention 1109 1137	LKB, RS, and logistic models
-T6	Intervention 1496 1519	LKB and logistic models
-T7	Intervention 1799 1821	LKB and logistic model
-T8	Intervention 1931 1946	logistic model,
-T9	Intervention 2166 2199	LKB, RS, and logistic NTCP models

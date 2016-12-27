@@ -1,9 +1,0 @@
-T1	Intervention 0 22	Induction chemotherapy
-T2	Intervention 239 251	chemotherapy
-T3	Intervention 267 276	bleomycin
-T4	Intervention 336 348	methotrexate
-T5	Intervention 382 394	folinic acid
-T6	Intervention 396 410	5-fluorouracil
-T7	Intervention 444 453	cisplatin
-T8	Intervention 529 562	definitive locoregional treatment
-T9	Intervention 639 665	(radiotherapy +/- surgery)

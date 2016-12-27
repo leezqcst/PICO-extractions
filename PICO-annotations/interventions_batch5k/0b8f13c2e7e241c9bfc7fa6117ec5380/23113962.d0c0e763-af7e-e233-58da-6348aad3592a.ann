@@ -1,2 +1,0 @@
-T1	Intervention 504 602	Each CT scan was reconstructed at 5, 2.5 and 1.25 mm slice intervals during the image acquisition.
-T2	Intervention 603 777	Lesions were semi-automatically segmented on each interval image series and supervised by a radiologist. 1D, 2D and VOL were computed based on the final segmentation results.

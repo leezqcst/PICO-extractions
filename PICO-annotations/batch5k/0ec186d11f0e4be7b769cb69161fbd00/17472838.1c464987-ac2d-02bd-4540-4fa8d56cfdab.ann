@@ -1,7 +1,0 @@
-T1	Participants 52 86	postponing dialysis in the elderly
-#1	AnnotatorNotes T1	read it as elderly who are postponing dialysis = as the participants
-T2	Participants 276 287	multicenter
-#2	AnnotatorNotes T2	participants are from multi center
-T3	Participants 485 614	Italian uremic patients without diabetes older than 70 years with glomerular filtration rate of 5 to 7 mL/min (0.08 to 0.12 mL/s)
-T4	Participants 1384 1470	There were 31 deaths (55%) in the dialysis group and 28 deaths (50%) in the diet group
-#3	AnnotatorNotes T4	though the time point at which this has been observed is not mentioned, better to substract it from total population (N)    in the end

@@ -1,8 +1,0 @@
-T1	Intervention 14 44	maintenance treatment regimens
-T2	Intervention 265 436	induction intrathecal chemotherapy (ITC) and cranial irradiation (CRT) plus maintenance ITC, or induction ITC and craniospinal irradiation (CSpRT) with no maintenance ITC.
-T3	Intervention 479 531	methotrexate, hydrocortisone, and arabinosylcytosine
-T4	Intervention 682 697	ITC maintenance
-T5	Intervention 617 626	CRT + ITC
-T6	Intervention 759 762	CRT
-T7	Intervention 2196 2221	possible systemic therapy
-T8	Intervention 2295 2300	CSpRT

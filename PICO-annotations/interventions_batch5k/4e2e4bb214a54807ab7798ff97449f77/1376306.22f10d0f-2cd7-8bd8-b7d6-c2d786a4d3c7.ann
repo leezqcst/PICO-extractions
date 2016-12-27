@@ -1,7 +1,0 @@
-T1	Intervention 229 251	induction chemotherapy
-T2	Intervention 267 276	bleomycin
-T3	Intervention 336 348	methotrexate
-T4	Intervention 383 417	olinic acid, 5-fluorouracil (5 FU)
-T5	Intervention 444 453	cisplatin
-T6	Intervention 529 598	definitive locoregional treatment versus locoregional treatment alone
-T7	Intervention 618 665	definitive treatment (radiotherapy +/- surgery)

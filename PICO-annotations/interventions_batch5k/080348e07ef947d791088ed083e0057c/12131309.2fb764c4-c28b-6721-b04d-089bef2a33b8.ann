@@ -1,8 +1,0 @@
-T1	Intervention 192 242	Periprostatic local anesthesia for prostate biopsy
-T2	Intervention 252 284	2 or more extra needle punctures
-T3	Intervention 289 322	injection of the local anesthetic
-T4	Intervention 3 83	periprostatic local anesthesia for transrectal ultrasound guided prostate biopsy
-T5	Intervention 686 711	periprostatic nerve block
-T6	Intervention 715 728	no anesthesia
-T7	Intervention 1278 1308	periprostatic local anesthesia
-T8	Intervention 1661 1677	local anesthesia
